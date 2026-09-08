@@ -213,9 +213,49 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
     }
   }
 
+  const minimizedJobs = new Map();
+  function renderJobTray() {
+    $('job-tray').hidden = !minimizedJobs.size;
+    $('job-tray').innerHTML = [...minimizedJobs.keys()].map(id => {
+      const job = JOBS.find(job => job.id === id);
+      return `<div class="tray-folder"><button type="button" data-restore-job="${esc(id)}" aria-label="Restore ${esc(job.title)} at ${esc(job.company)}"><i class="ri-folder-line" aria-hidden="true"></i><span>${esc(job.company)} · ${esc(job.title)}</span></button><button type="button" data-dismiss-job="${esc(id)}" aria-label="Close minimized ${esc(job.title)}"><i class="ri-close-line" aria-hidden="true"></i></button></div>`;
+    }).join('');
+  }
+  function setJobExpanded(expanded) {
+    $('job-dialog').classList.toggle('is-expanded', expanded);
+    $('job-expand').setAttribute('aria-pressed', String(expanded));
+    $('job-expand').setAttribute('aria-label', expanded ? 'Restore job size' : 'Expand job');
+    $('job-expand').title = expanded ? 'Restore size' : 'Expand';
+    $('job-expand').innerHTML = `<i class="${expanded ? 'ri-file-copy-line' : 'ri-checkbox-blank-line'}" aria-hidden="true"></i>`;
+  }
+  $('job-expand').addEventListener('click', () => setJobExpanded(!$('job-dialog').classList.contains('is-expanded')));
+  $('job-minimize').addEventListener('click', () => {
+    const id = $('job-dialog').dataset.jobId;
+    minimizedJobs.set(id, {scroll: $('job-detail').scrollTop, expanded: $('job-dialog').classList.contains('is-expanded')});
+    $('job-dialog').close();
+    renderJobTray();
+    $('job-window-status').textContent = 'Job minimized. Reopen it from the minimized jobs tray.';
+    $('job-tray').querySelector('[data-restore-job]').focus();
+  });
+  $('job-tray').addEventListener('click', event => {
+    const restore = event.target.closest('[data-restore-job]');
+    if (restore) { openJob(restore.dataset.restoreJob); return; }
+    const dismiss = event.target.closest('[data-dismiss-job]');
+    if (dismiss) {
+      minimizedJobs.delete(dismiss.dataset.dismissJob);
+      renderJobTray();
+      ($('job-tray').querySelector('button') || $('search')).focus({preventScroll:true});
+    }
+  });
+
   function openJob(id, updateUrl = true) {
     const job = JOBS.find(job=>job.id===id);
     if(!job) return;
+    const savedWindow = minimizedJobs.get(id);
+    minimizedJobs.delete(id);
+    renderJobTray();
+    setJobExpanded(savedWindow?.expanded || false);
+    $('job-folder-label').textContent = job.company;
     $('job-dialog').dataset.jobId = id;
     $('job-link-notice').hidden = true;
     if (updateUrl && new URL(location.href).searchParams.get('job') !== id) {
@@ -225,7 +265,8 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
     }
     $('job-detail').innerHTML = `<div class="detail-company">${mark(job)}<span>${esc(job.company)}</span></div><h2 id="detail-title">${esc(job.title)}</h2><div class="job-share"><button type="button" class="share-job" id="share-job"><i class="ri-share-forward-line" aria-hidden="true"></i> Share job</button><span id="share-status" role="status" aria-live="polite"></span><label id="share-fallback" hidden>Copy this job link<input id="share-url" type="text" readonly value="${esc(jobLink(id))}"></label></div><div class="detail-tags"><span>${esc(job.category)}</span><span>${esc(job.level || "Level not specified")}</span><span>${esc(job.location)}</span><span>${esc(job.workplace)}</span>${job.type ? `<span>${esc(job.type)}</span>`:''}</div><section class="detail-section"><h3>The opportunity</h3><p>${esc(job.summary)}</p></section>${job.highlights?.length ? `<section class="detail-section"><h3>A few things to know</h3><ul>${job.highlights.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></section>`:''}${job.salary ? `<section class="detail-section"><h3>Published base salary</h3><p>${esc(job.salary)}</p></section>`:''}${hasVerifiedConnection(job) ? `<section class="detail-section detail-connection"><span class="network-badge">${connectionIcon}The connection</span><p>${esc(job.connection.detail)}</p><p class="connection-caveat">This is a company connection; introductions and referrals aren’t guaranteed.</p></section>`:''}${COMPANY_STAGES[job.company] ? `<section class="detail-section"><h3>Company stage</h3><p>${esc(COMPANY_STAGES[job.company].stage)} · <a href="${esc(COMPANY_STAGES[job.company].url)}" target="_blank" rel="noopener noreferrer">Source <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p></section>` : ''}${companyProfile(job)}${job.linkedinUrls?.length ? `<section class="detail-section"><h3>Also on LinkedIn</h3>${[...new Set(job.linkedinUrls)].map(url => `<p><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">View LinkedIn posting <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p>`).join('')}</section>` : ''}<div class="detail-footer"><a class="primary-button" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">View original listing <span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span><span class="sr-only">(opens in a new tab)</span></a><p>Source: ${esc(job.source || (job.company + '’s job board'))}<br>Checked ${esc(job.checkedAt || "September 7, 2026")}</p></div>`;
     if (!$('job-dialog').open) $('job-dialog').showModal();
-    $('job-dialog').scrollTop=0;
+    $('job-detail').scrollTop = savedWindow?.scroll || 0;
+    $('job-detail').focus({preventScroll:true});
   }
 
   $('job-detail').addEventListener('click', async event => {
