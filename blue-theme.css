@@ -69,6 +69,6 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,.s
 @media(max-width:780px){.jess-note{--note-overlap:25px}}
 @media(max-width:480px){.jess-note{--note-overlap:18px}.note-tools{margin:-8px -8px 12px}.jess-note .note-symbol{top:52px}}
 
-body{background-color:var(--paper);background-image:url("checker-blue.svg");background-repeat:repeat;background-size:8px 8px}.site-window{background-color:var(--paper);background-image:none}
+body{background-color:var(--paper);background-image:url("checker-blue.svg");background-repeat:repeat;background-size:2px 2px}.site-window{background-color:var(--paper);background-image:none}
 
 body{display:flow-root;min-height:100vh}
