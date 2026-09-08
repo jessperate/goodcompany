@@ -134,6 +134,13 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
   }).sort((a,b) => Number(hasVerifiedConnection(b)) - Number(hasVerifiedConnection(a)));
 }
 
+function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
+  const pageCount = Math.max(1, Math.ceil(jobs.length / pageSize));
+  const page = Math.min(pageCount, Math.max(1, Math.floor(Number(requestedPage)) || 1));
+  const start = (page - 1) * pageSize;
+  return {page, pageCount, start, items:jobs.slice(start, start + pageSize)};
+}
+
 (() => {
   const $ = id => document.getElementById(id);
   const syncSelects = enhanceSelects();
@@ -151,19 +158,33 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
 
   $('categories').innerHTML = categories.map(category => `<button class="category" type="button" data-category="${esc(category)}" aria-pressed="${category === state.category}"><span>${esc(category)}</span><span class="count">${category === 'All disciplines' ? JOBS.length : JOBS.filter(job=>jobDisciplines(job).includes(category)).length}</span></button>`).join('');
 
-  function render() {
+  let currentPage = 1;
+  function render(resetPage = true) {
+    if (resetPage) currentPage = 1;
     const jobs = filterJobs(JOBS,state);
-    $('result-count').innerHTML = `<strong>${jobs.length} ${jobs.length === 1 ? 'opportunity' : 'opportunities'}</strong> ${state.network ? 'in Jess’s network' : 'to make your next move'}`;
+    const paging = paginateJobs(jobs, currentPage);
+    currentPage = paging.page;
+    $('result-count').innerHTML = `<strong>${jobs.length} ${jobs.length === 1 ? 'opportunity' : 'opportunities'}</strong> ${state.network ? 'in Jess’s network' : 'to make your next move'}${jobs.length ? `<span class="page-range">Showing ${paging.start + 1}–${paging.start + paging.items.length}</span>` : ''}`;
     $('empty').hidden = jobs.length > 0;
     const networkReady = JOBS.some(hasVerifiedConnection);
     $('empty-title').textContent = state.network && !networkReady ? 'Verified connections are coming soon' : 'A little too specific?';
     $('empty-description').textContent = state.network && !networkReady ? 'Jess’s LinkedIn network has not been imported yet. Turn off this filter to browse all roles.' : 'Try another keyword or give your filters some breathing room.';
     $('reset').hidden = !state.query && state.category === 'All disciplines' && state.workplace === 'all' && !state.network && state.level === 'all' && !Number(state.comp) && !state.disclosed && state.stage === 'all';
     document.querySelectorAll('[data-category]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
-    $('job-list').innerHTML = jobs.map(job => `<article class="job-card" data-open-job="${esc(job.id)}" aria-labelledby="title-${esc(job.id)}">
+    $('job-list').innerHTML = paging.items.map(job => `<article class="job-card" data-open-job="${esc(job.id)}" aria-labelledby="title-${esc(job.id)}">
       <div class="job-body">${mark(job)}<div class="job-copy"><div class="company-line"><span>${esc(job.company)}</span></div><h3 class="job-title" id="title-${esc(job.id)}"><button type="button" data-job="${esc(job.id)}" aria-haspopup="dialog">${esc(job.title)}</button></h3><div class="job-metadata"><span>${esc(job.location)}</span><span class="separator" aria-hidden="true">·</span><span>${esc(job.workplace)}</span><span class="separator" aria-hidden="true">·</span><span class="job-type">${esc(job.level || "Level not specified")}</span></div><p class="job-pay">${esc(job.salaryLabel || "Pay not listed")}</p></div><button type="button" class="pin-job" data-pin="${esc(job.id)}" aria-label="Pin ${esc(job.title)}" aria-pressed="false">Pin job <i class="ri-pushpin-line" aria-hidden="true"></i></button><button type="button" class="details-arrow card-open" data-job="${esc(job.id)}" aria-label="View ${esc(job.title)} at ${esc(job.company)}" aria-haspopup="dialog"><span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span></button></div>
       ${hasVerifiedConnection(job) ? `<div class="connection-strip"><span class="network-badge">${connectionIcon}Jess’s network</span><span class="connection-description">${esc(job.connection.short)}</span></div>` : ''}
     </article>`).join('');
+    const pagination = $('job-pagination');
+    pagination.hidden = paging.pageCount <= 1;
+    const pageButton = (page, label, content, disabled = false) => `<button type="button" data-page="${page}" aria-label="${label}" ${disabled ? 'disabled' : ''} ${page === currentPage && /^Page /.test(label) ? 'aria-current="page"' : ''}>${content}</button>`;
+    const visiblePages = Array.from({length:paging.pageCount},(_,i)=>i+1).filter(page => paging.pageCount <= 7 || page === 1 || page === paging.pageCount || Math.abs(page-currentPage) <= 2);
+    let previous = 0;
+    pagination.innerHTML = pageButton(currentPage-1,'Previous page','<i class="ri-arrow-left-line" aria-hidden="true"></i>',currentPage===1) + visiblePages.map(page => {
+      const gap = previous && page-previous>1 ? '<span class="page-ellipsis" aria-hidden="true">…</span>' : '';
+      previous = page;
+      return gap + pageButton(page,`Page ${page}`,page);
+    }).join('') + pageButton(currentPage+1,'Next page','<i class="ri-arrow-right-line" aria-hidden="true"></i>',currentPage===paging.pageCount);
     window.GoodCompanyAccount?.refreshButtons();
   }
 
@@ -234,6 +255,17 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
     }
   });
   window.addEventListener('popstate', syncJobFromUrl);
+
+  $('job-pagination').addEventListener('click', event => {
+    const button = event.target.closest('[data-page]');
+    if (!button || button.disabled) return;
+    currentPage = Number(button.dataset.page);
+    render(false);
+    const heading = $('result-count');
+    heading.setAttribute('tabindex','-1');
+    heading.focus({preventScroll:true});
+    heading.scrollIntoView({block:'start',behavior:'instant'});
+  });
 
   $('search').addEventListener('input',event=>{state.query=event.target.value;render();});
   $('workplace').addEventListener('change',event=>{state.workplace=event.target.value;render();});

@@ -36,3 +36,10 @@ assert.deepEqual(ids({category:'Product design'}),['p']);
 assert.deepEqual(ids({category:'Creator marketing',workplace:'On-site'}),[]);
 assert.equal(ids({}).filter(id=>id==='creator').length,1);
 console.log('Overlapping marketing disciplines and combined filters passed.');
+
+const sample=Array.from({length:68},(_,i)=>({id:i}));context.sample=sample;
+function page(n){context.n=n;return vm.runInContext('paginateJobs(sample,n)',context)}
+assert.equal(page(1).items.length,30);assert.equal(page(2).items[0].id,30);assert.equal(page(3).items.length,8);assert.equal(page(99).page,3);assert.equal(page(0).page,1);
+assert.equal(vm.runInContext('paginateJobs([],9).items.length',context),0);
+assert.equal(new Set([1,2,3].flatMap(n=>Array.from(page(n).items,j=>j.id))).size,68);
+console.log('Pagination boundaries, empty results, and complete coverage passed.');
