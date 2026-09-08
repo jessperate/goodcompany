@@ -3,7 +3,8 @@
 body{background:var(--paper)}
 a{color:var(--blue);text-underline-offset:3px;text-decoration-thickness:1px}
 h1,h2,.job-title,.job-title button,.saved-job h3{color:var(--blue)}
-.header{border-bottom:1px solid var(--blue);gap:24px}
+.header{position:relative;border-bottom:0;gap:24px}
+.header::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:9px;pointer-events:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='9' viewBox='0 0 32 9'%3E%3Cpath d='M0 4.5 Q8 -2.5 16 4.5 T32 4.5' fill='none' stroke='%23002fff' stroke-width='1.5'/%3E%3C/svg%3E") repeat-x center/32px 9px}
 .header nav,.eyebrow,.note-label,.edition,.filter-heading h3,.extra-filters>label,.category,.select-trigger,.select-option,.company-line,.job-metadata,.job-pay,.results-heading,.results-hint,.source-note,.detail-tags,.detail-company,.detail-section h3,.company-resource-group h4,.company-review small,.company-resource-group small,.company-research-note,.footer>span,.pin-job,.primary-button,.account-nav,.account-dialog form label,.saved-job>p{font-family:var(--mono);font-weight:400}
 .header nav{font-size:12px;gap:28px}.header nav a,.text-button{text-decoration:underline;text-underline-offset:4px;color:var(--blue)}.header .text-button{font-family:var(--mono);font-size:12px}.nav-jobs{border:0}
 .eyebrow,.note-label,.edition,.filter-heading h3{color:var(--blue);letter-spacing:.06em;font-weight:400}
