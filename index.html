@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#d9f76b">
+  <title>Good Company — creative jobs, curated by Jess</title>
+  <meta name="description" content="Find your next creative role. Explore design, brand, and creative jobs, with a closer look at companies in Jess Rosenberg’s network.">
+  <meta property="og:title" content="Good Company — creative jobs, curated by Jess">
+  <meta property="og:description" content="Good work. Even better company. A job directory for designers and creatives, with a human connection.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://good-company-jess-jessica-rosenbergs-projects.vercel.app">
+  <link rel="canonical" href="https://good-company-jess-jessica-rosenbergs-projects.vercel.app">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="jobs.js" defer></script>
+  <script src="companies.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#directory">Skip to jobs</a>
+  <header class="header wrap">
+    <a class="wordmark" href="./" aria-label="Good Company home"><span class="brand-star" aria-hidden="true">✳</span>goodcompany<span class="brand-period">.</span></a>
+    <nav aria-label="Main navigation"><a class="nav-jobs" href="#directory">Find a job <span aria-hidden="true">↘</span></a><button class="text-button" id="about-open">A note from Jess <span aria-hidden="true">↗</span></button></nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">CREATIVE JOBS. HUMAN CONNECTIONS.</p><h1 id="hero-title">Good work.<br>Even better <em>company.</em></h1><p class="hero-description">Your next chapter in design, brand & creative.<br>With a little help from a familiar face.</p></div>
+      <aside class="jess-note"><span class="note-label">A JOB BOARD WITH A PLUS ONE</span><span class="note-symbol" aria-hidden="true">↗</span><h2>Hey, I might<br>know someone.</h2><p><span class="inline-network">Jess’s network</span> will highlight companies where my first-degree LinkedIn connections work. Verified matches are coming soon.</p><span class="signature">— Jess <span aria-hidden="true">♡</span></span></aside>
+    </section>
+    <section id="directory" class="directory wrap" aria-labelledby="directory-title">
+      <div class="directory-heading"><h2 id="directory-title">Find your next thing<span class="accent-period">.</span></h2><span class="edition">THE FIRST EDITION / SEPT ’26</span></div>
+      <div class="search-row"><label class="search-field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span class="sr-only">Search by role, company, or keyword</span><input id="search" type="search" placeholder="Role, company, or your next big thing…" autocomplete="off"></label><label class="location-field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.2"/></svg><span class="sr-only">Work arrangement</span><select id="workplace"><option value="all">Any work setup</option value="Remote">Remote</option><option value="Hybrid">Hybrid</option><option value="On-site">On-site</option></select></label></div>
+      <div class="directory-layout">
+        <aside class="filters" aria-label="Filter jobs"><div class="filter-heading"><h3>YOUR KIND OF CREATIVE</h3><button id="reset" class="reset" hidden>Reset</button></div><div id="categories" class="categories" role="group" aria-label="Discipline"></div><div class="extra-filters"><label for="level">EXPERIENCE LEVEL</label><select id="level"><option value="all">All levels</option><option>Early career</option><option>Mid-level</option><option>Senior</option><option>Staff</option><option>Leadership</option></select><p>Levels reflect titles and stated experience. Unspecified roles appear under All levels.</p><label for="comp">ANNUAL BASE PAY · USD</label><select id="comp"><option value="0">Any compensation</option><option value="75000">$75,000+</option><option value="100000">$100,000+</option><option value="125000">$125,000+</option><option value="150000">$150,000+</option><option value="175000">$175,000+</option><option value="200000">$200,000+</option></select><p>Shows published US ranges that reach your target. Pay varies by location.</p><label class="disclosed-label"><input type="checkbox" id="disclosed"> Published pay only</label></div><div class="network-filter"><label><input id="network" type="checkbox"><span class="toggle" aria-hidden="true"></span><span>Jess’s network only</span></label><p>First-degree LinkedIn connections.<br>Network import pending.</p></div><div class="sidebar-note"><span aria-hidden="true">✳</span><p>Good people.<br>Big ideas.<br><em>Your next chapter.</em></p></div></aside>
+        <div class="results"><div class="results-heading"><p id="result-count" aria-live="polite" aria-atomic="true"></p><span class="results-hint">Connections first</span></div><div id="job-list"></div><div class="empty-state" id="empty" hidden><span aria-hidden="true">↺</span><h3 id="empty-title">A little too specific?</h3><p id="empty-description">Try another keyword or give your filters some breathing room.</p><button id="empty-reset" class="primary-button">Show all jobs</button></div><p class="source-note">Sourced from company job boards · Expanded September 8, 2026.<br>Open the original listing for current availability and full requirements.</p><noscript><p>Enable JavaScript to browse and filter jobs, or visit <a href="https://webflow.com/company/careers">Webflow careers</a> and <a href="https://jobs.ashbyhq.com/airops">AirOps careers</a> directly.</p></noscript></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer wrap"><a href="./" class="footer-logo">goodcompany.</a><p>For the people who make things <em>feel</em> like something.</p><span>CURATED BY JESS ROSENBERG</span></footer>
+  <dialog id="job-dialog" class="job-dialog" aria-labelledby="detail-title"><button class="close-button" id="job-close" aria-label="Close job details">×</button><div id="job-detail"></div></dialog>
+  <dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title"><button class="close-button" id="about-close" aria-label="Close note">×</button><p class="eyebrow">A NOTE FROM JESS</p><h2 id="about-title">Your people are<br>out there.</h2><p>I’ve built brand and creative teams at companies including Webflow, Mural, Jasper, and AirOps. The people you make things with matter just as much as the things you make.</p><p>Good Company brings creative opportunities together with a little human context. Start with the roles. Take a closer look at the people behind them.</p><div class="about-explainer"><strong>What does “Jess’s network” mean?</strong><p>The tag requires a verified first-degree LinkedIn connection who currently works at the hiring company. Network data has not been imported yet. A tag never promises an introduction or referral.</p></div><span class="signature">Here’s to your next chapter. — Jess ♡</span></dialog>
+</body>
+</html>
