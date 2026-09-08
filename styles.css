@@ -50,3 +50,8 @@
 @media(prefers-reduced-motion:reduce){.select-trigger,.select-chevron{transition:none}}
 .filters,.results{min-width:0}
 @media(max-width:780px){.directory-layout{grid-template-columns:minmax(0,1fr)}.filter-heading{display:flex;min-height:28px}.filter-heading h3{font-size:11px}.categories{max-width:100%}.category{flex-shrink:0}}
+
+/* Cards open on pointer clicks; native detail buttons preserve keyboard access. */
+.job-card{position:relative;isolation:isolate;cursor:pointer}
+
+.job-card:has(.card-open:focus-visible){outline:3px solid #5b691c;outline-offset:4px}
