@@ -2,11 +2,12 @@
 
 const hasVerifiedConnection = job => job.connection?.verifiedFirstDegree === true && job.connection?.currentEmployeeCount > 0;
 
-function filterJobs(jobs, {query = '', category = 'All disciplines', workplace = 'all', network = false, level = 'all', comp = 0, disclosed = false} = {}) {
+function filterJobs(jobs, {query = '', category = 'All disciplines', workplace = 'all', network = false, level = 'all', comp = 0, disclosed = false, stage = 'all'} = {}) {
   const words = query.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
   return jobs.filter(job => {
     const searchable = [job.title, job.company, job.category, job.location, job.workplace, job.summary, ...(job.highlights || []), ...(job.keywords || [])].join(' ').toLocaleLowerCase();
-    return words.every(word => searchable.includes(word)) &&
+    return (stage === 'all' || COMPANY_STAGES[job.company]?.stage === stage) &&
+      words.every(word => searchable.includes(word)) &&
       (category === 'All disciplines' || job.category === category) &&
       (workplace === 'all' || job.workplace === workplace) &&
       (!network || hasVerifiedConnection(job)) &&
@@ -18,7 +19,7 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
 
 (() => {
   const $ = id => document.getElementById(id);
-  const state = {query:'',category:'All disciplines',workplace:'all',network:false,level:'all',comp:0,disclosed:false};
+  const state = {query:'',category:'All disciplines',workplace:'all',network:false,level:'all',comp:0,disclosed:false,stage:'all'};
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const connectionIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m10 13 4-4M8.5 15.5l-1 1a4 4 0 0 1-5.7-5.7l4-4a4 4 0 0 1 5.7 0M15.5 8.5l1-1a4 4 0 0 1 5.7 5.7l-4 4a4 4 0 0 1-5.7 0" transform="translate(0 0) scale(.95)"/></svg>';
   const mark = job => `<span class="company-mark company-logo" aria-hidden="true"><img src="${esc(COMPANIES[job.company]?.logo || '')}" alt="" width="40" height="40" loading="lazy"></span>`;
@@ -39,7 +40,7 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
     const networkReady = JOBS.some(hasVerifiedConnection);
     $('empty-title').textContent = state.network && !networkReady ? 'Verified connections are coming soon' : 'A little too specific?';
     $('empty-description').textContent = state.network && !networkReady ? 'Jess’s LinkedIn network has not been imported yet. Turn off this filter to browse all roles.' : 'Try another keyword or give your filters some breathing room.';
-    $('reset').hidden = !state.query && state.category === 'All disciplines' && state.workplace === 'all' && !state.network && state.level === 'all' && !Number(state.comp) && !state.disclosed;
+    $('reset').hidden = !state.query && state.category === 'All disciplines' && state.workplace === 'all' && !state.network && state.level === 'all' && !Number(state.comp) && !state.disclosed && state.stage === 'all';
     document.querySelectorAll('[data-category]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
     $('job-list').innerHTML = jobs.map(job => `<article class="job-card" aria-labelledby="title-${esc(job.id)}">
       <div class="job-body">${mark(job)}<div class="job-copy"><div class="company-line"><span>${esc(job.company)}</span></div><h3 class="job-title" id="title-${esc(job.id)}"><button type="button" data-job="${esc(job.id)}" aria-haspopup="dialog">${esc(job.title)}</button></h3><div class="job-metadata"><span>${esc(job.location)}</span><span class="separator" aria-hidden="true">·</span><span>${esc(job.workplace)}</span><span class="separator" aria-hidden="true">·</span><span class="job-type">${esc(job.level || "Level not specified")}</span></div><p class="job-pay">${esc(job.salaryLabel || "Pay not listed")}</p></div><button type="button" class="details-arrow" data-job="${esc(job.id)}" aria-label="View ${esc(job.title)} at ${esc(job.company)}" aria-haspopup="dialog"><span aria-hidden="true">↗</span></button></div>
@@ -48,22 +49,22 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
   }
 
   function reset() {
-    Object.assign(state,{query:'',category:'All disciplines',workplace:'all',network:false,level:'all',comp:0,disclosed:false});
-    $('search').value='';$('workplace').value='all';$('network').checked=false;$('level').value='all';$('comp').value='0';$('disclosed').checked=false;
+    Object.assign(state,{query:'',category:'All disciplines',workplace:'all',network:false,level:'all',comp:0,disclosed:false,stage:'all'});
+    $('search').value='';$('workplace').value='all';$('network').checked=false;$('level').value='all';$('stage').value='all';$('comp').value='0';$('disclosed').checked=false;
     render();$('search').focus();
   }
 
   function openJob(id) {
     const job = JOBS.find(job=>job.id===id);
     if(!job) return;
-    $('job-detail').innerHTML = `<div class="detail-company">${mark(job)}<span>${esc(job.company)}</span></div><h2 id="detail-title">${esc(job.title)}</h2><div class="detail-tags"><span>${esc(job.category)}</span><span>${esc(job.level || "Level not specified")}</span><span>${esc(job.location)}</span><span>${esc(job.workplace)}</span>${job.type ? `<span>${esc(job.type)}</span>`:''}</div><section class="detail-section"><h3>The opportunity</h3><p>${esc(job.summary)}</p></section>${job.highlights?.length ? `<section class="detail-section"><h3>A few things to know</h3><ul>${job.highlights.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></section>`:''}${job.salary ? `<section class="detail-section"><h3>Published base salary</h3><p>${esc(job.salary)}</p></section>`:''}${hasVerifiedConnection(job) ? `<section class="detail-section detail-connection"><span class="network-badge">${connectionIcon}The connection</span><p>${esc(job.connection.detail)}</p><p class="connection-caveat">This is a company connection; introductions and referrals aren’t guaranteed.</p></section>`:''}${companyProfile(job)}<div class="detail-footer"><a class="primary-button" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">View original listing <span aria-hidden="true">↗</span><span class="sr-only">(opens in a new tab)</span></a><p>Source: ${esc(job.company)}’s job board<br>Checked ${esc(job.checkedAt || "September 7, 2026")}</p></div>`;
+    $('job-detail').innerHTML = `<div class="detail-company">${mark(job)}<span>${esc(job.company)}</span></div><h2 id="detail-title">${esc(job.title)}</h2><div class="detail-tags"><span>${esc(job.category)}</span><span>${esc(job.level || "Level not specified")}</span><span>${esc(job.location)}</span><span>${esc(job.workplace)}</span>${job.type ? `<span>${esc(job.type)}</span>`:''}</div><section class="detail-section"><h3>The opportunity</h3><p>${esc(job.summary)}</p></section>${job.highlights?.length ? `<section class="detail-section"><h3>A few things to know</h3><ul>${job.highlights.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></section>`:''}${job.salary ? `<section class="detail-section"><h3>Published base salary</h3><p>${esc(job.salary)}</p></section>`:''}${hasVerifiedConnection(job) ? `<section class="detail-section detail-connection"><span class="network-badge">${connectionIcon}The connection</span><p>${esc(job.connection.detail)}</p><p class="connection-caveat">This is a company connection; introductions and referrals aren’t guaranteed.</p></section>`:''}${COMPANY_STAGES[job.company] ? `<section class="detail-section"><h3>Company stage</h3><p>${esc(COMPANY_STAGES[job.company].stage)} · <a href="${esc(COMPANY_STAGES[job.company].url)}" target="_blank" rel="noopener noreferrer">Source ↗</a></p></section>` : ''}${companyProfile(job)}${job.linkedinUrls?.length ? `<section class="detail-section"><h3>Also on LinkedIn</h3>${[...new Set(job.linkedinUrls)].map(url => `<p><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">View LinkedIn posting ↗</a></p>`).join('')}</section>` : ''}<div class="detail-footer"><a class="primary-button" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">View original listing <span aria-hidden="true">↗</span><span class="sr-only">(opens in a new tab)</span></a><p>Source: ${esc(job.source || (job.company + '’s job board'))}<br>Checked ${esc(job.checkedAt || "September 7, 2026")}</p></div>`;
     $('job-dialog').showModal();
     $('job-dialog').scrollTop=0;
   }
 
   $('search').addEventListener('input',event=>{state.query=event.target.value;render();});
   $('workplace').addEventListener('change',event=>{state.workplace=event.target.value;render();});
-  ['level','comp'].forEach(id=>$(id).addEventListener('change',event=>{state[id]=event.target.value;render();}));
+  ['level','comp','stage'].forEach(id=>$(id).addEventListener('change',event=>{state[id]=event.target.value;render();}));
   $('disclosed').addEventListener('change',event=>{state.disclosed=event.target.checked;render();});
   $('network').addEventListener('change',event=>{state.network=event.target.checked;render();});
   $('categories').addEventListener('click',event=>{const button=event.target.closest('[data-category]');if(button){state.category=button.dataset.category;render();}});
