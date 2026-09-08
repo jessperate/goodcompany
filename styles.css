@@ -41,7 +41,7 @@
 .select-option+.select-option{margin-top:2px}
 .select-option.is-active,.select-option:hover{background:#eef2e4}
 .select-option[aria-selected=true]{background:var(--lime);font-weight:650}
-.select-option[aria-selected=true]:after{content:'✓';position:absolute;right:11px;top:11px;font-size:14px}
+
 .location-field{padding:7px 12px;gap:10px;width:270px}
 .location-field>.custom-select{flex:1}
 .location-field .select-trigger{min-height:44px;font-size:14px;background:#f5f7ef;box-shadow:none}
@@ -60,3 +60,10 @@
 .account-nav,.pin-job{font:inherit;border:1px solid #d0d1c7;border-radius:999px;background:#f7f8ee;color:#262b22;padding:10px 16px;cursor:pointer;white-space:nowrap}.account-nav{background:#d9f76b;border-color:#d9f76b}.pin-job{font-size:12px;align-self:center}.pin-job[aria-pressed="true"]{background:#d9f76b;border-color:#a7c448}.pin-job:disabled{opacity:.55;cursor:wait}.account-nav:focus-visible,.pin-job:focus-visible{outline:3px solid #5b691c;outline-offset:3px}.account-dialog{width:min(620px,calc(100vw - 32px))}.account-dialog h2{font-size:38px}.account-dialog form label{display:block;font-size:13px;margin:24px 0 8px}.account-dialog input{box-sizing:border-box;width:100%;padding:16px;border:1px solid #bfc2b4;border-radius:12px;font:inherit;margin-bottom:16px}.account-dialog .primary-button{width:100%;justify-content:center}.account-help,#account-status{font-size:14px;line-height:1.6}#account-status:empty{display:none}.profile-top{display:flex;align-items:center;justify-content:space-between;gap:16px;overflow-wrap:anywhere}.saved-job{border-top:1px solid #dedfd5;padding:20px 0}.saved-job p{font-size:13px;margin:0 0 8px}.saved-job h3{font-size:20px;margin:0 0 16px}.saved-job>div{display:flex;align-items:center;justify-content:space-between;gap:16px}.saved-job a{font-size:14px}.account-dialog [hidden]{display:none!important}@media(max-width:640px){.header{flex-wrap:wrap;gap:18px}.header nav{width:100%;justify-content:space-between;gap:12px}.job-body{flex-wrap:wrap}.job-body>.pin-job{margin-left:52px}.account-dialog{padding:28px}.account-dialog h2{font-size:30px}}
 
 .wordmark-logo{display:block;width:300px;height:auto;max-width:100%}.wordmark{flex-shrink:0}@media(max-width:760px){.wordmark-logo{width:245px}}@media(max-width:480px){.wordmark-logo{width:235px}}
+
+/* Museum Regular for headings and role titles. */
+h1,h2,.job-title,.job-title button,.saved-job h3,.hero h1 em{font-family:"PP Museum",Georgia,serif!important;font-weight:400!important;font-style:normal!important}
+.hero h1 em{font-size:1em;letter-spacing:inherit}
+
+/* Remix Icon CDN glyphs share the interface sizing. */
+i[class^="ri-"]{display:inline-block;font-style:normal;line-height:1;vertical-align:-.12em;flex-shrink:0}.search-field>.ri-search-line,.location-field>.ri-map-pin-line{font-size:22px}.network-badge>.ri-links-line{font-size:16px}.select-chevron i{font-size:20px}.select-option .option-check{display:none;position:absolute;right:11px;top:11px;font-size:16px}.select-option[aria-selected=true] .option-check{display:block}.details-arrow i,.close-button i{font-size:22px}.note-symbol i{font-size:inherit}.signature .ri-heart-line{font-size:1em}.pin-job i{margin-left:4px}
