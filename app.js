@@ -172,13 +172,66 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
     render();$('search').focus();
   }
 
-  function openJob(id) {
+  function jobLink(id) {
+    const url = new URL('https://good-company-jess.vercel.app/');
+    url.searchParams.set('job', id);
+    return url.href;
+  }
+
+  function syncJobFromUrl() {
+    const id = new URL(location.href).searchParams.get('job');
+    const dialog = $('job-dialog');
+    if (id && JOBS.some(job => job.id === id)) {
+      $('job-link-notice').hidden = true;
+      openJob(id, false);
+    } else {
+      if (dialog.open) dialog.close();
+      $('job-link-notice').hidden = !id;
+    }
+  }
+
+  function openJob(id, updateUrl = true) {
     const job = JOBS.find(job=>job.id===id);
     if(!job) return;
-    $('job-detail').innerHTML = `<div class="detail-company">${mark(job)}<span>${esc(job.company)}</span></div><h2 id="detail-title">${esc(job.title)}</h2><div class="detail-tags"><span>${esc(job.category)}</span><span>${esc(job.level || "Level not specified")}</span><span>${esc(job.location)}</span><span>${esc(job.workplace)}</span>${job.type ? `<span>${esc(job.type)}</span>`:''}</div><section class="detail-section"><h3>The opportunity</h3><p>${esc(job.summary)}</p></section>${job.highlights?.length ? `<section class="detail-section"><h3>A few things to know</h3><ul>${job.highlights.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></section>`:''}${job.salary ? `<section class="detail-section"><h3>Published base salary</h3><p>${esc(job.salary)}</p></section>`:''}${hasVerifiedConnection(job) ? `<section class="detail-section detail-connection"><span class="network-badge">${connectionIcon}The connection</span><p>${esc(job.connection.detail)}</p><p class="connection-caveat">This is a company connection; introductions and referrals aren’t guaranteed.</p></section>`:''}${COMPANY_STAGES[job.company] ? `<section class="detail-section"><h3>Company stage</h3><p>${esc(COMPANY_STAGES[job.company].stage)} · <a href="${esc(COMPANY_STAGES[job.company].url)}" target="_blank" rel="noopener noreferrer">Source <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p></section>` : ''}${companyProfile(job)}${job.linkedinUrls?.length ? `<section class="detail-section"><h3>Also on LinkedIn</h3>${[...new Set(job.linkedinUrls)].map(url => `<p><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">View LinkedIn posting <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p>`).join('')}</section>` : ''}<div class="detail-footer"><a class="primary-button" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">View original listing <span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span><span class="sr-only">(opens in a new tab)</span></a><p>Source: ${esc(job.source || (job.company + '’s job board'))}<br>Checked ${esc(job.checkedAt || "September 7, 2026")}</p></div>`;
-    $('job-dialog').showModal();
+    $('job-dialog').dataset.jobId = id;
+    $('job-link-notice').hidden = true;
+    if (updateUrl && new URL(location.href).searchParams.get('job') !== id) {
+      const url = new URL(location.href);
+      url.searchParams.set('job', id);
+      history.pushState(null, '', url);
+    }
+    $('job-detail').innerHTML = `<div class="detail-company">${mark(job)}<span>${esc(job.company)}</span></div><h2 id="detail-title">${esc(job.title)}</h2><div class="job-share"><button type="button" class="share-job" id="share-job"><i class="ri-share-forward-line" aria-hidden="true"></i> Share job</button><span id="share-status" role="status" aria-live="polite"></span><label id="share-fallback" hidden>Copy this job link<input id="share-url" type="text" readonly value="${esc(jobLink(id))}"></label></div><div class="detail-tags"><span>${esc(job.category)}</span><span>${esc(job.level || "Level not specified")}</span><span>${esc(job.location)}</span><span>${esc(job.workplace)}</span>${job.type ? `<span>${esc(job.type)}</span>`:''}</div><section class="detail-section"><h3>The opportunity</h3><p>${esc(job.summary)}</p></section>${job.highlights?.length ? `<section class="detail-section"><h3>A few things to know</h3><ul>${job.highlights.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></section>`:''}${job.salary ? `<section class="detail-section"><h3>Published base salary</h3><p>${esc(job.salary)}</p></section>`:''}${hasVerifiedConnection(job) ? `<section class="detail-section detail-connection"><span class="network-badge">${connectionIcon}The connection</span><p>${esc(job.connection.detail)}</p><p class="connection-caveat">This is a company connection; introductions and referrals aren’t guaranteed.</p></section>`:''}${COMPANY_STAGES[job.company] ? `<section class="detail-section"><h3>Company stage</h3><p>${esc(COMPANY_STAGES[job.company].stage)} · <a href="${esc(COMPANY_STAGES[job.company].url)}" target="_blank" rel="noopener noreferrer">Source <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p></section>` : ''}${companyProfile(job)}${job.linkedinUrls?.length ? `<section class="detail-section"><h3>Also on LinkedIn</h3>${[...new Set(job.linkedinUrls)].map(url => `<p><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">View LinkedIn posting <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p>`).join('')}</section>` : ''}<div class="detail-footer"><a class="primary-button" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">View original listing <span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span><span class="sr-only">(opens in a new tab)</span></a><p>Source: ${esc(job.source || (job.company + '’s job board'))}<br>Checked ${esc(job.checkedAt || "September 7, 2026")}</p></div>`;
+    if (!$('job-dialog').open) $('job-dialog').showModal();
     $('job-dialog').scrollTop=0;
   }
+
+  $('job-detail').addEventListener('click', async event => {
+    const button = event.target.closest('#share-job');
+    if (!button) return;
+    const id = $('job-dialog').dataset.jobId;
+    button.disabled = true;
+    try {
+      await navigator.clipboard.writeText(jobLink(id));
+      if ($('job-dialog').dataset.jobId === id) $('share-status').textContent = 'Link copied!';
+    } catch {
+      if ($('job-dialog').dataset.jobId === id) {
+        $('share-fallback').hidden = false;
+        $('share-status').textContent = 'Copy the link below to share this job.';
+        $('share-url').focus();
+        $('share-url').select();
+      }
+    } finally {
+      button.disabled = false;
+    }
+  });
+  $('job-dialog').addEventListener('close', () => {
+    const url = new URL(location.href);
+    if (!$('job-dialog').open && url.searchParams.get('job') === $('job-dialog').dataset.jobId) {
+      url.searchParams.delete('job');
+      history.replaceState(null, '', url);
+    }
+  });
+  window.addEventListener('popstate', syncJobFromUrl);
 
   $('search').addEventListener('input',event=>{state.query=event.target.value;render();});
   $('workplace').addEventListener('change',event=>{state.workplace=event.target.value;render();});
@@ -200,4 +253,5 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
     });
   });
   render();
+  syncJobFromUrl();
 })();
