@@ -21,3 +21,32 @@
 @media(max-width:780px){.jess-note{transform:rotate(.6deg);border-radius:1px 2px 4px 2px;box-shadow:0 1px 2px rgba(43,47,22,.06),2px 7px 10px -5px rgba(43,47,22,.17),3px 14px 20px -11px rgba(43,47,22,.22)}}
 
 .company-logo{background:#fff;border:1px solid #e4e5df;overflow:hidden}.company-logo img{display:block;width:72%;height:72%;object-fit:contain}.company-profile{margin-top:30px;padding:24px;background:#f5f6ee;border:1px solid #dfe2d7;border-radius:10px}.company-profile .eyebrow{font-size:10px;letter-spacing:1.5px;margin-bottom:8px}.company-profile h3{font-size:23px;margin-bottom:12px}.company-website{display:inline-block;margin-top:10px;font-size:13px}.company-review{border-block:1px solid #dfe2d7;padding:16px 0;margin-top:20px}.company-review a{display:flex;flex-wrap:wrap;gap:10px;align-items:center;text-decoration:none}.company-review strong{font-size:22px}.company-review span{font-size:13px;text-decoration:underline}.company-review small,.company-resource-group small{display:block;font-size:11px;color:#62655c;margin-top:5px;line-height:1.5}.company-resource-group{margin-top:23px}.company-resource-group h4{margin:0 0 10px;font-size:14px}.company-resource-group ul{list-style:none;padding:0;margin:0}.company-resource-group li{padding:10px 0;border-bottom:1px solid #e2e4da}.company-resource-group a{font-size:14px;line-height:1.5;text-underline-offset:3px}.company-profile .company-research-note{font-size:11px;line-height:1.6;color:#62655c;margin-top:22px}@media(max-width:480px){.company-profile{padding:18px}}
+
+/* Branded filter controls and menus. Native selects remain as a no-JS fallback. */
+.custom-select{position:relative;min-width:0;width:100%;isolation:isolate}
+.custom-select.is-open{z-index:30}
+.custom-select .select-native{display:none}
+.select-trigger{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:48px;padding:11px 12px 11px 15px;border:1px solid #cdd3c0;border-radius:12px;background:linear-gradient(145deg,#fff,#f4f6ed);box-shadow:0 2px 0 #20221d07;text-align:left;font-size:14px;font-weight:550;line-height:1.35;transition:border-color .15s,box-shadow .15s,background .15s}
+.select-trigger:hover{border-color:#87966a;background:#f4f8e9;box-shadow:0 3px 10px #20221d0a}
+.select-trigger:focus-visible{outline:3px solid #96ac4d;outline-offset:3px}
+.has-selection .select-trigger{background:#edf5d7;border-color:#9dad79}
+.is-open .select-trigger{border-color:#73854a;box-shadow:0 0 0 3px #d9f76b55}
+.select-value{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.select-chevron{display:grid;place-items:center;flex:none;width:25px;height:25px;border-radius:50%;background:#e9eedc;color:#44522d;font-size:21px;line-height:1;padding-bottom:6px;transition:transform .15s}
+.has-selection .select-chevron,.is-open .select-chevron{background:var(--lime)}
+.is-open .select-chevron{transform:rotate(180deg)}
+.select-menu{position:absolute;top:calc(100% + 8px);left:0;right:0;min-width:100%;max-height:288px;overflow-y:auto;overscroll-behavior:contain;padding:6px;background:#fffef9;border:1px solid #d1d8c2;border-radius:14px;box-shadow:0 16px 35px #20221d24,0 3px 8px #20221d0a;z-index:40}
+.select-menu[hidden]{display:none}
+.select-option{position:relative;cursor:pointer;border-radius:8px;padding:11px 30px 11px 11px;font-size:14px;line-height:1.35;color:var(--ink)}
+.select-option+.select-option{margin-top:2px}
+.select-option.is-active,.select-option:hover{background:#eef2e4}
+.select-option[aria-selected=true]{background:var(--lime);font-weight:650}
+.select-option[aria-selected=true]:after{content:'✓';position:absolute;right:11px;top:11px;font-size:14px}
+.location-field{padding:7px 12px;gap:10px;width:270px}
+.location-field>.custom-select{flex:1}
+.location-field .select-trigger{min-height:44px;font-size:14px;background:#f5f7ef;box-shadow:none}
+.location-field .has-selection .select-trigger{background:#edf5d7}
+@media(max-width:480px){.location-field{width:100%;padding:9px 15px}.select-trigger{min-height:46px}.select-menu{max-height:250px}}
+@media(prefers-reduced-motion:reduce){.select-trigger,.select-chevron{transition:none}}
+.filters,.results{min-width:0}
+@media(max-width:780px){.directory-layout{grid-template-columns:minmax(0,1fr)}.filter-heading{display:flex;min-height:28px}.filter-heading h3{font-size:11px}.categories{max-width:100%}.category{flex-shrink:0}}
