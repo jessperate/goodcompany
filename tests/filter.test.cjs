@@ -5,7 +5,7 @@ const assert = require('node:assert/strict');
 const root = path.join(__dirname, '..');
 const context = vm.createContext({});
 vm.runInContext(fs.readFileSync(path.join(root,'stages.js'),'utf8'), context);
-vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8').split('(() => {')[0], context);
+vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8').split('\n(() => {')[0], context);
 const fixture = [
  {id:'b',company:'AirOps',title:'Brand Designer',category:'Brand & visual',location:'New York',workplace:'Hybrid',level:'Senior',salary:'Published',salaryCurrency:'USD',salaryMax:180000},
  {id:'p',company:'Adobe',title:'Product Designer',category:'Product design',location:'London',workplace:'On-site',level:'Mid-level'},
