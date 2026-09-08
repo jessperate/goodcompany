@@ -1,0 +1,52 @@
+{
+  "retrievedAt": "2026-09-08",
+  "reviewed": 2961,
+  "added": {
+    "Google": 120,
+    "Adobe": 39,
+    "Legora": 7,
+    "Notion": 4,
+    "Salesforce": 41,
+    "Harvey": 4,
+    "Amazon": 262,
+    "Intuit": 15,
+    "Cisco": 33,
+    "Yahoo": 6,
+    "Autodesk": 26,
+    "Microsoft": 25,
+    "Nasdaq": 1
+  },
+  "linkedExisting": 14,
+  "excluded": {
+    "unrelatedRole": 1858
+  },
+  "duplicates": 506,
+  "totalJobs": 680,
+  "addedTotal": 583,
+  "scope": "Creative, design and related roles, all levels and locations, at the 14 requested companies.",
+  "coverage": "Public LinkedIn search snapshot, not an exhaustive inventory. Search caps, inaccessible results and search relevance can omit listings. Current availability must be confirmed at the original posting.",
+  "radial": "No matching results returned for Radial, LinkedIn company 164075.",
+  "runs": [
+    {
+      "id": "rA3kxw3bPztCveMXM",
+      "retrieved": 775,
+      "failedRequests": 968
+    },
+    {
+      "id": "edn3ROhma9f9MfpcP",
+      "retrieved": 250,
+      "perSourceCap": 250
+    },
+    {
+      "id": "PPkNYJdqh2IPfSWjI",
+      "retrieved": 1487,
+      "perSourceCap": 300
+    },
+    {
+      "id": "ghKxZvitOzS32EDmY",
+      "retrieved": 449,
+      "perSourceCap": 1000
+    }
+  ],
+  "stageNotes": "Latest verified funding grouping, with dated sources in stages.js. Unknown and non-classifiable private companies appear only under All stages."
+}
