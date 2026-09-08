@@ -1,3 +1,114 @@
+
+// Keep native selects as the source of truth, with a keyboard-accessible custom menu.
+function enhanceSelects() {
+  const controls = [];
+  document.querySelectorAll('.location-field select, .extra-filters select').forEach(select => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'custom-select';
+    const trigger = document.createElement('button');
+    trigger.type = 'button';
+    trigger.id = `${select.id}-button`;
+    trigger.className = 'select-trigger';
+    trigger.setAttribute('role', 'combobox');
+    trigger.setAttribute('aria-haspopup', 'listbox');
+    trigger.setAttribute('aria-expanded', 'false');
+    const label = document.querySelector(`label[for="${select.id}"]`);
+    const name = label?.textContent.trim() || 'Work setup';
+    if (label) label.htmlFor = trigger.id;
+    const value = document.createElement('span');
+    value.className = 'select-value';
+    const arrow = document.createElement('span');
+    arrow.className = 'select-chevron';
+    arrow.setAttribute('aria-hidden', 'true');
+    arrow.textContent = '⌄';
+    trigger.append(value, arrow);
+    const menu = document.createElement('div');
+    menu.id = `${select.id}-options`;
+    menu.className = 'select-menu';
+    menu.setAttribute('role', 'listbox');
+    menu.setAttribute('aria-label', name);
+    menu.hidden = true;
+    trigger.setAttribute('aria-controls', menu.id);
+    let active = select.selectedIndex;
+    let search = '', searchTimer;
+    const options = [...select.options].map((option, index) => {
+      const row = document.createElement('div');
+      row.id = `${select.id}-option-${index}`;
+      row.className = 'select-option';
+      row.setAttribute('role', 'option');
+      row.textContent = option.textContent;
+      row.addEventListener('pointerdown', event => event.preventDefault());
+      row.addEventListener('click', () => choose(index));
+      menu.append(row);
+      return row;
+    });
+    function sync() {
+      value.textContent = select.selectedOptions[0].textContent;
+      trigger.setAttribute('aria-label', `${name}: ${value.textContent}`);
+      wrapper.classList.toggle('has-selection', select.selectedIndex > 0);
+      options.forEach((row, i) => row.setAttribute('aria-selected', String(i === select.selectedIndex)));
+    }
+    function highlight(index) {
+      active = Math.max(0, Math.min(index, options.length - 1));
+      options.forEach((row, i) => row.classList.toggle('is-active', i === active));
+      trigger.setAttribute('aria-activedescendant', options[active].id);
+      options[active].scrollIntoView({block: 'nearest'});
+    }
+    function close() {
+      menu.hidden = true;
+      trigger.setAttribute('aria-expanded', 'false');
+      trigger.removeAttribute('aria-activedescendant');
+      wrapper.classList.remove('is-open');
+    }
+    function open() {
+      controls.forEach(control => control.close());
+      sync();
+      menu.hidden = false;
+      wrapper.classList.add('is-open');
+      trigger.setAttribute('aria-expanded', 'true');
+      highlight(select.selectedIndex);
+    }
+    function choose(index) {
+      select.selectedIndex = index;
+      sync();
+      close();
+      select.dispatchEvent(new Event('change', {bubbles: true}));
+      trigger.focus();
+    }
+    trigger.addEventListener('click', () => menu.hidden ? open() : close());
+    trigger.addEventListener('keydown', event => {
+      const key = event.key;
+      if (key === 'Tab') { close(); return; }
+      if (key === 'Escape') { if (!menu.hidden) { event.preventDefault(); close(); } return; }
+      if (['ArrowDown', 'ArrowUp', 'Home', 'End', 'Enter', ' '].includes(key)) {
+        event.preventDefault();
+        if (menu.hidden) { open(); if (key === 'Home') highlight(0); if (key === 'End') highlight(options.length - 1); return; }
+        if (key === 'Enter' || key === ' ') choose(active);
+        else highlight(key === 'Home' ? 0 : key === 'End' ? options.length - 1 : active + (key === 'ArrowDown' ? 1 : -1));
+      } else if (key.length === 1 && !event.ctrlKey && !event.metaKey && !event.altKey) {
+        event.preventDefault();
+        if (menu.hidden) open();
+        clearTimeout(searchTimer);
+        search += key.toLocaleLowerCase();
+        const match = options.findIndex(row => row.textContent.toLocaleLowerCase().startsWith(search));
+        if (match >= 0) highlight(match);
+        searchTimer = setTimeout(() => { search = ''; }, 600);
+      }
+    });
+    select.before(wrapper);
+    wrapper.append(select, trigger, menu);
+    select.classList.add('select-native');
+    select.tabIndex = -1;
+    select.setAttribute('aria-hidden', 'true');
+    select.addEventListener('change', sync);
+    wrapper.addEventListener('focusout', event => { if (!wrapper.contains(event.relatedTarget)) close(); });
+    document.addEventListener('pointerdown', event => { if (!wrapper.contains(event.target)) close(); });
+    controls.push({sync, close});
+    sync();
+  });
+  return () => controls.forEach(control => { control.sync(); control.close(); });
+}
+
 'use strict';
 
 const hasVerifiedConnection = job => job.connection?.verifiedFirstDegree === true && job.connection?.currentEmployeeCount > 0;
@@ -19,6 +130,7 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
 
 (() => {
   const $ = id => document.getElementById(id);
+  const syncSelects = enhanceSelects();
   const state = {query:'',category:'All disciplines',workplace:'all',network:false,level:'all',comp:0,disclosed:false,stage:'all'};
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const connectionIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m10 13 4-4M8.5 15.5l-1 1a4 4 0 0 1-5.7-5.7l4-4a4 4 0 0 1 5.7 0M15.5 8.5l1-1a4 4 0 0 1 5.7 5.7l-4 4a4 4 0 0 1-5.7 0" transform="translate(0 0) scale(.95)"/></svg>';
@@ -51,6 +163,7 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
   function reset() {
     Object.assign(state,{query:'',category:'All disciplines',workplace:'all',network:false,level:'all',comp:0,disclosed:false,stage:'all'});
     $('search').value='';$('workplace').value='all';$('network').checked=false;$('level').value='all';$('stage').value='all';$('comp').value='0';$('disclosed').checked=false;
+    syncSelects();
     render();$('search').focus();
   }
 
