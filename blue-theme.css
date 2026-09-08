@@ -42,3 +42,5 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,.s
 
 .detail-section h3,.company-resource-group h4{color:var(--blue);font-weight:500;font-synthesis:weight}
 .company-profile.detail-section>h3{font-family:"PP Museum",Georgia,serif;font-weight:400;font-style:normal;font-synthesis:none;color:var(--blue)}
+
+.job-share{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:0 0 20px}.share-job{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;color:var(--blue);border:1px solid var(--blue);background:var(--lime);padding:9px 12px;border-radius:0}.share-job:hover{background:#e6ff92}.share-job:disabled{opacity:.6}.job-share [role=status]{font-family:var(--mono);font-size:11px;color:var(--blue)}#share-fallback{width:100%;font-size:12px}#share-fallback[hidden]{display:none}#share-url{display:block;width:100%;margin-top:6px;padding:10px;border:1px solid var(--blue);background:white;color:var(--blue);font-family:var(--mono);font-size:12px}#job-link-notice{padding:16px;background:var(--lime);color:var(--ink)}
