@@ -154,8 +154,8 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
     $('empty-description').textContent = state.network && !networkReady ? 'Jess’s LinkedIn network has not been imported yet. Turn off this filter to browse all roles.' : 'Try another keyword or give your filters some breathing room.';
     $('reset').hidden = !state.query && state.category === 'All disciplines' && state.workplace === 'all' && !state.network && state.level === 'all' && !Number(state.comp) && !state.disclosed && state.stage === 'all';
     document.querySelectorAll('[data-category]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
-    $('job-list').innerHTML = jobs.map(job => `<article class="job-card" aria-labelledby="title-${esc(job.id)}">
-      <div class="job-body">${mark(job)}<div class="job-copy"><div class="company-line"><span>${esc(job.company)}</span></div><h3 class="job-title" id="title-${esc(job.id)}"><button type="button" data-job="${esc(job.id)}" aria-haspopup="dialog">${esc(job.title)}</button></h3><div class="job-metadata"><span>${esc(job.location)}</span><span class="separator" aria-hidden="true">·</span><span>${esc(job.workplace)}</span><span class="separator" aria-hidden="true">·</span><span class="job-type">${esc(job.level || "Level not specified")}</span></div><p class="job-pay">${esc(job.salaryLabel || "Pay not listed")}</p></div><button type="button" class="details-arrow" data-job="${esc(job.id)}" aria-label="View ${esc(job.title)} at ${esc(job.company)}" aria-haspopup="dialog"><span aria-hidden="true">↗</span></button></div>
+    $('job-list').innerHTML = jobs.map(job => `<article class="job-card" data-open-job="${esc(job.id)}" aria-labelledby="title-${esc(job.id)}">
+      <div class="job-body">${mark(job)}<div class="job-copy"><div class="company-line"><span>${esc(job.company)}</span></div><h3 class="job-title" id="title-${esc(job.id)}"><button type="button" data-job="${esc(job.id)}" aria-haspopup="dialog">${esc(job.title)}</button></h3><div class="job-metadata"><span>${esc(job.location)}</span><span class="separator" aria-hidden="true">·</span><span>${esc(job.workplace)}</span><span class="separator" aria-hidden="true">·</span><span class="job-type">${esc(job.level || "Level not specified")}</span></div><p class="job-pay">${esc(job.salaryLabel || "Pay not listed")}</p></div><button type="button" class="details-arrow card-open" data-job="${esc(job.id)}" aria-label="View ${esc(job.title)} at ${esc(job.company)}" aria-haspopup="dialog"><span aria-hidden="true">↗</span></button></div>
       ${hasVerifiedConnection(job) ? `<div class="connection-strip"><span class="network-badge">${connectionIcon}Jess’s network</span><span class="connection-description">${esc(job.connection.short)}</span></div>` : ''}
     </article>`).join('');
   }
@@ -183,7 +183,7 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
   $('categories').addEventListener('click',event=>{const button=event.target.closest('[data-category]');if(button){state.category=button.dataset.category;render();}});
   $('reset').addEventListener('click',reset);
   $('empty-reset').addEventListener('click',reset);
-  $('job-list').addEventListener('click',event=>{const button=event.target.closest('[data-job]');if(button)openJob(button.dataset.job);});
+  $('job-list').addEventListener('click',event=>{const button=event.target.closest('[data-job]');if(button){openJob(button.dataset.job);return;}if(event.target.closest('button,a,input,select'))return;const card=event.target.closest('[data-open-job]');if(card)openJob(card.dataset.openJob);});
   $('about-open').addEventListener('click',()=>$('about-dialog').showModal());
   ['job','about'].forEach(name=>{
     const dialog=$(name+'-dialog');
