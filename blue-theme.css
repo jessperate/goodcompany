@@ -26,3 +26,19 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,.s
 @media(max-width:1100px){.job-body{gap:12px}.header nav{gap:20px}}
 @media(max-width:780px){.hero{padding-top:36px;padding-bottom:38px}.jess-note{transform:none}.category{border-color:var(--line)}.job-title{font-size:22px}}
 @media(max-width:640px){.header{height:auto;min-height:120px;padding-top:18px;padding-bottom:16px;gap:16px}.header nav{width:100%;gap:16px}.job-body{grid-template-columns:39px minmax(0,1fr) 32px}.job-body>.pin-job{grid-column:2;grid-row:2;justify-self:start;margin-left:0}.job-body>.details-arrow{grid-column:3;grid-row:1}.job-copy{min-width:0}.results-heading{flex-wrap:wrap}.job-title{font-size:21px}.hero h1{font-size:clamp(39px,9.5vw,54px)}}
+
+/* Repeating decorative rules keep the same wave size at every viewport. */
+:root{--rule-wave:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='9' viewBox='0 0 32 9'%3E%3Cpath d='M0 4.5 Q8 -2.5 16 4.5 T32 4.5' fill='none' stroke='%23002fff' stroke-width='1'/%3E%3C/svg%3E");--rule-wave-vertical:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='32' viewBox='0 0 9 32'%3E%3Cpath d='M4.5 0 Q-2.5 8 4.5 16 T4.5 32' fill='none' stroke='%23002fff' stroke-width='1'/%3E%3C/svg%3E")}
+.extra-filters,.network-filter,.sidebar-note,.connection-strip,.footer,.detail-footer,.saved-job,.company-review,.company-resource-group li,.location-field,.connection-description{position:relative}
+.extra-filters,.network-filter,.sidebar-note,.connection-strip,.footer,.detail-footer,.saved-job,.company-review{border-top:0}
+.company-review,.company-resource-group li{border-bottom:0}
+.extra-filters::before,.network-filter::before,.sidebar-note::before,.connection-strip::before,.footer::before,.detail-footer::before,.saved-job::before,.company-review::before,.company-review::after,.company-resource-group li::after{content:"";position:absolute;left:0;right:0;height:9px;pointer-events:none;background:var(--rule-wave) repeat-x center/32px 9px}
+.extra-filters::before,.network-filter::before,.sidebar-note::before,.connection-strip::before,.footer::before,.detail-footer::before,.saved-job::before,.company-review::before{top:-4px}
+.company-review::after,.company-resource-group li::after{bottom:-4px}
+.location-field,.connection-strip .connection-description{border-left:0}
+.location-field::before,.connection-strip .connection-description::before{content:"";position:absolute;left:-4px;top:0;bottom:0;width:9px;pointer-events:none;background:var(--rule-wave-vertical) repeat-y center/9px 32px}
+@media(max-width:780px){.network-filter::before{display:none}}
+@media(max-width:480px){.location-field{border-top:0}.location-field::before{left:0;right:0;top:-4px;bottom:auto;width:auto;height:9px;background:var(--rule-wave) repeat-x center/32px 9px}.connection-strip .connection-description::before{position:static;width:auto;height:auto;background:none;content:'·';margin-right:5px}}
+
+.detail-section h3,.company-resource-group h4{color:var(--blue);font-weight:500;font-synthesis:weight}
+.company-profile.detail-section>h3{font-family:"PP Museum",Georgia,serif;font-weight:400;font-style:normal;font-synthesis:none;color:var(--blue)}
