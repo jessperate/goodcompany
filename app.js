@@ -115,15 +115,17 @@ function enhanceSelects() {
 
 'use strict';
 
+const jobDisciplines = job => [...new Set([job.category, ...(job.disciplines || [])])];
+
 const hasVerifiedConnection = job => job.connection?.verifiedFirstDegree === true && job.connection?.currentEmployeeCount > 0;
 
 function filterJobs(jobs, {query = '', category = 'All disciplines', workplace = 'all', network = false, level = 'all', comp = 0, disclosed = false, stage = 'all'} = {}) {
   const words = query.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
   return jobs.filter(job => {
-    const searchable = [job.title, job.company, job.category, job.location, job.workplace, job.summary, ...(job.highlights || []), ...(job.keywords || [])].join(' ').toLocaleLowerCase();
+    const searchable = [job.title, job.company, ...jobDisciplines(job), job.location, job.workplace, job.summary, ...(job.highlights || []), ...(job.keywords || [])].join(' ').toLocaleLowerCase();
     return (stage === 'all' || COMPANY_STAGES[job.company]?.stage === stage) &&
       words.every(word => searchable.includes(word)) &&
-      (category === 'All disciplines' || job.category === category) &&
+      (category === 'All disciplines' || jobDisciplines(job).includes(category)) &&
       (workplace === 'all' || job.workplace === workplace) &&
       (!network || hasVerifiedConnection(job)) &&
       (level === 'all' || job.level === level) &&
@@ -145,9 +147,9 @@ function filterJobs(jobs, {query = '', category = 'All disciplines', workplace =
     const links = (title, items) => items?.length ? `<div class="company-resource-group"><h4>${title}</h4><ul>${items.map(item=>`<li><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(item.title)} <span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span></a><small>${esc(item.source)}</small></li>`).join('')}</ul></div>` : '';
     return `<section class="company-profile detail-section"><p class="eyebrow">BEHIND THE JOB</p><h3>Get to know ${esc(job.company)}</h3><p>${esc(company.about)}</p><a class="company-website" href="${esc(company.website)}" target="_blank" rel="noopener noreferrer">Company website <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a><div class="company-review">${company.glassdoor ? `<a href="${esc(company.glassdoor.url)}" target="_blank" rel="noopener noreferrer"><strong><i class="ri-star-fill" aria-hidden="true"></i> ${esc(company.glassdoor.rating)} / 5</strong><span>Employee reviews on Glassdoor <i class="ri-arrow-right-up-line" aria-hidden="true"></i></span></a><small>Observed ${esc(company.checkedAt)} · Rating may change; Glassdoor may require sign-in.</small>` : '<p>Glassdoor rating not verified for this company.</p>'}</div>${links('Leadership conversations',company.interviews)}${links('In the news',company.press)}${links('Awards & recognition',company.recognition)}<p class="company-research-note">Company context checked ${esc(company.checkedAt)}. Stories retain their original dates; recognition does not guarantee workplace quality.</p></section>`;
   }
-  const categories = ['All disciplines',...new Set(JOBS.map(job => job.category))];
+  const categories = ['All disciplines',...new Set(JOBS.flatMap(jobDisciplines))];
 
-  $('categories').innerHTML = categories.map(category => `<button class="category" type="button" data-category="${esc(category)}" aria-pressed="${category === state.category}"><span>${esc(category)}</span><span class="count">${category === 'All disciplines' ? JOBS.length : JOBS.filter(job=>job.category===category).length}</span></button>`).join('');
+  $('categories').innerHTML = categories.map(category => `<button class="category" type="button" data-category="${esc(category)}" aria-pressed="${category === state.category}"><span>${esc(category)}</span><span class="count">${category === 'All disciplines' ? JOBS.length : JOBS.filter(job=>jobDisciplines(job).includes(category)).length}</span></button>`).join('');
 
   function render() {
     const jobs = filterJobs(JOBS,state);

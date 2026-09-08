@@ -27,3 +27,12 @@ const jobs=vm.runInContext('JOBS',context);
 assert.equal(new Set(jobs.map(j=>j.id)).size,jobs.length);
 for(const j of jobs){assert(j.title && j.company && j.url);assert.match(j.url,/^https:\/\//);}
 console.log('Company stage, combined filters, unknown-stage handling, and listing integrity passed.');
+
+const crossRole={id:'creator',company:'Adobe',title:'Creator Partnerships',category:'Creator marketing',disciplines:['Influencer marketing','Social media'],workplace:'Remote',level:'Senior',salary:'Published',salaryCurrency:'USD',salaryMax:180000};
+context.fixture=[...fixture,crossRole];
+assert.deepEqual(ids({category:'Influencer marketing',stage:'Public',workplace:'Remote',level:'Senior',comp:150000}),['creator']);
+assert.deepEqual(ids({category:'Social media',query:'influencer'}),['creator']);
+assert.deepEqual(ids({category:'Product design'}),['p']);
+assert.deepEqual(ids({category:'Creator marketing',workplace:'On-site'}),[]);
+assert.equal(ids({}).filter(id=>id==='creator').length,1);
+console.log('Overlapping marketing disciplines and combined filters passed.');

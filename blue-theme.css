@@ -54,3 +54,12 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,.s
 .window-caption{font-family:var(--mono);font-size:11px;line-height:16px;letter-spacing:.07em;white-space:nowrap}.window-controls{gap:10px;font-size:18px;line-height:1}.header .wordmark{min-width:0}.header .wordmark-logo{max-width:100%;height:auto}.header nav{width:auto}
 @media(max-width:780px){.header.wrap{width:calc(100% - 40px);grid-template-columns:1fr;padding:0 20px 20px;gap:18px}.window-titlebar{margin:0 -20px;padding:9px 12px;gap:10px}.header nav{width:100%;justify-content:space-between;gap:12px}.window-caption{font-size:10px}.window-squares{gap:5px}.window-controls{gap:5px;font-size:16px}.header .wordmark{justify-self:start}}
 @media(max-width:480px){.header.wrap{width:calc(100% - 32px);margin-top:16px;padding:0 16px 16px}.window-titlebar{margin:0 -16px;gap:8px}.window-squares>span{width:10px;height:10px}.window-caption{font-size:9px;letter-spacing:0}.window-stripes{min-width:8px}.header nav,.header .text-button,.header .account-nav{font-size:10px}.header nav{gap:8px}.header .account-nav{padding:8px 10px}}
+
+/* One continuous window contains the header, directory, and footer. */
+.site-window{width:calc(100% - 64px);max-width:1352px;margin:24px auto 36px;border:1px solid var(--blue);background:var(--paper);box-shadow:5px 5px 0 var(--blue);min-width:0}
+.site-window>.header.wrap{width:100%;max-width:none;margin:0;padding:0 32px 24px;border:0;box-shadow:none;gap:0 24px}
+.site-window .window-titlebar{margin:0 -32px 24px;padding:10px 16px}
+.site-window main>.wrap,.site-window>.footer.wrap{max-width:none;padding-left:32px;padding-right:32px}
+.site-window>.header::after{display:block;left:0;right:0;bottom:-4px;height:9px;background:var(--rule-wave) repeat-x center/32px 9px}
+@media(max-width:780px){.site-window{width:calc(100% - 32px);margin:16px auto 28px;box-shadow:3px 3px 0 var(--blue)}.site-window>.header.wrap{padding:0 20px 20px;gap:18px}.site-window .window-titlebar{margin:0 -20px;padding:9px 12px}.site-window main>.wrap,.site-window>.footer.wrap{padding-left:20px;padding-right:20px}}
+@media(max-width:480px){.site-window{width:calc(100% - 20px);margin:10px auto 20px}.site-window>.header.wrap{padding:0 16px 16px}.site-window .window-titlebar{margin:0 -16px;gap:7px}.site-window main>.wrap,.site-window>.footer.wrap{padding-left:16px;padding-right:16px}}

@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-09-08",
+  "scope": "Targeted expansion of existing company coverage; not an exhaustive market collection.",
+  "boardsChecked": [
+    "runway-ml",
+    "harvey",
+    "elevenlabs",
+    "notion",
+    "legora",
+    "gamma",
+    "ramp"
+  ],
+  "added": [
+    {
+      "id": "runway-f7c8903e-7b20-49cc-824f-502524ee29fb",
+      "url": "https://jobs.ashbyhq.com/runway-ml/f7c8903e-7b20-49cc-824f-502524ee29fb"
+    },
+    {
+      "id": "runway-2185626a-657a-4772-9519-50b2e7b2af1a",
+      "url": "https://jobs.ashbyhq.com/runway-ml/2185626a-657a-4772-9519-50b2e7b2af1a"
+    },
+    {
+      "id": "harvey-b26ccc21-fb10-4428-90be-a7af2076ff77",
+      "url": "https://jobs.ashbyhq.com/harvey/b26ccc21-fb10-4428-90be-a7af2076ff77"
+    },
+    {
+      "id": "harvey-c6e7267c-877e-479c-8dc6-f34ffbbb44dd",
+      "url": "https://jobs.ashbyhq.com/harvey/c6e7267c-877e-479c-8dc6-f34ffbbb44dd"
+    },
+    {
+      "id": "harvey-a8f060ad-1e57-40f8-94f7-402c2611eb90",
+      "url": "https://jobs.ashbyhq.com/harvey/a8f060ad-1e57-40f8-94f7-402c2611eb90"
+    },
+    {
+      "id": "harvey-275f3315-2ea8-4fb4-bfe8-e0dd4e238e86",
+      "url": "https://jobs.ashbyhq.com/harvey/275f3315-2ea8-4fb4-bfe8-e0dd4e238e86"
+    },
+    {
+      "id": "adobe-R169671",
+      "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Senior-Talent---Creator-Strategist_R169671"
+    },
+    {
+      "id": "amazon-10506998",
+      "url": "https://amazon.jobs/en/jobs/10506998/sr-pmm-engagement-marketing-lead-creators"
+    }
+  ],
+  "existingRolesTagged": [
+    "linkedin-4457819398",
+    "crusoe-88654793-32c7-4c33-a8ac-f3b541632c02",
+    "linkedin-4462715074",
+    "descript-7803294003",
+    "airbnb-8078406",
+    "kalshi-7297530003",
+    "elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3"
+  ]
+}

@@ -603,6 +603,10 @@ const JOBS = [
     "level": "Senior",
     "highlights": [
       "Employer excerpt: “This role will lead China social initiatives and drive business growth across key local social channels and reports to the…”"
+    ],
+    "disciplines": [
+      "Content & strategy",
+      "Social media"
     ]
   },
   {
@@ -658,6 +662,10 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “Crusoe is hiring a Social Media Manager to own our organic social presence end-to-end. Not just scheduling posts, but shooting…”"
+    ],
+    "disciplines": [
+      "Content & strategy",
+      "Social media"
     ]
   },
   {
@@ -872,6 +880,11 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “ElevenMusic is our consumer-facing music creation platform, built for music creators and professional musicians alike. We want ElevenMusic to have…”"
+    ],
+    "disciplines": [
+      "Content & strategy",
+      "Social media",
+      "Creator marketing"
     ]
   },
   {
@@ -1650,6 +1663,10 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “We’re looking for a Partnerships Manager focused on social media to help Kalshi break into culture and scale through partnerships…”"
+    ],
+    "disciplines": [
+      "Content & strategy",
+      "Social media"
     ]
   },
   {
@@ -1956,6 +1973,10 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “Social media is one of the most visible expressions of who Descript is, and right now, we have an opportunity…”"
+    ],
+    "disciplines": [
+      "Content & strategy",
+      "Social media"
     ]
   },
   {
@@ -5272,7 +5293,11 @@ const JOBS = [
       "Premiere",
       "brand"
     ],
-    "salary": null
+    "salary": null,
+    "disciplines": [
+      "Content & strategy",
+      "Social media"
+    ]
   },
   {
     "company": "Amazon",
@@ -6390,7 +6415,11 @@ const JOBS = [
       "LinkedIn seniority label: Mid-Senior level."
     ],
     "keywords": [],
-    "salary": null
+    "salary": null,
+    "disciplines": [
+      "Content & strategy",
+      "Social media"
+    ]
   },
   {
     "company": "Amazon",
@@ -17578,5 +17607,219 @@ const JOBS = [
       "typography"
     ],
     "salary": null
+  },
+  {
+    "id": "runway-f7c8903e-7b20-49cc-824f-502524ee29fb",
+    "company": "Runway",
+    "title": "Social Media Specialist, Influencer Marketing",
+    "category": "Influencer marketing",
+    "location": "Remote",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/runway-ml/f7c8903e-7b20-49cc-824f-502524ee29fb",
+    "summary": "Manage paid influencer and affiliate partnerships, focusing on YouTube creators. Handle outreach, negotiation, contracts, briefs, and performance reporting.",
+    "highlights": [
+      "At least two years in influencer, affiliate, or creator partnerships.",
+      "Work with creators and agencies, with an emphasis on relationship management rather than content production."
+    ],
+    "level": "Level not specified",
+    "source": "Runway careers",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Influencer marketing"
+    ],
+    "disciplines": [
+      "Influencer marketing",
+      "Social media",
+      "Creator marketing"
+    ],
+    "salaryLabel": "Pay not listed"
+  },
+  {
+    "id": "runway-2185626a-657a-4772-9519-50b2e7b2af1a",
+    "company": "Runway",
+    "title": "Youtube Creator & Educator",
+    "category": "Creator marketing",
+    "location": "New York preferred; remote US or Canada",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/runway-ml/2185626a-657a-4772-9519-50b2e7b2af1a",
+    "summary": "Build Runway’s YouTube channel through practical filmmaking and generative-AI tutorials. Own strategy, filming, editing, publishing, and audience growth.",
+    "highlights": [
+      "An active YouTube channel or substantial published long-form video portfolio is required.",
+      "Advanced Runway experience and strong editing and motion-graphics skills."
+    ],
+    "level": "Level not specified",
+    "source": "Runway careers",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Creator marketing"
+    ],
+    "disciplines": [
+      "Creator marketing",
+      "Social media",
+      "Motion & video"
+    ],
+    "salaryLabel": "Pay not listed"
+  },
+  {
+    "id": "harvey-b26ccc21-fb10-4428-90be-a7af2076ff77",
+    "company": "Harvey",
+    "title": "Senior Performance Marketing Manager, Paid Social",
+    "category": "Social media",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "url": "https://jobs.ashbyhq.com/harvey/b26ccc21-fb10-4428-90be-a7af2076ff77",
+    "summary": "Lead paid social campaigns for legal and enterprise audiences. Develop targeting, test creative and messaging, and measure pipeline and revenue across LinkedIn, Meta, and emerging channels.",
+    "highlights": [
+      "Five to seven or more years managing paid social in B2B SaaS.",
+      "Partner with creative, content, marketing operations, and analytics teams."
+    ],
+    "level": "Senior",
+    "source": "Harvey careers",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Social media"
+    ],
+    "salary": "US$136,000–204,000 base compensation. Check the original listing for location-specific details.",
+    "salaryMin": 136000,
+    "salaryMax": 204000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$136,000–204,000 / year · location dependent"
+  },
+  {
+    "id": "harvey-c6e7267c-877e-479c-8dc6-f34ffbbb44dd",
+    "company": "Harvey",
+    "title": "Senior Performance Marketing Manager, Paid Social",
+    "category": "Social media",
+    "location": "New York",
+    "workplace": "Hybrid",
+    "url": "https://jobs.ashbyhq.com/harvey/c6e7267c-877e-479c-8dc6-f34ffbbb44dd",
+    "summary": "Lead paid social campaigns for legal and enterprise audiences. Develop targeting, test creative and messaging, and measure pipeline and revenue across LinkedIn, Meta, and emerging channels.",
+    "highlights": [
+      "Five to seven or more years managing paid social in B2B SaaS.",
+      "Partner with creative, content, marketing operations, and analytics teams."
+    ],
+    "level": "Senior",
+    "source": "Harvey careers",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Social media"
+    ],
+    "salary": "US$136,000–204,000 base compensation. Check the original listing for location-specific details.",
+    "salaryMin": 136000,
+    "salaryMax": 204000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$136,000–204,000 / year · location dependent"
+  },
+  {
+    "id": "harvey-a8f060ad-1e57-40f8-94f7-402c2611eb90",
+    "company": "Harvey",
+    "title": "Senior Performance Marketing Manager, Paid Social",
+    "category": "Social media",
+    "location": "Chicago",
+    "workplace": "Hybrid",
+    "url": "https://jobs.ashbyhq.com/harvey/a8f060ad-1e57-40f8-94f7-402c2611eb90",
+    "summary": "Lead paid social campaigns for legal and enterprise audiences. Develop targeting, test creative and messaging, and measure pipeline and revenue across LinkedIn, Meta, and emerging channels.",
+    "highlights": [
+      "Five to seven or more years managing paid social in B2B SaaS.",
+      "Partner with creative, content, marketing operations, and analytics teams."
+    ],
+    "level": "Senior",
+    "source": "Harvey careers",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Social media"
+    ],
+    "salary": "US$136,000–204,000 base compensation. Check the original listing for location-specific details.",
+    "salaryMin": 136000,
+    "salaryMax": 204000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$136,000–204,000 / year · location dependent"
+  },
+  {
+    "id": "harvey-275f3315-2ea8-4fb4-bfe8-e0dd4e238e86",
+    "company": "Harvey",
+    "title": "Senior Performance Marketing Manager, Paid Social",
+    "category": "Social media",
+    "location": "Dallas",
+    "workplace": "Hybrid",
+    "url": "https://jobs.ashbyhq.com/harvey/275f3315-2ea8-4fb4-bfe8-e0dd4e238e86",
+    "summary": "Lead paid social campaigns for legal and enterprise audiences. Develop targeting, test creative and messaging, and measure pipeline and revenue across LinkedIn, Meta, and emerging channels.",
+    "highlights": [
+      "Five to seven or more years managing paid social in B2B SaaS.",
+      "Partner with creative, content, marketing operations, and analytics teams."
+    ],
+    "level": "Senior",
+    "source": "Harvey careers",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Social media"
+    ],
+    "salary": "US$136,000–204,000 base compensation. Check the original listing for location-specific details.",
+    "salaryMin": 136000,
+    "salaryMax": 204000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$136,000–204,000 / year · location dependent"
+  },
+  {
+    "id": "adobe-R169671",
+    "company": "Adobe",
+    "title": "Senior Talent & Creator Strategist",
+    "category": "Creator marketing",
+    "location": "San Francisco, San Jose, New York or Los Angeles",
+    "workplace": "Not specified",
+    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Senior-Talent---Creator-Strategist_R169671",
+    "summary": "Build creator and talent partnerships that bring Adobe’s products and brand to audiences. Develop ambassador programs, negotiate talent agreements, and coordinate campaigns and cultural moments.",
+    "highlights": [
+      "Ten or more years in creator partnerships, influencer marketing, talent relations, or related work.",
+      "Experience negotiating major agreements and managing cross-functional partnerships."
+    ],
+    "level": "Senior",
+    "source": "Adobe careers",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Creator marketing"
+    ],
+    "disciplines": [
+      "Creator marketing",
+      "Influencer marketing"
+    ],
+    "salary": "US$108,300–218,600 annually across US markets. California and New York: US$150,900–218,600.",
+    "salaryMin": 108300,
+    "salaryMax": 218600,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$108,300–218,600 / year · location dependent"
+  },
+  {
+    "id": "amazon-10506998",
+    "company": "Amazon",
+    "title": "Sr. PMM, Engagement Marketing Lead, Creators",
+    "category": "Creator marketing",
+    "location": "Seattle or New York",
+    "workplace": "Not specified",
+    "url": "https://amazon.jobs/en/jobs/10506998/sr-pmm-engagement-marketing-lead-creators",
+    "summary": "Develop lifecycle and engagement marketing that helps creators grow their businesses with Amazon. Build communication programs and prepare creators for seasonal campaigns and major retail events.",
+    "highlights": [
+      "Six or more years of professional marketing experience.",
+      "Experience in lifecycle or partner marketing; influencer or affiliate experience is preferred."
+    ],
+    "level": "Senior",
+    "source": "Amazon careers",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Creator marketing"
+    ],
+    "salary": "Annual base salary: Seattle US$142,800–193,200; New York US$157,100–212,600.",
+    "salaryMin": 142800,
+    "salaryMax": 212600,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$142,800–212,600 / year · location dependent"
   }
 ];
