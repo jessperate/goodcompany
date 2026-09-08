@@ -2,7 +2,7 @@
 const COMPANIES = {
   "Figma": {
     "website": "https://figma.com",
-    "logo": "logos/figma.png",
+    "logo": "logos/figma.svg",
     "about": "Collaborative tools for interface design, prototyping, and building digital products.",
     "checkedAt": "September 8, 2026",
     "glassdoor": {
@@ -38,7 +38,7 @@ const COMPANIES = {
   },
   "Mercury": {
     "website": "https://mercury.com",
-    "logo": "logos/mercury.png",
+    "logo": "logos/mercury.svg",
     "about": "Financial technology and banking tools for startups and growing businesses.",
     "checkedAt": "September 8, 2026",
     "glassdoor": {
@@ -74,7 +74,7 @@ const COMPANIES = {
   },
   "Cloudflare": {
     "website": "https://cloudflare.com",
-    "logo": "logos/cloudflare.png",
+    "logo": "logos/cloudflare.svg",
     "about": "Internet infrastructure, security, and performance tools for websites and applications.",
     "checkedAt": "September 8, 2026",
     "glassdoor": {
@@ -110,7 +110,7 @@ const COMPANIES = {
   },
   "AirOps": {
     "website": "https://airops.com",
-    "logo": "logos/airops.png",
+    "logo": "logos/airops.svg",
     "about": "AI-assisted content workflows and tools for brands navigating AI search.",
     "checkedAt": "September 8, 2026",
     "glassdoor": {
@@ -140,7 +140,7 @@ const COMPANIES = {
   },
   "Duolingo": {
     "website": "https://duolingo.com",
-    "logo": "logos/duolingo.png",
+    "logo": "logos/duolingo.svg",
     "about": "An education platform combining learning, playful product design, and a distinctive consumer brand.",
     "checkedAt": "September 8, 2026",
     "glassdoor": {
@@ -171,7 +171,7 @@ const COMPANIES = {
   },
   "Dorsia": {
     "website": "https://dorsia.com",
-    "logo": "logos/dorsia.png",
+    "logo": "logos/dorsia.svg",
     "about": "A hospitality technology company offering members access to restaurants, events, and experiences.",
     "checkedAt": "September 8, 2026",
     "glassdoor": null,
@@ -187,7 +187,7 @@ const COMPANIES = {
   },
   "IE": {
     "website": "https://ie.com.au",
-    "logo": "logos/ie.png",
+    "logo": "logos/ie.svg",
     "about": "A Melbourne product consultancy working across digital experiences, design systems, and client delivery.",
     "checkedAt": "September 8, 2026",
     "glassdoor": {
@@ -206,7 +206,7 @@ const COMPANIES = {
   },
   "Airbnb": {
     "website": "https://airbnb.com",
-    "logo": "logos/airbnb.png",
+    "logo": "logos/airbnb.svg",
     "about": "Short-term rental marketplace",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -221,7 +221,7 @@ const COMPANIES = {
   },
   "Anthropic": {
     "website": "https://anthropic.com",
-    "logo": "logos/anthropic.png",
+    "logo": "logos/anthropic.svg",
     "about": "AI models and tools",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -236,7 +236,7 @@ const COMPANIES = {
   },
   "Crusoe": {
     "website": "https://crusoe.ai",
-    "logo": "logos/crusoe.png",
+    "logo": "logos/crusoe.svg",
     "about": "AI cloud and data centers",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -251,7 +251,7 @@ const COMPANIES = {
   },
   "Databricks": {
     "website": "https://databricks.com",
-    "logo": "logos/databricks.png",
+    "logo": "logos/databricks.svg",
     "about": "Data analytics and AI infrastructure",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -266,7 +266,7 @@ const COMPANIES = {
   },
   "Decagon": {
     "website": "https://decagon.ai",
-    "logo": "logos/decagon.png",
+    "logo": "logos/decagon.svg",
     "about": "AI agents for customer support",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -281,7 +281,7 @@ const COMPANIES = {
   },
   "Descript": {
     "website": "https://descript.com",
-    "logo": "logos/descript.png",
+    "logo": "logos/descript.svg",
     "about": "Video and podcast creation tools.",
     "checkedAt": "September 8, 2026",
     "recognition": [],
@@ -290,7 +290,7 @@ const COMPANIES = {
   },
   "ElevenLabs": {
     "website": "https://elevenlabs.io",
-    "logo": "logos/elevenlabs.png",
+    "logo": "logos/elevenlabs.svg",
     "about": "AI voice generation",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -305,7 +305,7 @@ const COMPANIES = {
   },
   "Exa": {
     "website": "https://exa.ai",
-    "logo": "logos/exa.png",
+    "logo": "logos/exa.svg",
     "about": "Web search API for AI agents",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -320,7 +320,7 @@ const COMPANIES = {
   },
   "Fal": {
     "website": "https://fal.ai",
-    "logo": "logos/fal.png",
+    "logo": "logos/fal.svg",
     "about": "AI infrastructure for generative media",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -335,7 +335,7 @@ const COMPANIES = {
   },
   "Gamma": {
     "website": "https://gamma.app",
-    "logo": "logos/gamma.png",
+    "logo": "logos/gamma.svg",
     "about": "AI design tools",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -350,7 +350,7 @@ const COMPANIES = {
   },
   "Handshake": {
     "website": "https://joinhandshake.com",
-    "logo": "logos/handshake.png",
+    "logo": "logos/handshake.svg",
     "about": "Career marketplace and AI data services",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -365,7 +365,7 @@ const COMPANIES = {
   },
   "Harvey": {
     "website": "https://harvey.ai",
-    "logo": "logos/harvey.png",
+    "logo": "logos/harvey.svg",
     "about": "Legal AI",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -380,7 +380,7 @@ const COMPANIES = {
   },
   "Helsing": {
     "website": "https://helsing.ai",
-    "logo": "logos/helsing.png",
+    "logo": "logos/helsing.svg",
     "about": "Defense AI and autonomous systems",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -395,7 +395,7 @@ const COMPANIES = {
   },
   "Hex": {
     "website": "https://hex.tech",
-    "logo": "logos/hex.png",
+    "logo": "logos/hex.svg",
     "about": "AI analytics",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -410,7 +410,7 @@ const COMPANIES = {
   },
   "Kalshi": {
     "website": "https://kalshi.com",
-    "logo": "logos/kalshi.png",
+    "logo": "logos/kalshi.svg",
     "about": "Prediction markets",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -425,7 +425,7 @@ const COMPANIES = {
   },
   "OpenAI": {
     "website": "https://openai.com",
-    "logo": "logos/openai.png",
+    "logo": "logos/openai.svg",
     "about": "AI models and tools",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -440,7 +440,7 @@ const COMPANIES = {
   },
   "Runway": {
     "website": "https://runwayml.com",
-    "logo": "logos/runway.png",
+    "logo": "logos/runway.svg",
     "about": "AI video generation",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -455,7 +455,7 @@ const COMPANIES = {
   },
   "SpaceX": {
     "website": "https://spacex.com",
-    "logo": "logos/spacex.png",
+    "logo": "logos/spacex.svg",
     "about": "Rockets, spacecraft, satellite internet, AI models, and social media",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -470,7 +470,7 @@ const COMPANIES = {
   },
   "Stripe": {
     "website": "https://stripe.com",
-    "logo": "logos/stripe.png",
+    "logo": "logos/stripe.svg",
     "about": "Payments infrastructure",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -485,7 +485,7 @@ const COMPANIES = {
   },
   "Vercel": {
     "website": "https://vercel.com",
-    "logo": "logos/vercel.png",
+    "logo": "logos/vercel.svg",
     "about": "Web app development and hosting",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -500,7 +500,7 @@ const COMPANIES = {
   },
   "Waymo": {
     "website": "https://waymo.com",
-    "logo": "logos/waymo.png",
+    "logo": "logos/waymo.svg",
     "about": "Autonomous ride-hailing",
     "checkedAt": "September 8, 2026",
     "recognition": [
@@ -512,5 +512,101 @@ const COMPANIES = {
     ],
     "interviews": [],
     "press": []
+  },
+  "Google": {
+    "website": "https://goo.gle/3DLEokh",
+    "logo": "logos/google.svg",
+    "about": "Explore current creative and design opportunities at Google.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Adobe": {
+    "website": "http://www.adobe.com",
+    "logo": "logos/adobe.svg",
+    "about": "Explore current creative and design opportunities at Adobe.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Legora": {
+    "website": "legora.com",
+    "logo": "logos/legora.svg",
+    "about": "Explore current creative and design opportunities at Legora.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Notion": {
+    "website": "https://notion.com",
+    "logo": "logos/notion.svg",
+    "about": "Explore current creative and design opportunities at Notion.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Salesforce": {
+    "website": "http://www.salesforce.com",
+    "logo": "logos/salesforce.svg",
+    "about": "Explore current creative and design opportunities at Salesforce.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Amazon": {
+    "website": "https://www.linkedin.com/company/amazon",
+    "logo": "logos/amazon.svg",
+    "about": "Explore current creative and design opportunities at Amazon.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Intuit": {
+    "website": "https://www.intuit.com/",
+    "logo": "logos/intuit.svg",
+    "about": "Explore current creative and design opportunities at Intuit.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Cisco": {
+    "website": "http://www.cisco.com",
+    "logo": "logos/cisco.svg",
+    "about": "Explore current creative and design opportunities at Cisco.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Yahoo": {
+    "website": "http://www.yahooinc.com",
+    "logo": "logos/yahoo.svg",
+    "about": "Explore current creative and design opportunities at Yahoo.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Autodesk": {
+    "website": "http://www.autodesk.com",
+    "logo": "logos/autodesk.svg",
+    "about": "Explore current creative and design opportunities at Autodesk.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Microsoft": {
+    "website": "https://news.microsoft.com/",
+    "logo": "logos/microsoft.svg",
+    "about": "Explore current creative and design opportunities at Microsoft.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Nasdaq": {
+    "website": "https://www.linkedin.com/company/nasdaq",
+    "logo": "logos/nasdaq.svg",
+    "about": "Explore current creative and design opportunities at Nasdaq.",
+    "checkedAt": "September 8, 2026",
+    "press": [],
+    "interviews": []
   }
 };
