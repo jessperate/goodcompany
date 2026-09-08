@@ -11,7 +11,7 @@
     document.querySelectorAll('[data-pin]').forEach(button => {
       const saved = pins.has(button.dataset.pin);
       button.setAttribute('aria-pressed', String(saved));
-      button.textContent = saved ? 'Pinned ✓' : 'Pin job +';
+      button.innerHTML = saved ? 'Pinned <i class="ri-pushpin-fill" aria-hidden="true"></i>' : 'Pin job <i class="ri-pushpin-line" aria-hidden="true"></i>';
       button.disabled = loading || busy.has(button.dataset.pin);
     });
   }
@@ -21,7 +21,7 @@
     $('account-form').hidden = Boolean(user);
     $('account-profile').hidden = !user;
     $('profile-email').textContent = user?.email || '';
-    $('pinned-jobs').innerHTML = [...pins.values()].map(pin => `<article class="saved-job"><p>${escape(pin.company)}</p><h3>${escape(pin.title)}</h3><div><a href="${escape(/^https:\/\//.test(pin.source_url) ? pin.source_url : '#')}" target="_blank" rel="noopener noreferrer">View listing ↗</a><button type="button" class="pin-job" data-pin="${escape(pin.job_id)}" aria-label="Unpin ${escape(pin.title)}">Pinned ✓</button></div></article>`).join('');
+    $('pinned-jobs').innerHTML = [...pins.values()].map(pin => `<article class="saved-job"><p>${escape(pin.company)}</p><h3>${escape(pin.title)}</h3><div><a href="${escape(/^https:\/\//.test(pin.source_url) ? pin.source_url : '#')}" target="_blank" rel="noopener noreferrer">View listing <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a><button type="button" class="pin-job" data-pin="${escape(pin.job_id)}" aria-label="Unpin ${escape(pin.title)}">Pinned <i class="ri-pushpin-fill" aria-hidden="true"></i></button></div></article>`).join('');
     $('pins-empty').hidden = pins.size > 0;
     $('pins-empty').textContent = loading ? 'Loading your pinned jobs…' : 'Your shortlist starts here. Pin a job that catches your eye.';
     refreshButtons();
