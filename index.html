@@ -12,17 +12,19 @@
   <meta property="og:url" content="https://good-company-jess-jessica-rosenbergs-projects.vercel.app">
   <link rel="canonical" href="https://good-company-jess-jessica-rosenbergs-projects.vercel.app">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=cards-1">
+  <link rel="stylesheet" href="styles.css?v=accounts-1">
   <script src="jobs.js" defer></script>
   <script src="companies.js" defer></script>
   <script src="stages.js" defer></script>
-  <script src="app.js?v=cards-1" defer></script>
+  <script src="vendor/supabase-2.116.0.js" defer></script>
+  <script src="account.js?v=accounts-1" defer></script>
+  <script src="app.js?v=accounts-1" defer></script>
 </head>
 <body>
   <a class="skip" href="#directory">Skip to jobs</a>
   <header class="header wrap">
     <a class="wordmark" href="./" aria-label="Good Company home"><span class="brand-star" aria-hidden="true">✳</span>goodcompany<span class="brand-period">.</span></a>
-    <nav aria-label="Main navigation"><a class="nav-jobs" href="#directory">Find a job <span aria-hidden="true">↘</span></a><button class="text-button" id="about-open">A note from Jess <span aria-hidden="true">↗</span></button></nav>
+    <nav aria-label="Main navigation"><a class="nav-jobs" href="#directory">Find a job <span aria-hidden="true">↘</span></a><button class="text-button" id="about-open">A note from Jess <span aria-hidden="true">↗</span></button><button class="account-nav" id="account-open">Sign in</button></nav>
   </header>
   <main>
     <section class="hero wrap" aria-labelledby="hero-title">
@@ -41,5 +43,7 @@
   <footer class="footer wrap"><a href="./" class="footer-logo">goodcompany.</a><p>For the people who make things <em>feel</em> like something.</p><span>CURATED BY JESS ROSENBERG</span></footer>
   <dialog id="job-dialog" class="job-dialog" aria-labelledby="detail-title"><button class="close-button" id="job-close" aria-label="Close job details">×</button><div id="job-detail"></div></dialog>
   <dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title"><button class="close-button" id="about-close" aria-label="Close note">×</button><p class="eyebrow">A NOTE FROM JESS</p><h2 id="about-title">Your people are<br>out there.</h2><p>I’ve built brand and creative teams at companies including Webflow, Mural, Jasper, and AirOps. The people you make things with matter just as much as the things you make.</p><p>Good Company brings creative opportunities together with a little human context. Start with the roles. Take a closer look at the people behind them.</p><div class="about-explainer"><strong>What does “Jess’s network” mean?</strong><p>The tag requires a verified first-degree LinkedIn connection who currently works at the hiring company. Network data has not been imported yet. A tag never promises an introduction or referral.</p></div><span class="signature">Here’s to your next chapter. — Jess ♡</span></dialog>
+<p id="pin-status" class="sr-only" role="status"></p>
+  <dialog id="account-dialog" class="about-dialog account-dialog" aria-labelledby="account-title"><button class="close-button" id="account-close" aria-label="Close account">×</button><p class="eyebrow">YOUR GOOD COMPANY</p><h2 id="account-title">Keep the good ones.</h2><form id="account-form"><p>Create an account or sign in with an email link. Save the roles you love to your own private shortlist.</p><label for="account-email">Email address</label><input id="account-email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="254"><button class="primary-button" id="email-submit" type="submit">Email me a sign-in link ↗</button><p class="account-help">No password needed. Only you can see your pinned jobs.</p></form><p id="account-status" role="status" aria-live="polite"></p><section id="account-profile" hidden><div class="profile-top"><p id="profile-email"></p><button class="text-button" id="account-signout">Sign out</button></div><h3>Your pinned jobs</h3><p id="pins-empty">Your shortlist starts here.</p><div id="pinned-jobs"></div></section></dialog>
 </body>
 </html>
