@@ -327,6 +327,27 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
       if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)dialog.close();
     });
   });
+  const mainWindow = document.querySelector('.site-window');
+  let desktopScroll = 0;
+  let desktopTrigger = $('main-minimize');
+  function revealVoid(event) {
+    desktopScroll = window.scrollY;
+    desktopTrigger = event.currentTarget;
+    mainWindow.hidden = true;
+    $('desktop-void').hidden = false;
+    document.body.classList.add('in-the-void');
+    window.scrollTo({top:0, behavior:'instant'});
+    $('main-reopen').focus({preventScroll:true});
+  }
+  $('main-minimize').addEventListener('click', revealVoid);
+  $('main-close').addEventListener('click', revealVoid);
+  $('main-reopen').addEventListener('click', () => {
+    mainWindow.hidden = false;
+    $('desktop-void').hidden = true;
+    document.body.classList.remove('in-the-void');
+    window.scrollTo({top:desktopScroll, behavior:'instant'});
+    desktopTrigger.focus({preventScroll:true});
+  });
   render();
   syncJobFromUrl();
 })();

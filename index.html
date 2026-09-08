@@ -25,20 +25,23 @@
   <link rel="stylesheet" href="museum-font.css">
   <link rel="stylesheet" href="saans-mono-font.css">
   <link rel="stylesheet" href="styles.css?v=roboto-1">
-  <link rel="stylesheet" href="blue-theme.css?v=pagination-1">
+  <link rel="stylesheet" href="blue-theme.css?v=desktop-void-1">
   <script src="sticky-note.js?v=1" defer></script>
   <script src="jobs.js?v=social-creators-1" defer></script>
   <script src="companies.js" defer></script>
   <script src="stages.js" defer></script>
   <script src="vendor/supabase-2.116.0.js" defer></script>
   <script src="account.js?v=museum-remix-1" defer></script>
-  <script src="app.js?v=pagination-1" defer></script>
+  <script src="app.js?v=desktop-void-1" defer></script>
 </head>
 <body>
   <a class="skip" href="#directory">Skip to jobs</a>
+  <section id="desktop-void" class="desktop-void" aria-label="The internet void" hidden>
+    <div class="void-note"><span class="void-file"><i class="ri-file-text-line" aria-hidden="true"></i> void.txt</span><p>no jobs here, only the limitless void of the internet :~P</p><button type="button" id="main-reopen"><i class="ri-folder-open-line" aria-hidden="true"></i> Reopen Good Company</button></div>
+  </section>
   <div class="site-window">
   <header class="header wrap">
-    <div class="window-titlebar" aria-hidden="true"><span class="window-squares"><span></span><span></span><span></span></span><span class="window-stripes"></span><span class="window-caption">GOOD COMPANY :)</span><span class="window-stripes"></span><span class="window-controls"><i class="ri-subtract-line"></i><i class="ri-checkbox-blank-line"></i><i class="ri-close-line"></i></span></div>
+    <div class="window-titlebar"><span class="window-squares"><span></span><span></span><span></span></span><span class="window-stripes"></span><span class="window-caption">GOOD COMPANY :)</span><span class="window-stripes"></span><span class="window-controls"><button type="button" id="main-minimize" aria-label="Minimize Good Company" title="Minimize"><i class="ri-subtract-line" aria-hidden="true"></i></button><i class="ri-checkbox-blank-line" aria-hidden="true"></i><button type="button" id="main-close" aria-label="Close Good Company" title="Close"><i class="ri-close-line" aria-hidden="true"></i></button></span></div>
     <a class="wordmark" href="./" aria-label="Good Company home"><img class="wordmark-logo" src="good-company-logo.svg" alt="Good Company" width="848" height="127"></a>
     <nav aria-label="Main navigation"><a class="nav-jobs" href="#directory">Find a job <span aria-hidden="true"><i class="ri-arrow-right-down-line" aria-hidden="true"></i></span></a><button class="text-button" id="about-open">A note from Jess <span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span></button><a class="contact-jess" href="mailto:jessicarosenb@gmail.com">Reach out to Jess <i class="ri-mail-line" aria-hidden="true"></i></a><button class="account-nav" id="account-open">Sign in</button></nav>
   </header>
