@@ -1,6 +1,6 @@
 /* Frosted chrome around solid, readable windows. */
 :root {
-  --glass-surface: linear-gradient(165deg, #ffffffeb 0%, #f4f7ff99 45%, #e1eaff80 75%, #ffffffb8 100%);
+  --glass-surface: linear-gradient(180deg, #ffffffed 0%, #eef3ffcc 46%, #dce6ffb8 49%, #f4f7ffdb 100%);
   --glass-edge: inset 0 1px 0 #fff, inset 0 -1px 0 #ffffffa6;
 }
 .window-titlebar,
@@ -85,103 +85,10 @@ body:has(.job-tray:not([hidden])) { padding-bottom: 110px; }
   .tray-folder { transition: none; }
   .tray-folder:hover { transform: none; }
 }
-/* Thick milky rims soften the folder silhouette without losing its tab. */
-:root {
-  --liquid-rim: inset 0 2px 2px #fff, inset 2px 0 4px #ffffffd9,
-    inset -2px -3px 6px #ffffffbf, inset 0 0 0 5px #ffffff26;
-  --liquid-shadow: 0 14px 42px #133c8526, 3px 4px 0 #002fff24;
-}
-#job-dialog.folder-dialog {
-  filter: drop-shadow(0 18px 32px #12275926);
-}
-#job-dialog.folder-dialog::backdrop {
-  background: #0923662b;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
-}
-.folder-tab {
-  min-height: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: linear-gradient(145deg, #f7ffdac9, #def88abf 60%, #f4ffd7e6);
-  border-color: #002fff80;
-  border-radius: 12px 0 0 0;
-  box-shadow: inset 0 2px 3px #fff, inset 3px 0 5px #ffffffa6;
-  -webkit-backdrop-filter: blur(24px);
-  backdrop-filter: blur(24px);
-}
-.folder-tab::after { background: #002fff80; }
-.folder-toolbar {
-  position: relative;
-  border-color: #002fff70;
-  border-bottom-color: #002fff26;
-  border-radius: 0 20px 0 0;
-  background: linear-gradient(145deg, #ffffffed, #eaf1ffc4 60%, #ffffffa6);
-  box-shadow: inset 0 2px 2px #fff, inset 3px 0 5px #ffffffd9, inset -3px 0 5px #ffffffbf;
-}
-.folder-content {
-  border-color: #002fff70;
-  border-radius: 0 0 22px 22px;
-  background: #eff3ff;
-  box-shadow: var(--liquid-rim);
-  padding: 32px 36px 38px;
-  background-clip: padding-box;
-}
-.profile-window {
-  border-color: #002fff70;
-  border-radius: 18px;
-  background: #f1f5ff;
-  box-shadow: var(--liquid-rim), var(--liquid-shadow);
-}
-.profile-window .mini-titlebar {
-  border-radius: 17px 17px 0 0;
-  border-bottom-color: #002fff26;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  box-shadow: inset 0 2px 2px white, inset 2px 0 4px #ffffffbf, inset -2px 0 4px #ffffffbf;
-}
-.window-titlebar { box-shadow: var(--liquid-rim); }
-.window-controls button, .folder-controls button,
-.profile-page .window-titlebar > a {
-  border-radius: 9px;
-  background: linear-gradient(145deg, #ffffffeb, #eff4ff70);
-  box-shadow: inset 0 2px 2px #fff, inset -1px -1px 3px #ffffffcc, 0 2px 5px #002fff14;
-}
-.job-tray {
-  border-color: #002fff4d;
-  border-radius: 24px;
-  box-shadow: var(--liquid-rim), 0 12px 36px #15357c33;
-}
-.tray-folder {
-  border-color: #002fff59;
-  border-radius: 14px;
-  background: linear-gradient(145deg, #fbffe2eb, #e0f99cb8 60%, #f1ffd4cc);
-  box-shadow: var(--liquid-rim), 0 3px 8px #002fff1a;
-}
-.tray-folder button { border-radius: 13px 0 0 13px; }
-.tray-folder button:last-child { border-radius: 0 13px 13px 0; }
-@supports ((backdrop-filter: blur(24px)) or (-webkit-backdrop-filter: blur(24px))) {
-  .folder-content, .profile-window {
-    background: linear-gradient(115deg, #fffffff0, #f0f5ffd9 42%, #e8f0ffcf 78%, #ffffffeb);
-    -webkit-backdrop-filter: blur(28px) saturate(115%);
-    backdrop-filter: blur(28px) saturate(115%);
-  }
-  .job-tray { background: linear-gradient(135deg, #ffffffb3, #eaf1ff80 65%, #ffffffad); }
-}
-@media (hover: hover) and (pointer: fine) {
-  .tray-folder:hover { box-shadow: var(--liquid-rim), 0 7px 16px #002fff2e; }
-}
-@media (max-width: 480px) {
-  .folder-content { padding: 24px 20px 30px; }
-  .folder-toolbar { border-top-right-radius: 16px; }
-  .job-tray { border-radius: 20px; }
-}
 @media (prefers-reduced-transparency: reduce) {
-  .window-titlebar, .folder-toolbar, .mini-titlebar, .job-tray,
-  .folder-content, .profile-window, .folder-tab, .tray-folder {
-    background: #eff3ff;
+  .window-titlebar, .folder-toolbar, .mini-titlebar, .job-tray {
+    background: #e9eeff;
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
   }
-  .folder-tab, .tray-folder { background: var(--lime); }
 }
