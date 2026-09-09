@@ -1,4 +1,9 @@
 const COMPANY_STAGES = {
+  "Modal": {
+    "stage": "Series C+",
+    "url": "https://modal.com/blog/modal-series-c",
+    "checkedAt": "2026-09-09"
+  },
   "AirOps": {
     "stage": "Series B",
     "url": "https://www.airops.com/blog/series-b",

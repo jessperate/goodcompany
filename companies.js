@@ -1,4 +1,18 @@
 const COMPANIES = {
+  "Modal": {
+    "website": "https://modal.com/",
+    "logo": "logos/modal.svg",
+    "about": "A serverless cloud platform for AI workloads, including GPU inference, model training, and isolated code execution.",
+    "checkedAt": "September 9, 2026",
+    "press": [
+      {
+        "title": "Series C funding announcement · May 2026",
+        "url": "https://modal.com/blog/modal-series-c",
+        "source": "Modal"
+      }
+    ],
+    "interviews": []
+  },
   "Figma": {
     "website": "https://figma.com",
     "logo": "logos/figma.svg",

@@ -1,5 +1,41 @@
 const JOBS = [
   {
+    "id": "modal-brand-design-23311dfd",
+    "company": "Modal",
+    "title": "Member of Design Staff - Brand",
+    "category": "Brand & visual",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "New York, NY",
+    "workplace": "Not specified",
+    "type": "Full time",
+    "level": "Staff",
+    "summary": "Develop Modal’s brand across its website, campaigns, events, editorial projects, and outdoor advertising. Partner with design leadership and external agencies, and help guide the growing brand team.",
+    "highlights": [
+      "Requires 7+ years in brand design, including work for developer tools, infrastructure, or AI products.",
+      "Build visual systems spanning identity, motion, and web; contribute to brand strategy and mentor other designers.",
+      "The role is listed in New York; remote or hybrid arrangements are not specified."
+    ],
+    "keywords": [
+      "brand design",
+      "visual identity",
+      "AI",
+      "developer tools",
+      "campaigns",
+      "editorial",
+      "motion"
+    ],
+    "salary": "US$160,000–225,000 per year, plus equity.",
+    "salaryMin": 160000,
+    "salaryMax": 225000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$160,000–225,000 / year + equity",
+    "source": "Modal careers · Ashby",
+    "checkedAt": "September 9, 2026",
+    "url": "https://jobs.ashbyhq.com/modal/23311dfd-2a80-40dc-a41c-1ff7202e15a2"
+  },
+  {
     "id": "lovable-brand-designer-web-76f4a6",
     "company": "Lovable",
     "title": "Brand Designer, Web",
