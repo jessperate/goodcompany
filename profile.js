@@ -16,10 +16,33 @@
   const status = message => { $('profile-status').textContent=message; };
   const fullName = p => [p.first_name,p.last_name].filter(Boolean).join(' ') || 'Creative';
   const markDirty = () => { dirty=true; $('save-hint').textContent='Unsaved changes'; };
+  const linkPrefixes = {website:'https://',linkedin:'https://linkedin.com/in/',x:'https://x.com/',youtube:'https://youtube.com/@',instagram:'https://instagram.com/',github:'https://github.com/'};
+  function normalizeProfileLink(value, key) {
+    const text=String(value || '').trim();
+    if (!text) return '';
+    if (key==='email') return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(text) ? text : null;
+    if (/\s/.test(text)) return null;
+    let candidate=text;
+    if (!/^https?:\/\//i.test(candidate)) {
+      if (/^[a-z][a-z0-9+.-]*:/i.test(candidate)) return null;
+      const bare=candidate.replace(/^\/\//,'');
+      const isDomain=/^(?:www\.)?[a-z0-9-]+(?:\.[a-z0-9-]+)+(?:[/:?#]|$)/i.test(bare);
+      const platformDomain=/^(?:www\.)?(?:linkedin\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|instagram\.com|github\.com)(?:[/?#]|$)/i.test(bare);
+      candidate=(key==='website' ? isDomain : platformDomain) ? 'https://'+bare : key==='website' ? 'https://'+bare : linkPrefixes[key]+bare.replace(/^@/,'');
+    }
+    try {
+      const url=new URL(candidate);
+      if (!['http:','https:'].includes(url.protocol) || url.username || url.password || !url.hostname.includes('.')) return null;
+      return url.href;
+    } catch { return null; }
+  }
   function safeLink(value, key) {
-    if (!value) return null;
-    if (key === 'email') return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) ? `mailto:${value}` : null;
-    try { const url = new URL(value); return ['https:','http:'].includes(url.protocol) ? url.href : null; } catch { return null; }
+    const link=normalizeProfileLink(value,key);
+    return link ? (key==='email' ? 'mailto:'+link : link) : null;
+  }
+  function inputLink(value,key) {
+    const prefix=linkPrefixes[key];
+    return prefix && value?.startsWith(prefix) ? value.slice(prefix.length) : value || '';
   }
   function jobContent(id) {
     const job=jobMap.get(id);
@@ -83,7 +106,7 @@
     previewUrl=null;
     $('page-title').textContent='Your corner of the internet.';
     for (const key of ['first_name','last_name','bio']) fields.namedItem(key).value=p[key] || '';
-    for (const key of networkFields) fields.namedItem(key).value=p.links?.[key] || '';
+    for (const key of networkFields) fields.namedItem(key).value=inputLink(p.links?.[key],key);
     fields.namedItem('published').checked=Boolean(p.published);
     renderWork(p.work_history || []); renderRecommendations();
     $('edit-headshot').hidden=true; $('headshot-placeholder').hidden=false;
@@ -200,7 +223,7 @@
     event.preventDefault(); if(saving || !editing || !owner || !form.reportValidity()) return;
     const user=account.getUser(); if(!user) { status('Please sign in again.'); return; }
     const links={};
-    for(const key of networkFields) { const value=fields.namedItem(key).value.trim(); if(value && !safeLink(value,key)) { status(`Please enter a valid ${names[key]} ${key==='email'?'address':'link starting with https://'}.`); fields.namedItem(key).focus(); return; } links[key]=value; }
+    for(const key of networkFields) { const value=fields.namedItem(key).value.trim(), normalized=normalizeProfileLink(value,key); if(value && !normalized) { status(`Please enter a valid ${names[key]} ${key==='email'?'address':'domain, username or full link'}.`); fields.namedItem(key).focus(); return; } links[key]=normalized || ''; }
     const unavailable=creativeIds.filter(id=>!creativeMap.has(id));
     if(unavailable.length) { status('Remove creatives whose profiles are no longer public before saving.'); return; }
     const payload={first_name:fields.namedItem('first_name').value.trim(),last_name:fields.namedItem('last_name').value.trim(),bio:fields.namedItem('bio').value.trim(),links,work_history:readWork(),published:fields.namedItem('published').checked,recommended_jobs:[...jobIds],avatar_path:removePhoto?null:profile?.avatar_path || null};
