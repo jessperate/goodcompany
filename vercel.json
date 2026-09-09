@@ -1,1 +1,26 @@
-{"functions": {"api/share.js": {"includeFiles": "{index.html,jobs.js,companies.js}"}, "api/og.js": {"includeFiles": "{jobs.js,companies.js,logos/**}"}}, "routes": [{"src": "^/$", "dest": "/api/share"}, {"handle": "filesystem"}]}
+{
+  "functions": {
+    "api/share.js": {
+      "includeFiles": "{index.html,jobs.js,companies.js}"
+    },
+    "api/og.js": {
+      "includeFiles": "{jobs.js,companies.js,logos/**}"
+    },
+    "api/profile-share.js": {
+      "includeFiles": "profile.html"
+    }
+  },
+  "routes": [
+    {
+      "src": "^/profile\\.html$",
+      "dest": "/api/profile-share"
+    },
+    {
+      "src": "^/$",
+      "dest": "/api/share"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
+}
