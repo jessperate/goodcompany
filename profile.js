@@ -11,6 +11,7 @@
   const requestedId = new URLSearchParams(location.search).get('id');
   const validId = id => /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id || '');
   let profile = null, owner = false, initializedKey = '', generation = 0, searchGeneration = 0, timer;
+  let editing = false, savedJobIds = [], savedCreativeIds = [];
   let jobIds = [], creativeIds = [], creativeMap = new Map(), dirty = false, saving = false, removePhoto = false, previewUrl = null;
   const status = message => { $('profile-status').textContent=message; };
   const fullName = p => [p.first_name,p.last_name].filter(Boolean).join(' ') || 'Creative';
@@ -56,10 +57,30 @@
     if (!path) return;
     const {data,error}=await client.storage.from('goodcompany-headshots').createSignedUrl(path,3600);
     if (token!==generation || error || !data || !$(imageId)) return;
+    if (imageId === 'edit-headshot' && ($('headshot').files.length || removePhoto)) return;
     $(imageId).src=data.signedUrl; $(imageId).hidden=false;
     if (placeholderId) $(placeholderId).hidden=true;
   }
+  function renderSavedOwner(token) {
+    editing=false;
+    form.hidden=true;
+    $('cancel-edit').hidden=true;
+    renderPublic(profile,token);
+    $('edit-profile').hidden=false;
+    $('copy-profile').hidden=!profile.published;
+    $('profile-signout').hidden=false;
+    status(profile.published ? 'Your saved profile · Public' : 'Your saved profile · Private');
+    renderPins();
+  }
   function renderOwner(p, token) {
+    editing=true;
+    $('public-profile').hidden=true;
+    $('edit-profile').hidden=true;
+    $('cancel-edit').hidden=!p.user_id;
+    ++searchGeneration; clearTimeout(timer);
+    for (const kind of ['job','creative']) { $(`${kind}-search`).value=''; $(`${kind}-matches`).innerHTML=''; }
+    if (previewUrl) URL.revokeObjectURL(previewUrl);
+    previewUrl=null;
     $('page-title').textContent='Your corner of the internet.';
     for (const key of ['first_name','last_name','bio']) fields.namedItem(key).value=p[key] || '';
     for (const key of networkFields) fields.namedItem(key).value=p.links?.[key] || '';
@@ -94,7 +115,7 @@
     if (!force && initializedKey===key) { renderPins(); return; }
     initializedKey=key; const token=++generation; ++searchGeneration;
     owner=Boolean(user && (!requestedId || requestedId===user.id)); dirty=false;
-    for (const id of ['profile-gate','profile-form','public-profile','private-pins','copy-profile','profile-signout']) $(id).hidden=true;
+    for (const id of ['profile-gate','profile-form','public-profile','private-pins','copy-profile','profile-signout','edit-profile','cancel-edit']) $(id).hidden=true;
     if (!id) { status('Sign in to make this space yours.'); $('profile-gate').hidden=false; return; }
     if (!validId(id)) { status('That profile link isn’t valid.'); return; }
     status('Loading profile…');
@@ -115,7 +136,9 @@
         }
       }
       if (token!==generation) return;
-      if (owner) renderOwner(profile,token); else renderPublic(profile,token);
+      savedJobIds=[...jobIds]; savedCreativeIds=[...creativeIds];
+      if (owner && profile.user_id) renderSavedOwner(token);
+      else if (owner) renderOwner(profile,token); else renderPublic(profile,token);
     } catch { if (token===generation) { initializedKey=''; status('We couldn’t load this profile. Please refresh to try again.'); } }
   }
   $('job-search').addEventListener('input',()=>{
@@ -174,7 +197,7 @@
     return new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(new Error('image')),'image/webp',.9));
   }
   form.addEventListener('submit',async event=>{
-    event.preventDefault(); if(saving || !owner || !form.reportValidity()) return;
+    event.preventDefault(); if(saving || !editing || !owner || !form.reportValidity()) return;
     const user=account.getUser(); if(!user) { status('Please sign in again.'); return; }
     const links={};
     for(const key of networkFields) { const value=fields.namedItem(key).value.trim(); if(value && !safeLink(value,key)) { status(`Please enter a valid ${names[key]} ${key==='email'?'address':'link starting with https://'}.`); fields.namedItem(key).focus(); return; } links[key]=value; }
@@ -192,13 +215,28 @@
       if(account.getUser()?.id!==user.id) throw new Error('Session changed');
       const {error}=await client.rpc('goodcompany_save_profile',{profile_data:payload,creative_ids:creativeIds}); if(error) throw error;
       dirty=false; profile={...payload,user_id:user.id}; $('headshot').value=''; removePhoto=false;
-      $('copy-profile').hidden=!payload.published; $('save-hint').textContent=payload.published?'Your profile is public.':'Saved privately.';
+      savedJobIds=[...jobIds]; savedCreativeIds=[...creativeIds];
+      renderSavedOwner(++generation);
+      $('edit-profile').focus();
       status(payload.published?'Saved! Your profile is published and ready to share.':'Saved! Your profile is private until you publish it.');
       if(oldPath && oldPath!==payload.avatar_path) client.storage.from('goodcompany-headshots').remove([oldPath]).catch(()=>{});
     } catch {
       if(uploaded) await client.storage.from('goodcompany-headshots').remove([uploaded]);
       status('Your changes weren’t saved. Check your connection and try again. Recommended creatives must still have published profiles.');
     } finally { saving=false; $('profile-fields').disabled=false; renderRecommendations(); $('add-work').disabled=readWork().length>=20; }
+  });
+  $('edit-profile').addEventListener('click',()=>{
+    if (!owner || saving) return;
+    jobIds=[...savedJobIds]; creativeIds=[...savedCreativeIds];
+    renderOwner(profile,++generation);
+    fields.namedItem('first_name').focus();
+  });
+  $('cancel-edit').addEventListener('click',()=>{
+    if (!owner || saving) return;
+    if (dirty && !confirm('Discard your unsaved changes?')) return;
+    dirty=false; jobIds=[...savedJobIds]; creativeIds=[...savedCreativeIds];
+    renderSavedOwner(++generation);
+    $('edit-profile').focus();
   });
   $('copy-profile').addEventListener('click',async()=>{
     const id=profile?.user_id; if(!id || !profile.published) return;
