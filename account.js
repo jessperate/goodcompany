@@ -107,7 +107,13 @@
   });
   client.auth.onAuthStateChange((event,session) => { setTimeout(async () => {
     await sessionChanged(session);
-    if (event === 'SIGNED_IN' && session) {
+    if (['SIGNED_IN','INITIAL_SESSION'].includes(event) && session) {
+      let invitation;
+      try { invitation=JSON.parse(localStorage.getItem('goodcompany-invite-return') || 'null'); } catch {}
+      if (invitation?.expires>Date.now() && /^[0-9a-f-]{36}$/i.test(invitation.id) && !location.pathname.endsWith('/profile.html')) {
+        location.href='profile.html?invite='+encodeURIComponent(invitation.id); return;
+      }
+
       if (sessionStorage.getItem('goodcompany-return-profile') && !location.pathname.endsWith('/profile.html')) { sessionStorage.removeItem('goodcompany-return-profile'); location.href='profile.html'; return; }
       const pending = sessionStorage.getItem('goodcompany-pending-pin');
       if (pending) { sessionStorage.removeItem('goodcompany-pending-pin'); if (!pins.has(pending)) await togglePin(pending); }

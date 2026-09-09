@@ -61,6 +61,7 @@
       $(`${kind}-count`).textContent=ids.length ? `${ids.length} / 10 selected · Use arrows to reorder. Save profile to keep changes.` : '0 / 10 selected · Your list starts here.';
       $(`${kind}-search`).disabled=ids.length>=10;
     }
+    window.dispatchEvent(new Event('goodcompany-profile-view'));
   }
   function renderPins() {
     $('private-pins').hidden=!owner;
@@ -94,6 +95,7 @@
     $('profile-signout').hidden=false;
     status(profile.published ? 'Your saved profile · Public' : 'Your saved profile · Private');
     renderPins();
+    window.dispatchEvent(new Event('goodcompany-profile-view'));
   }
   function renderOwner(p, token) {
     editing=true;
@@ -119,6 +121,7 @@
     $('save-hint').textContent=p.published?'Your profile is public.':'Private until you publish.';
     status(p.user_id ? 'Your profile, your people, your next chapter.' : 'Make yourself at home. Fill in your details and save your profile.');
     renderPins();
+    window.dispatchEvent(new Event('goodcompany-profile-view'));
   }
   function workLogo(row) {
     const directory=typeof COMPANIES==='undefined' ? {} : COMPANIES;
@@ -190,7 +193,7 @@
         const matches=data.filter(p=>p.user_id!==account.getUser()?.id && !creativeIds.includes(p.user_id));
         matches.forEach(p=>creativeMap.set(p.user_id,p));
         $('creative-matches').innerHTML=matches.map(p=>`<button type="button" data-add-creative="${esc(p.user_id)}"><span>${esc(fullName(p))}</span><i class="ri-add-line" aria-hidden="true"></i></button>`).join('');
-        if (!matches.length) $('creative-matches').textContent='No published profiles found. Invite them to create and publish a profile on Good Company.';
+        if (!matches.length) $('creative-matches').textContent='No published profiles found. Use Invite a creative below to invite them.';
       } catch { if(token===searchGeneration) $('creative-matches').textContent='Search is unavailable. Please try again.'; }
     },250);
   });
@@ -282,5 +285,13 @@
   });
   window.addEventListener('beforeunload',event=>{ if(dirty || saving) { event.preventDefault(); event.returnValue=''; } });
   window.addEventListener('goodcompany-account-change',()=>loadProfile());
+  window.GoodCompanyProfile = {
+    getState:()=>({owner,editing,saving,profile,creativeIds:[...creativeIds]}),
+    addCreative:person=>{
+      if(!owner || !editing || saving || creativeIds.length>=10 || creativeIds.includes(person.user_id)) return false;
+      creativeMap.set(person.user_id,person); creativeIds.push(person.user_id);
+      markDirty(); renderRecommendations(); return true;
+    }
+  };
   loadProfile();
 })();

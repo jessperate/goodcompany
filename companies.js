@@ -161,13 +161,12 @@ const COMPANIES = {
     ],
     "recognition": [],
     "trueup": {
-      "url": "https://www.trueup.io/co/airops",
-      "openJobs": null,
-      "remoteJobs": null,
+      "url": "https://trueup.io/co/airops",
+      "openJobs": 7,
+      "remoteJobs": 5,
       "employeeGrowth": null,
-      "crawl": "6 months ago",
-      "checkedAt": "2026-09-08",
-      "status": "stale"
+      "checkedAt": "2026-09-09",
+      "crawl": "4 weeks ago"
     }
   },
   "Duolingo": {
@@ -871,11 +870,12 @@ const COMPANIES = {
     "press": [],
     "interviews": [],
     "trueup": {
-      "url": null,
-      "openJobs": null,
-      "remoteJobs": null,
-      "employeeGrowth": null,
-      "checkedAt": "2026-09-08"
+      "url": "https://trueup.io/co/verizon-media",
+      "openJobs": 84,
+      "remoteJobs": 0,
+      "employeeGrowth": "+178%",
+      "checkedAt": "2026-09-09",
+      "crawl": "2 weeks ago"
     }
   },
   "Autodesk": {
@@ -1051,6 +1051,14 @@ const COMPANIES = {
         "source": "Lovable"
       }
     ],
-    "interviews": []
+    "interviews": [],
+    "trueup": {
+      "url": "https://trueup.io/co/lovable",
+      "openJobs": 81,
+      "remoteJobs": null,
+      "employeeGrowth": "+161%",
+      "checkedAt": "2026-09-09",
+      "crawl": "6 days ago"
+    }
   }
 };

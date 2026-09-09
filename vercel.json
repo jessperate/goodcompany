@@ -11,6 +11,9 @@
     },
     "api/company-search.js": {
       "includeFiles": "companies.js"
+    },
+    "api/company-stats.js": {
+      "includeFiles": "companies.js"
     }
   },
   "routes": [
