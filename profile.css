@@ -9,3 +9,5 @@
 .profile-main input[type=hidden]{display:none!important}.company-matches{border:1px solid var(--line);padding:6px;max-height:280px;overflow:auto;background:white}.company-matches button{display:flex;gap:10px;text-align:left;align-items:center;width:100%;border:0;margin:2px 0}.company-matches small{display:block;color:var(--muted);font-size:10px;margin-top:4px}.company-matches img{object-fit:contain;flex-shrink:0}.company-matches p{font-size:12px;margin:8px}.company-selected{font-size:11px;color:var(--muted)}.public-work h3{display:flex;gap:10px;align-items:center}.public-work h3 img{object-fit:contain}
 
 .public-work .work-accomplishments{white-space:pre-wrap;overflow-wrap:anywhere;margin-top:14px}
+
+.rec-job{display:flex;gap:12px;align-items:flex-start}.rec-job-logo{display:flex;align-items:center;justify-content:center;flex:0 0 42px;width:42px;height:42px;padding:5px;background:white;border:1px solid var(--line);color:var(--blue);font:20px var(--mono);box-sizing:border-box}.rec-job-logo img{display:block;max-width:100%;height:30px;object-fit:contain}.rec-job-copy{flex:1;min-width:0}

@@ -46,7 +46,7 @@
   }
   function jobContent(id) {
     const job=jobMap.get(id);
-    return job ? `<span class="rec-company">${esc(job.company)}</span><a class="rec-title" href="./?job=${encodeURIComponent(id)}#directory">${esc(job.title)}</a>` : '<span class="rec-title">This job is no longer listed</span>';
+    return job ? `<div class="rec-job"><span class="rec-job-logo" aria-hidden="true">${workLogo({company:job.company}) || esc(job.company.slice(0,1))}</span><div class="rec-job-copy"><span class="rec-company">${esc(job.company)}</span><a class="rec-title" href="./?job=${encodeURIComponent(id)}#directory">${esc(job.title)}</a></div></div>` : '<span class="rec-title">This job is no longer listed</span>';
   }
   function creativeContent(id) {
     const person=creativeMap.get(id);
