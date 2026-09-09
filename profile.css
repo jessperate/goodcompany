@@ -7,3 +7,5 @@
 .profile-url-field{display:flex;align-items:center;border:1px solid var(--line);background:white;margin-top:7px;min-width:0}.profile-url-prefix{padding:12px 0 12px 10px;color:var(--muted);font:12px/1.4 Roboto,sans-serif;white-space:nowrap}.profile-main .profile-url-field input{border:0;margin:0;padding-left:3px;flex:1;width:0}.profile-url-field:focus-within{outline:2px solid var(--blue);outline-offset:2px}.profile-main .profile-url-field input:focus{outline:none}
 
 .profile-main input[type=hidden]{display:none!important}.company-matches{border:1px solid var(--line);padding:6px;max-height:280px;overflow:auto;background:white}.company-matches button{display:flex;gap:10px;text-align:left;align-items:center;width:100%;border:0;margin:2px 0}.company-matches small{display:block;color:var(--muted);font-size:10px;margin-top:4px}.company-matches img{object-fit:contain;flex-shrink:0}.company-matches p{font-size:12px;margin:8px}.company-selected{font-size:11px;color:var(--muted)}.public-work h3{display:flex;gap:10px;align-items:center}.public-work h3 img{object-fit:contain}
+
+.public-work .work-accomplishments{white-space:pre-wrap;overflow-wrap:anywhere;margin-top:14px}
