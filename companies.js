@@ -1038,5 +1038,19 @@ const COMPANIES = {
       "crawl": "yesterday",
       "checkedAt": "2026-09-08"
     }
+  },
+  "Lovable": {
+    "website": "https://lovable.dev/",
+    "logo": "logos/lovable.svg",
+    "about": "An AI software creation platform for building websites and applications from ideas.",
+    "checkedAt": "September 9, 2026",
+    "press": [
+      {
+        "title": "Series C funding announcement · August 2026",
+        "url": "https://lovable.dev/blog/series-c",
+        "source": "Lovable"
+      }
+    ],
+    "interviews": []
   }
 };

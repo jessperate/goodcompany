@@ -1,5 +1,33 @@
 const JOBS = [
   {
+    "id": "lovable-brand-designer-web-76f4a6",
+    "company": "Lovable",
+    "title": "Brand Designer, Web",
+    "category": "Brand & visual",
+    "location": "New York City, London, or Stockholm",
+    "workplace": "On-site",
+    "type": "Full time",
+    "level": "Level not specified",
+    "summary": "Shape the visual identity of Lovable’s website, from landing pages and campaigns to typography, layout, imagery, and motion. Work with design engineering and marketing to bring brand ideas into production.",
+    "highlights": [
+      "Requires 7+ years of experience and a portfolio of launched websites, brand systems, or marketing sites.",
+      "New York candidates are prioritized; exceptional candidates in London and Stockholm are also considered.",
+      "Build reusable design systems and work across responsive breakpoints. Experience shipping designs, including with AI assistance, is relevant."
+    ],
+    "keywords": [
+      "web design",
+      "brand design",
+      "marketing design",
+      "landing pages",
+      "design systems",
+      "AI"
+    ],
+    "url": "https://lovable.dev/careers/brand-designer-web-76f4a6",
+    "source": "Lovable careers",
+    "checkedAt": "September 9, 2026",
+    "salaryLabel": "Pay not listed"
+  },
+  {
     "id": "cloudflare-motion",
     "company": "Cloudflare",
     "title": "Senior Video & Motion Producer",

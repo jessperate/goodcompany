@@ -188,5 +188,10 @@ const COMPANY_STAGES = {
     "stage": "Series C+",
     "url": "https://www.vanta.com/resources/vanta-announces-series-d",
     "checkedAt": "2026-09-08"
+  },
+  "Lovable": {
+    "stage": "Series C+",
+    "url": "https://lovable.dev/blog/series-c",
+    "checkedAt": "2026-09-09"
   }
 };
