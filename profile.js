@@ -121,8 +121,11 @@
     renderPins();
   }
   function workLogo(row) {
-    const logo=row.logo || '';
-    const allowed=/^logos\/[a-z0-9-]+\.svg$/.test(logo) || /^https:\/\/www\.google\.com\/s2\/favicons\?domain=[a-z0-9.%_-]+&sz=64$/i.test(logo);
+    const directory=typeof COMPANIES==='undefined' ? {} : COMPANIES;
+    const domain=value=>{try{return new URL(value).hostname.replace(/^www\./,'');}catch{return '';}};
+    const match=Object.entries(directory).find(([name,c])=>name.toLowerCase()===(row.company || '').trim().toLowerCase() || (domain(row.website) && domain(row.website)===domain(c.website)));
+    const logo=match?.[1].logo ? '/'+match[1].logo+'?v=2' : row.logo || '';
+    const allowed=/^\/?logos\/[a-z0-9-]+\.svg(?:\?v=2)?$/.test(logo) || /^https:\/\/www\.google\.com\/s2\/favicons\?domain=[a-z0-9.%_-]+&sz=64$/i.test(logo);
     return allowed ? `<img src="${esc(logo)}" alt="" width="32" height="32" referrerpolicy="no-referrer">` : '';
   }
   function renderPublic(p, token) {
