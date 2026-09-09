@@ -68,6 +68,27 @@
   document.addEventListener('click', event => { const button = event.target.closest('[data-pin]'); if (button) { event.preventDefault(); event.stopPropagation(); togglePin(button.dataset.pin); } });
   $('account-open').addEventListener('click',openAccount);
   $('account-close').addEventListener('click',()=>dialog.close());
+  const googleButton = $('google-signin');
+  function resetGoogleButton() {
+    googleButton.disabled = false;
+    googleButton.innerHTML = '<i class="ri-google-fill" aria-hidden="true"></i> Continue with Google';
+  }
+  googleButton.addEventListener('click', async () => {
+    googleButton.disabled = true;
+    googleButton.textContent = 'Opening Google…';
+    message('');
+    try {
+      const {error} = await client.auth.signInWithOAuth({
+        provider:'google',
+        options:{redirectTo:'https://good-company-jess.vercel.app/',queryParams:{prompt:'select_account'}}
+      });
+      if (error) throw error;
+    } catch {
+      message('Google sign-in could not start. Please try again or use an email link.');
+      resetGoogleButton();
+    }
+  });
+  window.addEventListener('pageshow', resetGoogleButton);
   $('account-form').addEventListener('submit',async event => {
     event.preventDefault(); const button = $('email-submit'); button.disabled = true; message('Sending your sign-in link…');
     try {
@@ -92,5 +113,5 @@
   },0); });
   client.auth.getSession().then(({data,error}) => { if (error) message('Your sign-in link may have expired. Request a new one.'); sessionChanged(data.session); });
   const callbackError = new URLSearchParams(location.hash.slice(1)).get('error_description');
-  if (callbackError) { openAccount(); message('This sign-in link has expired or was already used. Please request a new link.'); history.replaceState(null,'',location.pathname); }
+  if (callbackError) { openAccount(); message('Sign-in was canceled or could not be completed. Please try Google again or request a new email link.'); history.replaceState(null,'',location.pathname); }
 })();
