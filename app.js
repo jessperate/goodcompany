@@ -196,7 +196,7 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
   }
 
   function jobLink(id) {
-    const url = new URL('https://good-company-jess.vercel.app/');
+    const url = new URL('https://in-good.company/');
     url.searchParams.set('job', id);
     return url.href;
   }

@@ -17,7 +17,7 @@ module.exports = async (req, res) => {
         h('div',{display:'flex',flexDirection:'column',gap:14},[
           h('div',{display:'flex',alignItems:'center',gap:16,fontFamily:'Mono',fontSize:25},[...(logo ? [h('div',{display:'flex',width:64,height:64,padding:8,background:'white',border:'1px solid #c1cdf7'},h('img',{objectFit:'contain'},undefined,{src:logo,width:46,height:46}))] : []),h('div',{},job.company)]),
           h('div',{fontSize:job.title.length>110?42:job.title.length>75?50:64,lineHeight:1.08,letterSpacing:-1},job.title)]),
-        h('div',{display:'flex',justifyContent:'space-between',fontFamily:'Mono',fontSize:16,paddingTop:20,borderTop:'1px solid #b7c5f2'},[h('div',{},'GOOD WORK. EVEN BETTER COMPANY.'),h('div',{},'good-company-jess.vercel.app')])])])]),
+        h('div',{display:'flex',justifyContent:'space-between',fontFamily:'Mono',fontSize:16,paddingTop:20,borderTop:'1px solid #b7c5f2'},[h('div',{},'GOOD WORK. EVEN BETTER COMPANY.'),h('div',{},'in-good.company')])])])]),
     {width:1200,height:630,fonts:[{name:'Museum',data:Buffer.from(fonts.museum,'base64'),weight:400,style:'normal'},{name:'Mono',data:Buffer.from(fonts.mono,'base64'),weight:400,style:'normal'}]});
   res.setHeader('Content-Type','image/png');
   res.setHeader('Cache-Control','public, max-age=3600, s-maxage=86400');

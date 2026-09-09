@@ -80,7 +80,7 @@
     try {
       const {error} = await client.auth.signInWithOAuth({
         provider:'google',
-        options:{redirectTo:'https://good-company-jess.vercel.app/',queryParams:{prompt:'select_account'}}
+        options:{redirectTo:'https://in-good.company/',queryParams:{prompt:'select_account'}}
       });
       if (error) throw error;
     } catch {
@@ -92,7 +92,7 @@
   $('account-form').addEventListener('submit',async event => {
     event.preventDefault(); const button = $('email-submit'); button.disabled = true; message('Sending your sign-in link…');
     try {
-      const {error} = await client.auth.signInWithOtp({email:$('account-email').value.trim(),options:{emailRedirectTo:'https://good-company-jess.vercel.app/'}});
+      const {error} = await client.auth.signInWithOtp({email:$('account-email').value.trim(),options:{emailRedirectTo:'https://in-good.company/'}});
       if (error) throw error;
       message('Check your inbox for a sign-in link. It creates your account if you’re new here. You can close this window.');
     } catch (error) { message(error.status === 429 ? 'Too many requests. Please wait a few minutes before trying again.' : 'We couldn’t send your link. Please check your email address and try again.'); }
