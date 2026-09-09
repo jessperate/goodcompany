@@ -8,6 +8,9 @@
     },
     "api/profile-share.js": {
       "includeFiles": "profile.html"
+    },
+    "api/company-search.js": {
+      "includeFiles": "companies.js"
     }
   },
   "routes": [
