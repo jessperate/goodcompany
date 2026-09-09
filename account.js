@@ -25,6 +25,7 @@
     $('pins-empty').hidden = pins.size > 0;
     $('pins-empty').textContent = loading ? 'Loading your pinned jobs…' : 'Your shortlist starts here. Pin a job that catches your eye.';
     refreshButtons();
+    window.dispatchEvent(new CustomEvent("goodcompany-account-change"));
   }
   async function sessionChanged(session) {
     const nextUser = session?.user || null;
@@ -64,9 +65,9 @@
     } catch (error) { if (current === revision) { openAccount(); message('Could not save that change. Please try again.'); } }
     finally { busy.delete(id); renderProfile(); }
   }
-  window.GoodCompanyAccount = {refreshButtons};
+  window.GoodCompanyAccount = {refreshButtons, client, openAccount, getUser:()=>user, getPins:()=>[...pins.values()]};
   document.addEventListener('click', event => { const button = event.target.closest('[data-pin]'); if (button) { event.preventDefault(); event.stopPropagation(); togglePin(button.dataset.pin); } });
-  $('account-open').addEventListener('click',openAccount);
+  $('account-open').addEventListener('click',()=>{ if (user) location.href='profile.html'; else { if(location.pathname.endsWith('/profile.html')) sessionStorage.setItem('goodcompany-return-profile','1'); openAccount(); } });
   $('account-close').addEventListener('click',()=>dialog.close());
   const googleButton = $('google-signin');
   function resetGoogleButton() {
@@ -107,6 +108,7 @@
   client.auth.onAuthStateChange((event,session) => { setTimeout(async () => {
     await sessionChanged(session);
     if (event === 'SIGNED_IN' && session) {
+      if (sessionStorage.getItem('goodcompany-return-profile') && !location.pathname.endsWith('/profile.html')) { sessionStorage.removeItem('goodcompany-return-profile'); location.href='profile.html'; return; }
       const pending = sessionStorage.getItem('goodcompany-pending-pin');
       if (pending) { sessionStorage.removeItem('goodcompany-pending-pin'); if (!pins.has(pending)) await togglePin(pending); }
     }

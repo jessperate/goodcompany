@@ -43,3 +43,15 @@ assert.equal(page(1).items.length,30);assert.equal(page(2).items[0].id,30);asser
 assert.equal(vm.runInContext('paginateJobs([],9).items.length',context),0);
 assert.equal(new Set([1,2,3].flatMap(n=>Array.from(page(n).items,j=>j.id))).size,68);
 console.log('Pagination boundaries, empty results, and complete coverage passed.');
+const added = Array.from(vm.runInContext('JOBS.filter(j=>["Ramp","Perplexity"].includes(j.company))', context));
+assert.equal(added.filter(j=>j.company==='Ramp').length,6);
+assert.equal(added.filter(j=>j.company==='Perplexity').length,9);
+assert.equal(new Set(added.map(j=>j.url)).size,15);
+assert(added.every(j=>j.source.includes('Ashby') && j.salaryCurrency==='USD' && j.salaryMax>=j.salaryMin));
+context.newListings=added;
+const remote = Array.from(vm.runInContext('filterJobs(newListings,{workplace:"Remote"}).map(j=>j.title)',context));
+assert(remote.includes('Motion Designer'));
+assert(remote.includes('Design Systems Lead'));
+assert(!remote.includes('Head of Brand'));
+assert(!remote.includes('Product Designer'));
+console.log('Ramp and Perplexity listing coverage, salaries, deduplication and remote options passed.');

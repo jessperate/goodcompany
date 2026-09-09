@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-09-08",
+  "source": "https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true",
+  "selection": "All four currently listed Product Design department roles; excludes product management and EPD operations. Cash ranges are not treated as confirmed base-only pay.",
+  "jobs": [
+    {
+      "title": "Head of Design",
+      "url": "https://jobs.ashbyhq.com/vanta/19837d21-971e-4b9d-b078-320895fae28a"
+    },
+    {
+      "title": "Staff Product Designer, Design Systems",
+      "url": "https://jobs.ashbyhq.com/vanta/0fcbc935-76c7-4eac-b522-af421ed200c9"
+    },
+    {
+      "title": "Director of Product Design",
+      "url": "https://jobs.ashbyhq.com/vanta/6d6698d7-7272-4c2a-bc34-807dc269de43"
+    },
+    {
+      "title": "Staff Visual Product Designer, Design Systems",
+      "url": "https://jobs.ashbyhq.com/vanta/32babc06-def2-4db3-b153-1c1c44bdcf40"
+    }
+  ]
+}

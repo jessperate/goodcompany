@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-09-08",
+  "sources": [
+    "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true",
+    "https://api.ashbyhq.com/posting-api/job-board/perplexity?includeCompensation=true"
+  ],
+  "selection": "All currently listed Design-department jobs plus design-system engineering. Excludes design recruiting. One listing per Ashby posting; multiple locations kept together.",
+  "jobs": [
+    {
+      "id": "ramp-eca54d0e-232a-4c3e-bfcc-d6c6add393f5",
+      "title": "Product Designer",
+      "url": "https://jobs.ashbyhq.com/ramp/eca54d0e-232a-4c3e-bfcc-d6c6add393f5"
+    },
+    {
+      "id": "ramp-a8451979-2691-440e-851b-49a3b807729b",
+      "title": "Senior Brand Designer, Growth",
+      "url": "https://jobs.ashbyhq.com/ramp/a8451979-2691-440e-851b-49a3b807729b"
+    },
+    {
+      "id": "ramp-30323399-3039-499d-a0b6-a891ced89e1e",
+      "title": "Head of Brand",
+      "url": "https://jobs.ashbyhq.com/ramp/30323399-3039-499d-a0b6-a891ced89e1e"
+    },
+    {
+      "id": "ramp-b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
+      "title": "Design Engineer",
+      "url": "https://jobs.ashbyhq.com/ramp/b68aca53-16c0-4ced-ab1d-e8beb2940b4f"
+    },
+    {
+      "id": "ramp-78b98c66-af59-4fa8-a5ae-d8af8d737976",
+      "title": "Director, Product Design",
+      "url": "https://jobs.ashbyhq.com/ramp/78b98c66-af59-4fa8-a5ae-d8af8d737976"
+    },
+    {
+      "id": "ramp-2c101be9-f4b8-4a63-a634-9798d9a09eaa",
+      "title": "Director, Brand Operations",
+      "url": "https://jobs.ashbyhq.com/ramp/2c101be9-f4b8-4a63-a634-9798d9a09eaa"
+    },
+    {
+      "id": "perplexity-78675022-c4a7-41d2-9259-7c59be4de93c",
+      "title": "Member of Technical Staff (Software Engineer, Design System)",
+      "url": "https://jobs.ashbyhq.com/perplexity/78675022-c4a7-41d2-9259-7c59be4de93c"
+    },
+    {
+      "id": "perplexity-39d520eb-6b81-4b61-8b23-5efcdac4cad9",
+      "title": "Motion Designer",
+      "url": "https://jobs.ashbyhq.com/perplexity/39d520eb-6b81-4b61-8b23-5efcdac4cad9"
+    },
+    {
+      "id": "perplexity-678d1162-e650-4d6d-9532-b287255c00fb",
+      "title": "Creative Operations Manager",
+      "url": "https://jobs.ashbyhq.com/perplexity/678d1162-e650-4d6d-9532-b287255c00fb"
+    },
+    {
+      "id": "perplexity-7ae341c4-411e-468c-bc26-bbdd8e55d388",
+      "title": "Member of Creative Studio (Web Designer - Marketing & Landing Pages)",
+      "url": "https://jobs.ashbyhq.com/perplexity/7ae341c4-411e-468c-bc26-bbdd8e55d388"
+    },
+    {
+      "id": "perplexity-3d277236-2cf3-4a59-b435-71540cc05712",
+      "title": "Design Systems Lead",
+      "url": "https://jobs.ashbyhq.com/perplexity/3d277236-2cf3-4a59-b435-71540cc05712"
+    },
+    {
+      "id": "perplexity-04d73be4-8a69-4e62-9b0d-e9b7968cf860",
+      "title": "Brand Designer, Growth",
+      "url": "https://jobs.ashbyhq.com/perplexity/04d73be4-8a69-4e62-9b0d-e9b7968cf860"
+    },
+    {
+      "id": "perplexity-fbbd496b-1d14-4396-b31d-38fbea0dc666",
+      "title": "Design Engineer, Growth & Marketing",
+      "url": "https://jobs.ashbyhq.com/perplexity/fbbd496b-1d14-4396-b31d-38fbea0dc666"
+    },
+    {
+      "id": "perplexity-74a5eaeb-0a4b-412b-ac3a-ad73403b3fb7",
+      "title": "Lead Product Designer, Growth",
+      "url": "https://jobs.ashbyhq.com/perplexity/74a5eaeb-0a4b-412b-ac3a-ad73403b3fb7"
+    },
+    {
+      "id": "perplexity-9ce0fef8-7ead-4c0d-a71e-433bdd5b4d82",
+      "title": "Lead Product Designer, Enterprise",
+      "url": "https://jobs.ashbyhq.com/perplexity/9ce0fef8-7ead-4c0d-a71e-433bdd5b4d82"
+    }
+  ]
+}

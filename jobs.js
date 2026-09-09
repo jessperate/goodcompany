@@ -1,4 +1,3 @@
-// Employer and LinkedIn listings. Collection coverage is recorded in research/linkedin-coverage.json.
 const JOBS = [
   {
     "id": "cloudflare-motion",
@@ -17821,5 +17820,790 @@ const JOBS = [
     "salaryMax": 212600,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–212,600 / year · location dependent"
+  },
+  {
+    "id": "ramp-eca54d0e-232a-4c3e-bfcc-d6c6add393f5",
+    "company": "Ramp",
+    "title": "Product Designer",
+    "category": "Product design",
+    "location": "New York, NY (HQ)",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/ramp/eca54d0e-232a-4c3e-bfcc-d6c6add393f5",
+    "summary": "Design financial software from early customer research through launch. Use AI-assisted prototypes to test ideas, then develop complete product interactions and reusable patterns.",
+    "highlights": [
+      "Experience shipping complex products and using LLMs in design work.",
+      "Must be based in New York City or willing to relocate."
+    ],
+    "level": "Level not specified",
+    "source": "Ramp careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Product design",
+      "AI"
+    ],
+    "salaryMin": 172000,
+    "salaryMax": 440000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$172,000–440,000 / year",
+    "salary": "Published annual base salary: US$172,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "ramp-a8451979-2691-440e-851b-49a3b807729b",
+    "company": "Ramp",
+    "title": "Senior Brand Designer, Growth",
+    "category": "Brand & visual",
+    "location": "San Francisco, CA",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/ramp/a8451979-2691-440e-851b-49a3b807729b",
+    "summary": "Develop brand and performance creative for paid campaigns, landing pages and other growth channels. Work with marketing partners to test concepts and refine assets using performance results.",
+    "highlights": [
+      "The listing asks for 5–7+ years of design experience.",
+      "At least two days per week in the San Francisco office.",
+      "Figma, Adobe tools and AI production workflows are part of the work."
+    ],
+    "level": "Senior",
+    "source": "Ramp careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Brand & visual",
+      "AI"
+    ],
+    "salaryMin": 132000,
+    "salaryMax": 181000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$132,000–181,000 / year",
+    "salary": "Published annual base salary: US$132,000–181,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "ramp-30323399-3039-499d-a0b6-a891ced89e1e",
+    "company": "Ramp",
+    "title": "Head of Brand",
+    "category": "Creative leadership",
+    "location": "New York, NY (HQ)",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/ramp/30323399-3039-499d-a0b6-a891ced89e1e",
+    "summary": "Lead Ramp’s brand team, visual identity and voice across product and marketing. Develop the team and build AI-assisted systems that help the wider company produce consistent brand work.",
+    "highlights": [
+      "Ten or more years in brand design and creative leadership, including three years leading a brand team.",
+      "At least three days per week at the New York City headquarters."
+    ],
+    "level": "Leadership",
+    "source": "Ramp careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Creative leadership",
+      "AI"
+    ],
+    "disciplines": [
+      "Creative leadership",
+      "Brand & creative"
+    ],
+    "salaryMin": 309000,
+    "salaryMax": 424000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$309,000–424,000 / year",
+    "salary": "Published annual base salary: US$309,000–424,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "ramp-b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
+    "company": "Ramp",
+    "title": "Design Engineer",
+    "category": "Design engineering",
+    "location": "New York, NY (HQ)",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/ramp/b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
+    "summary": "Combine interaction design and frontend development to prototype and ship Ramp product experiences. Build reusable interfaces with React and TypeScript while using AI tools and customer testing throughout the process.",
+    "highlights": [
+      "Requires a portfolio of working interfaces and strong frontend skills.",
+      "Must be based in New York City or willing to relocate.",
+      "Accessibility, performance and design-system contributions are core responsibilities."
+    ],
+    "level": "Level not specified",
+    "source": "Ramp careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Design engineering",
+      "AI"
+    ],
+    "salaryMin": 172000,
+    "salaryMax": 440000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$172,000–440,000 / year",
+    "salary": "Published annual base salary: US$172,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "ramp-78b98c66-af59-4fa8-a5ae-d8af8d737976",
+    "company": "Ramp",
+    "title": "Director, Product Design",
+    "category": "Creative leadership",
+    "location": "New York, NY (HQ)",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/ramp/78b98c66-af59-4fa8-a5ae-d8af8d737976",
+    "summary": "Lead product designers working on important Ramp product areas. Set design direction, coach the team and work closely with product and engineering to improve customer outcomes.",
+    "highlights": [
+      "Experience developing product design teams and shipping impactful products.",
+      "At least three days per week at the New York City headquarters."
+    ],
+    "level": "Leadership",
+    "source": "Ramp careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Creative leadership",
+      "AI"
+    ],
+    "disciplines": [
+      "Creative leadership",
+      "Product design"
+    ],
+    "salaryMin": 320000,
+    "salaryMax": 440000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$320,000–440,000 / year",
+    "salary": "Published annual base salary: US$320,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "ramp-2c101be9-f4b8-4a63-a634-9798d9a09eaa",
+    "company": "Ramp",
+    "title": "Director, Brand Operations",
+    "category": "Creative leadership",
+    "location": "New York, NY (HQ)",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/ramp/2c101be9-f4b8-4a63-a634-9798d9a09eaa",
+    "summary": "Build the processes and coordination that keep Ramp’s brand team delivering creative work. Improve intake, timelines and cross-team workflows, including automation that reduces administrative work.",
+    "highlights": [
+      "Experience building repeatable operations across many concurrent projects.",
+      "Focuses on creative operations, cross-functional coordination and AI-assisted automation."
+    ],
+    "level": "Leadership",
+    "source": "Ramp careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Creative leadership",
+      "AI"
+    ],
+    "disciplines": [
+      "Creative leadership",
+      "Brand & creative"
+    ],
+    "salaryMin": 200000,
+    "salaryMax": 352000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$200,000–352,000 / year",
+    "salary": "Published annual base salary: US$200,000–352,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "perplexity-78675022-c4a7-41d2-9259-7c59be4de93c",
+    "company": "Perplexity",
+    "title": "Member of Technical Staff (Software Engineer, Design System)",
+    "category": "Design engineering",
+    "location": "San Francisco · Seattle · New York City",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/perplexity/78675022-c4a7-41d2-9259-7c59be4de93c",
+    "summary": "Build shared UI components and design tokens for Perplexity’s products across desktop, mobile and web. Partner with designers to deliver accessible, documented interfaces that other teams can reuse.",
+    "highlights": [
+      "At least four years building production frontend software.",
+      "React, TypeScript, CSS and accessibility knowledge are central to the role."
+    ],
+    "level": "Mid-level",
+    "source": "Perplexity careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Design engineering"
+    ],
+    "salaryMin": 220000,
+    "salaryMax": 405000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$220,000–405,000 / year",
+    "salary": "Published annual base salary: US$220,000–405,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "perplexity-39d520eb-6b81-4b61-8b23-5efcdac4cad9",
+    "company": "Perplexity",
+    "title": "Motion Designer",
+    "category": "Motion & video",
+    "location": "New York City · Remote (United States) · San Francisco",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid",
+      "Remote"
+    ],
+    "url": "https://jobs.ashbyhq.com/perplexity/39d520eb-6b81-4b61-8b23-5efcdac4cad9",
+    "summary": "Create motion graphics and launch videos for Perplexity’s social channels. Own concepts, storyboards, animation and delivery, while contributing to motion guidelines and new creative tools.",
+    "highlights": [
+      "The description calls for senior-level motion and animation experience.",
+      "US remote is listed among the available locations."
+    ],
+    "level": "Senior",
+    "source": "Perplexity careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Motion & video",
+      "AI"
+    ],
+    "salaryMin": 180000,
+    "salaryMax": 210000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$180,000–210,000 / year",
+    "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "perplexity-678d1162-e650-4d6d-9532-b287255c00fb",
+    "company": "Perplexity",
+    "title": "Creative Operations Manager",
+    "category": "Brand & creative",
+    "location": "New York City · Remote (United States) · San Francisco",
+    "workplace": "Remote",
+    "workplaceOptions": [
+      "Remote"
+    ],
+    "url": "https://jobs.ashbyhq.com/perplexity/678d1162-e650-4d6d-9532-b287255c00fb",
+    "summary": "Coordinate Perplexity’s creative production, including campaigns, launches and shoots. Manage schedules, budgets, partners and usage rights so the creative team can deliver work efficiently.",
+    "highlights": [
+      "Experience producing work for an in-house brand or creative team.",
+      "Vendor management, shoot logistics and production processes are important.",
+      "US remote is listed among the available locations."
+    ],
+    "level": "Level not specified",
+    "source": "Perplexity careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Brand & creative"
+    ],
+    "salaryMin": 180000,
+    "salaryMax": 210000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$180,000–210,000 / year",
+    "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "perplexity-7ae341c4-411e-468c-bc26-bbdd8e55d388",
+    "company": "Perplexity",
+    "title": "Member of Creative Studio (Web Designer - Marketing & Landing Pages)",
+    "category": "Brand & visual",
+    "location": "New York City · Remote (United States) · San Francisco",
+    "workplace": "Remote",
+    "workplaceOptions": [
+      "Remote"
+    ],
+    "url": "https://jobs.ashbyhq.com/perplexity/7ae341c4-411e-468c-bc26-bbdd8e55d388",
+    "summary": "Design Perplexity’s marketing site and landing pages. Create reusable templates and CMS patterns that help other teams publish polished, consistent pages.",
+    "highlights": [
+      "A portfolio of marketing websites and landing pages is required.",
+      "Figma, responsive design and experience with CMS-based systems are important.",
+      "US remote is listed among the available locations."
+    ],
+    "level": "Level not specified",
+    "source": "Perplexity careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Brand & visual",
+      "AI"
+    ],
+    "salaryMin": 180000,
+    "salaryMax": 210000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$180,000–210,000 / year",
+    "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "perplexity-3d277236-2cf3-4a59-b435-71540cc05712",
+    "company": "Perplexity",
+    "title": "Design Systems Lead",
+    "category": "Design engineering",
+    "location": "San Francisco · Remote (United States) · New York City",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid",
+      "Remote"
+    ],
+    "url": "https://jobs.ashbyhq.com/perplexity/3d277236-2cf3-4a59-b435-71540cc05712",
+    "summary": "Own Perplexity’s shared design system across platforms, combining design and engineering. Develop semantic tokens, reusable components, contribution standards and documentation.",
+    "highlights": [
+      "Requires substantial experience leading design systems across an organization.",
+      "The role splits its focus between design and engineering, using GitHub and Figma.",
+      "US remote is listed among the available locations."
+    ],
+    "level": "Senior",
+    "source": "Perplexity careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Design engineering",
+      "AI"
+    ],
+    "salaryMin": 220000,
+    "salaryMax": 280000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$220,000–280,000 / year",
+    "salary": "Published annual base salary: US$220,000–280,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "perplexity-04d73be4-8a69-4e62-9b0d-e9b7968cf860",
+    "company": "Perplexity",
+    "title": "Brand Designer, Growth",
+    "category": "Brand & visual",
+    "location": "San Francisco · New York City",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/perplexity/04d73be4-8a69-4e62-9b0d-e9b7968cf860",
+    "summary": "Develop growth campaign concepts and design ads, social assets and lifecycle emails for Perplexity. Partner with growth teams to test ideas while maintaining a consistent brand identity.",
+    "highlights": [
+      "At least five years of industry experience.",
+      "A portfolio should demonstrate both original campaign ideas and performance outcomes."
+    ],
+    "level": "Senior",
+    "source": "Perplexity careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Brand & visual",
+      "AI"
+    ],
+    "salaryMin": 150000,
+    "salaryMax": 225000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$150,000–225,000 / year",
+    "salary": "Published annual base salary: US$150,000–225,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "perplexity-fbbd496b-1d14-4396-b31d-38fbea0dc666",
+    "company": "Perplexity",
+    "title": "Design Engineer, Growth & Marketing",
+    "category": "Design engineering",
+    "location": "San Francisco · New York City",
+    "workplace": "Not specified",
+    "workplaceOptions": [
+      "Not specified"
+    ],
+    "url": "https://jobs.ashbyhq.com/perplexity/fbbd496b-1d14-4396-b31d-38fbea0dc666",
+    "summary": "Build Perplexity marketing pages, interactive launches and reusable website components. Work with design and growth partners on experiments, CMS workflows and production quality.",
+    "highlights": [
+      "At least three years as a frontend or design engineer.",
+      "The stack includes React, TypeScript, Tailwind CSS and Sanity."
+    ],
+    "level": "Mid-level",
+    "source": "Perplexity careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Design engineering",
+      "AI"
+    ],
+    "salaryMin": 180000,
+    "salaryMax": 300000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$180,000–300,000 / year",
+    "salary": "Published annual base salary: US$180,000–300,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "perplexity-74a5eaeb-0a4b-412b-ac3a-ad73403b3fb7",
+    "company": "Perplexity",
+    "title": "Lead Product Designer, Growth",
+    "category": "Product design",
+    "location": "San Francisco · New York City",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/perplexity/74a5eaeb-0a4b-412b-ac3a-ad73403b3fb7",
+    "summary": "Lead design for Perplexity’s growth journey, from onboarding to conversion and retention. Combine interaction craft with experiments that improve how people discover and use the product.",
+    "highlights": [
+      "At least five years of industry experience.",
+      "Experience with growth design, funnels, experimentation and product marketing partnerships."
+    ],
+    "level": "Senior",
+    "source": "Perplexity careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Product design",
+      "AI"
+    ],
+    "salaryMin": 180000,
+    "salaryMax": 300000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$180,000–300,000 / year",
+    "salary": "Published annual base salary: US$180,000–300,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "perplexity-9ce0fef8-7ead-4c0d-a71e-433bdd5b4d82",
+    "company": "Perplexity",
+    "title": "Lead Product Designer, Enterprise",
+    "category": "Product design",
+    "location": "San Francisco · New York City",
+    "workplace": "Hybrid",
+    "workplaceOptions": [
+      "Hybrid"
+    ],
+    "url": "https://jobs.ashbyhq.com/perplexity/9ce0fef8-7ead-4c0d-a71e-433bdd5b4d82",
+    "summary": "Design Perplexity’s enterprise and collaborative product experiences. Develop workflows for administration, seats, permissions and security while introducing new AI-enabled interactions.",
+    "highlights": [
+      "At least five years of industry experience.",
+      "Strong knowledge of enterprise workflows and role-based product experiences."
+    ],
+    "level": "Senior",
+    "source": "Perplexity careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Product design",
+      "AI"
+    ],
+    "salaryMin": 180000,
+    "salaryMax": 300000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$180,000–300,000 / year",
+    "salary": "Published annual base salary: US$180,000–300,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+  },
+  {
+    "id": "vanta-19837d21-971e-4b9d-b078-320895fae28a",
+    "company": "Vanta",
+    "title": "Head of Design",
+    "category": "Product design",
+    "location": "Remote U.S.",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/vanta/19837d21-971e-4b9d-b078-320895fae28a",
+    "summary": "Lead Vanta’s design organization and the direction of its AI-enabled security products. Develop design leaders and establish practices that help teams deliver consistent, well-crafted experiences.",
+    "highlights": [
+      "At least 15 years in design and five years leading large design organizations.",
+      "The role leads a roughly 40-person organization, including directors."
+    ],
+    "level": "Leadership",
+    "source": "Vanta careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Product design",
+      "Design systems"
+    ],
+    "salary": "Published annual cash compensation range: US$365,000–513,000, plus equity. Vanta labels this a cash range; it is not independently verified as base-only pay.",
+    "salaryLabel": "US$365,000–513,000 / year · cash range",
+    "salaryCashMin": 365000,
+    "salaryCashMax": 513000,
+    "disciplines": [
+      "Product design",
+      "Creative leadership"
+    ]
+  },
+  {
+    "id": "vanta-0fcbc935-76c7-4eac-b522-af421ed200c9",
+    "company": "Vanta",
+    "title": "Staff Product Designer, Design Systems",
+    "category": "Product design",
+    "location": "Remote U.S.",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/vanta/0fcbc935-76c7-4eac-b522-af421ed200c9",
+    "summary": "Develop Vanta’s component library, design tokens and shared interaction patterns. Work with product designers and engineers to improve consistency, accessibility and adoption across the product suite.",
+    "highlights": [
+      "At least seven years in product design, preferably with design-systems experience.",
+      "Experience with complex products or B2B software is relevant."
+    ],
+    "level": "Staff",
+    "source": "Vanta careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Product design",
+      "Design systems"
+    ],
+    "salary": "Published annual cash compensation range: US$236,000–278,000, plus equity. Vanta labels this a cash range; it is not independently verified as base-only pay.",
+    "salaryLabel": "US$236,000–278,000 / year · cash range",
+    "salaryCashMin": 236000,
+    "salaryCashMax": 278000
+  },
+  {
+    "id": "vanta-6d6698d7-7272-4c2a-bc34-807dc269de43",
+    "company": "Vanta",
+    "title": "Director of Product Design",
+    "category": "Product design",
+    "location": "Remote U.S.",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/vanta/6d6698d7-7272-4c2a-bc34-807dc269de43",
+    "summary": "Lead product designers shaping Vanta’s risk products and AI-centric workflow experiences. Define the experience strategy, develop the team and partner across product and engineering.",
+    "highlights": [
+      "At least ten years designing digital products and four years managing designers.",
+      "Experience with complex B2B or enterprise products is important."
+    ],
+    "level": "Leadership",
+    "source": "Vanta careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Product design",
+      "Design systems"
+    ],
+    "salary": "Published annual cash compensation range: US$275,000–323,000, plus equity. Vanta labels this a cash range; it is not independently verified as base-only pay.",
+    "salaryLabel": "US$275,000–323,000 / year · cash range",
+    "salaryCashMin": 275000,
+    "salaryCashMax": 323000,
+    "disciplines": [
+      "Product design",
+      "Creative leadership"
+    ]
+  },
+  {
+    "id": "vanta-32babc06-def2-4db3-b153-1c1c44bdcf40",
+    "company": "Vanta",
+    "title": "Staff Visual Product Designer, Design Systems",
+    "category": "Product design",
+    "location": "Remote U.S.",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/vanta/32babc06-def2-4db3-b153-1c1c44bdcf40",
+    "summary": "Evolve Vanta’s visual product language through reusable patterns and design-system foundations. Bring strong craft to typography, color, illustration, motion and data-rich interfaces.",
+    "highlights": [
+      "At least eight years designing digital products.",
+      "Requires visual design experience with complex enterprise or B2B software."
+    ],
+    "level": "Staff",
+    "source": "Vanta careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Product design",
+      "Design systems"
+    ],
+    "salary": "Published annual cash compensation range: US$236,000–278,000, plus equity. Vanta labels this a cash range; it is not independently verified as base-only pay.",
+    "salaryLabel": "US$236,000–278,000 / year · cash range",
+    "salaryCashMin": 236000,
+    "salaryCashMax": 278000
+  },
+  {
+    "id": "linear-a264869e-f058-487c-ab7f-9b77dffa427c",
+    "company": "Linear",
+    "title": "Senior / Staff Product Designer",
+    "category": "Product design",
+    "location": "North America",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/Linear/a264869e-f058-487c-ab7f-9b77dffa427c",
+    "summary": "Shape Linear’s product experiences for software teams.",
+    "level": "Staff",
+    "source": "Linear careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Remote",
+      "TrueUp Remote 200"
+    ],
+    "salaryLabel": "Pay not listed"
+  },
+  {
+    "id": "linear-ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
+    "company": "Linear",
+    "title": "Principal Product Designer",
+    "category": "Product design",
+    "location": "Europe",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/Linear/ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
+    "summary": "Shape Linear’s product experiences for software teams.",
+    "level": "Principal",
+    "source": "Linear careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Remote",
+      "TrueUp Remote 200"
+    ],
+    "salaryLabel": "Pay not listed"
+  },
+  {
+    "id": "linear-eac7f181-d658-4943-9430-51bae2bcd110",
+    "company": "Linear",
+    "title": "Mobile Product Designer",
+    "category": "Product design",
+    "location": "North America",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/Linear/eac7f181-d658-4943-9430-51bae2bcd110",
+    "summary": "Shape Linear’s product experiences for software teams.",
+    "level": "Level not specified",
+    "source": "Linear careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Remote",
+      "TrueUp Remote 200"
+    ],
+    "salaryLabel": "Pay not listed"
+  },
+  {
+    "id": "linear-5b9997fd-7507-4437-8fd7-14178c99ab5d",
+    "company": "Linear",
+    "title": "Production Designer",
+    "category": "Brand & visual",
+    "location": "Europe",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/Linear/5b9997fd-7507-4437-8fd7-14178c99ab5d",
+    "summary": "Produce visual assets for Linear’s website, campaigns, presentations and product launches.",
+    "level": "Level not specified",
+    "source": "Linear careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Remote",
+      "TrueUp Remote 200"
+    ],
+    "salaryLabel": "Pay not listed"
+  },
+  {
+    "id": "linear-b32de590-06ce-47d4-8994-66b936df908d",
+    "company": "Linear",
+    "title": "Production Designer",
+    "category": "Brand & visual",
+    "location": "North America; Europe",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/Linear/b32de590-06ce-47d4-8994-66b936df908d",
+    "summary": "Produce visual assets for Linear’s website, campaigns, presentations and product launches.",
+    "level": "Level not specified",
+    "source": "Linear careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Remote",
+      "TrueUp Remote 200"
+    ],
+    "salaryLabel": "Pay not listed"
+  },
+  {
+    "id": "supabase-4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
+    "company": "Supabase",
+    "title": "Brand Designer",
+    "category": "Brand & visual",
+    "location": "Remote, Global",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/supabase/4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
+    "summary": "Create visual storytelling for Supabase’s developer community, including events, conference materials and brand projects.",
+    "level": "Level not specified",
+    "source": "Supabase careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Remote",
+      "TrueUp Remote 200"
+    ],
+    "salaryLabel": "Pay not listed"
+  },
+  {
+    "id": "supabase-97fe8e68-28c5-42db-a763-60113f0b31fd",
+    "company": "Supabase",
+    "title": "Product Designer",
+    "category": "Product design",
+    "location": "Remote, Global",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/supabase/97fe8e68-28c5-42db-a763-60113f0b31fd",
+    "summary": "Design clear, usable experiences for developers working with Supabase.",
+    "level": "Level not specified",
+    "source": "Supabase careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Remote",
+      "TrueUp Remote 200"
+    ],
+    "salaryLabel": "Pay not listed"
+  },
+  {
+    "id": "ashby-f40ef345-82a8-4956-9150-193b4fdf8183",
+    "company": "Ashby",
+    "title": "Senior Product Designer",
+    "category": "Product design",
+    "location": "United States or Canada · remote",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+    "summary": "Design recruiting software that helps hiring teams work effectively, partnering with product managers and engineers.",
+    "level": "Senior",
+    "source": "Ashby careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Remote",
+      "TrueUp Remote 200"
+    ],
+    "salaryLabel": "US$150,000–210,000 / year · US range",
+    "salary": "Published annual salary by location: US: San Francisco & New York: $180K – $210K; US: LA, Boston, Seattle, D.C.: $160K – $190K; US: All Other Locations: $150K – $180K; Canada: Toronto & Vancouver: CA$160K – CA$190K; Canada: All Other Locations: CA$150K – CA$180K. Equity is separate.",
+    "salaryCurrency": "USD",
+    "salaryMin": 150000,
+    "salaryMax": 210000
+  },
+  {
+    "id": "ashby-2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+    "company": "Ashby",
+    "title": "Staff Product Designer",
+    "category": "Product design",
+    "location": "United States or Canada · remote",
+    "workplace": "Remote",
+    "url": "https://jobs.ashbyhq.com/ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+    "summary": "Design recruiting software that helps hiring teams work effectively, partnering with product managers and engineers.",
+    "level": "Staff",
+    "source": "Ashby careers (Ashby)",
+    "checkedAt": "September 8, 2026",
+    "type": "Full time",
+    "keywords": [
+      "Remote",
+      "TrueUp Remote 200"
+    ],
+    "salaryLabel": "US$180,000–240,000 / year · US range",
+    "salary": "Published annual salary by location: US: San Francisco & New York: $220K – $240K; US: LA, Boston, Seattle, D.C.: $200K – $220K; US: All Other Locations: $180K – $200K; Canada: Toronto & Vancouver: CA$200K – CA$220K; Canada: All Other Locations: CA$180K – CA$200K. Equity is separate.",
+    "salaryCurrency": "USD",
+    "salaryMin": 180000,
+    "salaryMax": 240000
+  },
+  {
+    "id": "webflow-8155266",
+    "company": "Webflow",
+    "title": "Paid Social Specialist (Contract Basis)",
+    "category": "Social media",
+    "location": "United States · overlap with Eastern hours",
+    "workplace": "Remote",
+    "url": "https://job-boards.greenhouse.io/webflow/jobs/8155266",
+    "summary": "Run and optimize B2B paid social campaigns on LinkedIn and Meta. Build campaigns from approved briefs, test audiences and creative, and measure their contribution to sales pipeline.",
+    "highlights": [
+      "Six-month contract, 40 hours per week.",
+      "Requires at least four years of hands-on LinkedIn Campaign Manager experience."
+    ],
+    "level": "Level not specified",
+    "type": "Contract",
+    "source": "Webflow careers (Greenhouse)",
+    "checkedAt": "September 8, 2026",
+    "salaryLabel": "US$83 / hour",
+    "salary": "Published contract rate: US$83 per hour. Six-month engagement at 40 hours per week.",
+    "compensationHeading": "Published contract rate",
+    "keywords": [
+      "Paid social",
+      "LinkedIn",
+      "Meta",
+      "TrueUp Remote 200"
+    ]
   }
 ];

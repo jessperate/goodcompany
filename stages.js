@@ -173,5 +173,20 @@ const COMPANY_STAGES = {
     "stage": "Public",
     "url": "https://www.cloudflare.com/en-gb/press/press-releases/2026/cloudflare-announces-second-quarter-2026-financial-results/",
     "checkedAt": "2026-09-08"
+  },
+  "Ramp": {
+    "stage": "Series C+",
+    "url": "https://ramp.com/blog/ramp-series-c/",
+    "checkedAt": "2026-09-08"
+  },
+  "Perplexity": {
+    "stage": "Series C+",
+    "url": "https://www.crunchbase.com/funding_round/perplexity-ai-series-c--b16aaa84",
+    "checkedAt": "2026-09-08"
+  },
+  "Vanta": {
+    "stage": "Series C+",
+    "url": "https://www.vanta.com/resources/vanta-announces-series-d",
+    "checkedAt": "2026-09-08"
   }
 };

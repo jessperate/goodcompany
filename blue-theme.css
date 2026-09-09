@@ -98,3 +98,13 @@ body{display:flow-root;min-height:100vh}
 .google-signin{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;min-height:48px;margin:24px 0 20px;padding:12px 18px;background:white;border:1px solid var(--blue);color:var(--blue);font:14px 'Roboto',Arial,sans-serif;box-shadow:3px 3px 0 var(--blue)}.google-signin:hover{background:var(--lime)}.google-signin:disabled{opacity:.65;cursor:wait}.google-signin i{font-size:20px}.signin-divider{display:flex;align-items:center;gap:12px;font:11px var(--mono);color:var(--muted)}.signin-divider::before,.signin-divider::after{content:"";height:1px;flex:1;background:var(--line)}
 
 .job-share .modal-pin-job{font-size:12px;padding:9px 12px;border:1px solid var(--blue);border-radius:0;min-height:38px}.job-share .modal-pin-job[aria-pressed=true]{background:var(--lime)}
+
+/* Company-wide source snapshots stay visually secondary to the job. */
+.trueup-panel { margin: 28px 0; padding: 20px; border: 1px solid #c5ceff; background: #f6f8ff; }
+.trueup-panel h4 { margin: 0 0 18px; color: var(--blue, #002fff); font: 500 15px var(--font-mono, monospace); }
+.trueup-stats { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; margin: 0 0 18px; }
+.trueup-stats dt { font-size: 12px; line-height: 1.5; color: #43577d; }
+.trueup-stats dd { margin: 8px 0 0; color: #002fff; font-size: 24px; line-height: 1.15; overflow-wrap: anywhere; }
+.trueup-panel .trueup-method,.trueup-panel small { font-size: 12px; line-height: 1.6; color: #43577d; }
+.trueup-panel small { display: block; margin-top: 12px; }
+@media(max-width:500px) { .trueup-stats { grid-template-columns: 1fr; gap: 12px; } .trueup-stats dd { margin-top: 4px; } }

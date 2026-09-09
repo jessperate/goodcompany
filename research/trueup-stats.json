@@ -1,0 +1,356 @@
+{
+  "Figma": {
+    "url": "https://www.trueup.io/co/figma",
+    "openJobs": 200,
+    "remoteJobs": 0,
+    "employeeGrowth": "+21%",
+    "crawl": "3 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Mercury": {
+    "url": "https://www.trueup.io/co/mercury",
+    "openJobs": 59,
+    "remoteJobs": 56,
+    "employeeGrowth": "+54%",
+    "crawl": "4 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "AirOps": {
+    "url": "https://www.trueup.io/co/airops",
+    "openJobs": null,
+    "remoteJobs": null,
+    "employeeGrowth": null,
+    "crawl": "6 months ago",
+    "checkedAt": "2026-09-08",
+    "status": "stale"
+  },
+  "Duolingo": {
+    "url": "https://www.trueup.io/co/duolingo",
+    "openJobs": 90,
+    "remoteJobs": 3,
+    "employeeGrowth": "+7.7%",
+    "crawl": "3 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Airbnb": {
+    "url": "https://www.trueup.io/co/airbnb",
+    "openJobs": 200,
+    "remoteJobs": 22,
+    "employeeGrowth": "+74%",
+    "crawl": "2 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Anthropic": {
+    "url": "https://www.trueup.io/co/anthropic",
+    "openJobs": 600,
+    "remoteJobs": 79,
+    "employeeGrowth": "+141%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Databricks": {
+    "url": "https://www.trueup.io/co/databricks",
+    "openJobs": 900,
+    "remoteJobs": 63,
+    "employeeGrowth": "+33%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Descript": {
+    "url": "https://www.trueup.io/co/descript",
+    "openJobs": 10,
+    "remoteJobs": 9,
+    "employeeGrowth": "-2.0%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "ElevenLabs": {
+    "url": "https://www.trueup.io/co/elevenlabs",
+    "openJobs": 300,
+    "remoteJobs": 197,
+    "employeeGrowth": "+125%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Handshake": {
+    "url": "https://www.trueup.io/co/handshake",
+    "openJobs": 67,
+    "remoteJobs": null,
+    "employeeGrowth": "+169%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Helsing": {
+    "url": "https://www.trueup.io/co/helsing",
+    "openJobs": 100,
+    "remoteJobs": null,
+    "employeeGrowth": "+41%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Cloudflare": {
+    "url": "https://www.trueup.io/co/cloudflare",
+    "openJobs": 300,
+    "remoteJobs": 55,
+    "employeeGrowth": "+26%",
+    "crawl": "3 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Kalshi": {
+    "url": "https://www.trueup.io/co/kalshi",
+    "openJobs": 28,
+    "remoteJobs": 8,
+    "employeeGrowth": "+200%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "OpenAI": {
+    "url": "https://www.trueup.io/co/openai",
+    "openJobs": 800,
+    "remoteJobs": 62,
+    "employeeGrowth": "+87%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "SpaceX": {
+    "url": "https://www.trueup.io/co/spacex",
+    "openJobs": 2300,
+    "remoteJobs": 26,
+    "employeeGrowth": "+27%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Stripe": {
+    "url": "https://www.trueup.io/co/stripe",
+    "openJobs": 600,
+    "remoteJobs": 100,
+    "employeeGrowth": "+32%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Vercel": {
+    "url": "https://www.trueup.io/co/vercel",
+    "openJobs": 86,
+    "remoteJobs": 11,
+    "employeeGrowth": "+33%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Waymo": {
+    "url": "https://www.trueup.io/co/waymo",
+    "openJobs": 300,
+    "remoteJobs": 10,
+    "employeeGrowth": "+35%",
+    "crawl": "3 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Google": {
+    "url": "https://www.trueup.io/co/google",
+    "openJobs": 3300,
+    "remoteJobs": 0,
+    "employeeGrowth": "+30%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Adobe": {
+    "url": "https://www.trueup.io/co/adobe",
+    "openJobs": 700,
+    "remoteJobs": 15,
+    "employeeGrowth": "+36%",
+    "crawl": "2 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Notion": {
+    "url": "https://www.trueup.io/co/notion",
+    "openJobs": 100,
+    "remoteJobs": 0,
+    "employeeGrowth": "+58%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Salesforce": {
+    "url": "https://www.trueup.io/co/salesforce",
+    "openJobs": 1400,
+    "remoteJobs": 46,
+    "employeeGrowth": "+19%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Amazon": {
+    "url": "https://www.trueup.io/co/amazon",
+    "openJobs": 20000,
+    "remoteJobs": 4,
+    "employeeGrowth": "+9.2%",
+    "crawl": "yesterday",
+    "checkedAt": "2026-09-08"
+  },
+  "Intuit": {
+    "url": "https://www.trueup.io/co/intuit",
+    "openJobs": 500,
+    "remoteJobs": 5,
+    "employeeGrowth": "+21%",
+    "crawl": "2 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Cisco": {
+    "url": "https://www.trueup.io/co/cisco",
+    "openJobs": null,
+    "remoteJobs": null,
+    "employeeGrowth": "+20%",
+    "crawl": "2 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Autodesk": {
+    "url": "https://www.trueup.io/co/autodesk",
+    "openJobs": 400,
+    "remoteJobs": 37,
+    "employeeGrowth": "+24%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Microsoft": {
+    "url": "https://www.trueup.io/co/microsoft",
+    "openJobs": 1200,
+    "remoteJobs": 0,
+    "employeeGrowth": "+37%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Ramp": {
+    "url": "https://www.trueup.io/co/ramp",
+    "openJobs": 100,
+    "remoteJobs": 45,
+    "employeeGrowth": "+41%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Perplexity": {
+    "url": "https://www.trueup.io/co/perplexity",
+    "openJobs": 100,
+    "remoteJobs": 8,
+    "employeeGrowth": "-3.9%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Vanta": {
+    "url": "https://www.trueup.io/co/vanta",
+    "openJobs": 100,
+    "remoteJobs": 73,
+    "employeeGrowth": "+49%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Crusoe": {
+    "url": "https://www.trueup.io/co/crusoe-energy",
+    "openJobs": 400,
+    "remoteJobs": 12,
+    "employeeGrowth": "+98%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Runway": {
+    "url": "https://www.trueup.io/co/runway-ml",
+    "openJobs": 40,
+    "remoteJobs": 38,
+    "employeeGrowth": "+49%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Harvey": {
+    "url": "https://www.trueup.io/co/harvey-ai",
+    "openJobs": 300,
+    "remoteJobs": null,
+    "employeeGrowth": "+190%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Fal": {
+    "url": "https://www.trueup.io/co/fal-ai",
+    "openJobs": 32,
+    "remoteJobs": 6,
+    "employeeGrowth": "+153%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Exa": {
+    "url": "https://www.trueup.io/co/exa-ai",
+    "openJobs": 55,
+    "remoteJobs": null,
+    "employeeGrowth": "+248%",
+    "crawl": "5 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Hex": {
+    "url": "https://www.trueup.io/co/hex-data",
+    "openJobs": 30,
+    "remoteJobs": 13,
+    "employeeGrowth": "+45%",
+    "crawl": "3 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Legora": {
+    "url": "https://www.trueup.io/co/leya-law",
+    "openJobs": 300,
+    "remoteJobs": null,
+    "employeeGrowth": "+353%",
+    "crawl": "yesterday",
+    "checkedAt": "2026-09-08"
+  },
+  "Supabase": {
+    "url": "https://www.trueup.io/co/supabase",
+    "openJobs": 60,
+    "remoteJobs": 60,
+    "employeeGrowth": "+131%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Webflow": {
+    "url": "https://www.trueup.io/co/webflow",
+    "openJobs": 29,
+    "remoteJobs": 24,
+    "employeeGrowth": "+8.8%",
+    "crawl": "yesterday",
+    "checkedAt": "2026-09-08"
+  },
+  "Decagon": {
+    "url": "https://www.trueup.io/co/decagon-ai",
+    "openJobs": 100,
+    "remoteJobs": 7,
+    "employeeGrowth": "+223%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Gamma": {
+    "url": "https://www.trueup.io/co/gamma-app",
+    "openJobs": 32,
+    "remoteJobs": 2,
+    "employeeGrowth": "+78%",
+    "crawl": "today",
+    "checkedAt": "2026-09-08"
+  },
+  "Linear": {
+    "url": "https://trueup.io/co/linear-app",
+    "openJobs": 29,
+    "remoteJobs": 28,
+    "employeeGrowth": "+60%",
+    "crawl": "yesterday",
+    "checkedAt": "2026-09-08"
+  },
+  "Ashby": {
+    "url": "https://www.trueup.io/co/ashby-hr",
+    "openJobs": 65,
+    "remoteJobs": 65,
+    "employeeGrowth": "+75%",
+    "crawl": "5 days ago",
+    "checkedAt": "2026-09-08"
+  },
+  "Nasdaq": {
+    "url": "https://www.trueup.io/co/nasdaq",
+    "openJobs": null,
+    "remoteJobs": null,
+    "employeeGrowth": null,
+    "crawl": "6 months ago",
+    "checkedAt": "2026-09-08",
+    "status": "stale"
+  }
+}
