@@ -11,7 +11,7 @@
   const requestedId = new URLSearchParams(location.search).get('id');
   const validId = id => /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id || '');
   let profile = null, owner = false, initializedKey = '', generation = 0, searchGeneration = 0, timer;
-  let editing = false, savedJobIds = [], savedCreativeIds = [];
+  let editing = false, editingScope = 'all', savedJobIds = [], savedCreativeIds = [];
   let jobIds = [], creativeIds = [], creativeMap = new Map(), dirty = false, saving = false, removePhoto = false, previewUrl = null;
   const status = message => { $('profile-status').textContent=message; };
   const fullName = p => [p.first_name,p.last_name].filter(Boolean).join(' ') || 'Creative';
@@ -90,6 +90,7 @@
     form.hidden=true;
     $('cancel-edit').hidden=true;
     renderPublic(profile,token);
+    document.querySelectorAll('[data-saved-window] .window-actions').forEach(actions=>actions.hidden=false);
     $('edit-profile').hidden=false;
     $('copy-profile').hidden=!profile.published;
     $('profile-signout').hidden=false;
@@ -97,8 +98,10 @@
     renderPins();
     window.dispatchEvent(new Event('goodcompany-profile-view'));
   }
-  function renderOwner(p, token) {
+  function renderOwner(p, token, scope='all') {
     editing=true;
+    editingScope=scope;
+    renderPublic(p,token);
     $('public-profile').hidden=true;
     $('edit-profile').hidden=true;
     $('cancel-edit').hidden=!p.user_id;
@@ -116,6 +119,25 @@
     $('headshot').value=''; removePhoto=false;
     showHeadshot(p.avatar_path,'edit-headshot','headshot-placeholder',token);
     $('profile-form').hidden=false;
+    document.querySelectorAll('[data-editor-window]').forEach(panel=>{
+      const key=panel.dataset.editorWindow, active=scope==='all' || scope===key;
+      panel.querySelector('.window-preview')?.remove();
+      panel.querySelector('.window-body').hidden=!active;
+      panel.querySelector('[data-window-edit]').disabled=active || !p.user_id;
+      panel.querySelector('[data-window-save]').disabled=!active;
+      if(!active) {
+        const preview=document.querySelector(`[data-saved-window="${key}"] .window-body`).cloneNode(true);
+        preview.classList.add('window-preview'); preview.removeAttribute('id');
+        preview.querySelectorAll('[id]').forEach(el=>{
+          if(el.id==='public-headshot') el.id='preview-headshot';
+          else if(el.id==='public-placeholder') el.id='preview-placeholder';
+          else el.removeAttribute('id');
+        });
+        panel.append(preview);
+      }
+    });
+    if(scope!=='about' && scope!=='all') showHeadshot(p.avatar_path,'preview-headshot','preview-placeholder',token);
+    document.querySelector('.publish-window').hidden=scope!=='all' && scope!=='about';
     $('copy-profile').hidden=!p.published;
     $('profile-signout').hidden=false;
     $('save-hint').textContent=p.published?'Your profile is public.':'Private until you publish.';
@@ -132,6 +154,7 @@
     return allowed ? `<img src="${esc(logo)}" alt="" width="32" height="32" referrerpolicy="no-referrer">` : '';
   }
   function renderPublic(p, token) {
+    document.querySelectorAll('[data-saved-window] .window-actions').forEach(actions=>actions.hidden=true);
     const name=fullName(p); $('page-title').textContent=name; document.title=`${name} — Good Company`;
     const links=networkFields.map(key=>{ const href=safeLink(p.links?.[key],key); return href ? `<a href="${esc(href)}" ${key==='email'?'':'target="_blank" rel="noopener noreferrer"'}><i class="ri-${icons[key]}" aria-hidden="true"></i>${names[key]}</a>` : ''; }).join('');
     $('profile-details').innerHTML=`<div class="headshot-frame"><img id="public-headshot" alt="${esc(name)}" hidden><span id="public-placeholder" aria-hidden="true">:)</span></div><h2>Hello, I’m ${esc(p.first_name)}.</h2><p class="profile-bio">${esc(p.bio || 'Good things are taking shape here.')}</p><div class="profile-socials">${links}</div><h2>Places I’ve made things.</h2>${(p.work_history || []).map(row=>`<div class="public-work"><h3>${workLogo(row)}${safeLink(row.website,'website') ? `<a href="${esc(safeLink(row.website,'website'))}" target="_blank" rel="noopener noreferrer">${esc(row.company)}</a>` : esc(row.company)}</h3><p>${esc(row.role)}</p><small>${esc(row.years)}</small>${row.accomplishments ? `<p class="work-accomplishments">${esc(row.accomplishments)}</p>` : ''}</div>`).join('') || '<p>Work history coming soon.</p>'}`;
@@ -232,6 +255,7 @@
   }
   form.addEventListener('submit',async event=>{
     event.preventDefault(); if(saving || !editing || !owner || !form.reportValidity()) return;
+    const saveScope=editingScope;
     const user=account.getUser(); if(!user) { status('Please sign in again.'); return; }
     const links={};
     for(const key of networkFields) { const value=fields.namedItem(key).value.trim(), normalized=normalizeProfileLink(value,key); if(value && !normalized) { status(`Please enter a valid ${names[key]} ${key==='email'?'address':'domain, username or full link'}.`); fields.namedItem(key).focus(); return; } links[key]=normalized || ''; }
@@ -251,7 +275,7 @@
       dirty=false; profile={...payload,user_id:user.id}; $('headshot').value=''; removePhoto=false;
       savedJobIds=[...jobIds]; savedCreativeIds=[...creativeIds];
       renderSavedOwner(++generation);
-      $('edit-profile').focus();
+      (document.querySelector(`[data-saved-window="${saveScope}"] [data-window-edit]`) || $('edit-profile')).focus();
       status(payload.published?'Saved! Your profile is published and ready to share.':'Saved! Your profile is private until you publish it.');
       if(oldPath && oldPath!==payload.avatar_path) client.storage.from('goodcompany-headshots').remove([oldPath]).catch(()=>{});
     } catch {
@@ -264,6 +288,17 @@
     jobIds=[...savedJobIds]; creativeIds=[...savedCreativeIds];
     renderOwner(profile,++generation);
     fields.namedItem('first_name').focus();
+  });
+  document.addEventListener('click',event=>{
+    const button=event.target.closest('[data-window-edit]');
+    if(!button || button.disabled || !owner || saving) return;
+    if(dirty && !confirm('Discard your unsaved changes before editing another window?')) return;
+    dirty=false; jobIds=[...savedJobIds]; creativeIds=[...savedCreativeIds];
+    const scope=button.dataset.windowEdit;
+    renderOwner(profile,++generation,scope);
+    const panel=document.querySelector(`[data-editor-window="${scope}"]`);
+    panel.scrollIntoView({block:'nearest'});
+    panel.querySelector('.window-body input:not([type="file"]):not([type="hidden"]), .window-body textarea')?.focus();
   });
   $('cancel-edit').addEventListener('click',()=>{
     if (!owner || saving) return;

@@ -203,5 +203,15 @@ const COMPANY_STAGES = {
     "stage": "Series C+",
     "url": "https://lovable.dev/blog/series-c",
     "checkedAt": "2026-09-09"
+  },
+  "Netflix": {
+    "stage": "Public",
+    "url": "https://ir.netflix.net/ir-overview/profile/default.aspx",
+    "checkedAt": "2026-09-10"
+  },
+  "Sanity": {
+    "stage": "Series C+",
+    "url": "https://www.sanity.io/blog/why-the-age-of-cms-is-over",
+    "checkedAt": "2026-09-10"
   }
 };

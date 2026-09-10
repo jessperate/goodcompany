@@ -1,5 +1,109 @@
 const JOBS = [
   {
+    "id": "netflix-visual-design-lead-790318157691",
+    "company": "Netflix",
+    "title": "Visual Design Lead, Emerging Creative Live",
+    "category": "Motion & video",
+    "disciplines": [
+      "Brand & visual",
+      "Creative leadership",
+      "AI Creative"
+    ],
+    "location": "United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "level": "Senior",
+    "summary": "Shape the visual world of Netflix Live, from live-event graphics and immersive environments to reusable design systems. Combine hands-on execution with creative direction across broadcast, 3D, social, and experiential work.",
+    "highlights": [
+      "Requires 10+ years of experience focused on high-end broadcast or cinematic work.",
+      "Lead cross-functional partners, present creative direction to senior leadership, and manage multiple productions.",
+      "Use AI and emerging technology to improve creative workflows and rendering quality.",
+      "Build 3D assets and design systems that adapt to new sports, formats, and genres."
+    ],
+    "keywords": [
+      "live events",
+      "visual design",
+      "broadcast",
+      "3D",
+      "creative direction",
+      "AI",
+      "motion design"
+    ],
+    "salary": "US$310,000–430,000 annual compensation range, varying by location. Netflix allows employees to choose the split between salary and stock options; no bonuses.",
+    "salaryMin": 310000,
+    "salaryMax": 430000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$310,000–430,000 / year",
+    "source": "Netflix careers · JR42334",
+    "checkedAt": "September 10, 2026",
+    "url": "https://explore.jobs.netflix.net/careers/job/790318157691"
+  },
+  {
+    "id": "sanity-senior-web-digital-designer-3c824a28",
+    "company": "Sanity",
+    "title": "Senior Web & Digital Designer",
+    "category": "Brand & visual",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "level": "Senior",
+    "summary": "Design Sanity’s website, product launches, campaign pages, and interactive digital experiences. Build responsive design systems and translate complex product ideas into clear visual stories with the marketing and engineering teams.",
+    "highlights": [
+      "Requires 8+ years in web, digital, or visual design and a strong marketing website portfolio.",
+      "Deep Figma expertise, responsive design, accessibility, and scalable component systems are expected.",
+      "Own projects from concepts and wireframes through prototyping, implementation review, and final QA.",
+      "Explore AI-assisted design and prototyping while maintaining visual craft. Remote within the United States."
+    ],
+    "keywords": [
+      "web design",
+      "digital design",
+      "marketing",
+      "Figma",
+      "design systems",
+      "AI",
+      "prototyping"
+    ],
+    "salary": "A numeric salary range is not published. The listing mentions location-based salary and stock options.",
+    "source": "Sanity careers · Ashby",
+    "checkedAt": "September 10, 2026",
+    "url": "https://jobs.ashbyhq.com/sanity/3c824a28-81be-4281-a211-2a30b785c66a"
+  },
+  {
+    "id": "vercel-6115991004",
+    "company": "Vercel",
+    "title": "Visual Designer, Web",
+    "category": "Brand & visual",
+    "location": "United States · remote or hybrid near hubs",
+    "workplace": "Remote",
+    "url": "https://job-boards.greenhouse.io/vercel/jobs/6115991004?gh_src=3d7d0c634us",
+    "checkedAt": "September 10, 2026",
+    "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true",
+    "summary": "Design Vercel’s websites, launches, and brand experiences alongside design engineers. Shape visual systems across web, motion, illustration, 3D, and events; coding is optional.",
+    "keywords": [
+      "web design",
+      "visual design",
+      "brand design",
+      "motion",
+      "3D",
+      "design systems"
+    ],
+    "highlights": [
+      "Requires 8+ years of design experience and a portfolio with strong shipped web work.",
+      "Own visual concepts through production, collaborating closely with design engineers.",
+      "Fully remote beyond commuting distance of an office; nearby employees attend Monday, Tuesday, and Friday anchor days."
+    ],
+    "level": "Senior",
+    "salary": "US$208,000–312,000 annual base salary for San Francisco. Pay elsewhere varies by location; benefits and equity may be additional.",
+    "salaryMin": 208000,
+    "salaryMax": 312000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$208,000–312,000 / year (SF)",
+    "source": "Vercel careers · Greenhouse"
+  },
+  {
     "id": "stripe-web-presence-platform-8130913",
     "company": "Stripe",
     "title": "Designer, Web, Presence & Platform",
@@ -2036,24 +2140,6 @@ const JOBS = [
     ]
   },
   {
-    "id": "vercel-6115991004",
-    "company": "Vercel",
-    "title": "Visual Designer, Web",
-    "category": "Brand & creative",
-    "location": "Remote - United States",
-    "workplace": "Remote",
-    "url": "https://job-boards.greenhouse.io/vercel/jobs/6115991004",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true",
-    "summary": "Visual Designer, Web at Vercel. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      ""
-    ],
-    "highlights": [
-      "Employer excerpt: “We're looking for a Visual Designer to join our Website Design Engineering team. Your home base is Vercel's web presence,…”"
-    ]
-  },
-  {
     "id": "waymo-7442326",
     "company": "Waymo",
     "title": "Senior Staff Industrial Designer",
@@ -2267,8 +2353,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -2300,8 +2386,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$139,000–257,550. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 139000.0,
-    "salaryMax": 257550.0,
+    "salaryMin": 139000,
+    "salaryMax": 257550,
     "salaryCurrency": "USD",
     "salaryLabel": "US$139,000–257,550 / year"
   },
@@ -2477,8 +2563,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$120,700–226,350. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 120700.0,
-    "salaryMax": 226350.0,
+    "salaryMin": 120700,
+    "salaryMax": 226350,
     "salaryCurrency": "USD",
     "salaryLabel": "US$120,700–226,350 / year"
   },
@@ -2525,8 +2611,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$166,000–185,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 166000.0,
-    "salaryMax": 185000.0,
+    "salaryMin": 166000,
+    "salaryMax": 185000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$166,000–185,000 / year"
   },
@@ -2553,8 +2639,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$200,000–250,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 200000.0,
-    "salaryMax": 250000.0,
+    "salaryMin": 200000,
+    "salaryMax": 250000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$200,000–250,000 / year"
   },
@@ -2578,8 +2664,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$285,000–330,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 285000.0,
-    "salaryMax": 330000.0,
+    "salaryMin": 285000,
+    "salaryMax": 330000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$285,000–330,000 / year"
   },
@@ -2606,8 +2692,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$120,700–226,350. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 120700.0,
-    "salaryMax": 226350.0,
+    "salaryMin": 120700,
+    "salaryMax": 226350,
     "salaryCurrency": "USD",
     "salaryLabel": "US$120,700–226,350 / year"
   },
@@ -2635,8 +2721,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$128,100–289,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 128100.0,
-    "salaryMax": 289900.0,
+    "salaryMin": 128100,
+    "salaryMax": 289900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$128,100–289,900 / year"
   },
@@ -2687,8 +2773,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$105,100–206,150. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 105100.0,
-    "salaryMax": 206150.0,
+    "salaryMin": 105100,
+    "salaryMax": 206150,
     "salaryCurrency": "USD",
     "salaryLabel": "US$105,100–206,150 / year"
   },
@@ -2717,8 +2803,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$146,300–274,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 146300.0,
-    "salaryMax": 274300.0,
+    "salaryMin": 146300,
+    "salaryMax": 274300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$146,300–274,300 / year"
   },
@@ -2776,8 +2862,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$118,300–259,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 118300.0,
-    "salaryMax": 259800.0,
+    "salaryMin": 118300,
+    "salaryMax": 259800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$118,300–259,800 / year"
   },
@@ -2806,8 +2892,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$128,100–289,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 128100.0,
-    "salaryMax": 289900.0,
+    "salaryMin": 128100,
+    "salaryMax": 289900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$128,100–289,900 / year"
   },
@@ -2835,8 +2921,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,600–385,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188600.0,
-    "salaryMax": 385900.0,
+    "salaryMin": 188600,
+    "salaryMax": 385900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,600–385,900 / year"
   },
@@ -2918,8 +3004,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$109,400–199,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109400.0,
-    "salaryMax": 199600.0,
+    "salaryMin": 109400,
+    "salaryMax": 199600,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,400–199,600 / year"
   },
@@ -2972,8 +3058,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$175,600–327,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 175600.0,
-    "salaryMax": 327800.0,
+    "salaryMin": 175600,
+    "salaryMax": 327800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$175,600–327,800 / year"
   },
@@ -3003,8 +3089,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$89,600–200,150. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 89600.0,
-    "salaryMax": 200150.0,
+    "salaryMin": 89600,
+    "salaryMax": 200150,
     "salaryCurrency": "USD",
     "salaryLabel": "US$89,600–200,150 / year"
   },
@@ -3060,8 +3146,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$101,200–201,950. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 101200.0,
-    "salaryMax": 201950.0,
+    "salaryMin": 101200,
+    "salaryMax": 201950,
     "salaryCurrency": "USD",
     "salaryLabel": "US$101,200–201,950 / year"
   },
@@ -3116,8 +3202,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$131,500–286,550. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 131500.0,
-    "salaryMax": 286550.0,
+    "salaryMin": 131500,
+    "salaryMax": 286550,
     "salaryCurrency": "USD",
     "salaryLabel": "US$131,500–286,550 / year"
   },
@@ -3146,8 +3232,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$124,600–234,250. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124600.0,
-    "salaryMax": 234250.0,
+    "salaryMin": 124600,
+    "salaryMax": 234250,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,600–234,250 / year"
   },
@@ -3178,8 +3264,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$124,600–234,250. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124600.0,
-    "salaryMax": 234250.0,
+    "salaryMin": 124600,
+    "salaryMax": 234250,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,600–234,250 / year"
   },
@@ -3209,8 +3295,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$158,000–301,050. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 158000.0,
-    "salaryMax": 301050.0,
+    "salaryMin": 158000,
+    "salaryMax": 301050,
     "salaryCurrency": "USD",
     "salaryLabel": "US$158,000–301,050 / year"
   },
@@ -3240,8 +3326,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$158,000–301,050. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 158000.0,
-    "salaryMax": 301050.0,
+    "salaryMin": 158000,
+    "salaryMax": 301050,
     "salaryCurrency": "USD",
     "salaryLabel": "US$158,000–301,050 / year"
   },
@@ -3270,8 +3356,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$158,000–301,050. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 158000.0,
-    "salaryMax": 301050.0,
+    "salaryMin": 158000,
+    "salaryMax": 301050,
     "salaryCurrency": "USD",
     "salaryLabel": "US$158,000–301,050 / year"
   },
@@ -3303,8 +3389,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$124,600–234,250. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124600.0,
-    "salaryMax": 234250.0,
+    "salaryMin": 124600,
+    "salaryMax": 234250,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,600–234,250 / year"
   },
@@ -3335,8 +3421,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$124,600–234,250. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124600.0,
-    "salaryMax": 234250.0,
+    "salaryMin": 124600,
+    "salaryMax": 234250,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,600–234,250 / year"
   },
@@ -3390,8 +3476,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$146,300–274,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 146300.0,
-    "salaryMax": 274300.0,
+    "salaryMin": 146300,
+    "salaryMax": 274300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$146,300–274,300 / year"
   },
@@ -3421,8 +3507,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$146,300–274,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 146300.0,
-    "salaryMax": 274300.0,
+    "salaryMin": 146300,
+    "salaryMax": 274300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$146,300–274,300 / year"
   },
@@ -3452,8 +3538,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$158,000–301,050. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 158000.0,
-    "salaryMax": 301050.0,
+    "salaryMin": 158000,
+    "salaryMax": 301050,
     "salaryCurrency": "USD",
     "salaryLabel": "US$158,000–301,050 / year"
   },
@@ -3483,8 +3569,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$146,300–274,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 146300.0,
-    "salaryMax": 274300.0,
+    "salaryMin": 146300,
+    "salaryMax": 274300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$146,300–274,300 / year"
   },
@@ -3533,8 +3619,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$164,000–261,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 164000.0,
-    "salaryMax": 261500.0,
+    "salaryMin": 164000,
+    "salaryMax": 261500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$164,000–261,500 / year"
   },
@@ -3558,8 +3644,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$172,500–260,100. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 172500.0,
-    "salaryMax": 260100.0,
+    "salaryMin": 172500,
+    "salaryMax": 260100,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,500–260,100 / year"
   },
@@ -3587,8 +3673,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$164,000–261,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 164000.0,
-    "salaryMax": 261500.0,
+    "salaryMin": 164000,
+    "salaryMax": 261500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$164,000–261,500 / year"
   },
@@ -3617,8 +3703,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$94,000–142,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 94000.0,
-    "salaryMax": 142300.0,
+    "salaryMin": 94000,
+    "salaryMax": 142300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$94,000–142,300 / year"
   },
@@ -3647,8 +3733,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$94,000–142,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 94000.0,
-    "salaryMax": 142300.0,
+    "salaryMin": 94000,
+    "salaryMax": 142300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$94,000–142,300 / year"
   },
@@ -3672,8 +3758,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$172,500–260,100. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 172500.0,
-    "salaryMax": 260100.0,
+    "salaryMin": 172500,
+    "salaryMax": 260100,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,500–260,100 / year"
   },
@@ -3727,8 +3813,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$94,000–142,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 94000.0,
-    "salaryMax": 142300.0,
+    "salaryMin": 94000,
+    "salaryMax": 142300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$94,000–142,300 / year"
   },
@@ -3757,8 +3843,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -3788,8 +3874,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$117,400–177,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 117400.0,
-    "salaryMax": 177600.0,
+    "salaryMin": 117400,
+    "salaryMax": 177600,
     "salaryCurrency": "USD",
     "salaryLabel": "US$117,400–177,600 / year"
   },
@@ -3818,8 +3904,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$94,000–142,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 94000.0,
-    "salaryMax": 142300.0,
+    "salaryMin": 94000,
+    "salaryMax": 142300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$94,000–142,300 / year"
   },
@@ -3847,8 +3933,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -3877,8 +3963,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -3933,8 +4019,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -3962,8 +4048,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4014,8 +4100,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4070,8 +4156,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$117,400–177,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 117400.0,
-    "salaryMax": 177600.0,
+    "salaryMin": 117400,
+    "salaryMax": 177600,
     "salaryCurrency": "USD",
     "salaryLabel": "US$117,400–177,600 / year"
   },
@@ -4125,8 +4211,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4152,8 +4238,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4211,8 +4297,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4242,8 +4328,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$148,500–223,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 148500.0,
-    "salaryMax": 223900.0,
+    "salaryMin": 148500,
+    "salaryMax": 223900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$148,500–223,900 / year"
   },
@@ -4269,8 +4355,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4296,8 +4382,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4323,8 +4409,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400.0,
-    "salaryMax": 216900.0,
+    "salaryMin": 143400,
+    "salaryMax": 216900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4378,8 +4464,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$117,400–177,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 117400.0,
-    "salaryMax": 177600.0,
+    "salaryMin": 117400,
+    "salaryMax": 177600,
     "salaryCurrency": "USD",
     "salaryLabel": "US$117,400–177,600 / year"
   },
@@ -4409,8 +4495,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$197,300–313,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 197300.0,
-    "salaryMax": 313700.0,
+    "salaryMin": 197300,
+    "salaryMax": 313700,
     "salaryCurrency": "USD",
     "salaryLabel": "US$197,300–313,700 / year"
   },
@@ -4467,8 +4553,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$197,300–313,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 197300.0,
-    "salaryMax": 313700.0,
+    "salaryMin": 197300,
+    "salaryMax": 313700,
     "salaryCurrency": "USD",
     "salaryLabel": "US$197,300–313,700 / year"
   },
@@ -4522,8 +4608,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4547,8 +4633,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -4576,8 +4662,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4603,8 +4689,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4631,8 +4717,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4660,8 +4746,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4689,8 +4775,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4717,8 +4803,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4750,8 +4836,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4777,8 +4863,8 @@ const JOBS = [
       "Figma"
     ],
     "salary": "Published annual range: US$109,000–155,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109000.0,
-    "salaryMax": 155000.0,
+    "salaryMin": 109000,
+    "salaryMax": 155000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,000–155,000 / year"
   },
@@ -4806,8 +4892,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4833,8 +4919,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4861,8 +4947,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4888,8 +4974,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4915,8 +5001,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4944,8 +5030,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -4995,8 +5081,8 @@ const JOBS = [
       "Figma"
     ],
     "salary": "Published annual range: US$109,000–155,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109000.0,
-    "salaryMax": 155000.0,
+    "salaryMin": 109000,
+    "salaryMax": 155000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,000–155,000 / year"
   },
@@ -5022,8 +5108,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5049,8 +5135,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5076,8 +5162,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5105,8 +5191,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -5207,8 +5293,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000.0,
-    "salaryMax": 329000.0,
+    "salaryMin": 236000,
+    "salaryMax": 329000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -5234,8 +5320,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$159,000–231,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 231000.0,
+    "salaryMin": 159000,
+    "salaryMax": 231000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–231,000 / year"
   },
@@ -5262,8 +5348,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000.0,
-    "salaryMax": 329000.0,
+    "salaryMin": 236000,
+    "salaryMax": 329000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -5289,8 +5375,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5316,8 +5402,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5370,8 +5456,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$205,760–315,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 205760.0,
-    "salaryMax": 315000.0,
+    "salaryMin": 205760,
+    "salaryMax": 315000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$205,760–315,000 / year"
   },
@@ -5398,8 +5484,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$235,500–325,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 235500.0,
-    "salaryMax": 325000.0,
+    "salaryMin": 235500,
+    "salaryMax": 325000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$235,500–325,000 / year"
   },
@@ -5514,8 +5600,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$220,500–298,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 220500.0,
-    "salaryMax": 298500.0,
+    "salaryMin": 220500,
+    "salaryMax": 298500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$220,500–298,500 / year"
   },
@@ -5543,8 +5629,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$205,000–277,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 205000.0,
-    "salaryMax": 277500.0,
+    "salaryMin": 205000,
+    "salaryMax": 277500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$205,000–277,500 / year"
   },
@@ -5599,8 +5685,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$205,000–277,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 205000.0,
-    "salaryMax": 277500.0,
+    "salaryMin": 205000,
+    "salaryMax": 277500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$205,000–277,500 / year"
   },
@@ -5648,8 +5734,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$226,000–305,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 226000.0,
-    "salaryMax": 305500.0,
+    "salaryMin": 226000,
+    "salaryMax": 305500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$226,000–305,500 / year"
   },
@@ -5677,8 +5763,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$213,500–289,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 213500.0,
-    "salaryMax": 289000.0,
+    "salaryMin": 213500,
+    "salaryMax": 289000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$213,500–289,000 / year"
   },
@@ -5706,8 +5792,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$220,500–298,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 220500.0,
-    "salaryMax": 298500.0,
+    "salaryMin": 220500,
+    "salaryMax": 298500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$220,500–298,500 / year"
   },
@@ -5735,8 +5821,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$226,000–305,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 226000.0,
-    "salaryMax": 305500.0,
+    "salaryMin": 226000,
+    "salaryMax": 305500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$226,000–305,500 / year"
   },
@@ -5764,8 +5850,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$239,000–323,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 239000.0,
-    "salaryMax": 323000.0,
+    "salaryMin": 239000,
+    "salaryMax": 323000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$239,000–323,000 / year"
   },
@@ -5792,8 +5878,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$280,000–379,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 280000.0,
-    "salaryMax": 379000.0,
+    "salaryMin": 280000,
+    "salaryMax": 379000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$280,000–379,000 / year"
   },
@@ -5822,8 +5908,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,500–255,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188500.0,
-    "salaryMax": 255000.0,
+    "salaryMin": 188500,
+    "salaryMax": 255000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,500–255,000 / year"
   },
@@ -5850,8 +5936,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$338,000–457,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 338000.0,
-    "salaryMax": 457500.0,
+    "salaryMin": 338000,
+    "salaryMax": 457500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$338,000–457,500 / year"
   },
@@ -6773,8 +6859,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000.0,
-    "salaryMax": 294000.0,
+    "salaryMin": 179000,
+    "salaryMax": 294000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -6800,8 +6886,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000.0,
-    "salaryMax": 294000.0,
+    "salaryMin": 179000,
+    "salaryMax": 294000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -6829,8 +6915,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300.0,
-    "salaryMax": 250900.0,
+    "salaryMin": 151300,
+    "salaryMax": 250900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -6858,8 +6944,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300.0,
-    "salaryMax": 250900.0,
+    "salaryMin": 151300,
+    "salaryMax": 250900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -6887,8 +6973,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300.0,
-    "salaryMax": 250900.0,
+    "salaryMin": 151300,
+    "salaryMax": 250900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -6942,8 +7028,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300.0,
-    "salaryMax": 250900.0,
+    "salaryMin": 151300,
+    "salaryMax": 250900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -6970,8 +7056,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800.0,
-    "salaryMax": 163000.0,
+    "salaryMin": 111800,
+    "salaryMax": 163000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -6999,8 +7085,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300.0,
-    "salaryMax": 250900.0,
+    "salaryMin": 151300,
+    "salaryMax": 250900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -7027,8 +7113,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800.0,
-    "salaryMax": 163000.0,
+    "salaryMin": 111800,
+    "salaryMax": 163000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -7056,8 +7142,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300.0,
-    "salaryMax": 250900.0,
+    "salaryMin": 151300,
+    "salaryMax": 250900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -7083,8 +7169,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000.0,
-    "salaryMax": 294000.0,
+    "salaryMin": 179000,
+    "salaryMax": 294000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -7136,8 +7222,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800.0,
-    "salaryMax": 163000.0,
+    "salaryMin": 111800,
+    "salaryMax": 163000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -7164,8 +7250,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800.0,
-    "salaryMax": 163000.0,
+    "salaryMin": 111800,
+    "salaryMax": 163000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -7676,8 +7762,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -7701,8 +7787,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -7730,8 +7816,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -7758,8 +7844,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$172,500–260,100. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 172500.0,
-    "salaryMax": 260100.0,
+    "salaryMin": 172500,
+    "salaryMax": 260100,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,500–260,100 / year"
   },
@@ -7791,8 +7877,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -7818,8 +7904,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -7850,8 +7936,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$165,600–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 165600.0,
-    "salaryMax": 296400.0,
+    "salaryMin": 165600,
+    "salaryMax": 296400,
     "salaryCurrency": "USD",
     "salaryLabel": "US$165,600–296,400 / year"
   },
@@ -7877,8 +7963,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800.0,
-    "salaryMax": 274800.0,
+    "salaryMin": 142800,
+    "salaryMax": 274800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -8011,8 +8097,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$338,000–457,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 338000.0,
-    "salaryMax": 457500.0,
+    "salaryMin": 338000,
+    "salaryMax": 457500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$338,000–457,500 / year"
   },
@@ -8089,8 +8175,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800.0,
-    "salaryMax": 274800.0,
+    "salaryMin": 142800,
+    "salaryMax": 274800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -8423,8 +8509,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -8451,8 +8537,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -8479,8 +8565,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8504,8 +8590,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -8532,8 +8618,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000.0,
-    "salaryMax": 329000.0,
+    "salaryMin": 236000,
+    "salaryMax": 329000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -8560,8 +8646,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000.0,
-    "salaryMax": 329000.0,
+    "salaryMin": 236000,
+    "salaryMax": 329000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -8588,8 +8674,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8616,8 +8702,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000.0,
-    "salaryMax": 329000.0,
+    "salaryMin": 236000,
+    "salaryMax": 329000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -8644,8 +8730,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8672,8 +8758,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8699,8 +8785,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -8727,8 +8813,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8758,8 +8844,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$171,000–247,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 171000.0,
-    "salaryMax": 247000.0,
+    "salaryMin": 171000,
+    "salaryMax": 247000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$171,000–247,000 / year"
   },
@@ -8783,8 +8869,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -8813,8 +8899,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8841,8 +8927,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8869,8 +8955,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8900,8 +8986,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -8928,8 +9014,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8961,8 +9047,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -8994,8 +9080,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9025,8 +9111,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9053,8 +9139,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9084,8 +9170,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9111,8 +9197,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9141,8 +9227,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$54,000–72,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 54000.0,
-    "salaryMax": 72000.0,
+    "salaryMin": 54000,
+    "salaryMax": 72000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$54,000–72,000 / year"
   },
@@ -9166,8 +9252,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9195,8 +9281,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9224,8 +9310,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -9253,8 +9339,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9281,8 +9367,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9307,8 +9393,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$323,000–449,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 323000.0,
-    "salaryMax": 449000.0,
+    "salaryMin": 323000,
+    "salaryMax": 449000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$323,000–449,000 / year"
   },
@@ -9334,8 +9420,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -9359,8 +9445,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9387,8 +9473,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9415,8 +9501,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9443,8 +9529,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9471,8 +9557,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9500,8 +9586,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9528,8 +9614,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9553,8 +9639,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$163,000–236,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 163000.0,
-    "salaryMax": 236000.0,
+    "salaryMin": 163000,
+    "salaryMax": 236000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$163,000–236,000 / year"
   },
@@ -9581,8 +9667,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9608,8 +9694,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9636,8 +9722,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9665,8 +9751,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9691,8 +9777,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9718,8 +9804,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9744,8 +9830,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9772,8 +9858,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9800,8 +9886,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$192,000–278,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 192000.0,
-    "salaryMax": 278000.0,
+    "salaryMin": 192000,
+    "salaryMax": 278000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$192,000–278,000 / year"
   },
@@ -9827,8 +9913,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9855,8 +9941,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9883,8 +9969,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9911,8 +9997,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$192,000–278,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 192000.0,
-    "salaryMax": 278000.0,
+    "salaryMin": 192000,
+    "salaryMax": 278000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$192,000–278,000 / year"
   },
@@ -9937,8 +10023,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9965,8 +10051,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9990,8 +10076,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$138,000–197,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 138000.0,
-    "salaryMax": 197000.0,
+    "salaryMin": 138000,
+    "salaryMax": 197000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$138,000–197,000 / year"
   },
@@ -10018,8 +10104,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$192,000–278,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 192000.0,
-    "salaryMax": 278000.0,
+    "salaryMin": 192000,
+    "salaryMax": 278000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$192,000–278,000 / year"
   },
@@ -10043,8 +10129,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -10071,8 +10157,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -10096,8 +10182,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$138,000–197,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 138000.0,
-    "salaryMax": 197000.0,
+    "salaryMin": 138000,
+    "salaryMax": 197000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$138,000–197,000 / year"
   },
@@ -10123,8 +10209,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -10151,8 +10237,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000.0,
-    "salaryMax": 329000.0,
+    "salaryMin": 236000,
+    "salaryMax": 329000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -10176,8 +10262,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000.0,
-    "salaryMax": 189000.0,
+    "salaryMin": 132000,
+    "salaryMax": 189000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -10203,8 +10289,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -10228,8 +10314,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$192,000–278,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 192000.0,
-    "salaryMax": 278000.0,
+    "salaryMin": 192000,
+    "salaryMax": 278000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$192,000–278,000 / year"
   },
@@ -10253,8 +10339,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$172,500–260,100. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 172500.0,
-    "salaryMax": 260100.0,
+    "salaryMin": 172500,
+    "salaryMax": 260100,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,500–260,100 / year"
   },
@@ -10284,8 +10370,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$117,400–177,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 117400.0,
-    "salaryMax": 177600.0,
+    "salaryMin": 117400,
+    "salaryMax": 177600,
     "salaryCurrency": "USD",
     "salaryLabel": "US$117,400–177,600 / year"
   },
@@ -10313,8 +10399,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$257,500–451,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 257500.0,
-    "salaryMax": 451700.0,
+    "salaryMin": 257500,
+    "salaryMax": 451700,
     "salaryCurrency": "USD",
     "salaryLabel": "US$257,500–451,700 / year"
   },
@@ -10344,8 +10430,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$148,500–223,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 148500.0,
-    "salaryMax": 223900.0,
+    "salaryMin": 148500,
+    "salaryMax": 223900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$148,500–223,900 / year"
   },
@@ -10425,8 +10511,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$139,700–265,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 139700.0,
-    "salaryMax": 265800.0,
+    "salaryMin": 139700,
+    "salaryMax": 265800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$139,700–265,800 / year"
   },
@@ -10453,8 +10539,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$120,700–226,350. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 120700.0,
-    "salaryMax": 226350.0,
+    "salaryMin": 120700,
+    "salaryMax": 226350,
     "salaryCurrency": "USD",
     "salaryLabel": "US$120,700–226,350 / year"
   },
@@ -10483,8 +10569,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$139,000–257,550. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 139000.0,
-    "salaryMax": 257550.0,
+    "salaryMin": 139000,
+    "salaryMax": 257550,
     "salaryCurrency": "USD",
     "salaryLabel": "US$139,000–257,550 / year"
   },
@@ -10512,8 +10598,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$131,500–286,550. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 131500.0,
-    "salaryMax": 286550.0,
+    "salaryMin": 131500,
+    "salaryMax": 286550,
     "salaryCurrency": "USD",
     "salaryLabel": "US$131,500–286,550 / year"
   },
@@ -10540,8 +10626,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$235,500–325,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 235500.0,
-    "salaryMax": 325000.0,
+    "salaryMin": 235500,
+    "salaryMax": 325000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$235,500–325,000 / year"
   },
@@ -10569,8 +10655,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$205,760–315,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 205760.0,
-    "salaryMax": 315000.0,
+    "salaryMin": 205760,
+    "salaryMax": 315000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$205,760–315,000 / year"
   },
@@ -10602,8 +10688,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800.0,
-    "salaryMax": 296400.0,
+    "salaryMin": 142800,
+    "salaryMax": 296400,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–296,400 / year"
   },
@@ -12047,8 +12133,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$130,900–251,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 130900.0,
-    "salaryMax": 251900.0,
+    "salaryMin": 130900,
+    "salaryMax": 251900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$130,900–251,900 / year"
   },
@@ -12076,8 +12162,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$202,500–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 202500.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 202500,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$202,500–274,000 / year"
   },
@@ -12103,8 +12189,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000.0,
-    "salaryMax": 294000.0,
+    "salaryMin": 179000,
+    "salaryMax": 294000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -12130,8 +12216,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000.0,
-    "salaryMax": 294000.0,
+    "salaryMin": 179000,
+    "salaryMax": 294000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -12157,8 +12243,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000.0,
-    "salaryMax": 294000.0,
+    "salaryMin": 179000,
+    "salaryMax": 294000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -12184,8 +12270,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000.0,
-    "salaryMax": 294000.0,
+    "salaryMin": 179000,
+    "salaryMax": 294000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -12212,8 +12298,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$130,900–251,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 130900.0,
-    "salaryMax": 251900.0,
+    "salaryMin": 130900,
+    "salaryMax": 251900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$130,900–251,900 / year"
   },
@@ -12240,8 +12326,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800.0,
-    "salaryMax": 274800.0,
+    "salaryMin": 142800,
+    "salaryMax": 274800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -12269,8 +12355,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$140,500–268,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 140500.0,
-    "salaryMax": 268800.0,
+    "salaryMin": 140500,
+    "salaryMax": 268800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$140,500–268,800 / year"
   },
@@ -12298,8 +12384,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$165,600–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 165600.0,
-    "salaryMax": 296400.0,
+    "salaryMin": 165600,
+    "salaryMax": 296400,
     "salaryCurrency": "USD",
     "salaryLabel": "US$165,600–296,400 / year"
   },
@@ -12350,8 +12436,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$119,800–234,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 119800.0,
-    "salaryMax": 234700.0,
+    "salaryMin": 119800,
+    "salaryMax": 234700,
     "salaryCurrency": "USD",
     "salaryLabel": "US$119,800–234,700 / year"
   },
@@ -12378,8 +12464,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800.0,
-    "salaryMax": 274800.0,
+    "salaryMin": 142800,
+    "salaryMax": 274800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -12406,8 +12492,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800.0,
-    "salaryMax": 163000.0,
+    "salaryMin": 111800,
+    "salaryMax": 163000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -12434,8 +12520,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800.0,
-    "salaryMax": 274800.0,
+    "salaryMin": 142800,
+    "salaryMax": 274800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -12462,8 +12548,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$136,500–228,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 136500.0,
-    "salaryMax": 228300.0,
+    "salaryMin": 136500,
+    "salaryMax": 228300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$136,500–228,300 / year"
   },
@@ -12494,8 +12580,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$119,800–234,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 119800.0,
-    "salaryMax": 234700.0,
+    "salaryMin": 119800,
+    "salaryMax": 234700,
     "salaryCurrency": "USD",
     "salaryLabel": "US$119,800–234,700 / year"
   },
@@ -12523,8 +12609,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$119,800–234,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 119800.0,
-    "salaryMax": 234700.0,
+    "salaryMin": 119800,
+    "salaryMax": 234700,
     "salaryCurrency": "USD",
     "salaryLabel": "US$119,800–234,700 / year"
   },
@@ -12551,8 +12637,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$136,500–228,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 136500.0,
-    "salaryMax": 228300.0,
+    "salaryMin": 136500,
+    "salaryMax": 228300,
     "salaryCurrency": "USD",
     "salaryLabel": "US$136,500–228,300 / year"
   },
@@ -12579,8 +12665,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800.0,
-    "salaryMax": 163000.0,
+    "salaryMin": 111800,
+    "salaryMax": 163000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -12613,8 +12699,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$102,100–202,200. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 102100.0,
-    "salaryMax": 202200.0,
+    "salaryMin": 102100,
+    "salaryMax": 202200,
     "salaryCurrency": "USD",
     "salaryLabel": "US$102,100–202,200 / year"
   },
@@ -12641,8 +12727,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800.0,
-    "salaryMax": 296400.0,
+    "salaryMin": 142800,
+    "salaryMax": 296400,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–296,400 / year"
   },
@@ -12695,8 +12781,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$102,100–202,200. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 102100.0,
-    "salaryMax": 202200.0,
+    "salaryMin": 102100,
+    "salaryMax": 202200,
     "salaryCurrency": "USD",
     "salaryLabel": "US$102,100–202,200 / year"
   },
@@ -12723,8 +12809,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$165,600–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 165600.0,
-    "salaryMax": 296400.0,
+    "salaryMin": 165600,
+    "salaryMax": 296400,
     "salaryCurrency": "USD",
     "salaryLabel": "US$165,600–296,400 / year"
   },
@@ -12798,8 +12884,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$285,000–330,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 285000.0,
-    "salaryMax": 330000.0,
+    "salaryMin": 285000,
+    "salaryMax": 330000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$285,000–330,000 / year"
   },
@@ -12868,8 +12954,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$124,000–201,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124000.0,
-    "salaryMax": 201000.0,
+    "salaryMin": 124000,
+    "salaryMax": 201000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,000–201,000 / year"
   },
@@ -13255,8 +13341,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$102,100–202,200. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 102100.0,
-    "salaryMax": 202200.0,
+    "salaryMin": 102100,
+    "salaryMax": 202200,
     "salaryCurrency": "USD",
     "salaryLabel": "US$102,100–202,200 / year"
   },
@@ -13282,8 +13368,8 @@ const JOBS = [
       "Adobe"
     ],
     "salary": "Published annual range: US$145,400–261,150. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 145400.0,
-    "salaryMax": 261150.0,
+    "salaryMin": 145400,
+    "salaryMax": 261150,
     "salaryCurrency": "USD",
     "salaryLabel": "US$145,400–261,150 / year"
   },
@@ -13310,8 +13396,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$124,000–201,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124000.0,
-    "salaryMax": 201000.0,
+    "salaryMin": 124000,
+    "salaryMax": 201000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,000–201,000 / year"
   },
@@ -13391,8 +13477,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$119,800–234,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 119800.0,
-    "salaryMax": 234700.0,
+    "salaryMin": 119800,
+    "salaryMax": 234700,
     "salaryCurrency": "USD",
     "salaryLabel": "US$119,800–234,700 / year"
   },
@@ -13650,8 +13736,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300.0,
-    "salaryMax": 250900.0,
+    "salaryMin": 151300,
+    "salaryMax": 250900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -13758,8 +13844,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800.0,
-    "salaryMax": 274800.0,
+    "salaryMin": 142800,
+    "salaryMax": 274800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -13861,8 +13947,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800.0,
-    "salaryMax": 274800.0,
+    "salaryMin": 142800,
+    "salaryMax": 274800,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -13890,8 +13976,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$124,000–201,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124000.0,
-    "salaryMax": 201000.0,
+    "salaryMin": 124000,
+    "salaryMax": 201000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,000–201,000 / year"
   },
@@ -14158,8 +14244,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$124,000–201,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124000.0,
-    "salaryMax": 201000.0,
+    "salaryMin": 124000,
+    "salaryMax": 201000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,000–201,000 / year"
   },
@@ -17391,8 +17477,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000.0,
-    "salaryMax": 329000.0,
+    "salaryMin": 236000,
+    "salaryMax": 329000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -17416,8 +17502,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -17441,8 +17527,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -17492,8 +17578,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$109,000–155,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109000.0,
-    "salaryMax": 155000.0,
+    "salaryMin": 109000,
+    "salaryMax": 155000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,000–155,000 / year"
   },
@@ -17517,8 +17603,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000.0,
-    "salaryMax": 230000.0,
+    "salaryMin": 159000,
+    "salaryMax": 230000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -17544,8 +17630,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$109,000–155,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109000.0,
-    "salaryMax": 155000.0,
+    "salaryMin": 109000,
+    "salaryMax": 155000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,000–155,000 / year"
   },
@@ -17616,8 +17702,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000.0,
-    "salaryMax": 329000.0,
+    "salaryMin": 236000,
+    "salaryMax": 329000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -17712,8 +17798,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000.0,
-    "salaryMax": 274000.0,
+    "salaryMin": 188000,
+    "salaryMax": 274000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },

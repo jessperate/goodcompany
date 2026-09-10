@@ -1088,5 +1088,27 @@ const COMPANIES = {
       "checkedAt": "2026-09-09",
       "crawl": "6 days ago"
     }
+  },
+  "Netflix": {
+    "website": "https://www.netflix.com",
+    "logo": "logos/netflix.svg",
+    "about": "A global entertainment service offering series, films, games, and live programming.",
+    "checkedAt": "September 10, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Sanity": {
+    "website": "https://www.sanity.io",
+    "logo": "logos/sanity.svg",
+    "about": "A content operating system for modeling, creating, and automating content across digital experiences.",
+    "checkedAt": "September 10, 2026",
+    "press": [
+      {
+        "title": "$85M Series C funding · May 2025",
+        "url": "https://www.sanity.io/blog/why-the-age-of-cms-is-over",
+        "source": "Sanity"
+      }
+    ],
+    "interviews": []
   }
 };
