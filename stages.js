@@ -1,4 +1,9 @@
 const COMPANY_STAGES = {
+  "ClickUp": {
+    "stage": "Series C+",
+    "url": "https://clickup.com/blog/series-c/",
+    "checkedAt": "2026-09-10"
+  },
   "Modal": {
     "stage": "Series C+",
     "url": "https://modal.com/blog/modal-series-c",

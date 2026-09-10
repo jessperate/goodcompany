@@ -1,5 +1,75 @@
 const JOBS = [
   {
+    "id": "stripe-web-presence-platform-8130913",
+    "company": "Stripe",
+    "title": "Designer, Web, Presence & Platform",
+    "category": "Brand & visual",
+    "location": "United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "level": "Mid-level",
+    "summary": "Design Stripe’s public-facing web experiences, from product launches to industry and solution pages. Combine visual storytelling, usability, and reusable design patterns across stripe.com.",
+    "highlights": [
+      "Requires 2–4 years of relevant design experience and a strong web design portfolio.",
+      "Work with engineers, marketing, and content partners; use research and testing to improve designs.",
+      "Experience with Figma, component-based design, and CMS-driven websites is required.",
+      "Remote within the US; Stripe defines remote locations as at least 35 miles from an office."
+    ],
+    "keywords": [
+      "web design",
+      "web presence",
+      "brand design",
+      "marketing",
+      "design systems",
+      "Figma"
+    ],
+    "salary": "US$133,200–199,800 annual base salary. Final pay depends on experience, qualifications, and location.",
+    "salaryMin": 133200,
+    "salaryMax": 199800,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$133,200–199,800 / year",
+    "source": "Stripe careers",
+    "checkedAt": "September 10, 2026",
+    "url": "https://stripe.com/careers/listing/designer-web-presence-platform/8130913?gh_src=73vnei"
+  },
+  {
+    "id": "clickup-lead-brand-designer-7fb8d11f",
+    "company": "ClickUp",
+    "title": "Lead Brand Designer",
+    "category": "Brand & visual",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "level": "Senior",
+    "summary": "Lead ClickUp’s visual brand and build design systems that let AI tools and non-designers create consistent, high-quality work. Shape web campaigns, launches, and marketing assets while setting standards for creative output.",
+    "highlights": [
+      "Requires 8+ years in brand or visual design, including ownership of a design system.",
+      "Hands-on experience with AI design and coding tools, plus basic familiarity with GitHub.",
+      "Create templates, component libraries, guidelines, and assets that support AI-assisted production.",
+      "Review AI-generated and agency work while operating independently as the team’s sole designer."
+    ],
+    "keywords": [
+      "brand design",
+      "visual design",
+      "design systems",
+      "AI",
+      "generative AI",
+      "web design",
+      "marketing"
+    ],
+    "salary": "US$110,000–169,000 annual base salary.",
+    "salaryMin": 110000,
+    "salaryMax": 169000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$110,000–169,000 / year",
+    "source": "ClickUp careers · Ashby",
+    "checkedAt": "September 10, 2026",
+    "url": "https://jobs.ashbyhq.com/clickup/7fb8d11f-7ff7-4f6d-a41e-46e2d12e8774?utm_source=OrAo48EPGZ"
+  },
+  {
     "id": "modal-brand-design-23311dfd",
     "company": "Modal",
     "title": "Member of Design Staff - Brand",

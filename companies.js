@@ -1,4 +1,18 @@
 const COMPANIES = {
+  "ClickUp": {
+    "website": "https://clickup.com",
+    "logo": "logos/clickup.svg",
+    "about": "An AI-powered workspace combining tasks, documents, chat, calendars, and enterprise search.",
+    "checkedAt": "September 10, 2026",
+    "press": [
+      {
+        "title": "Series C funding announcement · October 2021",
+        "url": "https://clickup.com/blog/series-c/",
+        "source": "ClickUp"
+      }
+    ],
+    "interviews": []
+  },
   "Modal": {
     "website": "https://modal.com/",
     "logo": "logos/modal.svg",
