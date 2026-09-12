@@ -1,0 +1,657 @@
+{
+  "date": "2026-09-11",
+  "status": "completed-with-coverage-gaps",
+  "before": 723,
+  "after": 753,
+  "added": [
+    {
+      "id": "clickup-0b715fff-f8c2-4e87-880d-d390bb0cbc40",
+      "company": "ClickUp",
+      "title": "Staff Product Designer",
+      "url": "https://jobs.ashbyhq.com/clickup/0b715fff-f8c2-4e87-880d-d390bb0cbc40"
+    },
+    {
+      "id": "elevenlabs-5494be31-7899-4f7a-b10f-4c49378b44ef",
+      "company": "ElevenLabs",
+      "title": "Design Engineer - Creative & Studio",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef"
+    },
+    {
+      "id": "elevenlabs-18d52799-7b88-4516-9d8f-e9db312ad195",
+      "company": "ElevenLabs",
+      "title": "Experiential Designer - Events",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/18d52799-7b88-4516-9d8f-e9db312ad195"
+    },
+    {
+      "id": "elevenlabs-ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
+      "company": "ElevenLabs",
+      "title": "Influencer Marketer",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9"
+    },
+    {
+      "id": "exa-237cc096-2234-48ee-9c98-8c7221845484",
+      "company": "Exa",
+      "title": "Design Engineer",
+      "url": "https://jobs.ashbyhq.com/exa/237cc096-2234-48ee-9c98-8c7221845484"
+    },
+    {
+      "id": "fal-2fe0b9ef-3053-4514-b301-ab8bd07b45cd",
+      "company": "Fal",
+      "title": "Creative Producer",
+      "url": "https://jobs.ashbyhq.com/fal-ai/2fe0b9ef-3053-4514-b301-ab8bd07b45cd"
+    },
+    {
+      "id": "gamma-5f4e30f2-1f1b-4ce2-aa58-c81777cf56de",
+      "company": "Gamma",
+      "title": "UI Engineer",
+      "url": "https://jobs.ashbyhq.com/gamma/5f4e30f2-1f1b-4ce2-aa58-c81777cf56de"
+    },
+    {
+      "id": "harvey-aede4098-91f4-44f5-9d53-27c15cb2bae7",
+      "company": "Harvey",
+      "title": "Senior or Staff Product Designer, Design Systems",
+      "url": "https://jobs.ashbyhq.com/harvey/aede4098-91f4-44f5-9d53-27c15cb2bae7"
+    },
+    {
+      "id": "harvey-9814b9ca-5917-43f8-8f76-6df7aa7e2be3",
+      "company": "Harvey",
+      "title": "Senior or Staff Product Designer, Design Systems",
+      "url": "https://jobs.ashbyhq.com/harvey/9814b9ca-5917-43f8-8f76-6df7aa7e2be3"
+    },
+    {
+      "id": "ramp-758ed843-0fa2-4891-8925-c8d690c6eb0f",
+      "company": "Ramp",
+      "title": "Social Media Lead",
+      "url": "https://jobs.ashbyhq.com/ramp/758ed843-0fa2-4891-8925-c8d690c6eb0f"
+    },
+    {
+      "id": "perplexity-9740bc68-7297-4d69-ae54-3be81ae3745a",
+      "company": "Perplexity",
+      "title": "Social Media Manager",
+      "url": "https://jobs.ashbyhq.com/perplexity/9740bc68-7297-4d69-ae54-3be81ae3745a"
+    },
+    {
+      "id": "legora-acce1179-88d3-4f1f-bcce-597ed3a37d47",
+      "company": "Legora",
+      "title": "Senior Visual Designer - Product Marketing",
+      "url": "https://jobs.ashbyhq.com/legora/acce1179-88d3-4f1f-bcce-597ed3a37d47"
+    },
+    {
+      "id": "figma-6135338004",
+      "company": "Figma",
+      "title": "Design Program Manager, AI Evals  (London, United Kingdom)",
+      "url": "https://boards.greenhouse.io/figma/jobs/6135338004?gh_jid=6135338004"
+    },
+    {
+      "id": "figma-6135656004",
+      "company": "Figma",
+      "title": "Manager, Design - Systems & Infrastructure",
+      "url": "https://boards.greenhouse.io/figma/jobs/6135656004?gh_jid=6135656004"
+    },
+    {
+      "id": "figma-5790585004",
+      "company": "Figma",
+      "title": "Manager, Product Design",
+      "url": "https://boards.greenhouse.io/figma/jobs/5790585004?gh_jid=5790585004"
+    },
+    {
+      "id": "mercury-6110081004",
+      "company": "Mercury",
+      "title": "Senior Frontend Engineer - Design Systems",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6110081004"
+    },
+    {
+      "id": "dorsia-5198536007",
+      "company": "Dorsia",
+      "title": "Senior Product Designer",
+      "url": "https://job-boards.greenhouse.io/dorsia/jobs/5198536007"
+    },
+    {
+      "id": "airbnb-8189352",
+      "company": "Airbnb",
+      "title": "Senior Staff Editor, Creative Studio",
+      "url": "https://careers.airbnb.com/positions/8189352?gh_jid=8189352"
+    },
+    {
+      "id": "airbnb-8007402",
+      "company": "Airbnb",
+      "title": "Senior Staff UX Writer, International",
+      "url": "https://careers.airbnb.com/positions/8007402?gh_jid=8007402"
+    },
+    {
+      "id": "airbnb-8113284",
+      "company": "Airbnb",
+      "title": "Staff UX Researcher, Payments Growth (Mixed Methods)",
+      "url": "https://careers.airbnb.com/positions/8113284?gh_jid=8113284"
+    },
+    {
+      "id": "airbnb-8171646",
+      "company": "Airbnb",
+      "title": "Staff UX Writer (Host)",
+      "url": "https://careers.airbnb.com/positions/8171646?gh_jid=8171646"
+    },
+    {
+      "id": "duolingo-8442934002",
+      "company": "Duolingo",
+      "title": "Creative Director, Marketing",
+      "url": "https://careers.duolingo.com/jobs/8442934002?gh_jid=8442934002"
+    },
+    {
+      "id": "duolingo-8722385002",
+      "company": "Duolingo",
+      "title": "Senior Learning Designer, Indian Languages",
+      "url": "https://careers.duolingo.com/jobs/8722385002?gh_jid=8722385002"
+    },
+    {
+      "id": "duolingo-8618405002",
+      "company": "Duolingo",
+      "title": "Senior Product Designer",
+      "url": "https://careers.duolingo.com/jobs/8618405002?gh_jid=8618405002"
+    },
+    {
+      "id": "duolingo-8675713002",
+      "company": "Duolingo",
+      "title": "Senior Product Designer",
+      "url": "https://careers.duolingo.com/jobs/8675713002?gh_jid=8675713002"
+    },
+    {
+      "id": "duolingo-8729596002",
+      "company": "Duolingo",
+      "title": "Staff Product Designer, Monetization",
+      "url": "https://careers.duolingo.com/jobs/8729596002?gh_jid=8729596002"
+    },
+    {
+      "id": "ashby-cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a",
+      "company": "Ashby",
+      "title": "Staff Design Engineer - Americas",
+      "url": "https://jobs.ashbyhq.com/ashby/cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a"
+    },
+    {
+      "id": "ashby-97c6542c-7ff9-43e5-ac54-b77b45fc7378",
+      "company": "Ashby",
+      "title": "Staff Design Engineer - Canada",
+      "url": "https://jobs.ashbyhq.com/ashby/97c6542c-7ff9-43e5-ac54-b77b45fc7378"
+    },
+    {
+      "id": "ashby-87b96eef-edc1-4de4-adb6-d460126d02f8",
+      "company": "Ashby",
+      "title": "Staff Design Engineer - EU",
+      "url": "https://jobs.ashbyhq.com/ashby/87b96eef-edc1-4de4-adb6-d460126d02f8"
+    },
+    {
+      "id": "ashby-306a353b-aab5-49d6-a711-a77aa0f5a660",
+      "company": "Ashby",
+      "title": "Staff Design Engineer - UK",
+      "url": "https://jobs.ashbyhq.com/ashby/306a353b-aab5-49d6-a711-a77aa0f5a660"
+    },
+    {
+      "id": "ashby-188cc71b-a625-4022-94dc-7c43fa1a8b06",
+      "company": "Ashby",
+      "title": "Design Engineer - EU",
+      "url": "https://jobs.ashbyhq.com/ashby/188cc71b-a625-4022-94dc-7c43fa1a8b06"
+    },
+    {
+      "id": "ashby-cb45928e-c7c7-4163-84d0-a962755a3593",
+      "company": "Ashby",
+      "title": "Design Engineer - UK",
+      "url": "https://jobs.ashbyhq.com/ashby/cb45928e-c7c7-4163-84d0-a962755a3593"
+    },
+    {
+      "id": "ashby-fd86edd7-3af0-4977-a61a-215212c296fa",
+      "company": "Ashby",
+      "title": "Design Engineer - Americas",
+      "url": "https://jobs.ashbyhq.com/ashby/fd86edd7-3af0-4977-a61a-215212c296fa"
+    },
+    {
+      "id": "ashby-85713f4a-ad14-4edd-8c56-0065f5897551",
+      "company": "Ashby",
+      "title": "Design Engineer - Canada",
+      "url": "https://jobs.ashbyhq.com/ashby/85713f4a-ad14-4edd-8c56-0065f5897551"
+    }
+  ],
+  "updated": [
+    "linkedin-4462345723",
+    "linkedin-4462337835",
+    "linkedin-4423306576",
+    "linkedin-4458575414",
+    "linkedin-4463173884",
+    "linkedin-4417648025",
+    "linkedin-4430224042",
+    "linkedin-4417255066",
+    "linkedin-4433717461",
+    "linkedin-4449864796",
+    "linkedin-4453881784",
+    "linkedin-4423307605"
+  ],
+  "removed": [
+    "crusoe-88654793-32c7-4c33-a8ac-f3b541632c02",
+    "gamma-9c3f69f7-c14d-4c28-b9ef-0220c070330e",
+    "harvey-8684a735-fbef-422f-8fec-5ee08e264e1d",
+    "waymo-7442326"
+  ],
+  "verifiedByEmployerFeed": [
+    "airbnb-8007402",
+    "airbnb-8078406",
+    "airbnb-8113284",
+    "airbnb-8121074",
+    "airbnb-8171646",
+    "airbnb-8189352",
+    "airops-thought-leadership",
+    "anthropic-5411318008",
+    "ashby-188cc71b-a625-4022-94dc-7c43fa1a8b06",
+    "ashby-2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+    "ashby-306a353b-aab5-49d6-a711-a77aa0f5a660",
+    "ashby-85713f4a-ad14-4edd-8c56-0065f5897551",
+    "ashby-87b96eef-edc1-4de4-adb6-d460126d02f8",
+    "ashby-97c6542c-7ff9-43e5-ac54-b77b45fc7378",
+    "ashby-cb45928e-c7c7-4163-84d0-a962755a3593",
+    "ashby-cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a",
+    "ashby-f40ef345-82a8-4956-9150-193b4fdf8183",
+    "ashby-fd86edd7-3af0-4977-a61a-215212c296fa",
+    "clickup-0b715fff-f8c2-4e87-880d-d390bb0cbc40",
+    "clickup-lead-brand-designer-7fb8d11f",
+    "cloudflare-design-engineer",
+    "cloudflare-motion",
+    "databricks-8429978002",
+    "decagon-08b34a9e-6e98-40f3-9a81-ee6667bef97b",
+    "decagon-1117aac8-58b5-4b24-bc82-849317a52719",
+    "decagon-60613af4-9061-426a-b4d6-720a4399be37",
+    "decagon-ad6db669-0ff9-41c6-b86b-8e567ad7fbbd",
+    "descript-7799278003",
+    "descript-7803294003",
+    "dorsia-5198536007",
+    "dorsia-junior",
+    "duolingo-8442932002",
+    "duolingo-8442934002",
+    "duolingo-8489189002",
+    "duolingo-8618405002",
+    "duolingo-8675713002",
+    "duolingo-8722385002",
+    "duolingo-8729596002",
+    "duolingo-8729597002",
+    "elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
+    "elevenlabs-18d52799-7b88-4516-9d8f-e9db312ad195",
+    "elevenlabs-1f668ed5-49e9-4726-881f-7818733103b1",
+    "elevenlabs-24d6431c-ec48-48e6-860a-6172b67f1fdf",
+    "elevenlabs-3178581d-ea70-4dee-b018-2ce2d2a18bbe",
+    "elevenlabs-5494be31-7899-4f7a-b10f-4c49378b44ef",
+    "elevenlabs-5da4bb46-0bac-4e35-8731-9e182ad02bee",
+    "elevenlabs-89da00ec-11b0-4359-913b-c3a89c1013bc",
+    "elevenlabs-ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
+    "elevenlabs-d5fb656f-a8ac-457a-ab26-07304791e097",
+    "exa-237cc096-2234-48ee-9c98-8c7221845484",
+    "exa-7e52b8c9-255a-4848-a54a-efdc1fb25a69",
+    "exa-94dd327d-5105-4b6f-8a72-e8d4d330a4e1",
+    "fal-2fe0b9ef-3053-4514-b301-ab8bd07b45cd",
+    "fal-c1057601-d84f-4b1e-8375-ffc2fd4d4896",
+    "figma-5711468004",
+    "figma-5711595004",
+    "figma-5787576004",
+    "figma-5790585004",
+    "figma-5991320004",
+    "figma-6022151004",
+    "figma-6114301004",
+    "figma-6122399004",
+    "figma-6126976004",
+    "figma-6135338004",
+    "figma-6135656004",
+    "figma-6176134004",
+    "figma-ai-design",
+    "figma-brand",
+    "figma-weave-advocate",
+    "gamma-5f4e30f2-1f1b-4ce2-aa58-c81777cf56de",
+    "gamma-72632694-2a83-4418-bb8e-9d026618d3dd",
+    "gamma-ec461546-f994-46ec-a4b1-659dce3e4703",
+    "handshake-2dd606c0-976f-4f22-b258-102a5ad3da4c",
+    "handshake-73418318-9ea4-49bc-a886-1bb4f6f8a637",
+    "handshake-b80bc193-ed11-468c-be6c-485cacd2b33c",
+    "harvey-24616c39-e293-4bcc-a3dd-e6f33a71c8ee",
+    "harvey-275f3315-2ea8-4fb4-bfe8-e0dd4e238e86",
+    "harvey-2b35e24d-72bc-4588-b823-50e514c3d430",
+    "harvey-3feed577-6157-4fb4-b416-d4f493e1eb5c",
+    "harvey-4cea74f1-7c08-4a9c-884f-796903aa77ed",
+    "harvey-63439ab1-eceb-40fc-9326-476335db26fb",
+    "harvey-6541a2da-ab46-467b-8aaa-289a6a1d087b",
+    "harvey-7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
+    "harvey-7af73358-0a99-4d3a-8fde-b0f735045613",
+    "harvey-824ef487-4f82-4ff1-a0b3-34d50d906100",
+    "harvey-851b416f-9869-4b9c-9c10-5105bded4330",
+    "harvey-9814b9ca-5917-43f8-8f76-6df7aa7e2be3",
+    "harvey-a8f060ad-1e57-40f8-94f7-402c2611eb90",
+    "harvey-aede4098-91f4-44f5-9d53-27c15cb2bae7",
+    "harvey-b26ccc21-fb10-4428-90be-a7af2076ff77",
+    "harvey-b6cfee1e-67c7-420e-a3fc-24677eda6d2c",
+    "harvey-c6e7267c-877e-479c-8dc6-f34ffbbb44dd",
+    "harvey-c84964b6-9e60-4005-8580-b865f3e47b4f",
+    "harvey-d527a336-24e3-46ef-8d05-1da557c7bff4",
+    "helsing-4564710101",
+    "helsing-4878760101",
+    "helsing-4880852101",
+    "helsing-4961544101",
+    "hex-5731792004",
+    "ie-junior",
+    "kalshi-6112209003",
+    "kalshi-6334301003",
+    "kalshi-7297530003",
+    "legora-acce1179-88d3-4f1f-bcce-597ed3a37d47",
+    "linear-5b9997fd-7507-4437-8fd7-14178c99ab5d",
+    "linear-a264869e-f058-487c-ab7f-9b77dffa427c",
+    "linear-b32de590-06ce-47d4-8994-66b936df908d",
+    "linear-ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
+    "linear-eac7f181-d658-4943-9430-51bae2bcd110",
+    "linkedin-4417255066",
+    "linkedin-4417648025",
+    "linkedin-4423306576",
+    "linkedin-4423307605",
+    "linkedin-4430224042",
+    "linkedin-4433717461",
+    "linkedin-4449864796",
+    "linkedin-4453881784",
+    "linkedin-4458575414",
+    "linkedin-4462337835",
+    "linkedin-4462345723",
+    "linkedin-4463173884",
+    "mercury-6104936004",
+    "mercury-6110081004",
+    "mercury-6110742004",
+    "mercury-6137654004",
+    "mercury-6140395004",
+    "mercury-6143552004",
+    "mercury-6145886004",
+    "mercury-brand",
+    "modal-brand-design-23311dfd",
+    "perplexity-04d73be4-8a69-4e62-9b0d-e9b7968cf860",
+    "perplexity-39d520eb-6b81-4b61-8b23-5efcdac4cad9",
+    "perplexity-3d277236-2cf3-4a59-b435-71540cc05712",
+    "perplexity-678d1162-e650-4d6d-9532-b287255c00fb",
+    "perplexity-74a5eaeb-0a4b-412b-ac3a-ad73403b3fb7",
+    "perplexity-78675022-c4a7-41d2-9259-7c59be4de93c",
+    "perplexity-7ae341c4-411e-468c-bc26-bbdd8e55d388",
+    "perplexity-9740bc68-7297-4d69-ae54-3be81ae3745a",
+    "perplexity-9ce0fef8-7ead-4c0d-a71e-433bdd5b4d82",
+    "perplexity-fbbd496b-1d14-4396-b31d-38fbea0dc666",
+    "ramp-2c101be9-f4b8-4a63-a634-9798d9a09eaa",
+    "ramp-30323399-3039-499d-a0b6-a891ced89e1e",
+    "ramp-758ed843-0fa2-4891-8925-c8d690c6eb0f",
+    "ramp-78b98c66-af59-4fa8-a5ae-d8af8d737976",
+    "ramp-a8451979-2691-440e-851b-49a3b807729b",
+    "ramp-b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
+    "ramp-eca54d0e-232a-4c3e-bfcc-d6c6add393f5",
+    "runway-2185626a-657a-4772-9519-50b2e7b2af1a",
+    "runway-28e151ac-cb29-4695-9041-a9e352624111",
+    "runway-6da9edec-0ad7-4871-b51f-cc2714688d91",
+    "runway-92044f68-4957-4cf0-9590-98952732b219",
+    "runway-dc812ced-119a-42b0-9695-5d1fe23b9a35",
+    "runway-e0fec99f-ae6e-4f92-ac1a-7d227179261f",
+    "runway-f7c8903e-7b20-49cc-824f-502524ee29fb",
+    "sanity-senior-web-digital-designer-3c824a28",
+    "stripe-7823683",
+    "stripe-web-presence-platform-8130913",
+    "supabase-4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
+    "supabase-97fe8e68-28c5-42db-a763-60113f0b31fd",
+    "vanta-0fcbc935-76c7-4eac-b522-af421ed200c9",
+    "vanta-19837d21-971e-4b9d-b078-320895fae28a",
+    "vanta-32babc06-def2-4db3-b153-1c1c44bdcf40",
+    "vanta-6d6698d7-7272-4c2a-bc34-807dc269de43",
+    "vercel-5579560004",
+    "vercel-6115991004",
+    "vercel-6128387004",
+    "vercel-6131210004",
+    "vercel-6160974004",
+    "webflow-8155266"
+  ],
+  "listingHttpResults": {
+    "200": 151,
+    "429": 569,
+    "404": 1,
+    "403": 2
+  },
+  "sources": [
+    {
+      "company": "Sanity",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/sanity?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 31
+    },
+    {
+      "company": "ClickUp",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/clickup?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 61
+    },
+    {
+      "company": "Modal",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/modal?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 31
+    },
+    {
+      "company": "AirOps",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/airops?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 16
+    },
+    {
+      "company": "Crusoe",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/crusoe?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 371
+    },
+    {
+      "company": "Decagon",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/decagon?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 140
+    },
+    {
+      "company": "ElevenLabs",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 246
+    },
+    {
+      "company": "Exa",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/exa?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 55
+    },
+    {
+      "company": "Fal",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/fal-ai?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 33
+    },
+    {
+      "company": "Gamma",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/gamma?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 31
+    },
+    {
+      "company": "Handshake",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 68
+    },
+    {
+      "company": "Harvey",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 325
+    },
+    {
+      "company": "Runway",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/runway-ml?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 40
+    },
+    {
+      "company": "Ramp",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 145
+    },
+    {
+      "company": "Perplexity",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/perplexity?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 115
+    },
+    {
+      "company": "Vanta",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 105
+    },
+    {
+      "company": "Linear",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/Linear?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 30
+    },
+    {
+      "company": "Supabase",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/supabase?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 59
+    },
+    {
+      "company": "Ashby",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/ashby?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 71
+    },
+    {
+      "company": "Notion",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/notion?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 127
+    },
+    {
+      "company": "Legora",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
+      "status": "complete-feed-read",
+      "roleCount": 286
+    },
+    {
+      "company": "OpenAI",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+      "status": "unreadable",
+      "http": "200"
+    },
+    {
+      "company": "Vercel",
+      "url": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 86
+    },
+    {
+      "company": "Cloudflare",
+      "url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 358
+    },
+    {
+      "company": "Figma",
+      "url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 153
+    },
+    {
+      "company": "Mercury",
+      "url": "https://boards-api.greenhouse.io/v1/boards/mercury/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 61
+    },
+    {
+      "company": "Dorsia",
+      "url": "https://boards-api.greenhouse.io/v1/boards/dorsia/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 18
+    },
+    {
+      "company": "IE",
+      "url": "https://boards-api.greenhouse.io/v1/boards/ie/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 12
+    },
+    {
+      "company": "Anthropic",
+      "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 595
+    },
+    {
+      "company": "Kalshi",
+      "url": "https://boards-api.greenhouse.io/v1/boards/kalshi/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 28
+    },
+    {
+      "company": "SpaceX",
+      "url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "status": "unreadable",
+      "http": "200"
+    },
+    {
+      "company": "Descript",
+      "url": "https://boards-api.greenhouse.io/v1/boards/descript/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 11
+    },
+    {
+      "company": "Webflow",
+      "url": "https://boards-api.greenhouse.io/v1/boards/webflow/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 25
+    },
+    {
+      "company": "Airbnb",
+      "url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 164
+    },
+    {
+      "company": "Databricks",
+      "url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 888
+    },
+    {
+      "company": "Duolingo",
+      "url": "https://boards-api.greenhouse.io/v1/boards/duolingo/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 80
+    },
+    {
+      "company": "Helsing",
+      "url": "https://boards-api.greenhouse.io/v1/boards/helsing/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 149
+    },
+    {
+      "company": "Hex",
+      "url": "https://boards-api.greenhouse.io/v1/boards/hextechnologies/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 33
+    },
+    {
+      "company": "Waymo",
+      "url": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 332
+    },
+    {
+      "company": "Stripe",
+      "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "status": "complete-feed-read",
+      "roleCount": 636
+    }
+  ],
+  "coverageGaps": [
+    "LinkedIn rate limiting prevented definitive checks for most older imported listings. Retained unverified roles; HTTP errors alone do not prove closure.",
+    "OpenAI and SpaceX full feeds could not be parsed. Other employers without a supported feed were only partially checked through individual pages and career-site searches.",
+    "Apify job discovery was blocked by its monthly usage hard limit. Wider discovery across additional TrueUp remote employers was not completed."
+  ],
+  "method": "Read complete available employer ATS feeds, review creative relevance and descriptions, match existing IDs before adding, and archive only listings with both feed absence and a directly verified unavailable employer page. HTTP 200 alone is not treated as proof a role is active."
+}

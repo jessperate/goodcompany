@@ -1,5 +1,986 @@
 const JOBS = [
   {
+    "id": "clickup-0b715fff-f8c2-4e87-880d-d390bb0cbc40",
+    "company": "ClickUp",
+    "title": "Staff Product Designer",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Staff",
+    "location": "United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design collaboration and communication experiences at ClickUp, from research and prototypes through polished product delivery. Use AI tools to speed up exploration and work closely with engineering.",
+    "highlights": [
+      "The role asks for 7+ years of product design experience.",
+      "Use research, rapid prototypes, and clear design handoffs to improve team workflows."
+    ],
+    "keywords": [
+      "Product design",
+      "AI Creative"
+    ],
+    "source": "ClickUp careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/clickup/0b715fff-f8c2-4e87-880d-d390bb0cbc40",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$185,000–235,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 185000,
+    "salaryMax": 235000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$185,000–235,000 / year"
+  },
+  {
+    "id": "elevenlabs-5494be31-7899-4f7a-b10f-4c49378b44ef",
+    "company": "ElevenLabs",
+    "title": "Design Engineer - Creative & Studio",
+    "category": "Design engineering",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Level not specified",
+    "location": "United States, Europe, and other listed countries",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Build the interfaces behind ElevenLabs creative tools, including image, video, music, and audiobook workflows. Combine frontend engineering with product design to turn generative technology into approachable experiences.",
+    "highlights": [
+      "Own creative product features and their user experience.",
+      "Partner with designers and engineers, and help other team members grow.",
+      "Eligible locations: United Kingdom, Ireland, Dublin, Spain, Europe, United States, New York, Germany, Belgium, Brazil, Switzerland, Denmark, Portugal, Mexico, Chile, Sweden, Colombia, Italy, Poland, London, Netherlands, France, India, Canada, Bulgaria."
+    ],
+    "keywords": [
+      "Design engineering",
+      "AI Creative"
+    ],
+    "source": "ElevenLabs careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "Pay not listed"
+  },
+  {
+    "id": "elevenlabs-18d52799-7b88-4516-9d8f-e9db312ad195",
+    "company": "ElevenLabs",
+    "title": "Experiential Designer - Events",
+    "category": "Brand & visual",
+    "disciplines": [],
+    "level": "Level not specified",
+    "location": "United States · Ireland · Japan · Poland · United Kingdom",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design physical brand experiences for ElevenLabs events, from trade-show booths and environmental graphics to pop-ups. Translate the brand into memorable spaces and materials across global programs.",
+    "highlights": [
+      "Create graphic and spatial assets for experiential marketing.",
+      "Coordinate execution across event formats and production partners."
+    ],
+    "keywords": [
+      "Brand & visual"
+    ],
+    "source": "ElevenLabs careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/elevenlabs/18d52799-7b88-4516-9d8f-e9db312ad195",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "Pay not listed"
+  },
+  {
+    "id": "elevenlabs-ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
+    "company": "ElevenLabs",
+    "title": "Influencer Marketer",
+    "category": "Influencer marketing",
+    "disciplines": [
+      "Creator marketing"
+    ],
+    "level": "Level not specified",
+    "location": "United States · Europe",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Build and grow ElevenLabs influencer program, from creator discovery and partnerships to campaign strategy and measurement. Develop relationships that introduce its creative platform to new audiences.",
+    "highlights": [
+      "Own creator sourcing, outreach, and campaign delivery.",
+      "Use performance insights to improve future partnerships."
+    ],
+    "keywords": [
+      "Influencer marketing",
+      "Creator marketing"
+    ],
+    "source": "ElevenLabs careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/elevenlabs/ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "Pay not listed"
+  },
+  {
+    "id": "exa-237cc096-2234-48ee-9c98-8c7221845484",
+    "company": "Exa",
+    "title": "Design Engineer",
+    "category": "Design engineering",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Level not specified",
+    "location": "San Francisco, California",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Shape and build Exa product, playground, documentation, and web experiences. Combine visual design with frontend development to make AI search tools intuitive for developers.",
+    "highlights": [
+      "The role asks for 4+ years of relevant experience.",
+      "Work across React interfaces, Figma exploration, and brand expression."
+    ],
+    "keywords": [
+      "Design engineering",
+      "AI Creative"
+    ],
+    "source": "Exa careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/exa/237cc096-2234-48ee-9c98-8c7221845484",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$150,000–280,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 150000,
+    "salaryMax": 280000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$150,000–280,000 / year"
+  },
+  {
+    "id": "fal-2fe0b9ef-3053-4514-b301-ab8bd07b45cd",
+    "company": "Fal",
+    "title": "Creative Producer",
+    "category": "Motion & video",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Level not specified",
+    "location": "Remote - Global",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Produce videos that explain and launch Fal products, from storyboards to editing, motion, and sound. Combine traditional production with generative image, video, and audio tools.",
+    "highlights": [
+      "Create launch films, product demos, and short-form content.",
+      "Take projects from initial idea through final delivery."
+    ],
+    "keywords": [
+      "Motion & video",
+      "AI Creative"
+    ],
+    "source": "Fal careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/fal-ai/2fe0b9ef-3053-4514-b301-ab8bd07b45cd",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "Pay not listed"
+  },
+  {
+    "id": "gamma-5f4e30f2-1f1b-4ce2-aa58-c81777cf56de",
+    "company": "Gamma",
+    "title": "UI Engineer",
+    "category": "Design engineering",
+    "disciplines": [],
+    "level": "Level not specified",
+    "location": "San Francisco",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Craft Gamma user interfaces, reusable components, and small interactions that make its product feel polished. Work across React, CSS, and design systems alongside the design team.",
+    "highlights": [
+      "The posting asks for 3–5+ years of relevant experience.",
+      "The team works in its San Francisco office four to five days a week."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "source": "Gamma careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/gamma/5f4e30f2-1f1b-4ce2-aa58-c81777cf56de",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$180,000–310,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 180000,
+    "salaryMax": 310000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$180,000–310,000 / year"
+  },
+  {
+    "id": "harvey-aede4098-91f4-44f5-9d53-27c15cb2bae7",
+    "company": "Harvey",
+    "title": "Senior or Staff Product Designer, Design Systems",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Staff",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Build Harvey design system for AI-native legal products. Define accessible components, patterns, and tokens that help designers and engineers ship consistent experiences.",
+    "highlights": [
+      "Hiring at Senior or Staff level; requirements differ by level.",
+      "Partner closely with engineering on reusable foundations and adoption."
+    ],
+    "keywords": [
+      "Product design",
+      "AI Creative"
+    ],
+    "source": "Harvey careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/harvey/aede4098-91f4-44f5-9d53-27c15cb2bae7",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$205,760–315,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 205760,
+    "salaryMax": 315000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$205,760–315,000 / year"
+  },
+  {
+    "id": "harvey-9814b9ca-5917-43f8-8f76-6df7aa7e2be3",
+    "company": "Harvey",
+    "title": "Senior or Staff Product Designer, Design Systems",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Staff",
+    "location": "New York",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Build Harvey design system for AI-native legal products. Define accessible components, patterns, and tokens that help designers and engineers ship consistent experiences.",
+    "highlights": [
+      "Hiring at Senior or Staff level; requirements differ by level.",
+      "Partner closely with engineering on reusable foundations and adoption."
+    ],
+    "keywords": [
+      "Product design",
+      "AI Creative"
+    ],
+    "source": "Harvey careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/harvey/9814b9ca-5917-43f8-8f76-6df7aa7e2be3",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$205,760–315,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 205760,
+    "salaryMax": 315000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$205,760–315,000 / year"
+  },
+  {
+    "id": "ramp-758ed843-0fa2-4891-8925-c8d690c6eb0f",
+    "company": "Ramp",
+    "title": "Social Media Lead",
+    "category": "Social media",
+    "disciplines": [
+      "Creator marketing"
+    ],
+    "level": "Leadership",
+    "location": "New York, NY (HQ) · Miami, FL",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Own Ramp social strategy and distribution across company, employee, and executive voices. Turn customer and creator stories into timely content and coordinate campaigns with the wider marketing team.",
+    "highlights": [
+      "Build a recognizable voice and an effective publishing rhythm.",
+      "Connect social storytelling with creators, customers, and partners."
+    ],
+    "keywords": [
+      "Social media",
+      "Creator marketing"
+    ],
+    "source": "Ramp careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/ramp/758ed843-0fa2-4891-8925-c8d690c6eb0f",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$122,000–231,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: SF/NY: Target Base Salary $136K – $231K; Nationwide: Target Base Salary $122K – $207K.",
+    "salaryMin": 122000,
+    "salaryMax": 231000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$122,000–231,000 / year"
+  },
+  {
+    "id": "perplexity-9740bc68-7297-4d69-ae54-3be81ae3745a",
+    "company": "Perplexity",
+    "title": "Social Media Manager",
+    "category": "Social media",
+    "disciplines": [],
+    "level": "Level not specified",
+    "location": "San Francisco · New York City",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Grow Perplexity social presence through content strategy, copy, and community engagement. Help shape Instagram and Reddit activity while developing relationships with developer audiences.",
+    "highlights": [
+      "Plan and publish content across priority social channels.",
+      "Use audience feedback and performance data to refine the strategy."
+    ],
+    "keywords": [
+      "Social media"
+    ],
+    "source": "Perplexity careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/perplexity/9740bc68-7297-4d69-ae54-3be81ae3745a",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$110,000–170,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 110000,
+    "salaryMax": 170000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$110,000–170,000 / year"
+  },
+  {
+    "id": "legora-acce1179-88d3-4f1f-bcce-597ed3a37d47",
+    "company": "Legora",
+    "title": "Senior Visual Designer - Product Marketing",
+    "category": "Brand & visual",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "Stockholm HQ · London",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Create Legora product marketing visuals across campaigns, presentations, and launch materials. Turn product stories into distinctive visual concepts and carry them through production.",
+    "highlights": [
+      "Work across key visuals, product imagery, and video collaborations.",
+      "Partner with product marketing and the wider creative team."
+    ],
+    "keywords": [
+      "Brand & visual"
+    ],
+    "source": "Legora careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/legora/acce1179-88d3-4f1f-bcce-597ed3a37d47",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "Pay not listed"
+  },
+  {
+    "id": "figma-6135338004",
+    "company": "Figma",
+    "title": "Design Program Manager, AI Evals  (London, United Kingdom)",
+    "category": "Creative leadership",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Level not specified",
+    "location": "London, England",
+    "workplace": "Not specified",
+    "type": "Full time",
+    "summary": "Run programs that evaluate the quality of AI-generated design at Figma. Coordinate external contributors, improve evaluation processes, and help establish consistent quality standards.",
+    "highlights": [
+      "The role asks for 3+ years in design operations or program management.",
+      "Manage calibration, benchmarks, and contributor workflows."
+    ],
+    "keywords": [
+      "Creative leadership",
+      "AI Creative"
+    ],
+    "source": "Figma careers · Greenhouse",
+    "url": "https://boards.greenhouse.io/figma/jobs/6135338004?gh_jid=6135338004",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "Pay not listed"
+  },
+  {
+    "id": "figma-6135656004",
+    "company": "Figma",
+    "title": "Manager, Design - Systems & Infrastructure",
+    "category": "Creative leadership",
+    "disciplines": [
+      "Product design"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco, CA • New York, NY • United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Lead Figma design systems and infrastructure work, including shared components, tokens, and internal tools. Help teams use consistent foundations while keeping room for thoughtful product craft.",
+    "highlights": [
+      "The role asks for 4+ years of design management experience.",
+      "Guide adoption, governance, and collaboration across design and engineering.",
+      "The posting allows US remote work or work from a Figma hub; location affects compensation."
+    ],
+    "keywords": [
+      "Creative leadership",
+      "Product design"
+    ],
+    "source": "Figma careers · Greenhouse",
+    "url": "https://boards.greenhouse.io/figma/jobs/6135656004?gh_jid=6135656004",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$204,000–348,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 204000,
+    "salaryMax": 348000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$204,000–348,000 / year"
+  },
+  {
+    "id": "figma-5790585004",
+    "company": "Figma",
+    "title": "Manager, Product Design",
+    "category": "Creative leadership",
+    "disciplines": [
+      "Product design"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco, CA • New York, NY • United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Lead and grow a Figma product design team. Set product vision, coach designers, and collaborate with cross-functional partners to deliver high-quality experiences.",
+    "highlights": [
+      "The role asks for 3+ years of design management experience.",
+      "Balance strategy, team development, and detailed product quality.",
+      "The posting allows US remote work or work from a Figma hub; location affects compensation."
+    ],
+    "keywords": [
+      "Creative leadership",
+      "Product design"
+    ],
+    "source": "Figma careers · Greenhouse",
+    "url": "https://boards.greenhouse.io/figma/jobs/5790585004?gh_jid=5790585004",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$204,000–348,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 204000,
+    "salaryMax": 348000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$204,000–348,000 / year"
+  },
+  {
+    "id": "mercury-6110081004",
+    "company": "Mercury",
+    "title": "Senior Frontend Engineer - Design Systems",
+    "category": "Design engineering",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Senior",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Build Mercury shared frontend components and design systems. Help teams ship polished interfaces through strong React and TypeScript foundations, tooling, and AI-assisted workflows.",
+    "highlights": [
+      "The role asks for 4+ years of frontend experience.",
+      "Collaborate across product teams on reusable UI and developer experience."
+    ],
+    "keywords": [
+      "Design engineering",
+      "AI Creative"
+    ],
+    "source": "Mercury careers · Greenhouse",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6110081004",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$166,600–208,300 annual base salary. Actual pay depends on location, experience, and level. Canada range: CA$157,400–196,800 annually.",
+    "salaryMin": 166600,
+    "salaryMax": 208300,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$166,600–208,300 / year"
+  },
+  {
+    "id": "dorsia-5198536007",
+    "company": "Dorsia",
+    "title": "Senior Product Designer",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Senior",
+    "location": "New York, NY or Miami, FL",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Design Dorsia consumer product experiences from concept to polished interaction. Use working prototypes and AI-assisted tools to move quickly while maintaining a high bar for visual craft.",
+    "highlights": [
+      "The role asks for 7+ years of consumer digital design experience.",
+      "Work with product and engineering in an in-office culture."
+    ],
+    "keywords": [
+      "Product design",
+      "AI Creative"
+    ],
+    "source": "Dorsia careers · Greenhouse",
+    "url": "https://job-boards.greenhouse.io/dorsia/jobs/5198536007",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$140,000–170,000 annual base salary. Actual pay depends on location, experience, and level. Published range is for New York.",
+    "salaryMin": 140000,
+    "salaryMax": 170000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$140,000–170,000 / year"
+  },
+  {
+    "id": "airbnb-8189352",
+    "company": "Airbnb",
+    "title": "Senior Staff Editor, Creative Studio",
+    "category": "Content & strategy",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Staff",
+    "location": "United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Shape Airbnb brand voice as a senior editorial partner in its Creative Studio. Develop language standards, improve creative work, and bring editorial judgment to AI-assisted writing systems.",
+    "highlights": [
+      "The role asks for 10+ years of relevant editorial or copy experience.",
+      "US remote eligibility depends on location; collaboration follows Pacific hours."
+    ],
+    "keywords": [
+      "Content & strategy",
+      "AI Creative"
+    ],
+    "source": "Airbnb careers · Greenhouse",
+    "url": "https://careers.airbnb.com/positions/8189352?gh_jid=8189352",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$212,000–262,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 212000,
+    "salaryMax": 262000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$212,000–262,000 / year"
+  },
+  {
+    "id": "airbnb-8007402",
+    "company": "Airbnb",
+    "title": "Senior Staff UX Writer, International",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "London, United Kingdom",
+    "workplace": "Not specified",
+    "type": "Full time",
+    "summary": "Lead UX writing for Airbnb international experiences. Help teams create clear, locally relevant product language that works across markets and user needs.",
+    "highlights": [
+      "The role asks for 12+ years of relevant experience.",
+      "Applicants must be in London or within commuting distance."
+    ],
+    "keywords": [
+      "Content & strategy"
+    ],
+    "source": "Airbnb careers · Greenhouse",
+    "url": "https://careers.airbnb.com/positions/8007402?gh_jid=8007402",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "£126,000–158,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 126000,
+    "salaryMax": 158000,
+    "salaryCurrency": "GBP",
+    "salaryLabel": "£126,000–158,000 / year"
+  },
+  {
+    "id": "airbnb-8113284",
+    "company": "Airbnb",
+    "title": "Staff UX Researcher, Payments Growth (Mixed Methods)",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "San Francisco Bay Area, CA",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Lead mixed-methods research for Airbnb payments growth. Combine qualitative and quantitative work to understand customer needs and guide product decisions.",
+    "highlights": [
+      "The role asks for 10+ years of research experience.",
+      "This is a hybrid role based in the San Francisco Bay Area."
+    ],
+    "keywords": [
+      "Product design"
+    ],
+    "source": "Airbnb careers · Greenhouse",
+    "url": "https://careers.airbnb.com/positions/8113284?gh_jid=8113284",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$180,000–224,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 180000,
+    "salaryMax": 224000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$180,000–224,000 / year"
+  },
+  {
+    "id": "airbnb-8171646",
+    "company": "Airbnb",
+    "title": "Staff UX Writer (Host)",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "United States",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Shape content and product language for Airbnb host experiences. Partner with design, research, and product teams to make complex host journeys clear and useful.",
+    "highlights": [
+      "The role asks for 10+ years of UX writing or content strategy experience.",
+      "Remote work is limited to eligible US locations."
+    ],
+    "keywords": [
+      "Content & strategy"
+    ],
+    "source": "Airbnb careers · Greenhouse",
+    "url": "https://careers.airbnb.com/positions/8171646?gh_jid=8171646",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$180,000–223,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 180000,
+    "salaryMax": 223000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$180,000–223,000 / year"
+  },
+  {
+    "id": "duolingo-8442934002",
+    "company": "Duolingo",
+    "title": "Creative Director, Marketing",
+    "category": "Creative leadership",
+    "disciplines": [
+      "Brand & visual",
+      "Social media"
+    ],
+    "level": "Leadership",
+    "location": "London, England",
+    "workplace": "Not specified",
+    "type": "Full time",
+    "summary": "Set creative direction for Duolingo marketing in London. Lead work across brand campaigns, social, partnerships, and user acquisition while developing creative leaders and teams.",
+    "highlights": [
+      "Connect business goals with distinctive creative ideas.",
+      "Oversee execution across formats and channels."
+    ],
+    "keywords": [
+      "Creative leadership",
+      "Brand & visual",
+      "Social media"
+    ],
+    "source": "Duolingo careers · Greenhouse",
+    "url": "https://careers.duolingo.com/jobs/8442934002?gh_jid=8442934002",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "£124,395–186,592 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 124395,
+    "salaryMax": 186592,
+    "salaryCurrency": "GBP",
+    "salaryLabel": "£124,395–186,592 / year"
+  },
+  {
+    "id": "duolingo-8722385002",
+    "company": "Duolingo",
+    "title": "Senior Learning Designer, Indian Languages",
+    "category": "Content & strategy",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Senior",
+    "location": "Pittsburgh, PA",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Design Duolingo learning experiences for Indian languages. Combine language expertise, curriculum design, and AI-assisted processes with human review to improve lessons.",
+    "highlights": [
+      "Bring Hindi and linguistics or curriculum expertise.",
+      "The posting specifies Pittsburgh and does not offer remote work."
+    ],
+    "keywords": [
+      "Content & strategy",
+      "AI Creative"
+    ],
+    "source": "Duolingo careers · Greenhouse",
+    "url": "https://careers.duolingo.com/jobs/8722385002?gh_jid=8722385002",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$142,800–193,200 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 142800,
+    "salaryMax": 193200,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$142,800–193,200 / year"
+  },
+  {
+    "id": "duolingo-8618405002",
+    "company": "Duolingo",
+    "title": "Senior Product Designer",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "New York, NY",
+    "workplace": "Not specified",
+    "type": "Full time",
+    "summary": "Design playful Duolingo app and web experiences that make learning easier to return to. Develop user flows, refine visual details, and contribute to the product design language.",
+    "highlights": [
+      "Partner with product and engineering through implementation.",
+      "Support other designers through feedback and mentorship."
+    ],
+    "keywords": [
+      "Product design"
+    ],
+    "source": "Duolingo careers · Greenhouse",
+    "url": "https://careers.duolingo.com/jobs/8618405002?gh_jid=8618405002",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$150,000–200,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 150000,
+    "salaryMax": 200000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$150,000–200,000 / year"
+  },
+  {
+    "id": "duolingo-8675713002",
+    "company": "Duolingo",
+    "title": "Senior Product Designer",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "Beijing, China",
+    "workplace": "Not specified",
+    "type": "Full time",
+    "summary": "Design playful Duolingo app and web experiences that make learning easier to return to. Develop user flows, refine visual details, and contribute to the product design language.",
+    "highlights": [
+      "Partner with product and engineering through implementation.",
+      "Support other designers through feedback and mentorship."
+    ],
+    "keywords": [
+      "Product design"
+    ],
+    "source": "Duolingo careers · Greenhouse",
+    "url": "https://careers.duolingo.com/jobs/8675713002?gh_jid=8675713002",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "Pay not listed"
+  },
+  {
+    "id": "duolingo-8729596002",
+    "company": "Duolingo",
+    "title": "Staff Product Designer, Monetization",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "New York, NY",
+    "workplace": "Not specified",
+    "type": "Full time",
+    "summary": "Shape Duolingo monetization experiences across subscriptions, advertising, and in-app purchases. Balance business goals with thoughtful design for both free and paid learners.",
+    "highlights": [
+      "Guide product direction and detailed interaction design.",
+      "Partner across teams to improve purchase and subscription journeys."
+    ],
+    "keywords": [
+      "Product design"
+    ],
+    "source": "Duolingo careers · Greenhouse",
+    "url": "https://careers.duolingo.com/jobs/8729596002?gh_jid=8729596002",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$200,000–300,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "salaryMin": 200000,
+    "salaryMax": 300000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$200,000–300,000 / year"
+  },
+  {
+    "id": "ashby-cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a",
+    "company": "Ashby",
+    "title": "Staff Design Engineer - Americas",
+    "category": "Design engineering",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "Remote - US",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design and build Ashby product interfaces with close attention to visual craft and usability. Combine engineering ownership with design judgment to improve complex recruiting workflows.",
+    "highlights": [
+      "Hiring at Staff and Senior Staff levels.",
+      "This remote role is limited to the countries and locations named in the posting.",
+      "Eligible locations: Remote - US, Austin, Los Angeles, Portland, Boston, Seattle, New York, Denver, Chicago."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "source": "Ashby careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/ashby/cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$232,000–323,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: L4 (Staff): SF & NYC: $250K – $295K; L4 (Staff): Seattle: $239K – $284K; L4 (Staff): US - All Other Locations: $232K – $270K; L5 (Sr Staff): SF & NYC: $272K – $323K; L5 (Sr Staff): Seattle: $266K – $315K; L5 (Sr Staff): US - All Other Locations: $252K – $299K.",
+    "salaryMin": 232000,
+    "salaryMax": 323000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$232,000–323,000 / year"
+  },
+  {
+    "id": "ashby-97c6542c-7ff9-43e5-ac54-b77b45fc7378",
+    "company": "Ashby",
+    "title": "Staff Design Engineer - Canada",
+    "category": "Design engineering",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "Remote - Canada · Montreal · Vancouver · Toronto",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design and build Ashby product interfaces with close attention to visual craft and usability. Combine engineering ownership with design judgment to improve complex recruiting workflows.",
+    "highlights": [
+      "Hiring at Staff and Senior Staff levels.",
+      "This remote role is limited to the countries and locations named in the posting."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "source": "Ashby careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/ashby/97c6542c-7ff9-43e5-ac54-b77b45fc7378",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "CA$256,000–380,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: L4 (Staff): Canada - All Locations: CA$256K – CA$300K; L5 (Sr Staff): Canada - All Locations: CA$320K – CA$380K.",
+    "salaryMin": 256000,
+    "salaryMax": 380000,
+    "salaryCurrency": "CAD",
+    "salaryLabel": "CA$256,000–380,000 / year"
+  },
+  {
+    "id": "ashby-87b96eef-edc1-4de4-adb6-d460126d02f8",
+    "company": "Ashby",
+    "title": "Staff Design Engineer - EU",
+    "category": "Design engineering",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "Europe · selected countries",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design and build Ashby product interfaces with close attention to visual craft and usability. Combine engineering ownership with design judgment to improve complex recruiting workflows.",
+    "highlights": [
+      "Hiring at Staff and Senior Staff levels.",
+      "This remote role is limited to the countries and locations named in the posting.",
+      "Eligible locations: Portugal, Spain, Italy, Switzerland, Croatia, Ireland, Stockholm, Romania, Barcelona, Berlin, Sweden, Estonia."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "source": "Ashby careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/ashby/87b96eef-edc1-4de4-adb6-d460126d02f8",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "€154,000–250,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: L4 (Staff): EU All Locations: €154K – €188K; L5 (Sr Staff): EU All Locations: €208K – €250K.",
+    "salaryMin": 154000,
+    "salaryMax": 250000,
+    "salaryCurrency": "EUR",
+    "salaryLabel": "€154,000–250,000 / year"
+  },
+  {
+    "id": "ashby-306a353b-aab5-49d6-a711-a77aa0f5a660",
+    "company": "Ashby",
+    "title": "Staff Design Engineer - UK",
+    "category": "Design engineering",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "United Kingdom · Manchester · Oxford · London · Cambridge",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design and build Ashby product interfaces with close attention to visual craft and usability. Combine engineering ownership with design judgment to improve complex recruiting workflows.",
+    "highlights": [
+      "Hiring at Staff and Senior Staff levels.",
+      "This remote role is limited to the countries and locations named in the posting."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "source": "Ashby careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/ashby/306a353b-aab5-49d6-a711-a77aa0f5a660",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "£151,000–246,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: L4 (Staff): All UK Locations: £151K – £184K; L5 (Sr Staff): All UK Locations: £203K – £246K.",
+    "salaryMin": 151000,
+    "salaryMax": 246000,
+    "salaryCurrency": "GBP",
+    "salaryLabel": "£151,000–246,000 / year"
+  },
+  {
+    "id": "ashby-188cc71b-a625-4022-94dc-7c43fa1a8b06",
+    "company": "Ashby",
+    "title": "Design Engineer - EU",
+    "category": "Design engineering",
+    "disciplines": [],
+    "level": "Mid-level",
+    "location": "Europe · selected countries",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design and build Ashby product interfaces with close attention to visual craft and usability. Combine engineering ownership with design judgment to improve complex recruiting workflows.",
+    "highlights": [
+      "Hiring across Mid-level and Senior levels; the listing describes different compensation tiers.",
+      "This remote role is limited to the countries and locations named in the posting.",
+      "Eligible locations: Portugal, Spain, Italy, Switzerland, Croatia, Ireland, Stockholm, Romania, Barcelona, Berlin, Sweden, Estonia."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "source": "Ashby careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/ashby/188cc71b-a625-4022-94dc-7c43fa1a8b06",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "€60,000–145,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: L3 (Senior) - EU Tier 1: €119K – €145K; L3 (Senior) - EU Tier 2: €108K – €133K; L2 (Mid): EU Tier 1: €77K – €96K; L2 (Mid): EU Tier 2: €60K – €75K.",
+    "salaryMin": 60000,
+    "salaryMax": 145000,
+    "salaryCurrency": "EUR",
+    "salaryLabel": "€60,000–145,000 / year"
+  },
+  {
+    "id": "ashby-cb45928e-c7c7-4163-84d0-a962755a3593",
+    "company": "Ashby",
+    "title": "Design Engineer - UK",
+    "category": "Design engineering",
+    "disciplines": [],
+    "level": "Mid-level",
+    "location": "United Kingdom · Manchester · Oxford · London · Cambridge",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design and build Ashby product interfaces with close attention to visual craft and usability. Combine engineering ownership with design judgment to improve complex recruiting workflows.",
+    "highlights": [
+      "Hiring across Mid-level and Senior levels; the listing describes different compensation tiers.",
+      "This remote role is limited to the countries and locations named in the posting."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "source": "Ashby careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/ashby/cb45928e-c7c7-4163-84d0-a962755a3593",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "£56,000–149,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: L3 (Senior): UK - London: £123K – £149K; L3 (Senior): UK - Other: £114K – £138K; L2 (Mid): UK - London: £72K – £88K; L2 (Mid): UK - Other: £56K – £69K.",
+    "salaryMin": 56000,
+    "salaryMax": 149000,
+    "salaryCurrency": "GBP",
+    "salaryLabel": "£56,000–149,000 / year"
+  },
+  {
+    "id": "ashby-fd86edd7-3af0-4977-a61a-215212c296fa",
+    "company": "Ashby",
+    "title": "Design Engineer - Americas",
+    "category": "Design engineering",
+    "disciplines": [],
+    "level": "Mid-level",
+    "location": "Remote - US",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design and build Ashby product interfaces with close attention to visual craft and usability. Combine engineering ownership with design judgment to improve complex recruiting workflows.",
+    "highlights": [
+      "Hiring across Mid-level and Senior levels; the listing describes different compensation tiers.",
+      "This remote role is limited to the countries and locations named in the posting.",
+      "Eligible locations: Remote - US, Austin, Los Angeles, Portland, Boston, Seattle, New York, San Francisco, Denver, Chicago."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "source": "Ashby careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/ashby/fd86edd7-3af0-4977-a61a-215212c296fa",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "US$126,000–250,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: L3 (Senior): SF & NYC: $210K – $250K; L3 (Senior): Seattle: $204K – $245K; L3 (Senior): US Tier 2: $189K – $225K; L3 (Senior): US Tier 3: $178K – $216K; L2 (Mid): SF & NYC: $160K – $190K; L2 (Mid): Seattle: $149K – $183K; L2 (Mid): US Tier 2: $134K – $163K; L2 (Mid): US Tier 3: $126K – $154K.",
+    "salaryMin": 126000,
+    "salaryMax": 250000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$126,000–250,000 / year"
+  },
+  {
+    "id": "ashby-85713f4a-ad14-4edd-8c56-0065f5897551",
+    "company": "Ashby",
+    "title": "Design Engineer - Canada",
+    "category": "Design engineering",
+    "disciplines": [],
+    "level": "Mid-level",
+    "location": "Remote - Canada · Montreal · Vancouver · Toronto",
+    "workplace": "Remote",
+    "type": "Full time",
+    "summary": "Design and build Ashby product interfaces with close attention to visual craft and usability. Combine engineering ownership with design judgment to improve complex recruiting workflows.",
+    "highlights": [
+      "Hiring across Mid-level and Senior levels; the listing describes different compensation tiers.",
+      "This remote role is limited to the countries and locations named in the posting."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "source": "Ashby careers · Ashby",
+    "url": "https://jobs.ashbyhq.com/ashby/85713f4a-ad14-4edd-8c56-0065f5897551",
+    "checkedAt": "September 11, 2026",
+    "lastVerifiedAt": "2026-09-11",
+    "salary": "CA$121,000–248,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: L3 (Senior): Toronto & Vancouver: CA$210K – CA$248K; L3 (Senior): Canada - All Other Locations: CA$195K – CA$229K; L2 (Mid) - Toronto & Vancouver: CA$133K – CA$162K; L2 (Mid): Canada - All Other Locations: CA$121K – CA$149K.",
+    "salaryMin": 121000,
+    "salaryMax": 248000,
+    "salaryCurrency": "CAD",
+    "salaryLabel": "CA$121,000–248,000 / year"
+  },
+  {
     "id": "netflix-visual-design-lead-790318157691",
     "company": "Netflix",
     "title": "Visual Design Lead, Emerging Creative Live",
@@ -69,7 +1050,8 @@ const JOBS = [
     "salary": "A numeric salary range is not published. The listing mentions location-based salary and stock options.",
     "source": "Sanity careers · Ashby",
     "checkedAt": "September 10, 2026",
-    "url": "https://jobs.ashbyhq.com/sanity/3c824a28-81be-4281-a211-2a30b785c66a"
+    "url": "https://jobs.ashbyhq.com/sanity/3c824a28-81be-4281-a211-2a30b785c66a",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "vercel-6115991004",
@@ -101,7 +1083,8 @@ const JOBS = [
     "salaryMax": 312000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$208,000–312,000 / year (SF)",
-    "source": "Vercel careers · Greenhouse"
+    "source": "Vercel careers · Greenhouse",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "stripe-web-presence-platform-8130913",
@@ -134,7 +1117,8 @@ const JOBS = [
     "salaryLabel": "US$133,200–199,800 / year",
     "source": "Stripe careers",
     "checkedAt": "September 10, 2026",
-    "url": "https://stripe.com/careers/listing/designer-web-presence-platform/8130913?gh_src=73vnei"
+    "url": "https://stripe.com/careers/listing/designer-web-presence-platform/8130913?gh_src=73vnei",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "clickup-lead-brand-designer-7fb8d11f",
@@ -171,7 +1155,8 @@ const JOBS = [
     "salaryLabel": "US$110,000–169,000 / year",
     "source": "ClickUp careers · Ashby",
     "checkedAt": "September 10, 2026",
-    "url": "https://jobs.ashbyhq.com/clickup/7fb8d11f-7ff7-4f6d-a41e-46e2d12e8774?utm_source=OrAo48EPGZ"
+    "url": "https://jobs.ashbyhq.com/clickup/7fb8d11f-7ff7-4f6d-a41e-46e2d12e8774?utm_source=OrAo48EPGZ",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "modal-brand-design-23311dfd",
@@ -207,7 +1192,8 @@ const JOBS = [
     "salaryLabel": "US$160,000–225,000 / year + equity",
     "source": "Modal careers · Ashby",
     "checkedAt": "September 9, 2026",
-    "url": "https://jobs.ashbyhq.com/modal/23311dfd-2a80-40dc-a41c-1ff7202e15a2"
+    "url": "https://jobs.ashbyhq.com/modal/23311dfd-2a80-40dc-a41c-1ff7202e15a2",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "lovable-brand-designer-web-76f4a6",
@@ -272,7 +1258,8 @@ const JOBS = [
     "salaryMin": 150000,
     "salaryMax": 190000,
     "salaryCurrency": "USD",
-    "salaryLabel": "US$150,000–190,000 / year · location dependent"
+    "salaryLabel": "US$150,000–190,000 / year · location dependent",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "cloudflare-design-engineer",
@@ -305,7 +1292,8 @@ const JOBS = [
       "UI"
     ],
     "url": "https://boards.greenhouse.io/cloudflare/jobs/6998777?gh_jid=6998777",
-    "level": "Senior"
+    "level": "Senior",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "airops-thought-leadership",
@@ -339,7 +1327,8 @@ const JOBS = [
       "brand"
     ],
     "url": "https://jobs.ashbyhq.com/airops/beb628d8-7451-4034-b680-64fbd78bb9c5",
-    "level": "Not specified"
+    "level": "Not specified",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-brand",
@@ -373,7 +1362,8 @@ const JOBS = [
     "salaryMin": 127000,
     "salaryMax": 269000,
     "salaryCurrency": "USD",
-    "salaryLabel": "US$127,000–269,000 / year · location dependent"
+    "salaryLabel": "US$127,000–269,000 / year · location dependent",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "mercury-brand",
@@ -406,7 +1396,8 @@ const JOBS = [
     "salaryMin": 170400,
     "salaryMax": 236700,
     "salaryCurrency": "USD",
-    "salaryLabel": "US$170,400–236,700 / year · location dependent"
+    "salaryLabel": "US$170,400–236,700 / year · location dependent",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-ai-design",
@@ -440,7 +1431,8 @@ const JOBS = [
     "salaryMin": 169000,
     "salaryMax": 303000,
     "salaryCurrency": "USD",
-    "salaryLabel": "US$169,000–303,000 / year · location dependent"
+    "salaryLabel": "US$169,000–303,000 / year · location dependent",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-weave-advocate",
@@ -475,7 +1467,8 @@ const JOBS = [
     "salaryMin": 153000,
     "salaryMax": 317000,
     "salaryCurrency": "USD",
-    "salaryLabel": "US$153,000–317,000 / year · location dependent"
+    "salaryLabel": "US$153,000–317,000 / year · location dependent",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-6126976004",
@@ -500,7 +1493,8 @@ const JOBS = [
     "salaryMax": 303000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$169,000–303,000 / year",
-    "salary": "US$169,000–303,000 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$169,000–303,000 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-5711468004",
@@ -525,7 +1519,8 @@ const JOBS = [
     "salaryMax": 303000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$169,000–303,000 / year",
-    "salary": "US$169,000–303,000 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$169,000–303,000 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-5787576004",
@@ -550,7 +1545,8 @@ const JOBS = [
     "salaryMax": 294000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$164,000–294,000 / year",
-    "salary": "US$164,000–294,000 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$164,000–294,000 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-5711595004",
@@ -575,7 +1571,8 @@ const JOBS = [
     "salaryMax": 303000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$169,000–303,000 / year",
-    "salary": "US$169,000–303,000 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$169,000–303,000 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "mercury-6145886004",
@@ -600,7 +1597,8 @@ const JOBS = [
     "salaryMax": 285900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$228,700–285,900 / year",
-    "salary": "US$228,700–285,900 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$228,700–285,900 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "mercury-6104936004",
@@ -625,7 +1623,8 @@ const JOBS = [
     "salaryMax": 285900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$228,700–285,900 / year",
-    "salary": "US$228,700–285,900 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$228,700–285,900 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "mercury-6137654004",
@@ -650,7 +1649,8 @@ const JOBS = [
     "salaryMax": 236200,
     "salaryCurrency": "USD",
     "salaryLabel": "US$189,000–236,200 / year",
-    "salary": "US$189,000–236,200 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$189,000–236,200 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "mercury-6143552004",
@@ -675,7 +1675,8 @@ const JOBS = [
     "salaryMax": 236200,
     "salaryCurrency": "USD",
     "salaryLabel": "US$189,000–236,200 / year",
-    "salary": "US$189,000–236,200 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$189,000–236,200 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "mercury-6110742004",
@@ -700,7 +1701,8 @@ const JOBS = [
     "salaryMax": 285900,
     "salaryCurrency": "USD",
     "salaryLabel": "US$228,700–285,900 / year",
-    "salary": "US$228,700–285,900 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$228,700–285,900 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "duolingo-8442932002",
@@ -726,7 +1728,8 @@ const JOBS = [
     "salaryMax": 294000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$196,000–294,000 / year",
-    "salary": "US$196,000–294,000 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$196,000–294,000 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "duolingo-8489189002",
@@ -752,7 +1755,8 @@ const JOBS = [
     "salaryMax": 200000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$150,000–200,000 / year",
-    "salary": "US$150,000–200,000 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$150,000–200,000 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "duolingo-8729597002",
@@ -778,7 +1782,8 @@ const JOBS = [
     "salaryMax": 300000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$200,000–300,000 / year",
-    "salary": "US$200,000–300,000 annual base salary. Eligibility and pay depend on location; see the original listing for details."
+    "salary": "US$200,000–300,000 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "dorsia-junior",
@@ -802,7 +1807,8 @@ const JOBS = [
     "salaryMax": 90000,
     "salaryCurrency": "USD",
     "checkedAt": "September 8, 2026",
-    "url": "https://job-boards.greenhouse.io/dorsia/jobs/5173121007"
+    "url": "https://job-boards.greenhouse.io/dorsia/jobs/5173121007",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "ie-junior",
@@ -821,7 +1827,8 @@ const JOBS = [
       "Australian work rights are requested. Flexible work options are mentioned, but the office schedule is not specified."
     ],
     "checkedAt": "September 8, 2026",
-    "url": "https://job-boards.greenhouse.io/ie/jobs/8138278"
+    "url": "https://job-boards.greenhouse.io/ie/jobs/8138278",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "airbnb-8078406",
@@ -844,7 +1851,8 @@ const JOBS = [
     "disciplines": [
       "Content & strategy",
       "Social media"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "airbnb-8121074",
@@ -863,7 +1871,8 @@ const JOBS = [
     "level": "Staff",
     "highlights": [
       "Employer excerpt: “As a Staff Experience Designer, you will play a critical role in shaping how Airbnb shows up in markets across…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "anthropic-5411318008",
@@ -881,29 +1890,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “Prompts spec out what Claude does. Evals measure whether it did. The Product Prompt and Eval Design team does both…”"
-    ]
-  },
-  {
-    "id": "crusoe-88654793-32c7-4c33-a8ac-f3b541632c02",
-    "company": "Crusoe",
-    "title": "Social Media Manager",
-    "category": "Content & strategy",
-    "location": "San Francisco, CA - US",
-    "workplace": "On-site",
-    "url": "https://jobs.ashbyhq.com/crusoe/88654793-32c7-4c33-a8ac-f3b541632c02",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/crusoe?includeCompensation=true",
-    "summary": "Social Media Manager at Crusoe. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Marketing"
     ],
-    "highlights": [
-      "Employer excerpt: “Crusoe is hiring a Social Media Manager to own our organic social presence end-to-end. Not just scheduling posts, but shooting…”"
-    ],
-    "disciplines": [
-      "Content & strategy",
-      "Social media"
-    ]
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "databricks-8429978002",
@@ -919,7 +1907,8 @@ const JOBS = [
     "keywords": [
       ""
     ],
-    "level": "Senior"
+    "level": "Senior",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "decagon-1117aac8-58b5-4b24-bc82-849317a52719",
@@ -943,7 +1932,8 @@ const JOBS = [
     "salaryLabel": "US$212,000–265,000 / year",
     "salaryMin": 212000,
     "salaryMax": 265000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "decagon-60613af4-9061-426a-b4d6-720a4399be37",
@@ -966,7 +1956,8 @@ const JOBS = [
     "salaryLabel": "US$160,000–200,000 / year",
     "salaryMin": 160000,
     "salaryMax": 200000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "decagon-ad6db669-0ff9-41c6-b86b-8e567ad7fbbd",
@@ -989,7 +1980,8 @@ const JOBS = [
     "salaryLabel": "US$180,000–220,000 / year",
     "salaryMin": 180000,
     "salaryMax": 220000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "decagon-08b34a9e-6e98-40f3-9a81-ee6667bef97b",
@@ -1012,7 +2004,8 @@ const JOBS = [
     "salaryLabel": "US$180,000–220,000 / year",
     "salaryMin": 180000,
     "salaryMax": 220000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "elevenlabs-3178581d-ea70-4dee-b018-2ce2d2a18bbe",
@@ -1030,7 +2023,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “AI-generated content is becoming a dominant format across social, creator, and product marketing. Models are evolving at high speed, new…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "elevenlabs-89da00ec-11b0-4359-913b-c3a89c1013bc",
@@ -1048,7 +2042,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “The Design team at ElevenLabs is crafting experiences for the next generation of audio workflows using generative AI. You’ll work…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "elevenlabs-1f668ed5-49e9-4726-881f-7818733103b1",
@@ -1066,7 +2061,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “ElevenLabs builds the tools that let creators and marketers generate and edit speech, music, images, and video with AI. Our…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "elevenlabs-24d6431c-ec48-48e6-860a-6172b67f1fdf",
@@ -1081,7 +2077,8 @@ const JOBS = [
     "summary": "Creative Partnerships at ElevenLabs. See the employer’s listing for the full responsibilities and application requirements.",
     "keywords": [
       "Revenue"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "elevenlabs-5da4bb46-0bac-4e35-8731-9e182ad02bee",
@@ -1099,7 +2096,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “ElevenReader is our fast-growing consumer audio app, and creative is one of our biggest growth levers. We’re looking for a…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
@@ -1122,7 +2120,8 @@ const JOBS = [
       "Content & strategy",
       "Social media",
       "Creator marketing"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "elevenlabs-d5fb656f-a8ac-457a-ab26-07304791e097",
@@ -1140,7 +2139,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “As a Brand Designer at ElevenLabs, you’ll help shape and evolve our visual identity across different products, platforms, and touchpoints.…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "exa-7e52b8c9-255a-4848-a54a-efdc1fb25a69",
@@ -1163,7 +2163,8 @@ const JOBS = [
     "salaryLabel": "US$150,000–280,000 / year",
     "salaryMin": 150000,
     "salaryMax": 280000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "exa-94dd327d-5105-4b6f-8a72-e8d4d330a4e1",
@@ -1186,7 +2187,8 @@ const JOBS = [
     "salaryLabel": "US$120,000–220,000 / year",
     "salaryMin": 120000,
     "salaryMax": 220000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "fal-c1057601-d84f-4b1e-8375-ffc2fd4d4896",
@@ -1207,7 +2209,8 @@ const JOBS = [
     "salaryLabel": "US$180,000–230,000 / year",
     "salaryMin": 180000,
     "salaryMax": 230000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-6176134004",
@@ -1225,7 +2228,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “at Figma: Collaborate closely with Sales and Customer Experience teams to help customers unlock the full potential of Figma across…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-6122399004",
@@ -1243,7 +2247,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “at Figma: Empower users at scale: Collaborate closely with Sales and Customer Experience teams to help customers unlock the full…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-6114301004",
@@ -1261,7 +2266,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “at Figma: Build, evolve, and deliver certification programs, and scalable enablement programs for Figma's service distribution partners to help them…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-6022151004",
@@ -1279,7 +2285,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “at Figma: Empower users at scale: Collaborate closely with Sales and Customer Experience teams to help customers unlock the full…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "figma-5991320004",
@@ -1297,26 +2304,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “at Figma Weave: Contribute to overall strategy and decision-making about product direction Help deliver clear storytelling around customer needs and…”"
-    ]
-  },
-  {
-    "id": "gamma-9c3f69f7-c14d-4c28-b9ef-0220c070330e",
-    "company": "Gamma",
-    "title": "Creative Director",
-    "category": "Brand & creative",
-    "location": "San Francisco",
-    "workplace": "Not specified",
-    "url": "https://jobs.ashbyhq.com/gamma/9c3f69f7-c14d-4c28-b9ef-0220c070330e",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/gamma?includeCompensation=true",
-    "summary": "Creative Director at Gamma. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Marketing"
     ],
-    "level": "Leadership",
-    "highlights": [
-      "Employer excerpt: “Gamma is used by millions of people every day to create, teach, and persuade. But our brand is just getting…”"
-    ]
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "gamma-72632694-2a83-4418-bb8e-9d026618d3dd",
@@ -1335,7 +2324,8 @@ const JOBS = [
     "level": "Senior",
     "highlights": [
       "Employer excerpt: “You'll own the end-to-end design of features that millions of people use to create, teach, and persuade. From early 0-to-1…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "gamma-ec461546-f994-46ec-a4b1-659dce3e4703",
@@ -1353,7 +2343,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “Gamma is growing fast, and paid acquisition is one of the biggest levers we have. The constraint isn't budget —…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "handshake-73418318-9ea4-49bc-a886-1bb4f6f8a637",
@@ -1377,7 +2368,8 @@ const JOBS = [
     "salaryLabel": "US$190,000–240,000 / year",
     "salaryMin": 190000,
     "salaryMax": 240000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "handshake-2dd606c0-976f-4f22-b258-102a5ad3da4c",
@@ -1401,7 +2393,8 @@ const JOBS = [
     "salaryLabel": "US$170,000–215,000 / year",
     "salaryMin": 170000,
     "salaryMax": 215000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "handshake-b80bc193-ed11-468c-be6c-485cacd2b33c",
@@ -1425,7 +2418,8 @@ const JOBS = [
     "salaryLabel": "US$190,000–240,000 / year",
     "salaryMin": 190000,
     "salaryMax": 240000,
-    "salaryCurrency": "USD"
+    "salaryCurrency": "USD",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-24616c39-e293-4bcc-a3dd-e6f33a71c8ee",
@@ -1452,7 +2446,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4287537713"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-d527a336-24e3-46ef-8d05-1da557c7bff4",
@@ -1479,34 +2474,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4346000543"
-    ]
-  },
-  {
-    "id": "harvey-8684a735-fbef-422f-8fec-5ee08e264e1d",
-    "company": "Harvey",
-    "title": "Staff Motion Designer",
-    "category": "Motion & video",
-    "location": "San Francisco",
-    "workplace": "Hybrid",
-    "url": "https://jobs.ashbyhq.com/harvey/8684a735-fbef-422f-8fec-5ee08e264e1d",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
-    "summary": "Staff Motion Designer at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Marketing"
     ],
-    "level": "Staff",
-    "highlights": [
-      "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
-    ],
-    "salary": "US$157,000–235,600 / year; location-dependent.",
-    "salaryLabel": "US$157,000–235,600 / year",
-    "salaryMin": 157000,
-    "salaryMax": 235600,
-    "salaryCurrency": "USD",
-    "linkedinUrls": [
-      "https://www.linkedin.com/jobs/view/4413597887"
-    ]
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-7325a214-908d-48a4-bbc2-f5c3a6c9ed00",
@@ -1528,7 +2497,8 @@ const JOBS = [
     ],
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4413599892"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-824ef487-4f82-4ff1-a0b3-34d50d906100",
@@ -1555,7 +2525,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4440616113"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-63439ab1-eceb-40fc-9326-476335db26fb",
@@ -1582,7 +2553,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4440294968"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-2b35e24d-72bc-4588-b823-50e514c3d430",
@@ -1609,7 +2581,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4441118970"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-c84964b6-9e60-4005-8580-b865f3e47b4f",
@@ -1636,7 +2609,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4451014064"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-851b416f-9869-4b9c-9c10-5105bded4330",
@@ -1663,7 +2637,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4451008229"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-7af73358-0a99-4d3a-8fde-b0f735045613",
@@ -1684,7 +2659,8 @@ const JOBS = [
     ],
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4452123232"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-4cea74f1-7c08-4a9c-884f-796903aa77ed",
@@ -1710,7 +2686,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4452111388"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-6541a2da-ab46-467b-8aaa-289a6a1d087b",
@@ -1736,7 +2713,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4452112383"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-3feed577-6157-4fb4-b416-d4f493e1eb5c",
@@ -1763,7 +2741,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4454941223"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-b6cfee1e-67c7-420e-a3fc-24677eda6d2c",
@@ -1790,7 +2769,8 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4454932959"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "helsing-4880852101",
@@ -1808,7 +2788,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “The work is unlike anything you've done before. Defence. Autonomous aircraft. Sovereign AI. Ethics. These are not the usual inputs…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "helsing-4564710101",
@@ -1826,7 +2807,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “Join our team and use your UX skills to make a real difference. As software and AI become increasingly complex,…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "helsing-4961544101",
@@ -1845,7 +2827,8 @@ const JOBS = [
     "level": "Senior",
     "highlights": [
       "Employer excerpt: “Based in Barcelona, this role sits at the intersection of aesthetic vision and engineering rigour, leading all surface design activities…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "helsing-4878760101",
@@ -1864,7 +2847,8 @@ const JOBS = [
     "level": "Senior",
     "highlights": [
       "Employer excerpt: “As Senior Industrial Designer at Helsing, you will help define and shape the physical design language across our expanding portfolio…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "hex-5731792004",
@@ -1882,7 +2866,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “Own and execute the design and experience of Hex’s web surfaces, including our website, documentation site, product launches, and future…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "kalshi-7297530003",
@@ -1904,7 +2889,8 @@ const JOBS = [
     "disciplines": [
       "Content & strategy",
       "Social media"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "kalshi-6334301003",
@@ -1922,7 +2908,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “Create awe: build delightful product experiences that make our customers go from liking the product to loving it. Simplify and…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "kalshi-6112209003",
@@ -1937,7 +2924,8 @@ const JOBS = [
     "summary": "Video Editor at Kalshi. See the employer’s listing for the full responsibilities and application requirements.",
     "keywords": [
       ""
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "mercury-6140395004",
@@ -1952,7 +2940,8 @@ const JOBS = [
     "summary": "Executive Producer - Brand Creative at Mercury. See the employer’s listing for the full responsibilities and application requirements.",
     "keywords": [
       ""
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "spacex-8570197002",
@@ -2063,7 +3052,8 @@ const JOBS = [
     "level": "Leadership",
     "highlights": [
       "Employer excerpt: “Designers at Stripe's SDC bring a passion for captivating storytelling and great design. They use design systems to tell compelling…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "vercel-6128387004",
@@ -2081,7 +3071,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “Vercel is seeking a Presentation Designer to own presentation design end to end and help make every deck, from an…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "vercel-6160974004",
@@ -2099,7 +3090,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “You will own product design for Vercel Marketplace and Vercel Connect, the products that help developers and agents discover, provision,…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "vercel-5579560004",
@@ -2118,7 +3110,8 @@ const JOBS = [
     "level": "Senior",
     "highlights": [
       "Employer excerpt: “Help shape a brand that moves as fast as the platform it represents. As a Brand Designer on Vercel's Core…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "vercel-6131210004",
@@ -2137,26 +3130,8 @@ const JOBS = [
     "level": "Senior",
     "highlights": [
       "Employer excerpt: “You’ll help define Growth Design at Vercel and shape the complete self-serve journey: signup, onboarding, first project and deployment, adoption,…”"
-    ]
-  },
-  {
-    "id": "waymo-7442326",
-    "company": "Waymo",
-    "title": "Senior Staff Industrial Designer",
-    "category": "Product design",
-    "location": "Mountain View, CA, USA",
-    "workplace": "Not specified",
-    "url": "https://careers.withwaymo.com/jobs?gh_jid=7442326",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
-    "summary": "Senior Staff Industrial Designer at Waymo. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      ""
     ],
-    "level": "Staff",
-    "highlights": [
-      "Employer excerpt: “to pioneer a new industry. This role follows a hybrid work schedule and you will report to a Head of…”"
-    ]
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "descript-7799278003",
@@ -2174,7 +3149,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “Content is one of Descript's most powerful channels—but only when it's strategic, original, and built to reach the right audiences.…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "descript-7803294003",
@@ -2196,7 +3172,8 @@ const JOBS = [
     "disciplines": [
       "Content & strategy",
       "Social media"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "runway-28e151ac-cb29-4695-9041-a9e352624111",
@@ -2215,7 +3192,8 @@ const JOBS = [
     "level": "Staff",
     "highlights": [
       "Employer excerpt: “We're looking for a Product Designer to own the surfaces where Runway turns usage into revenue: pricing, upgrade paths, checkout,…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "runway-92044f68-4957-4cf0-9590-98952732b219",
@@ -2233,7 +3211,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “We are looking for a passionate Design Engineer to join Runway Labs — our research and exploration team pushing the…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "runway-6da9edec-0ad7-4871-b51f-cc2714688d91",
@@ -2251,7 +3230,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “*Open to hiring remote across North America (west coast only) and the UK — we also have offices in San…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "runway-e0fec99f-ae6e-4f92-ac1a-7d227179261f",
@@ -2270,7 +3250,8 @@ const JOBS = [
     "level": "Staff",
     "highlights": [
       "Employer excerpt: “We're looking for a Product Designer to own the experience developers have building on Runway's API: the docs, the console,…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "runway-dc812ced-119a-42b0-9695-5d1fe23b9a35",
@@ -2288,7 +3269,8 @@ const JOBS = [
     ],
     "highlights": [
       "Employer excerpt: “* Open to hiring remote across the US — we also have offices in New York, San Francisco, Seattle, London,…”"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "runway-HEKs8puDzxZaSSsV6",
@@ -2353,8 +3335,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -2386,86 +3368,97 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$139,000–257,550. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 139000,
-    "salaryMax": 257550,
+    "salaryMin": 139000.0,
+    "salaryMax": 257550.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$139,000–257,550 / year"
   },
   {
     "company": "Legora",
     "title": "Motion Designer",
-    "location": "Stockholm, Stockholm County, Sweden",
+    "location": "Stockholm HQ",
     "id": "linkedin-4430224042",
-    "url": "https://www.linkedin.com/jobs/view/4430224042",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/legora/c1d89b67-c7c3-42ba-8d73-30b7c114d762",
+    "source": "Legora careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-08-30T00:00:00.000Z",
     "category": "Motion & video",
-    "level": null,
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Motion Designer role at Legora, listed in Stockholm, Stockholm County, Sweden. The posting references Figma, Illustrator, After Effects, Premiere, brand.",
+    "level": "Level not specified",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Bring Legora brand to life through animation and motion storytelling. Create work for launches, campaigns, social channels, advertising, and events.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-08-30."
+      "Build motion principles and reusable approaches across channels.",
+      "Collaborate with the broader brand and creative team."
     ],
     "keywords": [
-      "Figma",
-      "Illustrator",
-      "After Effects",
-      "Premiere",
-      "brand",
-      "animation",
-      "storytelling"
+      "Motion & video"
     ],
-    "salary": null
+    "salary": "Pay not listed",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4430224042"
+    ],
+    "disciplines": [],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "company": "Legora",
     "title": "Senior Web Designer",
-    "location": "Stockholm, Stockholm County, Sweden",
+    "location": "Stockholm HQ",
     "id": "linkedin-4433717461",
-    "url": "https://www.linkedin.com/jobs/view/4433717461",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/legora/56ab32e6-1212-4f66-886b-5711f20fd3dd",
+    "source": "Legora careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-09-05T00:00:00.000Z",
     "category": "Brand & visual",
     "level": "Senior",
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Senior Web Designer role at Legora, listed in Stockholm, Stockholm County, Sweden. The posting references brand, storytelling.",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Own the design of Legora web experiences, including its main site, campaign pages, and product stories. Bring visual craft and clear communication to the company digital presence.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-09-05."
+      "Collaborate with writing, motion, photography, and editorial partners.",
+      "Develop landing pages and reusable web design patterns."
     ],
     "keywords": [
-      "brand",
-      "storytelling"
+      "Brand & visual"
     ],
-    "salary": null
+    "salary": "Pay not listed",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4433717461"
+    ],
+    "disciplines": [],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "company": "Legora",
     "title": "Senior Product Designer",
-    "location": "Stockholm, Stockholm County, Sweden",
+    "location": "Stockholm HQ",
     "id": "linkedin-4417648025",
-    "url": "https://www.linkedin.com/jobs/view/4417648025",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/legora/89073502-e8e3-49d9-ba4b-5642ef1a933d",
+    "source": "Legora careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-08-23T00:00:00.000Z",
     "category": "Product design",
     "level": "Senior",
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Senior Product Designer role at Legora, listed in Stockholm, Stockholm County, Sweden. The posting references Figma.",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Design Legora legal AI product experiences, from user flows to detailed interfaces. Bring strong execution and systems thinking to complex tools used by legal teams.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-08-23."
+      "Translate product needs into clear, usable interaction patterns.",
+      "Work in Figma and help evolve shared design foundations."
     ],
     "keywords": [
-      "Figma"
+      "Product design",
+      "AI Creative"
     ],
-    "salary": null
+    "salary": "Pay not listed",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4417648025"
+    ],
+    "disciplines": [
+      "AI Creative"
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "company": "Legora",
@@ -2494,49 +3487,68 @@ const JOBS = [
   {
     "company": "Legora",
     "title": "Design Systems Engineer",
-    "location": "Stockholm, Stockholm County, Sweden",
+    "location": "Stockholm HQ",
     "id": "linkedin-4417255066",
-    "url": "https://www.linkedin.com/jobs/view/4417255066",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/legora/9d37e6e0-15d9-4af1-b552-729bacbc4a2a",
+    "source": "Legora careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-08-21T00:00:00.000Z",
     "category": "Design engineering",
-    "level": null,
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Design Systems Engineer role at Legora, listed in Stockholm, Stockholm County, Sweden. The posting references Figma, design systems.",
+    "level": "Level not specified",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Build the bridge between Legora design system and production interfaces. Develop React components, tokens, and tooling that keep design and engineering aligned.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-08-21."
+      "Work with TypeScript, component libraries, and Figma integrations.",
+      "Explore tools such as Code Connect, Dev Mode, and MCP workflows."
     ],
     "keywords": [
-      "Figma",
-      "design systems"
+      "Design engineering",
+      "AI Creative"
     ],
-    "salary": null
+    "salary": "Pay not listed",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4417255066"
+    ],
+    "disciplines": [
+      "AI Creative"
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "company": "Legora",
     "title": "Staff Product Designer",
-    "location": "New York, NY",
+    "location": "New York City",
     "id": "linkedin-4449864796",
-    "url": "https://www.linkedin.com/jobs/view/4449864796",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/legora/8b00a66a-c06b-44b9-a374-7c3b733fce20",
+    "source": "Legora careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-09-02T00:00:00.000Z",
     "category": "Product design",
     "level": "Staff",
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Staff Product Designer role at Legora, listed in New York, NY. The posting references accessibility.",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Guide design across multiple Legora product areas and shape its longer-term product direction. Make complex, AI-assisted legal workflows accessible and useful.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-09-02."
+      "Connect product strategy with detailed interaction and interface work.",
+      "Build alignment across teams and advocate for accessibility."
     ],
     "keywords": [
-      "accessibility"
+      "Product design",
+      "AI Creative"
     ],
-    "salary": null
+    "salary": "US$240,000–316,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4449864796"
+    ],
+    "disciplines": [
+      "AI Creative"
+    ],
+    "lastVerifiedAt": "2026-09-11",
+    "salaryMin": 240000,
+    "salaryMax": 316000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$240,000–316,000 / year"
   },
   {
     "company": "Adobe",
@@ -2563,54 +3575,72 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$120,700–226,350. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 120700,
-    "salaryMax": 226350,
+    "salaryMin": 120700.0,
+    "salaryMax": 226350.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$120,700–226,350 / year"
   },
   {
     "company": "Legora",
     "title": "Staff Product Designer",
-    "location": "London, England, United Kingdom",
+    "location": "London",
     "id": "linkedin-4453881784",
-    "url": "https://www.linkedin.com/jobs/view/4453881784",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/legora/92db5fb3-581b-4dcd-b6c1-84c8ba39bb9e",
+    "source": "Legora careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-08-20T00:00:00.000Z",
     "category": "Product design",
     "level": "Staff",
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Staff Product Designer role at Legora, listed in London, England, United Kingdom. The posting references accessibility.",
+    "workplace": "On-site",
+    "type": "Full time",
+    "summary": "Guide design across multiple Legora product areas and shape its longer-term product direction. Make complex, AI-assisted legal workflows accessible and useful.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-08-20."
+      "Connect product strategy with detailed interaction and interface work.",
+      "Build alignment across teams and advocate for accessibility."
     ],
     "keywords": [
-      "accessibility"
+      "Product design",
+      "AI Creative"
     ],
-    "salary": null
+    "salary": "Pay not listed",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4453881784"
+    ],
+    "disciplines": [
+      "AI Creative"
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "company": "Notion",
     "title": "Workflow + Process Designer (AI Enablement)",
-    "location": "San Francisco, CA",
+    "location": "San Francisco, California",
     "id": "linkedin-4458575414",
-    "url": "https://www.linkedin.com/jobs/view/4458575414",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/notion/c799f1f0-0e7b-4eac-98ce-44223130f2b0",
+    "source": "Notion careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-08-25T00:00:00.000Z",
-    "category": "Brand & visual",
-    "level": null,
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Workflow + Process Designer (AI Enablement) role at Notion, listed in San Francisco, CA.",
+    "category": "Design engineering",
+    "level": "Level not specified",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Redesign Notion internal business workflows and build the agents and automations that run them. Connect tools, clarify handoffs, and keep human oversight and auditability built into the process.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-08-25."
+      "Partner with finance, legal, people, operations, data, and engineering teams.",
+      "Measure adoption, speed, and quality after shipping each workflow."
     ],
-    "keywords": [],
-    "salary": "Published annual range: US$166,000–185,000. Location and experience may affect the offer; see the original listing.",
+    "keywords": [
+      "Design engineering",
+      "AI Creative"
+    ],
+    "salary": "US$166,000–185,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4458575414"
+    ],
+    "disciplines": [
+      "AI Creative"
+    ],
+    "lastVerifiedAt": "2026-09-11",
     "salaryMin": 166000,
     "salaryMax": 185000,
     "salaryCurrency": "USD",
@@ -2619,26 +3649,30 @@ const JOBS = [
   {
     "company": "Notion",
     "title": "Brand Designer, Creative Studio",
-    "location": "New York, NY",
+    "location": "New York, New York",
     "id": "linkedin-4463173884",
-    "url": "https://www.linkedin.com/jobs/view/4463173884",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/notion/59f2246d-9cb5-4e97-879e-46c902dc276a",
+    "source": "Notion careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-09-04T00:00:00.000Z",
     "category": "Brand & visual",
-    "level": null,
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Brand Designer, Creative Studio role at Notion, listed in New York, NY. The posting references design systems, brand.",
+    "level": "Senior",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Develop Notion brand campaigns, launches, and events as part of its Creative Studio. Set visual direction, build flexible brand systems, and guide projects from strategy through execution.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-09-04."
+      "The role asks for 10+ years of agency or in-house experience.",
+      "Work with illustrators, filmmakers, writers, and other creative partners."
     ],
     "keywords": [
-      "design systems",
-      "brand"
+      "Brand & visual"
     ],
-    "salary": "Published annual range: US$200,000–250,000. Location and experience may affect the offer; see the original listing.",
+    "salary": "US$200,000–250,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4463173884"
+    ],
+    "disciplines": [],
+    "lastVerifiedAt": "2026-09-11",
     "salaryMin": 200000,
     "salaryMax": 250000,
     "salaryCurrency": "USD",
@@ -2647,23 +3681,30 @@ const JOBS = [
   {
     "company": "Notion",
     "title": "Product Designer",
-    "location": "San Francisco, CA",
+    "location": "San Francisco, California",
     "id": "linkedin-4423306576",
-    "url": "https://www.linkedin.com/jobs/view/4423306576",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/notion/d177d052-ef57-4900-acf2-d58e9eded620",
+    "source": "Notion careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-08-28T00:00:00.000Z",
     "category": "Product design",
-    "level": null,
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Product Designer role at Notion, listed in San Francisco, CA.",
+    "level": "Senior",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Design Notion product experiences from early concepts to finished interfaces. Work with engineering and customer-facing teams to simplify complex workflows and evolve the design system.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-08-28."
+      "The role asks for 5+ years of experience.",
+      "Office anchor days are Monday, Tuesday, and Thursday."
     ],
-    "keywords": [],
-    "salary": "Published annual range: US$285,000–330,000. Location and experience may affect the offer; see the original listing.",
+    "keywords": [
+      "Product design"
+    ],
+    "salary": "US$285,000–330,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4423306576"
+    ],
+    "disciplines": [],
+    "lastVerifiedAt": "2026-09-11",
     "salaryMin": 285000,
     "salaryMax": 330000,
     "salaryCurrency": "USD",
@@ -2692,8 +3733,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$120,700–226,350. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 120700,
-    "salaryMax": 226350,
+    "salaryMin": 120700.0,
+    "salaryMax": 226350.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$120,700–226,350 / year"
   },
@@ -2721,8 +3762,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$128,100–289,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 128100,
-    "salaryMax": 289900,
+    "salaryMin": 128100.0,
+    "salaryMax": 289900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$128,100–289,900 / year"
   },
@@ -2773,8 +3814,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$105,100–206,150. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 105100,
-    "salaryMax": 206150,
+    "salaryMin": 105100.0,
+    "salaryMax": 206150.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$105,100–206,150 / year"
   },
@@ -2803,8 +3844,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$146,300–274,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 146300,
-    "salaryMax": 274300,
+    "salaryMin": 146300.0,
+    "salaryMax": 274300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$146,300–274,300 / year"
   },
@@ -2862,8 +3903,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$118,300–259,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 118300,
-    "salaryMax": 259800,
+    "salaryMin": 118300.0,
+    "salaryMax": 259800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$118,300–259,800 / year"
   },
@@ -2892,8 +3933,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$128,100–289,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 128100,
-    "salaryMax": 289900,
+    "salaryMin": 128100.0,
+    "salaryMax": 289900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$128,100–289,900 / year"
   },
@@ -2921,8 +3962,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,600–385,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188600,
-    "salaryMax": 385900,
+    "salaryMin": 188600.0,
+    "salaryMax": 385900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,600–385,900 / year"
   },
@@ -3004,8 +4045,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$109,400–199,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109400,
-    "salaryMax": 199600,
+    "salaryMin": 109400.0,
+    "salaryMax": 199600.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,400–199,600 / year"
   },
@@ -3058,8 +4099,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$175,600–327,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 175600,
-    "salaryMax": 327800,
+    "salaryMin": 175600.0,
+    "salaryMax": 327800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$175,600–327,800 / year"
   },
@@ -3089,8 +4130,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$89,600–200,150. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 89600,
-    "salaryMax": 200150,
+    "salaryMin": 89600.0,
+    "salaryMax": 200150.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$89,600–200,150 / year"
   },
@@ -3146,8 +4187,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$101,200–201,950. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 101200,
-    "salaryMax": 201950,
+    "salaryMin": 101200.0,
+    "salaryMax": 201950.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$101,200–201,950 / year"
   },
@@ -3202,8 +4243,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$131,500–286,550. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 131500,
-    "salaryMax": 286550,
+    "salaryMin": 131500.0,
+    "salaryMax": 286550.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$131,500–286,550 / year"
   },
@@ -3232,8 +4273,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$124,600–234,250. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124600,
-    "salaryMax": 234250,
+    "salaryMin": 124600.0,
+    "salaryMax": 234250.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,600–234,250 / year"
   },
@@ -3264,8 +4305,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$124,600–234,250. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124600,
-    "salaryMax": 234250,
+    "salaryMin": 124600.0,
+    "salaryMax": 234250.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,600–234,250 / year"
   },
@@ -3295,8 +4336,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$158,000–301,050. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 158000,
-    "salaryMax": 301050,
+    "salaryMin": 158000.0,
+    "salaryMax": 301050.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$158,000–301,050 / year"
   },
@@ -3326,8 +4367,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$158,000–301,050. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 158000,
-    "salaryMax": 301050,
+    "salaryMin": 158000.0,
+    "salaryMax": 301050.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$158,000–301,050 / year"
   },
@@ -3356,8 +4397,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$158,000–301,050. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 158000,
-    "salaryMax": 301050,
+    "salaryMin": 158000.0,
+    "salaryMax": 301050.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$158,000–301,050 / year"
   },
@@ -3389,8 +4430,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$124,600–234,250. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124600,
-    "salaryMax": 234250,
+    "salaryMin": 124600.0,
+    "salaryMax": 234250.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,600–234,250 / year"
   },
@@ -3421,8 +4462,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$124,600–234,250. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124600,
-    "salaryMax": 234250,
+    "salaryMin": 124600.0,
+    "salaryMax": 234250.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,600–234,250 / year"
   },
@@ -3476,8 +4517,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$146,300–274,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 146300,
-    "salaryMax": 274300,
+    "salaryMin": 146300.0,
+    "salaryMax": 274300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$146,300–274,300 / year"
   },
@@ -3507,8 +4548,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$146,300–274,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 146300,
-    "salaryMax": 274300,
+    "salaryMin": 146300.0,
+    "salaryMax": 274300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$146,300–274,300 / year"
   },
@@ -3538,8 +4579,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$158,000–301,050. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 158000,
-    "salaryMax": 301050,
+    "salaryMin": 158000.0,
+    "salaryMax": 301050.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$158,000–301,050 / year"
   },
@@ -3569,8 +4610,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$146,300–274,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 146300,
-    "salaryMax": 274300,
+    "salaryMin": 146300.0,
+    "salaryMax": 274300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$146,300–274,300 / year"
   },
@@ -3619,8 +4660,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$164,000–261,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 164000,
-    "salaryMax": 261500,
+    "salaryMin": 164000.0,
+    "salaryMax": 261500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$164,000–261,500 / year"
   },
@@ -3644,8 +4685,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$172,500–260,100. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 172500,
-    "salaryMax": 260100,
+    "salaryMin": 172500.0,
+    "salaryMax": 260100.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,500–260,100 / year"
   },
@@ -3673,8 +4714,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$164,000–261,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 164000,
-    "salaryMax": 261500,
+    "salaryMin": 164000.0,
+    "salaryMax": 261500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$164,000–261,500 / year"
   },
@@ -3703,8 +4744,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$94,000–142,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 94000,
-    "salaryMax": 142300,
+    "salaryMin": 94000.0,
+    "salaryMax": 142300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$94,000–142,300 / year"
   },
@@ -3733,8 +4774,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$94,000–142,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 94000,
-    "salaryMax": 142300,
+    "salaryMin": 94000.0,
+    "salaryMax": 142300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$94,000–142,300 / year"
   },
@@ -3758,8 +4799,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$172,500–260,100. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 172500,
-    "salaryMax": 260100,
+    "salaryMin": 172500.0,
+    "salaryMax": 260100.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,500–260,100 / year"
   },
@@ -3813,8 +4854,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$94,000–142,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 94000,
-    "salaryMax": 142300,
+    "salaryMin": 94000.0,
+    "salaryMax": 142300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$94,000–142,300 / year"
   },
@@ -3843,8 +4884,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -3874,8 +4915,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$117,400–177,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 117400,
-    "salaryMax": 177600,
+    "salaryMin": 117400.0,
+    "salaryMax": 177600.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$117,400–177,600 / year"
   },
@@ -3904,8 +4945,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$94,000–142,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 94000,
-    "salaryMax": 142300,
+    "salaryMin": 94000.0,
+    "salaryMax": 142300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$94,000–142,300 / year"
   },
@@ -3933,8 +4974,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -3963,8 +5004,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4019,8 +5060,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4048,8 +5089,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4100,8 +5141,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4156,8 +5197,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$117,400–177,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 117400,
-    "salaryMax": 177600,
+    "salaryMin": 117400.0,
+    "salaryMax": 177600.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$117,400–177,600 / year"
   },
@@ -4211,8 +5252,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4238,8 +5279,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4297,8 +5338,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4328,8 +5369,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$148,500–223,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 148500,
-    "salaryMax": 223900,
+    "salaryMin": 148500.0,
+    "salaryMax": 223900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$148,500–223,900 / year"
   },
@@ -4355,8 +5396,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4382,8 +5423,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4409,8 +5450,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$143,400–216,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 143400,
-    "salaryMax": 216900,
+    "salaryMin": 143400.0,
+    "salaryMax": 216900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$143,400–216,900 / year"
   },
@@ -4464,8 +5505,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$117,400–177,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 117400,
-    "salaryMax": 177600,
+    "salaryMin": 117400.0,
+    "salaryMax": 177600.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$117,400–177,600 / year"
   },
@@ -4495,8 +5536,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$197,300–313,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 197300,
-    "salaryMax": 313700,
+    "salaryMin": 197300.0,
+    "salaryMax": 313700.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$197,300–313,700 / year"
   },
@@ -4553,8 +5594,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$197,300–313,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 197300,
-    "salaryMax": 313700,
+    "salaryMin": 197300.0,
+    "salaryMax": 313700.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$197,300–313,700 / year"
   },
@@ -4608,8 +5649,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4633,8 +5674,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -4662,8 +5703,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4689,8 +5730,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4717,8 +5758,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4746,8 +5787,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4775,8 +5816,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4803,8 +5844,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4836,8 +5877,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4863,8 +5904,8 @@ const JOBS = [
       "Figma"
     ],
     "salary": "Published annual range: US$109,000–155,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109000,
-    "salaryMax": 155000,
+    "salaryMin": 109000.0,
+    "salaryMax": 155000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,000–155,000 / year"
   },
@@ -4892,8 +5933,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4919,8 +5960,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -4947,8 +5988,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -4974,8 +6015,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5001,8 +6042,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5030,8 +6071,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -5081,8 +6122,8 @@ const JOBS = [
       "Figma"
     ],
     "salary": "Published annual range: US$109,000–155,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109000,
-    "salaryMax": 155000,
+    "salaryMin": 109000.0,
+    "salaryMax": 155000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,000–155,000 / year"
   },
@@ -5108,8 +6149,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5135,8 +6176,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5162,8 +6203,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5191,8 +6232,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -5293,8 +6334,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000,
-    "salaryMax": 329000,
+    "salaryMin": 236000.0,
+    "salaryMax": 329000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -5320,8 +6361,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$159,000–231,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 231000,
+    "salaryMin": 159000.0,
+    "salaryMax": 231000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–231,000 / year"
   },
@@ -5348,8 +6389,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000,
-    "salaryMax": 329000,
+    "salaryMin": 236000.0,
+    "salaryMax": 329000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -5375,8 +6416,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5402,8 +6443,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -5456,34 +6497,43 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$205,760–315,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 205760,
-    "salaryMax": 315000,
+    "salaryMin": 205760.0,
+    "salaryMax": 315000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$205,760–315,000 / year"
   },
   {
     "company": "Harvey",
     "title": "Senior Manager, Product Design, Platform",
-    "location": "San Francisco, CA",
+    "location": "San Francisco",
     "id": "linkedin-4462337835",
-    "url": "https://www.linkedin.com/jobs/view/4462337835",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/harvey/c143ce81-2b61-428b-a275-391514bd4eb4",
+    "source": "Harvey careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-09-05T00:00:00.000Z",
-    "category": "Product design",
+    "category": "Creative leadership",
     "level": "Leadership",
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Senior Manager, Product Design, Platform role at Harvey, listed in San Francisco, CA. The posting references prototyping, design systems.",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Lead product design for Harvey platform and administrative experiences. Guide a team building shared foundations and design systems for AI-powered legal workflows.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-09-05."
+      "The role asks for 8–10+ years in design and 5+ years of management.",
+      "Set direction, coach designers, and collaborate with product and engineering leaders."
     ],
     "keywords": [
-      "prototyping",
-      "design systems"
+      "Creative leadership",
+      "Product design",
+      "AI Creative"
     ],
-    "salary": "Published annual range: US$235,500–325,000. Location and experience may affect the offer; see the original listing.",
+    "salary": "US$235,500–325,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4462337835"
+    ],
+    "disciplines": [
+      "Product design",
+      "AI Creative"
+    ],
+    "lastVerifiedAt": "2026-09-11",
     "salaryMin": 235500,
     "salaryMax": 325000,
     "salaryCurrency": "USD",
@@ -5600,8 +6650,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$220,500–298,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 220500,
-    "salaryMax": 298500,
+    "salaryMin": 220500.0,
+    "salaryMax": 298500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$220,500–298,500 / year"
   },
@@ -5629,8 +6679,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$205,000–277,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 205000,
-    "salaryMax": 277500,
+    "salaryMin": 205000.0,
+    "salaryMax": 277500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$205,000–277,500 / year"
   },
@@ -5685,8 +6735,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$205,000–277,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 205000,
-    "salaryMax": 277500,
+    "salaryMin": 205000.0,
+    "salaryMax": 277500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$205,000–277,500 / year"
   },
@@ -5734,8 +6784,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$226,000–305,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 226000,
-    "salaryMax": 305500,
+    "salaryMin": 226000.0,
+    "salaryMax": 305500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$226,000–305,500 / year"
   },
@@ -5763,8 +6813,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$213,500–289,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 213500,
-    "salaryMax": 289000,
+    "salaryMin": 213500.0,
+    "salaryMax": 289000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$213,500–289,000 / year"
   },
@@ -5792,8 +6842,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$220,500–298,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 220500,
-    "salaryMax": 298500,
+    "salaryMin": 220500.0,
+    "salaryMax": 298500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$220,500–298,500 / year"
   },
@@ -5821,8 +6871,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$226,000–305,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 226000,
-    "salaryMax": 305500,
+    "salaryMin": 226000.0,
+    "salaryMax": 305500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$226,000–305,500 / year"
   },
@@ -5850,8 +6900,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$239,000–323,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 239000,
-    "salaryMax": 323000,
+    "salaryMin": 239000.0,
+    "salaryMax": 323000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$239,000–323,000 / year"
   },
@@ -5878,8 +6928,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$280,000–379,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 280000,
-    "salaryMax": 379000,
+    "salaryMin": 280000.0,
+    "salaryMax": 379000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$280,000–379,000 / year"
   },
@@ -5908,8 +6958,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,500–255,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188500,
-    "salaryMax": 255000,
+    "salaryMin": 188500.0,
+    "salaryMax": 255000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,500–255,000 / year"
   },
@@ -5936,8 +6986,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$338,000–457,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 338000,
-    "salaryMax": 457500,
+    "salaryMin": 338000.0,
+    "salaryMax": 457500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$338,000–457,500 / year"
   },
@@ -6859,8 +7909,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000,
-    "salaryMax": 294000,
+    "salaryMin": 179000.0,
+    "salaryMax": 294000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -6886,8 +7936,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000,
-    "salaryMax": 294000,
+    "salaryMin": 179000.0,
+    "salaryMax": 294000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -6915,8 +7965,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300,
-    "salaryMax": 250900,
+    "salaryMin": 151300.0,
+    "salaryMax": 250900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -6944,8 +7994,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300,
-    "salaryMax": 250900,
+    "salaryMin": 151300.0,
+    "salaryMax": 250900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -6973,8 +8023,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300,
-    "salaryMax": 250900,
+    "salaryMin": 151300.0,
+    "salaryMax": 250900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -7028,8 +8078,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300,
-    "salaryMax": 250900,
+    "salaryMin": 151300.0,
+    "salaryMax": 250900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -7056,8 +8106,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800,
-    "salaryMax": 163000,
+    "salaryMin": 111800.0,
+    "salaryMax": 163000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -7085,8 +8135,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300,
-    "salaryMax": 250900,
+    "salaryMin": 151300.0,
+    "salaryMax": 250900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -7113,8 +8163,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800,
-    "salaryMax": 163000,
+    "salaryMin": 111800.0,
+    "salaryMax": 163000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -7142,8 +8192,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300,
-    "salaryMax": 250900,
+    "salaryMin": 151300.0,
+    "salaryMax": 250900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -7169,8 +8219,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000,
-    "salaryMax": 294000,
+    "salaryMin": 179000.0,
+    "salaryMax": 294000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -7222,8 +8272,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800,
-    "salaryMax": 163000,
+    "salaryMin": 111800.0,
+    "salaryMax": 163000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -7250,8 +8300,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800,
-    "salaryMax": 163000,
+    "salaryMin": 111800.0,
+    "salaryMax": 163000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -7762,8 +8812,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -7787,8 +8837,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -7816,8 +8866,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -7844,8 +8894,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$172,500–260,100. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 172500,
-    "salaryMax": 260100,
+    "salaryMin": 172500.0,
+    "salaryMax": 260100.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,500–260,100 / year"
   },
@@ -7877,8 +8927,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -7904,8 +8954,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -7936,8 +8986,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$165,600–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 165600,
-    "salaryMax": 296400,
+    "salaryMin": 165600.0,
+    "salaryMax": 296400.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$165,600–296,400 / year"
   },
@@ -7963,8 +9013,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800,
-    "salaryMax": 274800,
+    "salaryMin": 142800.0,
+    "salaryMax": 274800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -8097,8 +9147,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$338,000–457,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 338000,
-    "salaryMax": 457500,
+    "salaryMin": 338000.0,
+    "salaryMax": 457500.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$338,000–457,500 / year"
   },
@@ -8175,8 +9225,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800,
-    "salaryMax": 274800,
+    "salaryMin": 142800.0,
+    "salaryMax": 274800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -8509,8 +9559,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -8537,8 +9587,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -8565,8 +9615,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8590,8 +9640,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -8618,8 +9668,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000,
-    "salaryMax": 329000,
+    "salaryMin": 236000.0,
+    "salaryMax": 329000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -8646,8 +9696,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000,
-    "salaryMax": 329000,
+    "salaryMin": 236000.0,
+    "salaryMax": 329000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -8674,8 +9724,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8702,8 +9752,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000,
-    "salaryMax": 329000,
+    "salaryMin": 236000.0,
+    "salaryMax": 329000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -8730,8 +9780,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8758,8 +9808,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8785,8 +9835,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -8813,8 +9863,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8844,8 +9894,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$171,000–247,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 171000,
-    "salaryMax": 247000,
+    "salaryMin": 171000.0,
+    "salaryMax": 247000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$171,000–247,000 / year"
   },
@@ -8869,8 +9919,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -8899,8 +9949,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8927,8 +9977,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8955,8 +10005,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -8986,8 +10036,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -9014,8 +10064,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9047,8 +10097,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9080,8 +10130,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9111,8 +10161,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9139,8 +10189,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9170,8 +10220,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9197,8 +10247,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9227,8 +10277,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$54,000–72,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 54000,
-    "salaryMax": 72000,
+    "salaryMin": 54000.0,
+    "salaryMax": 72000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$54,000–72,000 / year"
   },
@@ -9252,8 +10302,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9281,8 +10331,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9310,8 +10360,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -9339,8 +10389,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9367,8 +10417,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9393,8 +10443,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$323,000–449,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 323000,
-    "salaryMax": 449000,
+    "salaryMin": 323000.0,
+    "salaryMax": 449000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$323,000–449,000 / year"
   },
@@ -9420,8 +10470,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -9445,8 +10495,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9473,8 +10523,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9501,8 +10551,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9529,8 +10579,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9557,8 +10607,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9586,8 +10636,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9614,8 +10664,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9639,8 +10689,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$163,000–236,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 163000,
-    "salaryMax": 236000,
+    "salaryMin": 163000.0,
+    "salaryMax": 236000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$163,000–236,000 / year"
   },
@@ -9667,8 +10717,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9694,8 +10744,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9722,8 +10772,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9751,8 +10801,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9777,8 +10827,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9804,8 +10854,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9830,8 +10880,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9858,8 +10908,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9886,8 +10936,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$192,000–278,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 192000,
-    "salaryMax": 278000,
+    "salaryMin": 192000.0,
+    "salaryMax": 278000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$192,000–278,000 / year"
   },
@@ -9913,8 +10963,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -9941,8 +10991,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9969,8 +11019,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -9997,8 +11047,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$192,000–278,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 192000,
-    "salaryMax": 278000,
+    "salaryMin": 192000.0,
+    "salaryMax": 278000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$192,000–278,000 / year"
   },
@@ -10023,8 +11073,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -10051,8 +11101,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -10076,8 +11126,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$138,000–197,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 138000,
-    "salaryMax": 197000,
+    "salaryMin": 138000.0,
+    "salaryMax": 197000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$138,000–197,000 / year"
   },
@@ -10104,8 +11154,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$192,000–278,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 192000,
-    "salaryMax": 278000,
+    "salaryMin": 192000.0,
+    "salaryMax": 278000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$192,000–278,000 / year"
   },
@@ -10129,8 +11179,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -10157,8 +11207,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -10182,8 +11232,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$138,000–197,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 138000,
-    "salaryMax": 197000,
+    "salaryMin": 138000.0,
+    "salaryMax": 197000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$138,000–197,000 / year"
   },
@@ -10209,8 +11259,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -10237,8 +11287,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000,
-    "salaryMax": 329000,
+    "salaryMin": 236000.0,
+    "salaryMax": 329000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -10262,8 +11312,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$132,000–189,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 132000,
-    "salaryMax": 189000,
+    "salaryMin": 132000.0,
+    "salaryMax": 189000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–189,000 / year"
   },
@@ -10289,8 +11339,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -10314,8 +11364,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$192,000–278,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 192000,
-    "salaryMax": 278000,
+    "salaryMin": 192000.0,
+    "salaryMax": 278000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$192,000–278,000 / year"
   },
@@ -10339,8 +11389,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$172,500–260,100. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 172500,
-    "salaryMax": 260100,
+    "salaryMin": 172500.0,
+    "salaryMax": 260100.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,500–260,100 / year"
   },
@@ -10370,8 +11420,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$117,400–177,600. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 117400,
-    "salaryMax": 177600,
+    "salaryMin": 117400.0,
+    "salaryMax": 177600.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$117,400–177,600 / year"
   },
@@ -10399,8 +11449,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$257,500–451,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 257500,
-    "salaryMax": 451700,
+    "salaryMin": 257500.0,
+    "salaryMax": 451700.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$257,500–451,700 / year"
   },
@@ -10430,8 +11480,8 @@ const JOBS = [
       "animation"
     ],
     "salary": "Published annual range: US$148,500–223,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 148500,
-    "salaryMax": 223900,
+    "salaryMin": 148500.0,
+    "salaryMax": 223900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$148,500–223,900 / year"
   },
@@ -10511,8 +11561,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$139,700–265,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 139700,
-    "salaryMax": 265800,
+    "salaryMin": 139700.0,
+    "salaryMax": 265800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$139,700–265,800 / year"
   },
@@ -10539,8 +11589,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$120,700–226,350. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 120700,
-    "salaryMax": 226350,
+    "salaryMin": 120700.0,
+    "salaryMax": 226350.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$120,700–226,350 / year"
   },
@@ -10569,8 +11619,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$139,000–257,550. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 139000,
-    "salaryMax": 257550,
+    "salaryMin": 139000.0,
+    "salaryMax": 257550.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$139,000–257,550 / year"
   },
@@ -10598,34 +11648,43 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$131,500–286,550. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 131500,
-    "salaryMax": 286550,
+    "salaryMin": 131500.0,
+    "salaryMax": 286550.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$131,500–286,550 / year"
   },
   {
     "company": "Harvey",
     "title": "Senior Manager, Product Design, Platform",
-    "location": "New York, United States",
+    "location": "New York",
     "id": "linkedin-4462345723",
-    "url": "https://www.linkedin.com/jobs/view/4462345723",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
+    "url": "https://jobs.ashbyhq.com/harvey/c0d56938-468a-43dc-b8ec-84f17b04338a",
+    "source": "Harvey careers · Ashby",
+    "checkedAt": "September 11, 2026",
     "postedAt": "2026-09-05",
-    "category": "Product design",
+    "category": "Creative leadership",
     "level": "Leadership",
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Senior Manager, Product Design, Platform role at Harvey, listed in New York, United States. The posting references prototyping, design systems.",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Lead product design for Harvey platform and administrative experiences. Guide a team building shared foundations and design systems for AI-powered legal workflows.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-09-05."
+      "The role asks for 8–10+ years in design and 5+ years of management.",
+      "Set direction, coach designers, and collaborate with product and engineering leaders."
     ],
     "keywords": [
-      "prototyping",
-      "design systems"
+      "Creative leadership",
+      "Product design",
+      "AI Creative"
     ],
-    "salary": "Published annual range: US$235,500–325,000. Location and experience may affect the offer; see the original listing.",
+    "salary": "US$235,500–325,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4462345723"
+    ],
+    "disciplines": [
+      "Product design",
+      "AI Creative"
+    ],
+    "lastVerifiedAt": "2026-09-11",
     "salaryMin": 235500,
     "salaryMax": 325000,
     "salaryCurrency": "USD",
@@ -10655,8 +11714,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$205,760–315,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 205760,
-    "salaryMax": 315000,
+    "salaryMin": 205760.0,
+    "salaryMax": 315000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$205,760–315,000 / year"
   },
@@ -10688,8 +11747,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800,
-    "salaryMax": 296400,
+    "salaryMin": 142800.0,
+    "salaryMax": 296400.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–296,400 / year"
   },
@@ -12133,8 +13192,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$130,900–251,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 130900,
-    "salaryMax": 251900,
+    "salaryMin": 130900.0,
+    "salaryMax": 251900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$130,900–251,900 / year"
   },
@@ -12162,8 +13221,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$202,500–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 202500,
-    "salaryMax": 274000,
+    "salaryMin": 202500.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$202,500–274,000 / year"
   },
@@ -12189,8 +13248,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000,
-    "salaryMax": 294000,
+    "salaryMin": 179000.0,
+    "salaryMax": 294000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -12216,8 +13275,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000,
-    "salaryMax": 294000,
+    "salaryMin": 179000.0,
+    "salaryMax": 294000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -12243,8 +13302,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000,
-    "salaryMax": 294000,
+    "salaryMin": 179000.0,
+    "salaryMax": 294000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -12270,8 +13329,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$179,000–294,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 179000,
-    "salaryMax": 294000,
+    "salaryMin": 179000.0,
+    "salaryMax": 294000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$179,000–294,000 / year"
   },
@@ -12298,8 +13357,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$130,900–251,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 130900,
-    "salaryMax": 251900,
+    "salaryMin": 130900.0,
+    "salaryMax": 251900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$130,900–251,900 / year"
   },
@@ -12326,8 +13385,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800,
-    "salaryMax": 274800,
+    "salaryMin": 142800.0,
+    "salaryMax": 274800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -12355,8 +13414,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$140,500–268,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 140500,
-    "salaryMax": 268800,
+    "salaryMin": 140500.0,
+    "salaryMax": 268800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$140,500–268,800 / year"
   },
@@ -12384,8 +13443,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$165,600–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 165600,
-    "salaryMax": 296400,
+    "salaryMin": 165600.0,
+    "salaryMax": 296400.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$165,600–296,400 / year"
   },
@@ -12436,8 +13495,8 @@ const JOBS = [
       "prototyping"
     ],
     "salary": "Published annual range: US$119,800–234,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 119800,
-    "salaryMax": 234700,
+    "salaryMin": 119800.0,
+    "salaryMax": 234700.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$119,800–234,700 / year"
   },
@@ -12464,8 +13523,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800,
-    "salaryMax": 274800,
+    "salaryMin": 142800.0,
+    "salaryMax": 274800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -12492,8 +13551,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800,
-    "salaryMax": 163000,
+    "salaryMin": 111800.0,
+    "salaryMax": 163000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -12520,8 +13579,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800,
-    "salaryMax": 274800,
+    "salaryMin": 142800.0,
+    "salaryMax": 274800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -12548,8 +13607,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$136,500–228,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 136500,
-    "salaryMax": 228300,
+    "salaryMin": 136500.0,
+    "salaryMax": 228300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$136,500–228,300 / year"
   },
@@ -12580,8 +13639,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$119,800–234,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 119800,
-    "salaryMax": 234700,
+    "salaryMin": 119800.0,
+    "salaryMax": 234700.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$119,800–234,700 / year"
   },
@@ -12609,8 +13668,8 @@ const JOBS = [
       "brand"
     ],
     "salary": "Published annual range: US$119,800–234,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 119800,
-    "salaryMax": 234700,
+    "salaryMin": 119800.0,
+    "salaryMax": 234700.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$119,800–234,700 / year"
   },
@@ -12637,8 +13696,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$136,500–228,300. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 136500,
-    "salaryMax": 228300,
+    "salaryMin": 136500.0,
+    "salaryMax": 228300.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$136,500–228,300 / year"
   },
@@ -12665,8 +13724,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$111,800–163,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 111800,
-    "salaryMax": 163000,
+    "salaryMin": 111800.0,
+    "salaryMax": 163000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$111,800–163,000 / year"
   },
@@ -12699,8 +13758,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$102,100–202,200. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 102100,
-    "salaryMax": 202200,
+    "salaryMin": 102100.0,
+    "salaryMax": 202200.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$102,100–202,200 / year"
   },
@@ -12727,8 +13786,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$142,800–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800,
-    "salaryMax": 296400,
+    "salaryMin": 142800.0,
+    "salaryMax": 296400.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–296,400 / year"
   },
@@ -12781,8 +13840,8 @@ const JOBS = [
       "storytelling"
     ],
     "salary": "Published annual range: US$102,100–202,200. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 102100,
-    "salaryMax": 202200,
+    "salaryMin": 102100.0,
+    "salaryMax": 202200.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$102,100–202,200 / year"
   },
@@ -12809,8 +13868,8 @@ const JOBS = [
       "typography"
     ],
     "salary": "Published annual range: US$165,600–296,400. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 165600,
-    "salaryMax": 296400,
+    "salaryMin": 165600.0,
+    "salaryMax": 296400.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$165,600–296,400 / year"
   },
@@ -12869,21 +13928,28 @@ const JOBS = [
     "title": "Product Designer",
     "location": "New York, NY",
     "id": "linkedin-4423307605",
-    "url": "https://www.linkedin.com/jobs/view/4423307605",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
-    "postedAt": "2026-08-28",
+    "url": "https://jobs.ashbyhq.com/notion/d177d052-ef57-4900-acf2-d58e9eded620",
+    "source": "Notion careers · Ashby",
+    "checkedAt": "September 11, 2026",
+    "postedAt": "2026-08-28T00:00:00.000Z",
     "category": "Product design",
-    "level": null,
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Product Designer role at Notion, listed in New York, NY.",
+    "level": "Senior",
+    "workplace": "Hybrid",
+    "type": "Full time",
+    "summary": "Design Notion product experiences from early concepts to finished interfaces. Work with engineering and customer-facing teams to simplify complex workflows and evolve the design system.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-08-28."
+      "The role asks for 5+ years of experience.",
+      "Office anchor days are Monday, Tuesday, and Thursday."
     ],
-    "keywords": [],
-    "salary": "Published annual range: US$285,000–330,000. Location and experience may affect the offer; see the original listing.",
+    "keywords": [
+      "Product design"
+    ],
+    "salary": "US$285,000–330,000 annual base salary. Actual pay depends on location, experience, and level.",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4423307605"
+    ],
+    "disciplines": [],
+    "lastVerifiedAt": "2026-09-11",
     "salaryMin": 285000,
     "salaryMax": 330000,
     "salaryCurrency": "USD",
@@ -12954,8 +14020,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$124,000–201,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124000,
-    "salaryMax": 201000,
+    "salaryMin": 124000.0,
+    "salaryMax": 201000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,000–201,000 / year"
   },
@@ -13341,8 +14407,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$102,100–202,200. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 102100,
-    "salaryMax": 202200,
+    "salaryMin": 102100.0,
+    "salaryMax": 202200.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$102,100–202,200 / year"
   },
@@ -13368,8 +14434,8 @@ const JOBS = [
       "Adobe"
     ],
     "salary": "Published annual range: US$145,400–261,150. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 145400,
-    "salaryMax": 261150,
+    "salaryMin": 145400.0,
+    "salaryMax": 261150.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$145,400–261,150 / year"
   },
@@ -13396,8 +14462,8 @@ const JOBS = [
       "accessibility"
     ],
     "salary": "Published annual range: US$124,000–201,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124000,
-    "salaryMax": 201000,
+    "salaryMin": 124000.0,
+    "salaryMax": 201000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,000–201,000 / year"
   },
@@ -13477,8 +14543,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$119,800–234,700. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 119800,
-    "salaryMax": 234700,
+    "salaryMin": 119800.0,
+    "salaryMax": 234700.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$119,800–234,700 / year"
   },
@@ -13736,8 +14802,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$151,300–250,900. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 151300,
-    "salaryMax": 250900,
+    "salaryMin": 151300.0,
+    "salaryMax": 250900.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$151,300–250,900 / year"
   },
@@ -13844,8 +14910,8 @@ const JOBS = [
       "3D"
     ],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800,
-    "salaryMax": 274800,
+    "salaryMin": 142800.0,
+    "salaryMax": 274800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -13947,8 +15013,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$142,800–274,800. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 142800,
-    "salaryMax": 274800,
+    "salaryMin": 142800.0,
+    "salaryMax": 274800.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$142,800–274,800 / year"
   },
@@ -13976,8 +15042,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$124,000–201,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124000,
-    "salaryMax": 201000,
+    "salaryMin": 124000.0,
+    "salaryMax": 201000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,000–201,000 / year"
   },
@@ -14244,8 +15310,8 @@ const JOBS = [
       "design systems"
     ],
     "salary": "Published annual range: US$124,000–201,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 124000,
-    "salaryMax": 201000,
+    "salaryMin": 124000.0,
+    "salaryMax": 201000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$124,000–201,000 / year"
   },
@@ -17477,8 +18543,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000,
-    "salaryMax": 329000,
+    "salaryMin": 236000.0,
+    "salaryMax": 329000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -17502,8 +18568,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -17527,8 +18593,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -17578,8 +18644,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$109,000–155,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109000,
-    "salaryMax": 155000,
+    "salaryMin": 109000.0,
+    "salaryMax": 155000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,000–155,000 / year"
   },
@@ -17603,8 +18669,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$159,000–230,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 159000,
-    "salaryMax": 230000,
+    "salaryMin": 159000.0,
+    "salaryMax": 230000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$159,000–230,000 / year"
   },
@@ -17630,8 +18696,8 @@ const JOBS = [
       "user research"
     ],
     "salary": "Published annual range: US$109,000–155,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 109000,
-    "salaryMax": 155000,
+    "salaryMin": 109000.0,
+    "salaryMax": 155000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$109,000–155,000 / year"
   },
@@ -17702,8 +18768,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$236,000–329,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 236000,
-    "salaryMax": 329000,
+    "salaryMin": 236000.0,
+    "salaryMax": 329000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$236,000–329,000 / year"
   },
@@ -17798,8 +18864,8 @@ const JOBS = [
     ],
     "keywords": [],
     "salary": "Published annual range: US$188,000–274,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 188000,
-    "salaryMax": 274000,
+    "salaryMin": 188000.0,
+    "salaryMax": 274000.0,
     "salaryCurrency": "USD",
     "salaryLabel": "US$188,000–274,000 / year"
   },
@@ -17852,7 +18918,8 @@ const JOBS = [
       "Social media",
       "Creator marketing"
     ],
-    "salaryLabel": "Pay not listed"
+    "salaryLabel": "Pay not listed",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "runway-2185626a-657a-4772-9519-50b2e7b2af1a",
@@ -17879,7 +18946,8 @@ const JOBS = [
       "Social media",
       "Motion & video"
     ],
-    "salaryLabel": "Pay not listed"
+    "salaryLabel": "Pay not listed",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-b26ccc21-fb10-4428-90be-a7af2076ff77",
@@ -17905,7 +18973,8 @@ const JOBS = [
     "salaryMin": 136000,
     "salaryMax": 204000,
     "salaryCurrency": "USD",
-    "salaryLabel": "US$136,000–204,000 / year · location dependent"
+    "salaryLabel": "US$136,000–204,000 / year · location dependent",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-c6e7267c-877e-479c-8dc6-f34ffbbb44dd",
@@ -17931,7 +19000,8 @@ const JOBS = [
     "salaryMin": 136000,
     "salaryMax": 204000,
     "salaryCurrency": "USD",
-    "salaryLabel": "US$136,000–204,000 / year · location dependent"
+    "salaryLabel": "US$136,000–204,000 / year · location dependent",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-a8f060ad-1e57-40f8-94f7-402c2611eb90",
@@ -17957,7 +19027,8 @@ const JOBS = [
     "salaryMin": 136000,
     "salaryMax": 204000,
     "salaryCurrency": "USD",
-    "salaryLabel": "US$136,000–204,000 / year · location dependent"
+    "salaryLabel": "US$136,000–204,000 / year · location dependent",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "harvey-275f3315-2ea8-4fb4-bfe8-e0dd4e238e86",
@@ -17983,7 +19054,8 @@ const JOBS = [
     "salaryMin": 136000,
     "salaryMax": 204000,
     "salaryCurrency": "USD",
-    "salaryLabel": "US$136,000–204,000 / year · location dependent"
+    "salaryLabel": "US$136,000–204,000 / year · location dependent",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "adobe-R169671",
@@ -18069,7 +19141,8 @@ const JOBS = [
     "salaryMax": 440000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,000–440,000 / year",
-    "salary": "Published annual base salary: US$172,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$172,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "ramp-a8451979-2691-440e-851b-49a3b807729b",
@@ -18100,7 +19173,8 @@ const JOBS = [
     "salaryMax": 181000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$132,000–181,000 / year",
-    "salary": "Published annual base salary: US$132,000–181,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$132,000–181,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "ramp-30323399-3039-499d-a0b6-a891ced89e1e",
@@ -18134,7 +19208,8 @@ const JOBS = [
     "salaryMax": 424000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$309,000–424,000 / year",
-    "salary": "Published annual base salary: US$309,000–424,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$309,000–424,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "ramp-b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
@@ -18165,7 +19240,8 @@ const JOBS = [
     "salaryMax": 440000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$172,000–440,000 / year",
-    "salary": "Published annual base salary: US$172,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$172,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "ramp-78b98c66-af59-4fa8-a5ae-d8af8d737976",
@@ -18199,7 +19275,8 @@ const JOBS = [
     "salaryMax": 440000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$320,000–440,000 / year",
-    "salary": "Published annual base salary: US$320,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$320,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "ramp-2c101be9-f4b8-4a63-a634-9798d9a09eaa",
@@ -18233,7 +19310,8 @@ const JOBS = [
     "salaryMax": 352000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$200,000–352,000 / year",
-    "salary": "Published annual base salary: US$200,000–352,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$200,000–352,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "perplexity-78675022-c4a7-41d2-9259-7c59be4de93c",
@@ -18262,7 +19340,8 @@ const JOBS = [
     "salaryMax": 405000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$220,000–405,000 / year",
-    "salary": "Published annual base salary: US$220,000–405,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$220,000–405,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "perplexity-39d520eb-6b81-4b61-8b23-5efcdac4cad9",
@@ -18293,7 +19372,8 @@ const JOBS = [
     "salaryMax": 210000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$180,000–210,000 / year",
-    "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "perplexity-678d1162-e650-4d6d-9532-b287255c00fb",
@@ -18323,7 +19403,8 @@ const JOBS = [
     "salaryMax": 210000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$180,000–210,000 / year",
-    "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "perplexity-7ae341c4-411e-468c-bc26-bbdd8e55d388",
@@ -18354,7 +19435,8 @@ const JOBS = [
     "salaryMax": 210000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$180,000–210,000 / year",
-    "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "perplexity-3d277236-2cf3-4a59-b435-71540cc05712",
@@ -18386,7 +19468,8 @@ const JOBS = [
     "salaryMax": 280000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$220,000–280,000 / year",
-    "salary": "Published annual base salary: US$220,000–280,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$220,000–280,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "perplexity-04d73be4-8a69-4e62-9b0d-e9b7968cf860",
@@ -18416,7 +19499,8 @@ const JOBS = [
     "salaryMax": 225000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$150,000–225,000 / year",
-    "salary": "Published annual base salary: US$150,000–225,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$150,000–225,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "perplexity-fbbd496b-1d14-4396-b31d-38fbea0dc666",
@@ -18446,7 +19530,8 @@ const JOBS = [
     "salaryMax": 300000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$180,000–300,000 / year",
-    "salary": "Published annual base salary: US$180,000–300,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$180,000–300,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "perplexity-74a5eaeb-0a4b-412b-ac3a-ad73403b3fb7",
@@ -18476,7 +19561,8 @@ const JOBS = [
     "salaryMax": 300000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$180,000–300,000 / year",
-    "salary": "Published annual base salary: US$180,000–300,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$180,000–300,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "perplexity-9ce0fef8-7ead-4c0d-a71e-433bdd5b4d82",
@@ -18506,7 +19592,8 @@ const JOBS = [
     "salaryMax": 300000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$180,000–300,000 / year",
-    "salary": "Published annual base salary: US$180,000–300,000. Final pay depends on experience, level and location. See the original listing for equity and benefits."
+    "salary": "Published annual base salary: US$180,000–300,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "vanta-19837d21-971e-4b9d-b078-320895fae28a",
@@ -18536,7 +19623,8 @@ const JOBS = [
     "disciplines": [
       "Product design",
       "Creative leadership"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "vanta-0fcbc935-76c7-4eac-b522-af421ed200c9",
@@ -18562,7 +19650,8 @@ const JOBS = [
     "salary": "Published annual cash compensation range: US$236,000–278,000, plus equity. Vanta labels this a cash range; it is not independently verified as base-only pay.",
     "salaryLabel": "US$236,000–278,000 / year · cash range",
     "salaryCashMin": 236000,
-    "salaryCashMax": 278000
+    "salaryCashMax": 278000,
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "vanta-6d6698d7-7272-4c2a-bc34-807dc269de43",
@@ -18592,7 +19681,8 @@ const JOBS = [
     "disciplines": [
       "Product design",
       "Creative leadership"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "vanta-32babc06-def2-4db3-b153-1c1c44bdcf40",
@@ -18618,7 +19708,8 @@ const JOBS = [
     "salary": "Published annual cash compensation range: US$236,000–278,000, plus equity. Vanta labels this a cash range; it is not independently verified as base-only pay.",
     "salaryLabel": "US$236,000–278,000 / year · cash range",
     "salaryCashMin": 236000,
-    "salaryCashMax": 278000
+    "salaryCashMax": 278000,
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "linear-a264869e-f058-487c-ab7f-9b77dffa427c",
@@ -18637,7 +19728,8 @@ const JOBS = [
       "Remote",
       "TrueUp Remote 200"
     ],
-    "salaryLabel": "Pay not listed"
+    "salaryLabel": "Pay not listed",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "linear-ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
@@ -18656,7 +19748,8 @@ const JOBS = [
       "Remote",
       "TrueUp Remote 200"
     ],
-    "salaryLabel": "Pay not listed"
+    "salaryLabel": "Pay not listed",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "linear-eac7f181-d658-4943-9430-51bae2bcd110",
@@ -18675,7 +19768,8 @@ const JOBS = [
       "Remote",
       "TrueUp Remote 200"
     ],
-    "salaryLabel": "Pay not listed"
+    "salaryLabel": "Pay not listed",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "linear-5b9997fd-7507-4437-8fd7-14178c99ab5d",
@@ -18694,7 +19788,8 @@ const JOBS = [
       "Remote",
       "TrueUp Remote 200"
     ],
-    "salaryLabel": "Pay not listed"
+    "salaryLabel": "Pay not listed",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "linear-b32de590-06ce-47d4-8994-66b936df908d",
@@ -18713,7 +19808,8 @@ const JOBS = [
       "Remote",
       "TrueUp Remote 200"
     ],
-    "salaryLabel": "Pay not listed"
+    "salaryLabel": "Pay not listed",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "supabase-4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
@@ -18732,7 +19828,8 @@ const JOBS = [
       "Remote",
       "TrueUp Remote 200"
     ],
-    "salaryLabel": "Pay not listed"
+    "salaryLabel": "Pay not listed",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "supabase-97fe8e68-28c5-42db-a763-60113f0b31fd",
@@ -18751,7 +19848,8 @@ const JOBS = [
       "Remote",
       "TrueUp Remote 200"
     ],
-    "salaryLabel": "Pay not listed"
+    "salaryLabel": "Pay not listed",
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "ashby-f40ef345-82a8-4956-9150-193b4fdf8183",
@@ -18774,7 +19872,8 @@ const JOBS = [
     "salary": "Published annual salary by location: US: San Francisco & New York: $180K – $210K; US: LA, Boston, Seattle, D.C.: $160K – $190K; US: All Other Locations: $150K – $180K; Canada: Toronto & Vancouver: CA$160K – CA$190K; Canada: All Other Locations: CA$150K – CA$180K. Equity is separate.",
     "salaryCurrency": "USD",
     "salaryMin": 150000,
-    "salaryMax": 210000
+    "salaryMax": 210000,
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "ashby-2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
@@ -18797,7 +19896,8 @@ const JOBS = [
     "salary": "Published annual salary by location: US: San Francisco & New York: $220K – $240K; US: LA, Boston, Seattle, D.C.: $200K – $220K; US: All Other Locations: $180K – $200K; Canada: Toronto & Vancouver: CA$200K – CA$220K; Canada: All Other Locations: CA$180K – CA$200K. Equity is separate.",
     "salaryCurrency": "USD",
     "salaryMin": 180000,
-    "salaryMax": 240000
+    "salaryMax": 240000,
+    "lastVerifiedAt": "2026-09-11"
   },
   {
     "id": "webflow-8155266",
@@ -18824,6 +19924,7 @@ const JOBS = [
       "LinkedIn",
       "Meta",
       "TrueUp Remote 200"
-    ]
+    ],
+    "lastVerifiedAt": "2026-09-11"
   }
 ];

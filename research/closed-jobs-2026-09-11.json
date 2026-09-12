@@ -1,0 +1,125 @@
+[
+  {
+    "closedAt": "2026-09-11",
+    "job": {
+      "id": "crusoe-88654793-32c7-4c33-a8ac-f3b541632c02",
+      "company": "Crusoe",
+      "title": "Social Media Manager",
+      "category": "Content & strategy",
+      "location": "San Francisco, CA - US",
+      "workplace": "On-site",
+      "url": "https://jobs.ashbyhq.com/crusoe/88654793-32c7-4c33-a8ac-f3b541632c02",
+      "checkedAt": "September 8, 2026",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/crusoe?includeCompensation=true",
+      "summary": "Social Media Manager at Crusoe. See the employer’s listing for the full responsibilities and application requirements.",
+      "keywords": [
+        "Marketing"
+      ],
+      "highlights": [
+        "Employer excerpt: “Crusoe is hiring a Social Media Manager to own our organic social presence end-to-end. Not just scheduling posts, but shooting…”"
+      ],
+      "disciplines": [
+        "Content & strategy",
+        "Social media"
+      ]
+    },
+    "evidence": {
+      "listingUrl": "https://jobs.ashbyhq.com/crusoe/88654793-32c7-4c33-a8ac-f3b541632c02",
+      "employerFeed": "https://api.ashbyhq.com/posting-api/job-board/crusoe?includeCompensation=true",
+      "reason": "Absent from complete employer feed and employer listing explicitly unavailable.",
+      "visibleMessage": "Job not found. The job you requested was not found."
+    }
+  },
+  {
+    "closedAt": "2026-09-11",
+    "job": {
+      "id": "gamma-9c3f69f7-c14d-4c28-b9ef-0220c070330e",
+      "company": "Gamma",
+      "title": "Creative Director",
+      "category": "Brand & creative",
+      "location": "San Francisco",
+      "workplace": "Not specified",
+      "url": "https://jobs.ashbyhq.com/gamma/9c3f69f7-c14d-4c28-b9ef-0220c070330e",
+      "checkedAt": "September 8, 2026",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/gamma?includeCompensation=true",
+      "summary": "Creative Director at Gamma. See the employer’s listing for the full responsibilities and application requirements.",
+      "keywords": [
+        "Marketing"
+      ],
+      "level": "Leadership",
+      "highlights": [
+        "Employer excerpt: “Gamma is used by millions of people every day to create, teach, and persuade. But our brand is just getting…”"
+      ]
+    },
+    "evidence": {
+      "listingUrl": "https://jobs.ashbyhq.com/gamma/9c3f69f7-c14d-4c28-b9ef-0220c070330e",
+      "employerFeed": "https://api.ashbyhq.com/posting-api/job-board/gamma?includeCompensation=true",
+      "reason": "Absent from complete employer feed and employer listing explicitly unavailable.",
+      "visibleMessage": "Job not found. The job you requested was not found."
+    }
+  },
+  {
+    "closedAt": "2026-09-11",
+    "job": {
+      "id": "harvey-8684a735-fbef-422f-8fec-5ee08e264e1d",
+      "company": "Harvey",
+      "title": "Staff Motion Designer",
+      "category": "Motion & video",
+      "location": "San Francisco",
+      "workplace": "Hybrid",
+      "url": "https://jobs.ashbyhq.com/harvey/8684a735-fbef-422f-8fec-5ee08e264e1d",
+      "checkedAt": "September 8, 2026",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+      "summary": "Staff Motion Designer at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
+      "keywords": [
+        "Marketing"
+      ],
+      "level": "Staff",
+      "highlights": [
+        "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
+      ],
+      "salary": "US$157,000–235,600 / year; location-dependent.",
+      "salaryLabel": "US$157,000–235,600 / year",
+      "salaryMin": 157000,
+      "salaryMax": 235600,
+      "salaryCurrency": "USD",
+      "linkedinUrls": [
+        "https://www.linkedin.com/jobs/view/4413597887"
+      ]
+    },
+    "evidence": {
+      "listingUrl": "https://jobs.ashbyhq.com/harvey/8684a735-fbef-422f-8fec-5ee08e264e1d",
+      "employerFeed": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+      "reason": "Absent from complete employer feed and employer listing explicitly unavailable.",
+      "visibleMessage": "Job not found. The job you requested was not found."
+    }
+  },
+  {
+    "closedAt": "2026-09-11",
+    "job": {
+      "id": "waymo-7442326",
+      "company": "Waymo",
+      "title": "Senior Staff Industrial Designer",
+      "category": "Product design",
+      "location": "Mountain View, CA, USA",
+      "workplace": "Not specified",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=7442326",
+      "checkedAt": "September 8, 2026",
+      "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
+      "summary": "Senior Staff Industrial Designer at Waymo. See the employer’s listing for the full responsibilities and application requirements.",
+      "keywords": [
+        ""
+      ],
+      "level": "Staff",
+      "highlights": [
+        "Employer excerpt: “to pioneer a new industry. This role follows a hybrid work schedule and you will report to a Head of…”"
+      ]
+    },
+    "evidence": {
+      "listingUrl": "https://careers.withwaymo.com/jobs?gh_jid=7442326",
+      "employerFeed": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
+      "reason": "Absent from complete employer feed and employer listing explicitly unavailable.",
+      "visibleMessage": "Oops! Looks like you got lost."
+    }
+  }
+]
