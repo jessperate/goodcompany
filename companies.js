@@ -1110,5 +1110,27 @@ const COMPANIES = {
       }
     ],
     "interviews": []
+  },
+  "GitLab": {
+    "website": "https://about.gitlab.com/",
+    "logo": "logos/gitlab.svg",
+    "about": "A DevSecOps platform for planning, building, securing, and delivering software, with AI-assisted development tools.",
+    "checkedAt": "September 12, 2026",
+    "press": [],
+    "interviews": []
+  },
+  "Remote": {
+    "website": "https://remote.com/",
+    "logo": "logos/remote.svg",
+    "about": "Global employment software and services for hiring, payroll, HR, and managing international teams.",
+    "checkedAt": "September 12, 2026",
+    "press": [
+      {
+        "title": "Series C funding announcement · April 2022",
+        "url": "https://remote.com/blog/company-news/213004-remote-secures-300-million-series-c-financing-to-power-global-employment",
+        "source": "Remote"
+      }
+    ],
+    "interviews": []
   }
 };

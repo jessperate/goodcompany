@@ -213,5 +213,15 @@ const COMPANY_STAGES = {
     "stage": "Series C+",
     "url": "https://www.sanity.io/blog/why-the-age-of-cms-is-over",
     "checkedAt": "2026-09-10"
+  },
+  "GitLab": {
+    "stage": "Public",
+    "url": "https://ir.gitlab.com/overview/default.aspx",
+    "checkedAt": "2026-09-12"
+  },
+  "Remote": {
+    "stage": "Series C+",
+    "url": "https://remote.com/blog/company-news/213004-remote-secures-300-million-series-c-financing-to-power-global-employment",
+    "checkedAt": "2026-09-12"
   }
 };

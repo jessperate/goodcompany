@@ -1,5 +1,82 @@
 const JOBS = [
   {
+    "id": "gitlab-8792475002",
+    "company": "GitLab",
+    "title": "Director, Social Media",
+    "category": "Social media",
+    "disciplines": [
+      "Creative leadership",
+      "Creator marketing",
+      "Influencer marketing",
+      "AI Creative"
+    ],
+    "location": "United States or Canada",
+    "workplace": "Remote",
+    "type": "Full time",
+    "level": "Leadership",
+    "summary": "Lead GitLab global social strategy, from editorial direction and YouTube programming to creator partnerships and employee advocacy. Own the social function’s budget, tools, measurement, and creative quality while remaining hands-on with content.",
+    "highlights": [
+      "Requires 10+ years in social media, including at least 5 years leading social strategy for a global brand.",
+      "Bring experience growing YouTube, LinkedIn, and X, and coordinating organic and paid social.",
+      "Develop creator, influencer, and advocacy programs; use AI thoughtfully in social workflows.",
+      "Remote opening for the United States and Canada; published compensation applies to US residents only."
+    ],
+    "keywords": [
+      "social media",
+      "YouTube",
+      "LinkedIn",
+      "X",
+      "creator",
+      "influencer",
+      "AI",
+      "video",
+      "employee advocacy"
+    ],
+    "salary": "US$139,200–235,200 annual base salary for US residents only. Actual pay varies by location, level, and experience; bonuses, equity, and benefits are additional. Canadian compensation is not published.",
+    "salaryMin": 139200,
+    "salaryMax": 235200,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$139,200–235,200 / year · US",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8792475002",
+    "source": "GitLab careers · Greenhouse · requisition 6973",
+    "checkedAt": "September 12, 2026",
+    "lastVerifiedAt": "2026-09-12"
+  },
+  {
+    "id": "remote-7762220003",
+    "company": "Remote",
+    "title": "Senior Product Designer",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "EMEA · wider eligibility described in listing",
+    "workplace": "Remote",
+    "type": "Full time",
+    "level": "Senior",
+    "summary": "Design Remote global employment products from research and early concepts through polished interfaces. Partner with product and engineering to simplify complex workflows, use AI for prototyping, and evolve the shared design system.",
+    "highlights": [
+      "Bring a strong portfolio showing ownership of complex product design from problem definition to implementation.",
+      "Experience with B2B SaaS, HR technology, or financial technology is preferred.",
+      "Use AI prototypes, systems thinking, and accessible interaction design to explore and deliver solutions.",
+      "The job board labels this EMEA, while the description says anywhere in the world; confirm location eligibility with the hiring team."
+    ],
+    "keywords": [
+      "product design",
+      "B2B SaaS",
+      "HR technology",
+      "design systems",
+      "AI prototyping",
+      "research",
+      "accessibility"
+    ],
+    "salary": "Published annual base salary range: $60,000–140,400. The posting does not explicitly identify the dollar currency. Pay varies by location, role level, and experience; confirm the applicable currency and local range with Remote.",
+    "url": "https://job-boards.greenhouse.io/remotecom/jobs/7762220003",
+    "source": "Remote careers · Greenhouse · requisition 3026",
+    "checkedAt": "September 12, 2026",
+    "lastVerifiedAt": "2026-09-12"
+  },
+  {
     "id": "clickup-0b715fff-f8c2-4e87-880d-d390bb0cbc40",
     "company": "ClickUp",
     "title": "Staff Product Designer",
