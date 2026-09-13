@@ -123,6 +123,7 @@
       if (sessionStorage.getItem('goodcompany-return-profile') && !location.pathname.endsWith('/profile.html')) { sessionStorage.removeItem('goodcompany-return-profile'); location.href='profile.html'; return; }
       const pending = sessionStorage.getItem('goodcompany-pending-pin');
       if (pending) { sessionStorage.removeItem('goodcompany-pending-pin'); if (!pins.has(pending)) await togglePin(pending); }
+      window.dispatchEvent(new Event('goodcompany-session-ready'));
     }
   },0); });
   client.auth.getSession().then(({data,error}) => { if (error) message('Your sign-in link may have expired. Request a new one.'); sessionChanged(data.session); });
