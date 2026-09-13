@@ -1,5 +1,450 @@
 const JOBS = [
   {
+    "id": "amazon-10537823",
+    "company": "Amazon",
+    "title": "Design Technologist III, Robotics Simulation",
+    "category": "Design engineering",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "Bellevue, WA",
+    "workplace": "Not specified",
+    "level": "Senior",
+    "summary": "Build simulation-ready 3D assets and the tools that produce them for Amazon Robotics. Combine materials, lighting, and geometry craft with pipeline engineering, and bring generative 3D techniques into production.",
+    "highlights": [
+      "Requires 6+ years of relevant technology or prototyping experience, an online portfolio, and coding samples.",
+      "Bring hands-on CAD conversion, USD authoring, geometry optimization, and 3D content-tool experience.",
+      "Set asset standards and mentor technical artists and engineers."
+    ],
+    "keywords": [
+      "Design engineering",
+      "AI Creative"
+    ],
+    "salary": "US$154,200–208,600 annual base salary. Published range is for Bellevue. Sign-on payments and restricted stock units are additional.",
+    "url": "https://www.amazon.jobs/en/jobs/10537823/design-technologist-iii-robotics-simulation",
+    "source": "Amazon careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "atsId": "10537823",
+    "salaryMin": 154200,
+    "salaryMax": 208600,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$154,200–208,600 / year"
+  },
+  {
+    "id": "amazon-10538003",
+    "company": "Amazon",
+    "title": "Learning Exp Designer, Amazon Flex WW Learning",
+    "category": "Content & strategy",
+    "disciplines": [
+      "Motion & video",
+      "AI Creative"
+    ],
+    "location": "Austin, TX · Bellevue, WA · New York, NY",
+    "workplace": "Not specified",
+    "level": "Level not specified",
+    "summary": "Create mobile-first learning experiences for Amazon Flex delivery partners across languages and countries. Build interactive modules, videos, and reusable content systems, using generative AI where it improves production and localization.",
+    "highlights": [
+      "Requires 4+ years creating e-learning and 3+ years of program or project management experience.",
+      "Use Articulate Storyline and Rise, and contribute to scripting, storyboarding, visual assets, and accessibility.",
+      "Own work from needs assessment through launch and measurement."
+    ],
+    "keywords": [
+      "Content & strategy",
+      "Motion & video",
+      "AI Creative"
+    ],
+    "salary": "US$74,200–142,800 annual base salary. Location-specific ranges: Austin US$74,200–129,800; Bellevue US$82,700–129,800; New York US$81,600–142,800. Sign-on payments and restricted stock units are additional.",
+    "url": "https://www.amazon.jobs/en/jobs/10538003/learning-exp-designer-amazon-flex-ww-learning",
+    "source": "Amazon careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "atsId": "10538003",
+    "salaryMin": 74200,
+    "salaryMax": 142800,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$74,200–142,800 / year"
+  },
+  {
+    "id": "amazon-10536419",
+    "company": "Amazon",
+    "title": "Product Designer, Amazon Music Design",
+    "category": "Product design",
+    "disciplines": [],
+    "location": "Mexico City, Mexico",
+    "workplace": "Not specified",
+    "level": "Level not specified",
+    "summary": "Design Amazon Music experiences that connect fans with music, artists, and creators. Own research, user flows, concepts, prototypes, and detailed interfaces across platforms.",
+    "highlights": [
+      "Requires 5+ years of design experience, including 3+ years delivering UX or interaction design solutions.",
+      "Provide an online portfolio and demonstrate prototyping skills.",
+      "Work with research, engineering, product, and business partners to validate and ship designs."
+    ],
+    "keywords": [
+      "Product design"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://www.amazon.jobs/en/jobs/10536419/product-designer-amazon-music-design-",
+    "source": "Amazon careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "atsId": "10536419"
+  },
+  {
+    "id": "amazon-10531830",
+    "company": "Amazon",
+    "title": "Industrial Designer, Fauna",
+    "category": "Industrial design",
+    "disciplines": [],
+    "location": "New York, NY",
+    "workplace": "Not specified",
+    "level": "Level not specified",
+    "summary": "Shape the exterior surfaces, materials, colors, and finishes of Fauna robots. Translate design direction into production-ready geometry while protecting visual quality through tooling and manufacturing.",
+    "highlights": [
+      "Requires 5+ years of relevant design, innovation, manufacturing, or related experience.",
+      "Own Class A surfaces and cosmetic finish specifications, working with design engineers and vendors.",
+      "Evaluate prototypes and finish samples while maintaining a consistent product language."
+    ],
+    "keywords": [
+      "Industrial design"
+    ],
+    "salary": "US$109,200–185,000 annual base salary. Published range is for New York. Sign-on payments and restricted stock units are additional.",
+    "url": "https://www.amazon.jobs/en/jobs/10531830/industrial-designer-fauna",
+    "source": "Amazon careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "atsId": "10531830",
+    "salaryMin": 109200,
+    "salaryMax": 185000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$109,200–185,000 / year"
+  },
+  {
+    "id": "amazon-10532662",
+    "company": "Amazon",
+    "title": "Sr UX Design Program Manager, Alexa for Shopping",
+    "category": "Creative leadership",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "London, United Kingdom",
+    "workplace": "Not specified",
+    "level": "Senior",
+    "summary": "Coordinate design delivery for Amazon conversational AI shopping experiences. Connect UX, engineering, and product teams, clarify priorities, and remove blockers across a complex design program.",
+    "highlights": [
+      "Bring an online portfolio and experience managing cross-functional projects and release schedules.",
+      "Partner with design leadership on resources, timelines, risks, and communications.",
+      "Recent experience applying AI tools to program-management tasks is preferred."
+    ],
+    "keywords": [
+      "Creative leadership",
+      "AI Creative"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://www.amazon.jobs/en/jobs/10532662/sr-ux-design-program-manager-alexa-for-shopping",
+    "source": "Amazon careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "atsId": "10532662"
+  },
+  {
+    "id": "lovable-brand-designer-ai-and-ops-df79d8",
+    "company": "Lovable",
+    "title": "Brand Designer, AI & Ops",
+    "category": "Brand & visual",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "London, Stockholm",
+    "workplace": "On-site",
+    "level": "Level not specified",
+    "summary": "Direct AI-native brand production at Lovable. Develop the visual identity, guide generated imagery and video, and build brand systems that work through prompts, model references, and repeatable workflows.",
+    "highlights": [
+      "Show shipped brand work and practical fluency with AI generation tools.",
+      "Partner with a Brand Engineer to turn creative direction into dependable production systems."
+    ],
+    "keywords": [
+      "Brand & visual",
+      "AI Creative"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/brand-designer-ai-and-ops-df79d8",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "df79d83b-e366-4998-afdd-694d06183d75"
+  },
+  {
+    "id": "lovable-brand-engineer-a4e39b",
+    "company": "Lovable",
+    "title": "Brand Engineer",
+    "category": "Design engineering",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "Stockholm, London",
+    "workplace": "On-site",
+    "level": "Level not specified",
+    "summary": "Build the infrastructure behind Lovable AI-native brand production. Connect generation models and APIs to internal tools, and make creative pipelines reliable, versioned, and useful for brand designers.",
+    "highlights": [
+      "Bring a track record of shipping and maintaining full-stack software.",
+      "Work across image and video generation, internal apps, and production systems."
+    ],
+    "keywords": [
+      "Design engineering",
+      "AI Creative"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/brand-engineer-a4e39b",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "a4e39bdc-b143-43ea-8077-a113445edbd2"
+  },
+  {
+    "id": "lovable-content-designer-contract-8a196a",
+    "company": "Lovable",
+    "title": "Content Designer (Contract)",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "location": "London, Stockholm",
+    "workplace": "On-site",
+    "level": "Level not specified",
+    "summary": "Write Lovable product and website content, from onboarding and error messages to marketing pages. Make language consistent, improve content hierarchy, and help people understand the product quickly.",
+    "highlights": [
+      "Requires 5+ years in content design or UX writing, with work samples from products and/or websites.",
+      "This is a contract requiring full-time availability; collaborate closely with internal teams and an external design partner."
+    ],
+    "keywords": [
+      "Content & strategy"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/content-designer-contract-8a196a",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Contract · full time",
+    "atsId": "8a196add-25ef-4dfa-a196-c54c986bda60"
+  },
+  {
+    "id": "lovable-product-designer-cf78be",
+    "company": "Lovable",
+    "title": "Product Designer",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "Stockholm",
+    "workplace": "On-site",
+    "level": "Level not specified",
+    "summary": "Design Lovable product experiences from early user flows to detailed interfaces. Partner with engineering, prototype quickly, and help improve the design quality of the platform’s AI-generated output.",
+    "highlights": [
+      "Show successful product work from fast-moving teams and strong visual and interaction craft.",
+      "Own projects through delivery, with opportunities to implement designs using AI tools."
+    ],
+    "keywords": [
+      "Product design",
+      "AI Creative"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/product-designer-cf78be",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "cf78be5e-41ca-478a-b480-0d0839c24543"
+  },
+  {
+    "id": "lovable-staff-principal-design-engineer-web-51885a",
+    "company": "Lovable",
+    "title": "Staff / Principal Design Engineer, Web",
+    "category": "Design engineering",
+    "disciplines": [],
+    "location": "New York City, London",
+    "workplace": "On-site",
+    "level": "Principal",
+    "summary": "Build Lovable marketing sites and interactive web experiences. Pair frontend engineering with design judgment to deliver polished motion, responsive layouts, and reusable components.",
+    "highlights": [
+      "Hiring at Staff or Principal level; the posting asks for 10+ years of experience.",
+      "Bring strong React and TypeScript fundamentals, a landing-page portfolio, and attention to performance and accessibility.",
+      "New York candidates are prioritized."
+    ],
+    "keywords": [
+      "Design engineering"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/staff-principal-design-engineer-web-51885a",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "51885ae5-4f4c-46c4-abd3-d7aad1c8d9c0"
+  },
+  {
+    "id": "lovable-staff-principal-product-designer-5635b8",
+    "company": "Lovable",
+    "title": "Staff / Principal Product Designer",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "Stockholm, London",
+    "workplace": "On-site",
+    "level": "Principal",
+    "summary": "Shape Lovable product design and the quality of its AI-generated experiences. Lead work from concepts to delivery, simplify complex journeys, and help establish design practices across the team.",
+    "highlights": [
+      "Hiring at Staff or Principal level; the posting asks for 10+ years of experience.",
+      "Show strong product, visual, interaction, prototyping, and design-system skills."
+    ],
+    "keywords": [
+      "Product design",
+      "AI Creative"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/staff-principal-product-designer-5635b8",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "5635b88f-a361-4f5f-8209-ca343a003947"
+  },
+  {
+    "id": "lovable-brand-and-integrated-marketing-lead-europe-73b2c1",
+    "company": "Lovable",
+    "title": "Brand & Integrated Marketing Lead, Europe",
+    "category": "Brand & creative",
+    "disciplines": [],
+    "location": "Stockholm",
+    "workplace": "On-site",
+    "level": "Leadership",
+    "summary": "Lead European brand campaigns for Lovable, from strategy and creative briefs to production and launch. Partner with brand design and agencies to create distinctive work across markets and channels.",
+    "highlights": [
+      "Requires 12+ years developing campaigns, including end-to-end European brand work.",
+      "Bring experience directing creative partners, media agencies, and integrated campaign delivery.",
+      "Based in Stockholm or willing to relocate."
+    ],
+    "keywords": [
+      "Brand & creative"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/brand-and-integrated-marketing-lead-europe-73b2c1",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "73b2c110-29d0-402e-a6d6-ac7984946052"
+  },
+  {
+    "id": "lovable-brand-editorial-lead-db107c",
+    "company": "Lovable",
+    "title": "Brand Editorial Lead",
+    "category": "Content & strategy",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "Boston, New York City",
+    "workplace": "Hybrid",
+    "level": "Leadership",
+    "summary": "Steward Lovable brand voice and build its owned editorial channels. Edit high-stakes work, guide freelance partners, grow audiences, and develop tools that help others write consistently.",
+    "highlights": [
+      "Requires 12+ years across editorial, brand writing, or content strategy.",
+      "Bring owned-media growth and distribution experience, plus the ability to build AI writing and editing workflows."
+    ],
+    "keywords": [
+      "Content & strategy",
+      "AI Creative"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/brand-editorial-lead-db107c",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "db107c99-103c-4ca8-979e-fbe6d714f971"
+  },
+  {
+    "id": "lovable-community-manager-virtual-spaces-41d9ea",
+    "company": "Lovable",
+    "title": "Community Manager, Virtual Spaces",
+    "category": "Social media",
+    "disciplines": [],
+    "location": "New York City, London, Boston",
+    "workplace": "On-site",
+    "level": "Senior",
+    "summary": "Run Lovable online communities and recurring virtual programs. Build useful experiences across Discord, Reddit, and Facebook, coordinate live sessions and replays, and support volunteer community leaders.",
+    "highlights": [
+      "Requires 7+ years across community, events, virtual programs, or developer relations.",
+      "Bring platform fluency, live-hosting confidence, and experience managing moderation and community health."
+    ],
+    "keywords": [
+      "Social media"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/community-manager-virtual-spaces-41d9ea",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "41d9ea2b-72c5-48e3-b8a9-90504f73edbc"
+  },
+  {
+    "id": "lovable-growth-creative-strategist-10d863",
+    "company": "Lovable",
+    "title": "Growth Creative Strategist",
+    "category": "Brand & creative",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "location": "London",
+    "workplace": "On-site",
+    "level": "Level not specified",
+    "summary": "Own the creative testing cycle for Lovable growth marketing. Turn audience insights and performance data into concepts, briefs, and scalable production workflows while maintaining creative quality.",
+    "highlights": [
+      "Bring hands-on experience with high-volume creative testing and strong ad-writing judgment.",
+      "Build agentic workflows for generating, adapting, localizing, and checking creative assets.",
+      "London on-site role; the posting says UK work authorization support is unavailable."
+    ],
+    "keywords": [
+      "Brand & creative",
+      "AI Creative"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/growth-creative-strategist-10d863",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "10d863c5-9a53-422b-907e-f0618064da24"
+  },
+  {
+    "id": "lovable-social-media-lead-716e58",
+    "company": "Lovable",
+    "title": "Social Media Lead",
+    "category": "Social media",
+    "disciplines": [],
+    "location": "Stockholm",
+    "workplace": "On-site",
+    "level": "Leadership",
+    "summary": "Lead Lovable social team while remaining hands-on with copy, storyboards, and product visuals. Turn launches and product stories into content suited to each channel and establish a repeatable publishing approach.",
+    "highlights": [
+      "Requires 12+ years in social media and at least 2 years managing a team.",
+      "Show product social content and strong X and LinkedIn instincts.",
+      "Based in Stockholm or willing to relocate."
+    ],
+    "keywords": [
+      "Social media"
+    ],
+    "salary": "Pay not listed",
+    "url": "https://lovable.dev/careers/social-media-lead-716e58",
+    "source": "Lovable careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "716e58b3-af3d-482a-a357-a34628742b4f"
+  },
+  {
     "id": "gitlab-8792475002",
     "company": "GitLab",
     "title": "Director, Social Media",
@@ -1277,28 +1722,25 @@ const JOBS = [
     "company": "Lovable",
     "title": "Brand Designer, Web",
     "category": "Brand & visual",
-    "location": "New York City, London, or Stockholm",
+    "disciplines": [],
+    "location": "New York City, London, Stockholm",
     "workplace": "On-site",
-    "type": "Full time",
-    "level": "Level not specified",
-    "summary": "Shape the visual identity of Lovable’s website, from landing pages and campaigns to typography, layout, imagery, and motion. Work with design engineering and marketing to bring brand ideas into production.",
+    "level": "Senior",
+    "summary": "Own the visual direction of Lovable web experiences. Shape typography, layout, imagery, and motion, then work with design engineering and marketing to carry concepts into finished pages.",
     "highlights": [
-      "Requires 7+ years of experience and a portfolio of launched websites, brand systems, or marketing sites.",
-      "New York candidates are prioritized; exceptional candidates in London and Stockholm are also considered.",
-      "Build reusable design systems and work across responsive breakpoints. Experience shipping designs, including with AI assistance, is relevant."
+      "Requires 7+ years of experience and a portfolio of shipped brand or marketing websites.",
+      "New York candidates are prioritized; exceptional applicants in London and Stockholm are also considered."
     ],
     "keywords": [
-      "web design",
-      "brand design",
-      "marketing design",
-      "landing pages",
-      "design systems",
-      "AI"
+      "Brand & visual"
     ],
+    "salary": "Pay not listed",
     "url": "https://lovable.dev/careers/brand-designer-web-76f4a6",
     "source": "Lovable careers",
-    "checkedAt": "September 9, 2026",
-    "salaryLabel": "Pay not listed"
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "type": "Full time",
+    "atsId": "76f4a64e-b343-4c0e-b5f1-ea7686001346"
   },
   {
     "id": "cloudflare-motion",
@@ -6867,60 +7309,76 @@ const JOBS = [
     "salaryLabel": "US$226,000–305,500 / year"
   },
   {
+    "id": "linkedin-4442623210",
     "company": "Intuit",
     "title": "Group Creative Director - Credit Karma",
-    "location": "Oakland, CA",
-    "id": "linkedin-4442623210",
-    "url": "https://www.linkedin.com/jobs/view/4442623210",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
-    "postedAt": "2026-09-01T00:00:00.000Z",
     "category": "Creative leadership",
-    "level": "Leadership",
+    "disciplines": [
+      "Content & strategy",
+      "AI Creative"
+    ],
+    "location": "Oakland, CA",
     "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Group Creative Director - Credit Karma role at Intuit, listed in Oakland, CA. The posting references brand, storytelling.",
+    "level": "Leadership",
+    "summary": "Lead creative direction for Credit Karma member communications across email, in-app messaging, and lifecycle journeys. Build a multidisciplinary team and scalable storytelling systems that combine brand craft, personalization, and AI-assisted production.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-09-01.",
-      "LinkedIn seniority label: Director."
+      "Requires 12+ years in creative leadership and 5+ years leading senior creative talent.",
+      "Bring experience with owned channels, lifecycle marketing, and high-volume personalized content.",
+      "Guide AI-enabled creative workflows while maintaining human judgment and quality."
     ],
     "keywords": [
-      "brand",
-      "storytelling"
+      "Creative leadership",
+      "Content & strategy",
+      "AI Creative"
     ],
-    "salary": "Published annual range: US$213,500–289,000. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 213500.0,
-    "salaryMax": 289000.0,
+    "salary": "US$213,500–289,000 annual base salary. Published range applies to Oakland, CA. Cash bonus, equity, and benefits may be additional; actual pay depends on experience and location.",
+    "url": "https://jobs.intuit.com/job/oakland/manager-3-creative-services-credit-karma/27595/96534381856",
+    "source": "Intuit careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4442623210"
+    ],
+    "salaryMin": 213500,
+    "salaryMax": 289000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$213,500–289,000 / year"
   },
   {
+    "id": "linkedin-4453098051",
     "company": "Intuit",
     "title": "Principal Creative Lead, Art Direction (Social & Video)",
+    "category": "Brand & visual",
+    "disciplines": [
+      "Motion & video",
+      "Social media",
+      "Creative leadership"
+    ],
     "location": "Mountain View, CA",
-    "id": "linkedin-4453098051",
-    "url": "https://www.linkedin.com/jobs/view/4453098051",
-    "source": "LinkedIn",
-    "checkedAt": "September 8, 2026",
-    "postedAt": "2026-09-02T00:00:00.000Z",
-    "category": "Creative leadership",
-    "level": "Staff",
     "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Principal Creative Lead, Art Direction (Social & Video) role at Intuit, listed in Mountain View, CA. The posting references brand, storytelling.",
+    "level": "Principal",
+    "summary": "Direct Intuit social and video creative, including launch films, platform announcements, and executive storytelling. Set the visual direction and create assets as a senior individual contributor.",
     "highlights": [
-      "Employment type: Full-time.",
-      "Posted on LinkedIn: 2026-09-02.",
-      "LinkedIn seniority label: Mid-Senior level."
+      "Requires 10–15 years in art direction and creative execution, with strong video and social-first work.",
+      "Bring production knowledge, a portfolio, and fluency with major social platforms.",
+      "This is an individual-contributor position, with mentorship and cross-functional creative influence."
     ],
     "keywords": [
-      "brand",
-      "storytelling"
+      "Brand & visual",
+      "Motion & video",
+      "Social media",
+      "Creative leadership"
     ],
-    "salary": "Published annual range: US$220,500–298,500. Location and experience may affect the offer; see the original listing.",
-    "salaryMin": 220500.0,
-    "salaryMax": 298500.0,
+    "salary": "US$220,500–298,500 annual base salary. Published range applies to Mountain View, CA. Cash bonus, equity, and benefits may be additional; actual pay depends on experience and location.",
+    "url": "https://jobs.intuit.com/job/mountain-view/principal-creative-lead-art-direction-social-and-video/27595/99080465264",
+    "source": "Intuit careers",
+    "checkedAt": "September 13, 2026",
+    "lastVerifiedAt": "2026-09-13",
+    "linkedinUrls": [
+      "https://www.linkedin.com/jobs/view/4453098051"
+    ],
+    "salaryMin": 220500,
+    "salaryMax": 298500,
     "salaryCurrency": "USD",
     "salaryLabel": "US$220,500–298,500 / year"
   },
