@@ -73,7 +73,14 @@
     const token=generation,uid=account.getUser()?.id;busy=true;$('resume-refine').disabled=true;$('resume-draft').readOnly=true;say('Polishing your draft. Your original stays here while you review the suggestion…');
     try{
       const {data}=await account.client.auth.getSession();if(!data.session)throw new Error('Please sign in again.');
-      const response=await fetch('/api/resume-refine',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+data.session.access_token},body:JSON.stringify({jobId:active.id,draft,consent:true}),signal:AbortSignal.timeout(60000)});
+      const payload=JSON.stringify({jobId:active.id,draft,consent:true});
+      const send=accessToken=>fetch('/api/resume-refine',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+accessToken},body:payload,signal:AbortSignal.timeout(60000)});
+      let response=await send(data.session.access_token);
+      if(response.status===401){
+        const refreshed=await account.client.auth.refreshSession();
+        if(refreshed.error||!refreshed.data.session)throw new Error('Your session expired. Sign in again to refine; your draft is still here.');
+        response=await send(refreshed.data.session.access_token);
+      }
       const result=await response.json();if(!response.ok)throw new Error(result.error||'Refinement is unavailable. Your draft is unchanged.');
       if(token!==generation||uid!==account.getUser()?.id)return;
       proposal=result.text;$('resume-proposal').value=proposal;$('refinement-review').hidden=false;
