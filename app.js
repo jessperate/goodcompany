@@ -235,6 +235,7 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
       $('job-link-notice').hidden = true;
       openJob(id, false);
     } else {
+      if(window.GoodCompanySidecar && !window.GoodCompanySidecar.changeJob(null)) { const previous=new URL(location.href); previous.searchParams.set('job',dialog.dataset.jobId); history.replaceState(null,'',previous); return; }
       if (dialog.open) dialog.close();
       $('job-link-notice').hidden = !id;
     }
@@ -278,7 +279,7 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
   function openJob(id, updateUrl = true) {
     const job = JOBS.find(job=>job.id===id);
     if(!job) return;
-    if(window.GoodCompanySidecar && !window.GoodCompanySidecar.changeJob(id)) return;
+    if(window.GoodCompanySidecar && !window.GoodCompanySidecar.changeJob(id)) { const previous=new URL(location.href); previous.searchParams.set('job',$('job-dialog').dataset.jobId); history.replaceState(null,'',previous); return; }
     const savedWindow = minimizedJobs.get(id);
     minimizedJobs.delete(id);
     renderJobTray();
