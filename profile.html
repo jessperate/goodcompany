@@ -16,11 +16,11 @@
 <script src="jobs.js" defer></script>
 <script src="companies.js" defer></script>
 <script src="vendor/supabase-2.116.0.js" defer></script>
-<script src="account.js?v=invites-2" defer></script>
+<script src="account.js?v=career-1" defer></script><script src="career-model.js?v=1" defer></script><script src="career.js?v=1" defer></script>
 <script src="profile.js?v=window-edit-1" defer></script>
 <script src="invites.js?v=2" defer></script>
 <script src="company-picker.js?v=1" defer></script><link rel="stylesheet" href="glass.css?v=3">
-</head><body class="profile-page">
+<link rel="stylesheet" href="career.css?v=1"></head><body class="profile-page">
 <a class="skip" href="#profile-main">Skip to profile</a>
 <div class="site-window">
 <header class="header wrap"><div class="window-titlebar"><span class="window-squares" aria-hidden="true"><span></span><span></span><span></span></span><span class="window-stripes" aria-hidden="true"></span><span class="window-caption">GOOD COMPANY / PEOPLE</span><span class="window-stripes" aria-hidden="true"></span><a href="./#directory" aria-label="Close profile and return to jobs"><i class="ri-close-line" aria-hidden="true"></i></a></div>
@@ -30,7 +30,7 @@
 <div class="profile-heading"><div><p class="eyebrow">GOOD PEOPLE. GOOD COMPANY.</p><h1 id="page-title">A little more you.</h1></div><div class="profile-actions"><button id="edit-profile" type="button" hidden><i class="ri-edit-line" aria-hidden="true"></i> Edit profile</button><button id="cancel-edit" type="button" hidden>Cancel editing</button><button id="copy-profile" type="button" hidden><i class="ri-link" aria-hidden="true"></i> Copy profile link</button><button id="profile-signout" type="button" hidden>Sign out</button></div></div>
 <p id="profile-status" role="status" aria-live="polite">Loading profile…</p>
 <section id="profile-gate" class="profile-window" hidden><div class="mini-titlebar">HELLO, CREATIVE :)</div><div class="window-body"><h2>Your own corner of the internet.</h2><p>Introduce yourself, save your next move, and pass good jobs and good people along.</p><button id="profile-signin" class="primary-button" type="button">Sign in to create your profile</button></div></section>
-<form id="profile-form" hidden>
+<section id="career-profile-interests" class="profile-window career-profile-interests" hidden><div class="mini-titlebar">MY NEXT CHAPTER <span class="mini-stripes" aria-hidden="true"></span><a href="onboarding.html?next=%2Fprofile.html">Edit interests</a></div><div class="window-body"><h2>What I’m looking for.</h2><p></p><small>Only you can see these preferences. Open a job’s “Check my fit” panel to compare it with your saved experience.</small></div></section><form id="profile-form" hidden>
 <fieldset id="profile-fields"><div class="profile-layout">
 <div class="profile-left">
 <section class="profile-window" data-editor-window="about"><div class="mini-titlebar"><i class="ri-user-smile-line" aria-hidden="true"></i> ABOUT_ME.TXT<span class="mini-stripes" aria-hidden="true"></span><span class="window-actions"><button type="button" data-window-edit="about" aria-label="Edit profile details">Edit</button><button type="submit" data-window-save="about" aria-label="Save profile details">Save</button></span></div><div class="window-body">

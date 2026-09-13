@@ -75,6 +75,7 @@
     googleButton.innerHTML = '<i class="ri-google-fill" aria-hidden="true"></i> Continue with Google';
   }
   googleButton.addEventListener('click', async () => {
+    if (location.search.includes('job=')) sessionStorage.setItem('goodcompany-auth-job',new URLSearchParams(location.search).get('job'));
     googleButton.disabled = true;
     googleButton.textContent = 'Opening Google…';
     message('');
@@ -108,6 +109,10 @@
   client.auth.onAuthStateChange((event,session) => { setTimeout(async () => {
     await sessionChanged(session);
     if (['SIGNED_IN','INITIAL_SESSION'].includes(event) && session) {
+      const authJob=sessionStorage.getItem('goodcompany-auth-job');
+      if(authJob && !location.pathname.endsWith('/onboarding.html') && !new URLSearchParams(location.search).has('job')) { sessionStorage.removeItem('goodcompany-auth-job'); const url=new URL(location.href); url.searchParams.set('job',authJob); location.replace(url.pathname+url.search+'#directory'); return; }
+      if (await window.GoodCompanyCareer?.routeAfterSignIn()) return;
+      if(location.pathname.endsWith('/onboarding.html')) return;
       let invitation;
       try { invitation=JSON.parse(localStorage.getItem('goodcompany-invite-return') || 'null'); } catch {}
       if (invitation?.expires>Date.now() && /^[0-9a-f-]{36}$/i.test(invitation.id) && !location.pathname.endsWith('/profile.html')) {

@@ -1,0 +1,45 @@
+begin;
+insert into auth.users(id,email) values('20000000-0000-4000-8000-000000000001','career-owner@example.test'),('20000000-0000-4000-8000-000000000002','career-other@example.test');
+select set_config('request.jwt.claims','{"sub":"20000000-0000-4000-8000-000000000001","role":"authenticated"}',true);
+set local role authenticated;
+insert into public.goodcompany_career_preferences(user_id,roles,onboarding_completed) values(auth.uid(),array['Product design'],true);
+insert into public.goodcompany_resume_drafts(user_id,job_id,draft_text,source_text) values(auth.uid(),'test-job','Original draft','Private source');
+do $$ begin
+ assert (select count(*)=0 from public.goodcompany_profiles where user_id=auth.uid()), 'Preferences should not require or create a profile';
+ assert (select roles=array['Product design'] from public.goodcompany_career_preferences where user_id=auth.uid()), 'Interests did not persist';
+ update public.goodcompany_resume_drafts set draft_text='Edited draft' where user_id=auth.uid() and job_id='test-job';
+ assert (select draft_text='Edited draft' and source_text='Private source' from public.goodcompany_resume_drafts where user_id=auth.uid()), 'Draft round trip failed';
+ assert public.goodcompany_claim_resume_refinement(), 'First request blocked';
+ assert not public.goodcompany_claim_resume_refinement(), 'Concurrent request not rate limited';
+ begin update public.goodcompany_resume_drafts set user_id='20000000-0000-4000-8000-000000000002' where user_id=auth.uid();raise exception 'Ownership transferable'; exception when insufficient_privilege then null; end;
+end $$;
+reset role;
+update goodcompany_private.resume_usage set requests=5,last_request=now()-interval '1 minute' where user_id='20000000-0000-4000-8000-000000000001';
+set local role authenticated;
+do $$ begin assert not public.goodcompany_claim_resume_refinement(),'Daily quota not enforced'; end $$;
+reset role;
+update goodcompany_private.resume_usage set usage_day=(now() at time zone 'UTC')::date-1,last_request=now()-interval '1 minute' where user_id='20000000-0000-4000-8000-000000000001';
+set local role authenticated;
+do $$ begin assert public.goodcompany_claim_resume_refinement(),'New day did not reset quota'; end $$;
+reset role;
+select set_config('request.jwt.claims','{"sub":"20000000-0000-4000-8000-000000000002","role":"authenticated"}',true);
+set local role authenticated;
+do $$ declare n integer; begin
+ assert (select count(*)=0 from public.goodcompany_career_preferences where user_id='20000000-0000-4000-8000-000000000001'),'Other interests exposed';
+ assert (select count(*)=0 from public.goodcompany_resume_drafts where user_id='20000000-0000-4000-8000-000000000001'),'Other drafts exposed';
+ update public.goodcompany_resume_drafts set draft_text='Intrusion' where user_id='20000000-0000-4000-8000-000000000001';get diagnostics n=row_count;assert n=0,'Other draft editable';
+ delete from public.goodcompany_resume_drafts where user_id='20000000-0000-4000-8000-000000000001';get diagnostics n=row_count;assert n=0,'Other draft deletable';
+ begin insert into public.goodcompany_career_preferences(user_id) values('20000000-0000-4000-8000-000000000001');raise exception 'Other interests insertable';exception when insufficient_privilege then null;end;
+ assert not has_table_privilege('authenticated','goodcompany_private.resume_usage','update'),'Quota may be bypassed';
+end $$;
+reset role;
+select set_config('request.jwt.claims','{"role":"anon"}',true);
+set local role anon;
+do $$ begin
+ assert not has_table_privilege('anon','public.goodcompany_career_preferences','select'),'Anonymous preferences exposed';
+ assert not has_table_privilege('anon','public.goodcompany_resume_drafts','select'),'Anonymous drafts exposed';
+ assert not has_function_privilege('anon','public.goodcompany_claim_resume_refinement()','execute'),'Anonymous AI requests allowed';
+end $$;
+reset role;
+rollback;
+select 'PASS: independent preferences, private drafts, ownership, updates, quota, anonymous access' as result;

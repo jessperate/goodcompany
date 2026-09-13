@@ -183,6 +183,12 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
   function render(resetPage = true) {
     if (resetPage) currentPage = 1;
     const jobs = filterJobs(JOBS,state);
+    const career=window.GoodCompanyCareer?.getState(), matcher=window.GoodCompanyCareerModel;
+    if ($('career-sort')?.checked && career?.preferences && matcher) {
+      const score=j=>matcher.preferences(j,career.preferences,COMPANIES[j.company]||{},COMPANY_STAGES[j.company]||{}).filter(x=>x.match).length;
+      const scores=new Map(jobs.map(j=>[j.id,score(j)]));
+      jobs.sort((a,b)=>scores.get(b.id)-scores.get(a.id));
+    }
     const paging = paginateJobs(jobs, currentPage);
     currentPage = paging.page;
     $('result-count').innerHTML = `<strong>${jobs.length} ${jobs.length === 1 ? 'opportunity' : 'opportunities'}</strong> ${state.network ? 'in Jess’s network' : 'to make your next move'}${jobs.length ? `<span class="page-range">Showing ${paging.start + 1}–${paging.start + paging.items.length}</span>` : ''}`;
@@ -272,6 +278,7 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
   function openJob(id, updateUrl = true) {
     const job = JOBS.find(job=>job.id===id);
     if(!job) return;
+    if(window.GoodCompanySidecar && !window.GoodCompanySidecar.changeJob(id)) return;
     const savedWindow = minimizedJobs.get(id);
     minimizedJobs.delete(id);
     renderJobTray();
@@ -284,7 +291,7 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
       url.searchParams.set('job', id);
       history.pushState(null, '', url);
     }
-    $('job-detail').innerHTML = `<div class="detail-company">${mark(job)}<span>${esc(job.company)}</span></div><h2 id="detail-title">${esc(job.title)}</h2><div class="job-share"><button type="button" class="share-job" id="share-job"><i class="ri-share-forward-line" aria-hidden="true"></i> Share job</button><button type="button" class="pin-job modal-pin-job" data-pin="${esc(job.id)}" aria-label="Pin ${esc(job.title)}" aria-pressed="false">Pin job <i class="ri-pushpin-line" aria-hidden="true"></i></button><button type="button" class="pin-job modal-top-ten" data-recommend-job="${esc(job.id)}">Add to top ten jobs <i class="ri-add-line" aria-hidden="true"></i></button><span id="recommend-job-status" role="status" aria-live="polite"></span><span id="share-status" role="status" aria-live="polite"></span><label id="share-fallback" hidden>Copy this job link<input id="share-url" type="text" readonly value="${esc(jobLink(id))}"></label></div><div class="detail-tags"><span>${esc(job.category)}</span><span>${esc(job.level || "Level not specified")}</span><span>${esc(job.location)}</span><span>${esc(job.workplace)}</span>${job.type ? `<span>${esc(job.type)}</span>`:''}</div><section class="detail-section"><h3>The opportunity</h3><p>${esc(job.summary)}</p></section>${job.highlights?.length ? `<section class="detail-section"><h3>A few things to know</h3><ul>${job.highlights.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></section>`:''}${job.salary ? `<section class="detail-section"><h3>${esc(job.compensationHeading || (job.salaryCashMin != null ? "Published cash compensation" : "Published base salary"))}</h3><p>${esc(job.salary)}</p></section>`:''}${hasVerifiedConnection(job) ? `<section class="detail-section detail-connection"><span class="network-badge">${connectionIcon}The connection</span><p>${esc(job.connection.detail)}</p><p class="connection-caveat">This is a company connection; introductions and referrals aren’t guaranteed.</p></section>`:''}${COMPANY_STAGES[job.company] ? `<section class="detail-section"><h3>Company stage</h3><p>${esc(COMPANY_STAGES[job.company].stage)} · <a href="${esc(COMPANY_STAGES[job.company].url)}" target="_blank" rel="noopener noreferrer">Source <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p></section>` : ''}${companyProfile(job)}${job.linkedinUrls?.length ? `<section class="detail-section"><h3>Also on LinkedIn</h3>${[...new Set(job.linkedinUrls)].map(url => `<p><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">View LinkedIn posting <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p>`).join('')}</section>` : ''}<div class="detail-footer"><a class="primary-button" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">View original listing <span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span><span class="sr-only">(opens in a new tab)</span></a><p>Source: ${esc(job.source || (job.company + '’s job board'))}<br>Checked ${esc(job.checkedAt || "September 7, 2026")}</p></div>`;
+    $('job-detail').innerHTML = `<div class="detail-company">${mark(job)}<span>${esc(job.company)}</span></div><h2 id="detail-title">${esc(job.title)}</h2><div class="job-share"><button type="button" class="share-job" id="share-job"><i class="ri-share-forward-line" aria-hidden="true"></i> Share job</button><button type="button" class="pin-job modal-pin-job" data-pin="${esc(job.id)}" aria-label="Pin ${esc(job.title)}" aria-pressed="false">Pin job <i class="ri-pushpin-line" aria-hidden="true"></i></button><button type="button" class="pin-job modal-top-ten" data-recommend-job="${esc(job.id)}">Add to top ten jobs <i class="ri-add-line" aria-hidden="true"></i></button><button type="button" class="pin-job check-fit-button" data-check-fit="${esc(job.id)}" aria-controls="career-sidecar"><i class="ri-sparkling-line" aria-hidden="true"></i> Check my fit</button><span id="recommend-job-status" role="status" aria-live="polite"></span><span id="share-status" role="status" aria-live="polite"></span><label id="share-fallback" hidden>Copy this job link<input id="share-url" type="text" readonly value="${esc(jobLink(id))}"></label></div><div class="detail-tags"><span>${esc(job.category)}</span><span>${esc(job.level || "Level not specified")}</span><span>${esc(job.location)}</span><span>${esc(job.workplace)}</span>${job.type ? `<span>${esc(job.type)}</span>`:''}</div><section class="detail-section"><h3>The opportunity</h3><p>${esc(job.summary)}</p></section>${job.highlights?.length ? `<section class="detail-section"><h3>A few things to know</h3><ul>${job.highlights.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></section>`:''}${job.salary ? `<section class="detail-section"><h3>${esc(job.compensationHeading || (job.salaryCashMin != null ? "Published cash compensation" : "Published base salary"))}</h3><p>${esc(job.salary)}</p></section>`:''}${hasVerifiedConnection(job) ? `<section class="detail-section detail-connection"><span class="network-badge">${connectionIcon}The connection</span><p>${esc(job.connection.detail)}</p><p class="connection-caveat">This is a company connection; introductions and referrals aren’t guaranteed.</p></section>`:''}${COMPANY_STAGES[job.company] ? `<section class="detail-section"><h3>Company stage</h3><p>${esc(COMPANY_STAGES[job.company].stage)} · <a href="${esc(COMPANY_STAGES[job.company].url)}" target="_blank" rel="noopener noreferrer">Source <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p></section>` : ''}${companyProfile(job)}${job.linkedinUrls?.length ? `<section class="detail-section"><h3>Also on LinkedIn</h3>${[...new Set(job.linkedinUrls)].map(url => `<p><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">View LinkedIn posting <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p>`).join('')}</section>` : ''}<div class="detail-footer"><a class="primary-button" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">View original listing <span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span><span class="sr-only">(opens in a new tab)</span></a><p>Source: ${esc(job.source || (job.company + '’s job board'))}<br>Checked ${esc(job.checkedAt || "September 7, 2026")}</p></div>`;
     refreshCompanyStats(job);
     window.GoodCompanyRecommendations?.refreshButtons();
     window.GoodCompanyAccount?.refreshButtons();
@@ -371,6 +378,17 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
     document.body.classList.remove('in-the-void');
     window.scrollTo({top:desktopScroll, behavior:'instant'});
     desktopTrigger.focus({preventScroll:true});
+  });
+  $('career-sort').addEventListener('change',()=>{document.querySelector('.results-hint').textContent=$('career-sort').checked?'Your interests first':'Connections first';render();});
+  let interestsInitialized=false;
+  window.addEventListener('goodcompany-career-change',()=>{
+    const career=window.GoodCompanyCareer.getState(),selected=Object.values(window.GoodCompanyCareerModel.cleanPreferences(career.preferences||{})).flat();
+    $('career-sort-label').hidden=!selected.length;
+    $('career-interest-link').firstChild.textContent=career.userId?'Edit my interests ':'Choose my interests ';
+    $('career-discovery-copy').textContent=selected.length?selected.join(' · '):'Tell us what you’re looking for. No finished profile needed.';
+    if(!interestsInitialized&&selected.length){$('career-sort').checked=true;interestsInitialized=true;}
+    if(!selected.length){$('career-sort').checked=false;interestsInitialized=false;}
+    document.querySelector('.results-hint').textContent=$('career-sort').checked?'Your interests first':'Connections first';render();
   });
   render();
   syncJobFromUrl();
