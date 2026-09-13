@@ -30,7 +30,7 @@ module.exports=async(req,res)=>{
         {role:'user',content:JSON.stringify({job:{company:job.company,title:job.title,description:textOfJob(job).slice(0,16000)},resume:body.draft})}
       ]})
     });
-    if(!ai.ok)return res.status(503).json({error:'AI refinement is unavailable right now. Your original draft is safe; you can keep editing or try again later.'});
+    if(!ai.ok){console.warn('resume_refinement_provider_unavailable',{status:ai.status});return res.status(503).json({error:'AI refinement is unavailable right now. Your original draft is safe; you can keep editing or try again later.'});}
     const result=await ai.json(),choice=result.choices?.[0],text=choice?.message?.content;
     if(choice?.finish_reason!=='stop'||typeof text!=='string'||text.trim().length<40||text.length>24000)throw new Error('incomplete');
     return res.status(200).json({text:text.trim(),model:'anthropic/claude-haiku-4.5'});

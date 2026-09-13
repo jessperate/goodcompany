@@ -110,6 +110,7 @@
     await sessionChanged(session);
     if (['SIGNED_IN','INITIAL_SESSION'].includes(event) && session) {
       const authJob=sessionStorage.getItem('goodcompany-auth-job');
+      if(authJob && new URLSearchParams(location.search).get('job')===authJob)sessionStorage.removeItem('goodcompany-auth-job');
       if(authJob && !location.pathname.endsWith('/onboarding.html') && !new URLSearchParams(location.search).has('job')) { sessionStorage.removeItem('goodcompany-auth-job'); const url=new URL(location.href); url.searchParams.set('job',authJob); location.replace(url.pathname+url.search+'#directory'); return; }
       if (await window.GoodCompanyCareer?.routeAfterSignIn()) return;
       if(location.pathname.endsWith('/onboarding.html')) return;
