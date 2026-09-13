@@ -18,7 +18,8 @@ module.exports=async(req,res)=>{
     const auth=await fetch(base+'/auth/v1/user',{headers,signal:AbortSignal.timeout(8000)});
     if(!auth.ok)return res.status(401).json({error:'Please sign in again.'});
     const user=await auth.json();if(!user.id)return res.status(401).json({error:'Please sign in again.'});
-    const key=process.env.AI_GATEWAY_API_KEY||process.env.VERCEL_OIDC_TOKEN;
+    // Vercel Functions attach the current OIDC token to each request; builds use the env var.
+    const key=process.env.AI_GATEWAY_API_KEY||req.headers['x-vercel-oidc-token']||process.env.VERCEL_OIDC_TOKEN;
     if(!key)return res.status(503).json({error:'AI refinement isn’t connected yet. You can still edit, save, and download your draft.'});
     const quota=await fetch(base+'/rest/v1/rpc/goodcompany_claim_resume_refinement',{method:'POST',headers,body:'{}',signal:AbortSignal.timeout(8000)});
     if(!quota.ok)throw new Error('quota');

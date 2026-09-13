@@ -3,7 +3,7 @@
   const choices={
     company_types:['Seed','Series A','Series B','Series C+','Public','Independent / bootstrapped','Agency / studio'],
     industries:['AI & machine learning','Software & developer tools','Finance & fintech','Media & entertainment','Commerce & consumer','Health & wellness','Education','Climate & energy','Travel & hospitality'],
-    roles:['Product design','Brand & visual','Design engineering','Motion & video','Content & strategy','Creative leadership','Social media','Influencer marketing','Creator marketing','AI Creative','Industrial design'],
+    roles:['Product design','Brand & visual','Brand & creative','Design engineering','Motion & video','Content & strategy','Creative leadership','Social media','Influencer marketing','Creator marketing','AI Creative','Industrial design'],
     work_setups:['Remote','Hybrid','On-site']
   };
   const industryRules={
