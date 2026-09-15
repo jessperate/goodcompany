@@ -292,7 +292,7 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
       url.searchParams.set('job', id);
       history.pushState(null, '', url);
     }
-    $('job-detail').innerHTML = `<div class="detail-company">${mark(job)}<span>${esc(job.company)}</span></div><h2 id="detail-title">${esc(job.title)}</h2><div class="job-share"><button type="button" class="share-job" id="share-job"><i class="ri-share-forward-line" aria-hidden="true"></i> Share job</button><button type="button" class="pin-job modal-pin-job" data-pin="${esc(job.id)}" aria-label="Pin ${esc(job.title)}" aria-pressed="false">Pin job <i class="ri-pushpin-line" aria-hidden="true"></i></button><button type="button" class="pin-job modal-top-ten" data-recommend-job="${esc(job.id)}">Add to top ten jobs <i class="ri-add-line" aria-hidden="true"></i></button><button type="button" class="pin-job check-fit-button" data-check-fit="${esc(job.id)}" aria-controls="career-sidecar"><i class="ri-sparkling-line" aria-hidden="true"></i> Check my fit</button><span id="recommend-job-status" role="status" aria-live="polite"></span><span id="share-status" role="status" aria-live="polite"></span><label id="share-fallback" hidden>Copy this job link<input id="share-url" type="text" readonly value="${esc(jobLink(id))}"></label></div><div class="detail-tags"><span>${esc(job.category)}</span><span>${esc(job.level || "Level not specified")}</span><span>${esc(job.location)}</span><span>${esc(job.workplace)}</span>${job.type ? `<span>${esc(job.type)}</span>`:''}</div><section class="detail-section"><h3>The opportunity</h3><p>${esc(job.summary)}</p></section>${job.highlights?.length ? `<section class="detail-section"><h3>A few things to know</h3><ul>${job.highlights.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></section>`:''}${job.salary ? `<section class="detail-section"><h3>${esc(job.compensationHeading || (job.salaryCashMin != null ? "Published cash compensation" : "Published base salary"))}</h3><p>${esc(job.salary)}</p></section>`:''}${hasVerifiedConnection(job) ? `<section class="detail-section detail-connection"><span class="network-badge">${connectionIcon}The connection</span><p>${esc(job.connection.detail)}</p><p class="connection-caveat">This is a company connection; introductions and referrals aren’t guaranteed.</p></section>`:''}${COMPANY_STAGES[job.company] ? `<section class="detail-section"><h3>Company stage</h3><p>${esc(COMPANY_STAGES[job.company].stage)} · <a href="${esc(COMPANY_STAGES[job.company].url)}" target="_blank" rel="noopener noreferrer">Source <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p></section>` : ''}${companyProfile(job)}${job.linkedinUrls?.length ? `<section class="detail-section"><h3>Also on LinkedIn</h3>${[...new Set(job.linkedinUrls)].map(url => `<p><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">View LinkedIn posting <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p>`).join('')}</section>` : ''}<div class="detail-footer"><a class="primary-button" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">View original listing <span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span><span class="sr-only">(opens in a new tab)</span></a><p>Source: ${esc(job.source || (job.company + '’s job board'))}<br>Checked ${esc(job.checkedAt || "September 7, 2026")}</p></div>`;
+    $('job-detail').innerHTML = `<div class="detail-company">${mark(job)}<span>${esc(job.company)}</span></div><h2 id="detail-title">${esc(job.title)}</h2><div class="job-share"><button type="button" class="share-job" id="share-job" aria-expanded="false" aria-controls="share-fallback"><i class="ri-share-forward-line" aria-hidden="true"></i> Share job</button><button type="button" class="pin-job modal-pin-job" data-pin="${esc(job.id)}" aria-label="Pin ${esc(job.title)}" aria-pressed="false">Pin job <i class="ri-pushpin-line" aria-hidden="true"></i></button><button type="button" class="pin-job modal-top-ten" data-recommend-job="${esc(job.id)}">Add to top ten jobs <i class="ri-add-line" aria-hidden="true"></i></button><button type="button" class="pin-job check-fit-button" data-check-fit="${esc(job.id)}" aria-controls="career-sidecar"><i class="ri-sparkling-line" aria-hidden="true"></i> Check my fit</button><span id="recommend-job-status" role="status" aria-live="polite"></span><span id="share-status" role="status" aria-live="polite"></span><div id="share-fallback" hidden><label for="share-url">Share this job link</label><input id="share-url" type="text" readonly value="${esc(jobLink(id))}"><div class="job-share-actions"><button type="button" class="share-job" id="copy-job-link"><i class="ri-file-copy-line" aria-hidden="true"></i> Copy link</button><button type="button" class="share-job" id="share-job-device" ${typeof navigator.share === 'function' ? '' : 'hidden'}><i class="ri-share-forward-line" aria-hidden="true"></i> More sharing options</button></div></div></div><div class="detail-tags"><span>${esc(job.category)}</span><span>${esc(job.level || "Level not specified")}</span><span>${esc(job.location)}</span><span>${esc(job.workplace)}</span>${job.type ? `<span>${esc(job.type)}</span>`:''}</div><section class="detail-section"><h3>The opportunity</h3><p>${esc(job.summary)}</p></section>${job.highlights?.length ? `<section class="detail-section"><h3>A few things to know</h3><ul>${job.highlights.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></section>`:''}${job.salary ? `<section class="detail-section"><h3>${esc(job.compensationHeading || (job.salaryCashMin != null ? "Published cash compensation" : "Published base salary"))}</h3><p>${esc(job.salary)}</p></section>`:''}${hasVerifiedConnection(job) ? `<section class="detail-section detail-connection"><span class="network-badge">${connectionIcon}The connection</span><p>${esc(job.connection.detail)}</p><p class="connection-caveat">This is a company connection; introductions and referrals aren’t guaranteed.</p></section>`:''}${COMPANY_STAGES[job.company] ? `<section class="detail-section"><h3>Company stage</h3><p>${esc(COMPANY_STAGES[job.company].stage)} · <a href="${esc(COMPANY_STAGES[job.company].url)}" target="_blank" rel="noopener noreferrer">Source <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p></section>` : ''}${companyProfile(job)}${job.linkedinUrls?.length ? `<section class="detail-section"><h3>Also on LinkedIn</h3>${[...new Set(job.linkedinUrls)].map(url => `<p><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">View LinkedIn posting <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></p>`).join('')}</section>` : ''}<div class="detail-footer"><a class="primary-button" href="${esc(job.url)}" target="_blank" rel="noopener noreferrer">View original listing <span aria-hidden="true"><i class="ri-arrow-right-up-line" aria-hidden="true"></i></span><span class="sr-only">(opens in a new tab)</span></a><p>Source: ${esc(job.source || (job.company + '’s job board'))}<br>Checked ${esc(job.checkedAt || "September 7, 2026")}</p></div>`;
     refreshCompanyStats(job);
     window.GoodCompanyRecommendations?.refreshButtons();
     window.GoodCompanyAccount?.refreshButtons();
@@ -302,22 +302,49 @@ function paginateJobs(jobs, requestedPage = 1, pageSize = 30) {
   }
 
   $('job-detail').addEventListener('click', async event => {
-    const button = event.target.closest('#share-job');
+    const button = event.target.closest('#share-job, #copy-job-link, #share-job-device');
     if (!button) return;
     const id = $('job-dialog').dataset.jobId;
+    const input = $('share-url'), status = $('share-status');
+    const current = () => $('job-dialog').dataset.jobId === id && $('share-url') === input;
+    if (button.id === 'share-job') {
+      $('share-fallback').hidden = false;
+      button.setAttribute('aria-expanded', 'true');
+      status.textContent = 'Send this link to reopen this exact job on Good Company.';
+      input.focus();
+      input.select();
+      return;
+    }
+    if (button.id === 'share-job-device') {
+      const job = JOBS.find(job => job.id === id);
+      button.disabled = true;
+      try {
+        await navigator.share({title: job.title + ' at ' + job.company + ' — Good Company', url: jobLink(id)});
+        if (current()) status.textContent = 'Sharing options opened.';
+      } catch (error) {
+        if (current()) status.textContent = error.name === 'AbortError' ? 'Sharing canceled. You can still copy the link.' : 'Sharing is unavailable here. Copy the link instead.';
+      } finally { button.disabled = false; }
+      return;
+    }
     button.disabled = true;
+    // Keep selection inside the native modal so manual copy always works.
+    input.focus();
+    input.select();
+    let copied = false, timeout;
     try {
-      await navigator.clipboard.writeText(jobLink(id));
-      if ($('job-dialog').dataset.jobId === id) $('share-status').textContent = 'Link copied!';
-    } catch {
-      if ($('job-dialog').dataset.jobId === id) {
-        $('share-fallback').hidden = false;
-        $('share-status').textContent = 'Copy the link below to share this job.';
-        $('share-url').focus();
-        $('share-url').select();
+      // Embedded browsers may not bridge the async API to the system clipboard.
+      try { copied = document.execCommand('copy'); } catch {}
+      if (!copied && navigator.clipboard?.writeText) {
+        await Promise.race([
+          navigator.clipboard.writeText(jobLink(id)),
+          new Promise((_, reject) => { timeout = setTimeout(() => reject(new Error('Clipboard unavailable')), 1800); })
+        ]);
+        copied = true;
       }
-    } finally {
-      button.disabled = false;
+    } catch {} finally { clearTimeout(timeout); button.disabled = false; }
+    if (current()) {
+      status.textContent = copied ? 'Link copied! Paste it into a message.' : 'Select and copy the link above, or press ⌘C / Ctrl+C.';
+      if (!copied) { input.focus(); input.select(); }
     }
   });
   $('job-dialog').addEventListener('close', () => {
