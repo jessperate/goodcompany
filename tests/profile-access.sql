@@ -41,6 +41,20 @@ begin
   raise exception 'FAIL: Self recommendation allowed';
  exception when check_violation or insufficient_privilege then null; end;
 end $$;
+-- Partial saves must preserve other windows, including on a published profile.
+select public.goodcompany_save_profile('{"published":true}',null);
+select public.goodcompany_save_profile('{"recommended_jobs":["new-job"]}',null);
+do $$ begin
+ assert (select bio='Original bio' and published and recommended_jobs=array['new-job'] from public.goodcompany_profiles where user_id=auth.uid()), 'Recommendation save erased bio or visibility';
+ assert (select count(*)=1 from public.goodcompany_creative_recommendations where owner_id=auth.uid()), 'Partial save erased creatives';
+end $$;
+select public.goodcompany_save_profile('{"avatar_path":"10000000-0000-4000-8000-000000000001/new.png"}',null);
+select public.goodcompany_save_profile('{"bio":"Updated bio"}',null);
+do $$ begin
+ assert (select bio='Updated bio' and avatar_path like '%/new.png' and recommended_jobs=array['new-job'] from public.goodcompany_profiles where user_id=auth.uid()), 'Photo and bio partial saves did not persist';
+end $$;
+-- Return to private for the privacy assertions below.
+select public.goodcompany_save_profile('{"published":false,"avatar_path":null}',null);
 insert into storage.objects(bucket_id,name) values ('goodcompany-headshots','10000000-0000-4000-8000-000000000001/test.webp');
 do $$ begin
  assert (select count(*)=1 from storage.objects where bucket_id='goodcompany-headshots' and name='10000000-0000-4000-8000-000000000001/test.webp'), 'Owner cannot read headshot';

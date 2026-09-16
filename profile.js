@@ -3,6 +3,8 @@
   const $ = id => document.getElementById(id);
   const account = window.GoodCompanyAccount, client = account.client;
   const form = $('profile-form'), fields = form.elements;
+  const persistence = window.GoodCompanyProfileSave;
+  const draftStore = persistence.drafts({getItem:k=>localStorage.getItem(k),setItem:(k,v)=>localStorage.setItem(k,v),removeItem:k=>localStorage.removeItem(k)});
   const esc = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const networkFields = ['website','email','linkedin','x','youtube','instagram','github'];
   const names = {website:'Website',email:'Email',linkedin:'LinkedIn',x:'X',youtube:'YouTube',instagram:'Instagram',github:'GitHub'};
@@ -13,9 +15,22 @@
   let profile = null, owner = false, initializedKey = '', generation = 0, searchGeneration = 0, timer;
   let editing = false, editingScope = 'all', savedJobIds = [], savedCreativeIds = [];
   let jobIds = [], creativeIds = [], creativeMap = new Map(), dirty = false, saving = false, removePhoto = false, previewUrl = null;
-  const status = message => { $('profile-status').textContent=message; };
+  const status = message => { $('profile-status').textContent=message; if(editing) $('save-hint').textContent=message; document.querySelectorAll('.window-save-status').forEach(el=>el.textContent=message); };
   const fullName = p => [p.first_name,p.last_name].filter(Boolean).join(' ') || 'Creative';
-  const markDirty = () => { dirty=true; $('save-hint').textContent='Unsaved changes'; };
+  function formValues() {
+    return {first_name:fields.namedItem('first_name').value.trim(),last_name:fields.namedItem('last_name').value.trim(),bio:fields.namedItem('bio').value.trim(),links:Object.fromEntries(networkFields.map(k=>[k,fields.namedItem(k).value.trim()])),work_history:readWork(),published:fields.namedItem('published').checked,recommended_jobs:[...jobIds]};
+  }
+  function rememberDraft() {
+    const id=account.getUser()?.id;
+    if(!owner || !editing || !id) return false;
+    const values=formValues();
+    // Compare the displayed URL values with the same representation in the saved profile.
+    const original={...profile,links:Object.fromEntries(networkFields.map(k=>[k,inputLink(profile?.links?.[k],k)]))};
+    return draftStore.put(id,{patch:persistence.changes(values,original,editingScope),scope:editingScope,creativeIds:JSON.stringify(creativeIds)===JSON.stringify(savedCreativeIds)?null:[...creativeIds],photoPending:Boolean($('headshot').files.length || removePhoto)});
+  }
+  const markDirty = () => { dirty=true; $('save-hint').textContent=rememberDraft()?'Unsaved changes · Draft kept on this device':'Unsaved changes · Keep this tab open until saved'; };
+  function offerDraft() { $('profile-draft').hidden=!owner || !draftStore.get(account.getUser()?.id); }
+
   const linkPrefixes = {website:'https://',linkedin:'https://linkedin.com/in/',x:'https://x.com/',youtube:'https://youtube.com/@',instagram:'https://instagram.com/',github:'https://github.com/'};
   function normalizeProfileLink(value, key) {
     const text=String(value || '').trim();
@@ -79,7 +94,10 @@
   }
   async function showHeadshot(path, imageId, placeholderId, token) {
     if (!path) return;
-    const {data,error}=await client.storage.from('goodcompany-headshots').createSignedUrl(path,3600);
+    let result;
+    try { result=await client.storage.from('goodcompany-headshots').createSignedUrl(path,3600); }
+    catch { return; }
+    const {data,error}=result;
     if (token!==generation || error || !data || !$(imageId)) return;
     if (imageId === 'edit-headshot' && ($('headshot').files.length || removePhoto)) return;
     $(imageId).src=data.signedUrl; $(imageId).hidden=false;
@@ -95,11 +113,13 @@
     $('copy-profile').hidden=!profile.published;
     $('profile-signout').hidden=false;
     status(profile.published ? 'Your saved profile · Public' : 'Your saved profile · Private');
+    offerDraft();
     renderPins();
     window.dispatchEvent(new Event('goodcompany-profile-view'));
   }
   function renderOwner(p, token, scope='all') {
     editing=true;
+    $('profile-draft').hidden=true;
     editingScope=scope;
     renderPublic(p,token);
     $('public-profile').hidden=true;
@@ -123,6 +143,7 @@
       const key=panel.dataset.editorWindow, active=scope==='all' || scope===key;
       panel.querySelector('.window-preview')?.remove();
       panel.querySelector('.window-body').hidden=!active;
+      panel.querySelectorAll('.window-body input, .window-body textarea, .window-body button').forEach(el=>el.disabled=!active);
       panel.querySelector('[data-window-edit]').disabled=active || !p.user_id;
       panel.querySelector('[data-window-save]').disabled=!active;
       if(!active) {
@@ -172,7 +193,7 @@
     if (!force && initializedKey===key) { renderPins(); return; }
     initializedKey=key; const token=++generation; ++searchGeneration;
     owner=Boolean(user && (!requestedId || requestedId===user.id)); dirty=false;
-    for (const id of ['profile-gate','profile-form','public-profile','private-pins','copy-profile','profile-signout','edit-profile','cancel-edit']) $(id).hidden=true;
+    for (const id of ['profile-gate','profile-form','profile-draft','public-profile','private-pins','copy-profile','profile-signout','edit-profile','cancel-edit']) $(id).hidden=true;
     if (!id) { status('Sign in to make this space yours.'); $('profile-gate').hidden=false; return; }
     if (!validId(id)) { status('That profile link isn’t valid.'); return; }
     status('Loading profile…');
@@ -195,7 +216,7 @@
       if (token!==generation) return;
       savedJobIds=[...jobIds]; savedCreativeIds=[...creativeIds];
       if (owner && profile.user_id) renderSavedOwner(token);
-      else if (owner) renderOwner(profile,token); else renderPublic(profile,token);
+      else if (owner) { renderOwner(profile,token); offerDraft(); } else renderPublic(profile,token);
     } catch { if (token===generation) { initializedKey=''; status('We couldn’t load this profile. Please refresh to try again.'); } }
   }
   $('job-search').addEventListener('input',()=>{
@@ -242,46 +263,69 @@
   form.addEventListener('input',event=>{ if(!['job-search','creative-search'].includes(event.target.id)) markDirty(); });
   $('headshot').addEventListener('change',()=>{
     const file=$('headshot').files[0]; if (!file) return;
-    if (!['image/jpeg','image/png','image/webp'].includes(file.type) || file.size>5242880) { status('Choose a JPG, PNG or WebP image under 5 MB.'); $('headshot').value=''; return; }
+    const invalid=persistence.fileError(file);
+    if(invalid) { status(invalid); $('headshot').value=''; return; }
     if(previewUrl) URL.revokeObjectURL(previewUrl); previewUrl=URL.createObjectURL(file);
     $('edit-headshot').src=previewUrl; $('edit-headshot').hidden=false; $('headshot-placeholder').hidden=true; $('remove-headshot').hidden=false; removePhoto=false; markDirty();
   });
   $('remove-headshot').addEventListener('click',()=>{ removePhoto=true; $('headshot').value=''; $('edit-headshot').hidden=true; $('headshot-placeholder').hidden=false; $('remove-headshot').hidden=true; if(previewUrl) URL.revokeObjectURL(previewUrl); previewUrl=null; markDirty(); });
-  async function prepareImage(file) {
-    const bitmap=await createImageBitmap(file), ratio=Math.min(1,1024/Math.max(bitmap.width,bitmap.height));
-    const canvas=document.createElement('canvas'); canvas.width=Math.max(1,Math.round(bitmap.width*ratio)); canvas.height=Math.max(1,Math.round(bitmap.height*ratio));
-    canvas.getContext('2d').drawImage(bitmap,0,0,canvas.width,canvas.height); bitmap.close();
-    return new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(new Error('image')),'image/webp',.9));
-  }
   form.addEventListener('submit',async event=>{
-    event.preventDefault(); if(saving || !editing || !owner || !form.reportValidity()) return;
+    event.preventDefault(); if(saving || !editing || !owner) return;
     const saveScope=editingScope;
-    const user=account.getUser(); if(!user) { status('Please sign in again.'); return; }
-    const links={};
-    for(const key of networkFields) { const value=fields.namedItem(key).value.trim(), normalized=normalizeProfileLink(value,key); if(value && !normalized) { status(`Please enter a valid ${names[key]} ${key==='email'?'address':'domain, username or full link'}.`); fields.namedItem(key).focus(); return; } links[key]=normalized || ''; }
-    const unavailable=creativeIds.filter(id=>!creativeMap.has(id));
-    if(unavailable.length) { status('Remove creatives whose profiles are no longer public before saving.'); return; }
-    const payload={first_name:fields.namedItem('first_name').value.trim(),last_name:fields.namedItem('last_name').value.trim(),bio:fields.namedItem('bio').value.trim(),links,work_history:readWork(),published:fields.namedItem('published').checked,recommended_jobs:[...jobIds],avatar_path:removePhoto?null:profile?.avatar_path || null};
-    const file=$('headshot').files[0],oldPath=profile?.avatar_path; let uploaded=null;
+    const user=account.getUser(); if(!user) { status('Please sign in again. Your draft is still here.'); return; }
+    rememberDraft();
+    if(!form.reportValidity()) { status('Check the highlighted field before saving. Your draft is still here.'); return; }
+    const values=formValues();
+    if(saveScope==='all' || saveScope==='about') {
+      for(const key of networkFields) {
+        const value=values.links[key], normalized=normalizeProfileLink(value,key);
+        if(value && !normalized) { status(`Please enter a valid ${names[key]} ${key==='email'?'address':'domain, username or full link'}. Your draft is still here.`); fields.namedItem(key).focus(); return; }
+        values.links[key]=normalized || '';
+      }
+    }
+    const patch=persistence.changes(values,profile,saveScope);
+    const changedCreatives=(saveScope==='all'||saveScope==='creatives') && JSON.stringify(creativeIds)!==JSON.stringify(savedCreativeIds);
+    if(changedCreatives && creativeIds.some(id=>!creativeMap.has(id))) { status('Remove creatives whose profiles are no longer public before saving. Your draft is still here.'); return; }
+    const photoActive=saveScope==='all'||saveScope==='about', file=photoActive?$('headshot').files[0]:null;
+    const current=()=>account.getUser()?.id===user.id && owner;
     saving=true; $('profile-fields').disabled=true; status('Saving your profile…');
     try {
-      if(file) {
-        const blob=await prepareImage(file); uploaded=`${user.id}/${crypto.randomUUID()}.webp`;
-        const {error}=await client.storage.from('goodcompany-headshots').upload(uploaded,blob,{contentType:'image/webp',upsert:false}); if(error) throw error;
-        payload.avatar_path=uploaded;
+      const result=await persistence.persist({client,userId:user.id,patch,creativeIds:changedCreatives?creativeIds:null,file,removePhoto:photoActive&&removePhoto,isCurrent:current});
+      if(!current()) return;
+      profile=result.profile;
+      savedJobIds=[...profile.recommended_jobs]; savedCreativeIds=[...creativeIds];
+      if(result.photoError) {
+        dirty=true; rememberDraft();
+        status('Your profile details are saved, but the photo wasn’t saved. '+persistence.errorMessage(result.photoError));
+        return;
       }
-      if(account.getUser()?.id!==user.id) throw new Error('Session changed');
-      const {error}=await client.rpc('goodcompany_save_profile',{profile_data:payload,creative_ids:creativeIds}); if(error) throw error;
-      dirty=false; profile={...payload,user_id:user.id}; $('headshot').value=''; removePhoto=false;
-      savedJobIds=[...jobIds]; savedCreativeIds=[...creativeIds];
+      dirty=false; draftStore.clear(user.id); $('headshot').value=''; removePhoto=false;
+      jobIds=[...savedJobIds];
       renderSavedOwner(++generation);
       (document.querySelector(`[data-saved-window="${saveScope}"] [data-window-edit]`) || $('edit-profile')).focus();
-      status(payload.published?'Saved! Your profile is published and ready to share.':'Saved! Your profile is private until you publish it.');
-      if(oldPath && oldPath!==payload.avatar_path) client.storage.from('goodcompany-headshots').remove([oldPath]).catch(()=>{});
-    } catch {
-      if(uploaded) await client.storage.from('goodcompany-headshots').remove([uploaded]);
-      status('Your changes weren’t saved. Check your connection and try again. Recommended creatives must still have published profiles.');
-    } finally { saving=false; $('profile-fields').disabled=false; renderRecommendations(); $('add-work').disabled=readWork().length>=20; }
+      status(profile.published?'Saved! Your profile is published and ready to share.':'Saved! Your profile is private until you publish it.');
+    } catch(error) {
+      if(current()) { dirty=true; rememberDraft(); status(persistence.errorMessage(error)); }
+    } finally { saving=false; $('profile-fields').disabled=false; if(current()) { renderRecommendations(); $('add-work').disabled=readWork().length>=20; } }
+  });
+  $('restore-profile-draft').addEventListener('click',async()=>{
+    if(!owner || saving) return;
+    const draft=draftStore.get(account.getUser()?.id); if(!draft) return;
+    const restored={...profile,...draft.patch};
+    jobIds=[...(restored.recommended_jobs||[])]; creativeIds=draft.creativeIds || [...savedCreativeIds];
+    renderOwner(restored,++generation,draft.scope || 'all');
+    dirty=true;
+    status(draft.photoPending?'Draft restored. Please choose your photo again, then save.':'Draft restored. Review your changes, then save.');
+    fields.namedItem('bio').focus();
+    if(draft.creativeIds?.length) {
+      const token=generation;
+      const {data,error}=await client.from('goodcompany_profiles').select('user_id,first_name,last_name').in('user_id',draft.creativeIds);
+      if(token===generation && !error) { creativeMap=new Map(data.map(p=>[p.user_id,p])); renderRecommendations(); }
+    }
+  });
+  $('discard-profile-draft').addEventListener('click',()=>{
+    if(!owner || saving) return;
+    draftStore.clear(account.getUser().id); $('profile-draft').hidden=true;
   });
   $('edit-profile').addEventListener('click',()=>{
     if (!owner || saving) return;
@@ -293,7 +337,7 @@
     const button=event.target.closest('[data-window-edit]');
     if(!button || button.disabled || !owner || saving) return;
     if(dirty && !confirm('Discard your unsaved changes before editing another window?')) return;
-    dirty=false; jobIds=[...savedJobIds]; creativeIds=[...savedCreativeIds];
+    dirty=false; draftStore.clear(account.getUser().id); jobIds=[...savedJobIds]; creativeIds=[...savedCreativeIds];
     const scope=button.dataset.windowEdit;
     renderOwner(profile,++generation,scope);
     const panel=document.querySelector(`[data-editor-window="${scope}"]`);
@@ -303,7 +347,7 @@
   $('cancel-edit').addEventListener('click',()=>{
     if (!owner || saving) return;
     if (dirty && !confirm('Discard your unsaved changes?')) return;
-    dirty=false; jobIds=[...savedJobIds]; creativeIds=[...savedCreativeIds];
+    dirty=false; draftStore.clear(account.getUser().id); jobIds=[...savedJobIds]; creativeIds=[...savedCreativeIds];
     renderSavedOwner(++generation);
     $('edit-profile').focus();
   });
@@ -316,9 +360,11 @@
   $('profile-signin').addEventListener('click',()=>{ sessionStorage.setItem('goodcompany-return-profile','1'); account.openAccount(); });
   $('profile-signout').addEventListener('click',async()=>{
     if(dirty && !confirm('Sign out and discard your unsaved changes?')) return;
-    const {error}=await client.auth.signOut({scope:'local'}); if(error) status('Could not sign out. Please try again.'); else { dirty=false; sessionStorage.removeItem('goodcompany-return-profile'); }
+    const signingOut=account.getUser()?.id;
+    const {error}=await client.auth.signOut({scope:'local'}); if(error) status('Could not sign out. Please try again.'); else { dirty=false; draftStore.clear(signingOut); sessionStorage.removeItem('goodcompany-return-profile'); }
   });
-  window.addEventListener('beforeunload',event=>{ if(dirty || saving) { event.preventDefault(); event.returnValue=''; } });
+  window.addEventListener('beforeunload',event=>{ if(dirty || saving) { rememberDraft(); event.preventDefault(); event.returnValue=''; } });
+  form.addEventListener('invalid',()=>{rememberDraft();status('Check the highlighted field before saving. Your draft is still here.');},true);
   window.addEventListener('goodcompany-account-change',()=>loadProfile());
   window.GoodCompanyProfile = {
     getState:()=>({owner,editing,saving,profile,creativeIds:[...creativeIds]}),
