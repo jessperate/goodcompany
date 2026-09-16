@@ -223,5 +223,15 @@ const COMPANY_STAGES = {
     "stage": "Series C+",
     "url": "https://remote.com/blog/company-news/213004-remote-secures-300-million-series-c-financing-to-power-global-employment",
     "checkedAt": "2026-09-12"
+  },
+  "Zapier": {
+    "stage": "Seed",
+    "url": "https://zapier.com/press",
+    "checkedAt": "2026-09-16"
+  },
+  "Linear": {
+    "stage": "Series C+",
+    "url": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+    "checkedAt": "2026-09-16"
   }
 };

@@ -1,0 +1,535 @@
+{
+  "date": "2026-09-16",
+  "records": [
+    {
+      "job": {
+        "id": "openai-7c1cd1ec-47a9-4d15-8eb9-2f44272db796",
+        "atsId": "7c1cd1ec-47a9-4d15-8eb9-2f44272db796",
+        "company": "OpenAI",
+        "title": "Product Designer, Design Systems",
+        "category": "Product design",
+        "disciplines": [],
+        "location": "San Francisco",
+        "workplace": "Hybrid",
+        "level": "Level not specified",
+        "summary": "Develop ChatGPT’s design foundations, reusable patterns, and standards. Turn design judgment into clear guidance across typography, motion, accessibility, and responsive interfaces.",
+        "highlights": [
+          "Requires deep experience evolving product or design systems at scale.",
+          "Work closely with research and engineering, connecting principles to high-quality shipped experiences."
+        ],
+        "keywords": [
+          "Product design"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/7c1cd1ec-47a9-4d15-8eb9-2f44272db796",
+        "source": "OpenAI careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-09-14",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$200,000–310,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$200,000–310,000 / year",
+        "salaryMin": 200000,
+        "salaryMax": 310000,
+        "salaryCurrency": "USD"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://jobs.ashbyhq.com/openai/7c1cd1ec-47a9-4d15-8eb9-2f44272db796",
+        "directResult": "200 https://jobs.ashbyhq.com/openai/7c1cd1ec-47a9-4d15-8eb9-2f44272db796",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "feedCount": 813,
+        "feedSha256": "8bc0d3970f1f0747dea0b859128d2b0546a1aca21c0d5c9de5d1676689f0c30a",
+        "renderedMessage": "Job not found",
+        "renderedVerified": true
+      }
+    },
+    {
+      "job": {
+        "id": "openai-c04280b7-fa23-4d65-9b35-22d60bbe2081",
+        "atsId": "c04280b7-fa23-4d65-9b35-22d60bbe2081",
+        "company": "OpenAI",
+        "title": "Web Designer",
+        "category": "Brand & visual",
+        "disciplines": [
+          "Product design"
+        ],
+        "location": "New York City",
+        "workplace": "Hybrid",
+        "level": "Level not specified",
+        "summary": "Design OpenAI.com experiences for business audiences, from information architecture and prototypes to polished responsive pages. Connect visual storytelling, UX, and reusable web patterns.",
+        "highlights": [
+          "Show a portfolio of shipped websites demonstrating visual craft and thoughtful UX.",
+          "New York hybrid role with three office days per week; remain involved through implementation and QA."
+        ],
+        "keywords": [
+          "Brand & visual",
+          "Product design"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/c04280b7-fa23-4d65-9b35-22d60bbe2081",
+        "source": "OpenAI careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-09-14",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$216,000–240,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$216,000–240,000 / year",
+        "salaryMin": 216000,
+        "salaryMax": 240000,
+        "salaryCurrency": "USD"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://jobs.ashbyhq.com/openai/c04280b7-fa23-4d65-9b35-22d60bbe2081",
+        "directResult": "200 https://jobs.ashbyhq.com/openai/c04280b7-fa23-4d65-9b35-22d60bbe2081",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "feedCount": 813,
+        "feedSha256": "8bc0d3970f1f0747dea0b859128d2b0546a1aca21c0d5c9de5d1676689f0c30a",
+        "renderedMessage": "Job not found",
+        "renderedVerified": true
+      }
+    },
+    {
+      "job": {
+        "id": "openai-a5136d9d-c22a-4c12-a776-483f63ef1120",
+        "atsId": "a5136d9d-c22a-4c12-a776-483f63ef1120",
+        "company": "OpenAI",
+        "title": "Creative Director, Copy",
+        "category": "Creative leadership",
+        "disciplines": [
+          "Content & strategy"
+        ],
+        "location": "New York City",
+        "workplace": "Hybrid",
+        "level": "Leadership",
+        "summary": "Develop concepts and copy for OpenAI’s business audiences across integrated campaigns, launches, films, events, and customer stories. Shape messaging systems and brand voice through hands-on writing.",
+        "highlights": [
+          "Requires 10+ years writing for brands and a portfolio of integrated creative work.",
+          "Bring experience communicating with enterprise, B2B, developer, or technically sophisticated audiences."
+        ],
+        "keywords": [
+          "Creative leadership",
+          "Content & strategy"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120",
+        "source": "OpenAI careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-09-14",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$287,000–318,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$287,000–318,000 / year",
+        "salaryMin": 287000,
+        "salaryMax": 318000,
+        "salaryCurrency": "USD"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120",
+        "directResult": "200 https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "feedCount": 813,
+        "feedSha256": "8bc0d3970f1f0747dea0b859128d2b0546a1aca21c0d5c9de5d1676689f0c30a",
+        "renderedMessage": "Job not found",
+        "renderedVerified": true
+      }
+    },
+    {
+      "job": {
+        "id": "openai-be78cdad-0f1e-40a1-a8bd-71b5f86bb207",
+        "atsId": "be78cdad-0f1e-40a1-a8bd-71b5f86bb207",
+        "company": "OpenAI",
+        "title": "Creative Director, Growth",
+        "category": "Creative leadership",
+        "disciplines": [
+          "Brand & creative",
+          "Social media",
+          "AI Creative"
+        ],
+        "location": "New York / U.S. — confirm with employer",
+        "workplace": "Not specified",
+        "level": "Leadership",
+        "summary": "Direct creative work across OpenAI growth campaigns, social, paid media, lifecycle programs, and launches. Guide concepts, agencies, and execution using audience insights and testing.",
+        "highlights": [
+          "Requires 10+ years in creative roles and experience leading multidisciplinary work.",
+          "Location needs confirmation: the ATS labels this US remote, while the description says New York with periodic office travel."
+        ],
+        "keywords": [
+          "Creative leadership",
+          "Brand & creative",
+          "Social media",
+          "AI Creative"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/be78cdad-0f1e-40a1-a8bd-71b5f86bb207",
+        "source": "OpenAI careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-09-14",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$287,000–318,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$287,000–318,000 / year",
+        "salaryMin": 287000,
+        "salaryMax": 318000,
+        "salaryCurrency": "USD"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://jobs.ashbyhq.com/openai/be78cdad-0f1e-40a1-a8bd-71b5f86bb207",
+        "directResult": "200 https://jobs.ashbyhq.com/openai/be78cdad-0f1e-40a1-a8bd-71b5f86bb207",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "feedCount": 813,
+        "feedSha256": "8bc0d3970f1f0747dea0b859128d2b0546a1aca21c0d5c9de5d1676689f0c30a",
+        "renderedMessage": "Job not found",
+        "renderedVerified": true
+      }
+    },
+    {
+      "job": {
+        "id": "openai-9d9f3b5a-aac0-4ca8-a52b-46a898c3c9ed",
+        "atsId": "9d9f3b5a-aac0-4ca8-a52b-46a898c3c9ed",
+        "company": "OpenAI",
+        "title": "Art Director",
+        "category": "Brand & visual",
+        "disciplines": [
+          "Creative leadership",
+          "Motion & video"
+        ],
+        "location": "New York / U.S. — confirm with employer",
+        "workplace": "Not specified",
+        "level": "Senior",
+        "summary": "Concept and art-direct OpenAI campaigns, product launches, and brand stories. Guide visuals across digital experiences, photography, illustration, video, and events.",
+        "highlights": [
+          "Requires 10+ years as an art director and a portfolio of modern technology-brand work.",
+          "Location needs confirmation: the ATS labels this US remote, while the description says New York with periodic office travel."
+        ],
+        "keywords": [
+          "Brand & visual",
+          "Creative leadership",
+          "Motion & video"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/9d9f3b5a-aac0-4ca8-a52b-46a898c3c9ed",
+        "source": "OpenAI careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-09-14",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$287,000–318,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$287,000–318,000 / year",
+        "salaryMin": 287000,
+        "salaryMax": 318000,
+        "salaryCurrency": "USD"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://jobs.ashbyhq.com/openai/9d9f3b5a-aac0-4ca8-a52b-46a898c3c9ed",
+        "directResult": "200 https://jobs.ashbyhq.com/openai/9d9f3b5a-aac0-4ca8-a52b-46a898c3c9ed",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "feedCount": 813,
+        "feedSha256": "8bc0d3970f1f0747dea0b859128d2b0546a1aca21c0d5c9de5d1676689f0c30a",
+        "renderedMessage": "Job not found",
+        "renderedVerified": true
+      }
+    },
+    {
+      "job": {
+        "id": "amazon-10537823",
+        "company": "Amazon",
+        "title": "Design Technologist III, Robotics Simulation",
+        "category": "Design engineering",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "location": "Bellevue, WA",
+        "workplace": "Not specified",
+        "level": "Senior",
+        "summary": "Build simulation-ready 3D assets and the tools that produce them for Amazon Robotics. Combine materials, lighting, and geometry craft with pipeline engineering, and bring generative 3D techniques into production.",
+        "highlights": [
+          "Requires 6+ years of relevant technology or prototyping experience, an online portfolio, and coding samples.",
+          "Bring hands-on CAD conversion, USD authoring, geometry optimization, and 3D content-tool experience.",
+          "Set asset standards and mentor technical artists and engineers."
+        ],
+        "keywords": [
+          "Design engineering",
+          "AI Creative"
+        ],
+        "salary": "US$154,200–208,600 annual base salary. Published range is for Bellevue. Sign-on payments and restricted stock units are additional.",
+        "url": "https://www.amazon.jobs/en/jobs/10537823/design-technologist-iii-robotics-simulation",
+        "source": "Amazon careers",
+        "checkedAt": "September 13, 2026",
+        "lastVerifiedAt": "2026-09-14",
+        "atsId": "10537823",
+        "salaryMin": 154200,
+        "salaryMax": 208600,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$154,200–208,600 / year"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://www.amazon.jobs/en/jobs/10537823/design-technologist-iii-robotics-simulation",
+        "directResult": "404 https://www.amazon.jobs/en/jobs/10537823/design-technologist-iii-robotics-simulation",
+        "method": "Official page explicitly says unavailable",
+        "message": "Sorry, the job you're looking for isn't available."
+      }
+    },
+    {
+      "job": {
+        "id": "figma-6135338004",
+        "company": "Figma",
+        "title": "Design Program Manager, AI Evals  (London, United Kingdom)",
+        "category": "Creative leadership",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "level": "Level not specified",
+        "location": "London, England",
+        "workplace": "Not specified",
+        "type": "Full time",
+        "summary": "Run programs that evaluate the quality of AI-generated design at Figma. Coordinate external contributors, improve evaluation processes, and help establish consistent quality standards.",
+        "highlights": [
+          "The role asks for 3+ years in design operations or program management.",
+          "Manage calibration, benchmarks, and contributor workflows."
+        ],
+        "keywords": [
+          "Creative leadership",
+          "AI Creative"
+        ],
+        "source": "Figma careers · Greenhouse",
+        "url": "https://boards.greenhouse.io/figma/jobs/6135338004?gh_jid=6135338004",
+        "checkedAt": "September 11, 2026",
+        "lastVerifiedAt": "2026-09-14",
+        "salary": "Pay not listed"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://boards.greenhouse.io/figma/jobs/6135338004?gh_jid=6135338004",
+        "directResult": "200 https://www.figma.com/careers/",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+        "feedCount": 154,
+        "feedSha256": "2ac15092007d184ce0cfcb7c6fbee36278abbd503c10364f65074b2509061d41",
+        "detailApiUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs/6135338004",
+        "detailApiStatus": 404,
+        "detailApiMessage": "Job not found"
+      }
+    },
+    {
+      "job": {
+        "id": "dorsia-junior",
+        "company": "Dorsia",
+        "title": "Junior Designer",
+        "category": "Brand & visual",
+        "level": "Early career",
+        "location": "Miami or New York City",
+        "workplace": "On-site",
+        "monogram": "D",
+        "color": "#f4e5ed",
+        "ink": "#5e334b",
+        "summary": "Create brand, editorial, social, and growth marketing assets, with motion and animation work across digital channels.",
+        "highlights": [
+          "The listing asks for 1–3 years of graphic design experience.",
+          "Five days per week in the office; the employer describes evening and event work."
+        ],
+        "salary": "US$70,000–90,000 annual base pay for New York. See the listing for location details.",
+        "salaryLabel": "US$70,000–90,000 / year · New York",
+        "salaryMin": 70000,
+        "salaryMax": 90000,
+        "salaryCurrency": "USD",
+        "checkedAt": "September 8, 2026",
+        "url": "https://job-boards.greenhouse.io/dorsia/jobs/5173121007",
+        "lastVerifiedAt": "2026-09-14"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://job-boards.greenhouse.io/dorsia/jobs/5173121007",
+        "directResult": "200 https://job-boards.greenhouse.io/dorsia?error=true",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/dorsia/jobs?content=true",
+        "feedCount": 16,
+        "feedSha256": "035c53c4553aabd7dc1c1f6cd261a079549c6ae7fcf561782b63cf011bdb9ff9",
+        "detailApiUrl": "https://boards-api.greenhouse.io/v1/boards/dorsia/jobs/5173121007",
+        "detailApiStatus": 404,
+        "detailApiMessage": "Job not found"
+      }
+    },
+    {
+      "job": {
+        "id": "figma-5991320004",
+        "company": "Figma",
+        "title": "Product Designer - Figma Weave (Tel Aviv, Israel)",
+        "category": "Product design",
+        "location": "Tel Aviv, Israel",
+        "workplace": "Not specified",
+        "url": "https://boards.greenhouse.io/figma/jobs/5991320004?gh_jid=5991320004",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+        "summary": "Product Designer - Figma Weave (Tel Aviv, Israel) at Figma. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          ""
+        ],
+        "highlights": [
+          "Employer excerpt: “at Figma Weave: Contribute to overall strategy and decision-making about product direction Help deliver clear storytelling around customer needs and…”"
+        ],
+        "lastVerifiedAt": "2026-09-14"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://boards.greenhouse.io/figma/jobs/5991320004?gh_jid=5991320004",
+        "directResult": "200 https://www.figma.com/careers/",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+        "feedCount": 154,
+        "feedSha256": "2ac15092007d184ce0cfcb7c6fbee36278abbd503c10364f65074b2509061d41",
+        "detailApiUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs/5991320004",
+        "detailApiStatus": 404,
+        "detailApiMessage": "Job not found"
+      }
+    },
+    {
+      "job": {
+        "id": "harvey-7af73358-0a99-4d3a-8fde-b0f735045613",
+        "company": "Harvey",
+        "title": "Product Designer, Design Systems",
+        "category": "Product design",
+        "location": "Toronto",
+        "workplace": "Hybrid",
+        "url": "https://jobs.ashbyhq.com/harvey/7af73358-0a99-4d3a-8fde-b0f735045613",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+        "summary": "Product Designer, Design Systems at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Design"
+        ],
+        "highlights": [
+          "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
+        ],
+        "linkedinUrls": [
+          "https://www.linkedin.com/jobs/view/4452123232"
+        ],
+        "lastVerifiedAt": "2026-09-14"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://jobs.ashbyhq.com/harvey/7af73358-0a99-4d3a-8fde-b0f735045613",
+        "directResult": "200 https://jobs.ashbyhq.com/harvey/7af73358-0a99-4d3a-8fde-b0f735045613",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+        "feedCount": 313,
+        "feedSha256": "e9354023e99b9acc9a6216493b1946ece9b8b27749bb1680d233a98d58d9b79b",
+        "renderedMessage": "Job not found",
+        "renderedVerified": true
+      }
+    },
+    {
+      "job": {
+        "id": "harvey-4cea74f1-7c08-4a9c-884f-796903aa77ed",
+        "company": "Harvey",
+        "title": "Product Designer, Design Systems",
+        "category": "Product design",
+        "location": "San Francisco",
+        "workplace": "Hybrid",
+        "url": "https://jobs.ashbyhq.com/harvey/4cea74f1-7c08-4a9c-884f-796903aa77ed",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+        "summary": "Product Designer, Design Systems at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Design"
+        ],
+        "highlights": [
+          "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
+        ],
+        "salary": "US$150,800–226,200 / year; location-dependent.",
+        "salaryLabel": "US$150,800–226,200 / year",
+        "salaryMin": 150800,
+        "salaryMax": 226200,
+        "salaryCurrency": "USD",
+        "linkedinUrls": [
+          "https://www.linkedin.com/jobs/view/4452111388"
+        ],
+        "lastVerifiedAt": "2026-09-14"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://jobs.ashbyhq.com/harvey/4cea74f1-7c08-4a9c-884f-796903aa77ed",
+        "directResult": "200 https://jobs.ashbyhq.com/harvey/4cea74f1-7c08-4a9c-884f-796903aa77ed",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+        "feedCount": 313,
+        "feedSha256": "e9354023e99b9acc9a6216493b1946ece9b8b27749bb1680d233a98d58d9b79b",
+        "renderedMessage": "Job not found",
+        "renderedVerified": true
+      }
+    },
+    {
+      "job": {
+        "id": "harvey-6541a2da-ab46-467b-8aaa-289a6a1d087b",
+        "company": "Harvey",
+        "title": "Product Designer, Design Systems",
+        "category": "Product design",
+        "location": "New York",
+        "workplace": "Not specified",
+        "url": "https://jobs.ashbyhq.com/harvey/6541a2da-ab46-467b-8aaa-289a6a1d087b",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+        "summary": "Product Designer, Design Systems at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Design"
+        ],
+        "highlights": [
+          "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
+        ],
+        "salary": "US$150,800–207,350 / year; location-dependent.",
+        "salaryLabel": "US$150,800–207,350 / year",
+        "salaryMin": 150800,
+        "salaryMax": 207350,
+        "salaryCurrency": "USD",
+        "linkedinUrls": [
+          "https://www.linkedin.com/jobs/view/4452112383"
+        ],
+        "lastVerifiedAt": "2026-09-14"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://jobs.ashbyhq.com/harvey/6541a2da-ab46-467b-8aaa-289a6a1d087b",
+        "directResult": "200 https://jobs.ashbyhq.com/harvey/6541a2da-ab46-467b-8aaa-289a6a1d087b",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+        "feedCount": 313,
+        "feedSha256": "e9354023e99b9acc9a6216493b1946ece9b8b27749bb1680d233a98d58d9b79b",
+        "renderedMessage": "Job not found",
+        "renderedVerified": true
+      }
+    },
+    {
+      "job": {
+        "id": "descript-7799278003",
+        "company": "Descript",
+        "title": "Content Strategist",
+        "category": "Content & strategy",
+        "location": "San Francisco, CA or Remote, US ",
+        "workplace": "Remote",
+        "url": "https://boards.greenhouse.io/descript/jobs/7799278003?gh_jid=7799278003",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/descript/jobs?content=true",
+        "summary": "Content Strategist at Descript. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          ""
+        ],
+        "highlights": [
+          "Employer excerpt: “Content is one of Descript's most powerful channels—but only when it's strategic, original, and built to reach the right audiences.…”"
+        ],
+        "lastVerifiedAt": "2026-09-14"
+      },
+      "closure": {
+        "checkedAt": "2026-09-16",
+        "listingUrl": "https://boards.greenhouse.io/descript/jobs/7799278003?gh_jid=7799278003",
+        "directResult": "200 https://www.descript.com/careers#open-position",
+        "method": "Exact ID absent from complete employer feed plus unavailable direct listing",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/descript/jobs?content=true",
+        "feedCount": 10,
+        "feedSha256": "a1aebe656d3ea313f1e1f78f94d2d58bd11fc0e6c4d88bf64428c32613a647a8",
+        "detailApiUrl": "https://boards-api.greenhouse.io/v1/boards/descript/jobs/7799278003",
+        "detailApiStatus": 404,
+        "detailApiMessage": "Job not found"
+      }
+    }
+  ]
+}

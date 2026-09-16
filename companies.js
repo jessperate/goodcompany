@@ -203,7 +203,7 @@ const COMPANIES = {
     "about": "An education platform combining learning, playful product design, and a distinctive consumer brand.",
     "checkedAt": "September 8, 2026",
     "glassdoor": {
-      "rating": 4.0,
+      "rating": 4,
       "url": "https://www.glassdoor.com/Overview/Working-at-Duolingo-EI_IE629348.11%2C19.htm"
     },
     "press": [
@@ -1132,5 +1132,20 @@ const COMPANIES = {
       }
     ],
     "interviews": []
+  },
+  "Zapier": {
+    "website": "https://zapier.com/",
+    "logo": "logos/zapier.png",
+    "about": "A workflow automation platform connecting business apps, data, and AI tools. Zapier operates as a distributed, remote team.",
+    "checkedAt": "September 16, 2026",
+    "press": [
+      {
+        "title": "Company background and funding history",
+        "url": "https://zapier.com/press",
+        "source": "Zapier"
+      }
+    ],
+    "interviews": []
   }
 };
+
