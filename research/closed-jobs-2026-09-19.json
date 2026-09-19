@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-19",
+  "records": [
+    {
+      "job": {
+        "id": "figma-6022151004",
+        "company": "Figma",
+        "title": "Designer Advocate (São Paulo, Brazil)",
+        "category": "Product design",
+        "location": "São Paulo, Brazil",
+        "workplace": "Not specified",
+        "url": "https://boards.greenhouse.io/figma/jobs/6022151004?gh_jid=6022151004",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+        "summary": "Designer Advocate (São Paulo, Brazil) at Figma. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          ""
+        ],
+        "highlights": [
+          "Employer excerpt: “at Figma: Empower users at scale: Collaborate closely with Sales and Customer Experience teams to help customers unlock the full…”"
+        ],
+        "lastVerifiedAt": "2026-09-18"
+      },
+      "closedAt": "2026-09-19",
+      "evidence": {
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+        "completeFeedJobCount": 152,
+        "feedSha256": "d9b60bda2baa8cbff75110c10add9c0bfe336daffa41ee257524e6c8fa75e5ab",
+        "exactIdAbsent": true,
+        "directUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs/6022151004",
+        "directHttpStatus": 404,
+        "directResponse": {
+          "status": 404,
+          "error": "Job not found"
+        },
+        "listingRedirect": "https://www.figma.com/careers/"
+      }
+    }
+  ]
+}

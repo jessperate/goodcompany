@@ -1,4 +1,9 @@
 const COMPANY_STAGES = {
+  "Webflow": {
+    "stage": "Series C+",
+    "url": "https://webflow.com/blog/webflow-series-c-funding",
+    "checkedAt": "2026-09-19"
+  },
   "ClickUp": {
     "stage": "Series C+",
     "url": "https://clickup.com/blog/series-c/",
