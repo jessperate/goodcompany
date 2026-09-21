@@ -795,7 +795,7 @@ const COMPANIES = {
     }
   },
   "Legora": {
-    "website": "legora.com",
+    "website": "https://legora.com/",
     "logo": "logos/legora.svg",
     "about": "Explore current creative and design opportunities at Legora.",
     "checkedAt": "September 8, 2026",

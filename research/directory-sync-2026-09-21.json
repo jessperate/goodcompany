@@ -1415,5 +1415,14 @@
     "Existing listing-integrity, company-stage, overlapping disciplines, combined filters, pagination, recommendations and TrueUp tests passed.",
     "Updated Legora listing passes AI Creative, On-site, Senior and London filters with original ID preserved.",
     "All three closure archives exactly match original records; all other original IDs retained."
+  ],
+  "companyMetadataUpdates": [
+    {
+      "company": "Legora",
+      "field": "website",
+      "previous": "legora.com",
+      "value": "https://legora.com/",
+      "evidence": "Official employer home page returns HTTP 200; ATS links to this domain. Corrects relative URL found during production verification."
+    }
   ]
 }
