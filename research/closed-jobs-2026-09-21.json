@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-21",
+  "records": [
+    {
+      "job": {
+        "id": "figma-6122399004",
+        "company": "Figma",
+        "title": "Designer Advocate (London, United Kingdom)",
+        "category": "Product design",
+        "location": "London, England",
+        "workplace": "Not specified",
+        "url": "https://boards.greenhouse.io/figma/jobs/6122399004?gh_jid=6122399004",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+        "summary": "Designer Advocate (London, United Kingdom) at Figma. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          ""
+        ],
+        "highlights": [
+          "Employer excerpt: “at Figma: Empower users at scale: Collaborate closely with Sales and Customer Experience teams to help customers unlock the full…”"
+        ],
+        "lastVerifiedAt": "2026-09-20"
+      },
+      "closedAt": "2026-09-21",
+      "evidence": {
+        "listingUrl": "https://boards.greenhouse.io/figma/jobs/6122399004?gh_jid=6122399004",
+        "checkedAt": "2026-09-21",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+        "completeFeedJobCount": 152,
+        "feedSha256": "027ce08ed886025f795e391a588fb42cbc95b3a9cb8affe79cd08fc1ca8b1d80",
+        "exactIdAbsent": true,
+        "directUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs/6122399004",
+        "httpStatus": 404,
+        "response": {
+          "status": 404,
+          "error": "Job not found"
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "intuit-23664",
+        "atsId": "23664",
+        "company": "Intuit",
+        "title": "Staff Product Designer",
+        "category": "Product design",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "level": "Staff",
+        "location": "Bangalore, Karnataka, India",
+        "workplace": "Not specified",
+        "type": "Full-time",
+        "summary": "Design onboarding and migration for Intuit Enterprise Suite and QuickBooks Online Advanced. Combine AI automation with human guidance to help businesses move their data and reach value sooner.",
+        "highlights": [
+          "Requires 7+ years designing enterprise or platform products and a relevant bachelor’s degree.",
+          "Experience designing AI or automation experiences and navigating complex technical constraints.",
+          "Bring a portfolio showing systems thinking and strong craft; mentor designers and influence product strategy."
+        ],
+        "url": "https://jobs.intuit.com/job/bengaluru/staff-product-designer/27595/100650853856",
+        "sourceUrl": "https://jobs.intuit.com/job/bengaluru/staff-product-designer/27595/100650853856",
+        "source": "Intuit careers",
+        "sourcePublishedAt": "2026-09-15",
+        "checkedAt": "September 20, 2026",
+        "lastVerifiedAt": "2026-09-20",
+        "keywords": [
+          "onboarding",
+          "migration",
+          "AI Creative",
+          "enterprise"
+        ]
+      },
+      "closedAt": "2026-09-21",
+      "evidence": {
+        "listingUrl": "https://jobs.intuit.com/job/bengaluru/staff-product-designer/27595/100650853856",
+        "checkedAt": "2026-09-21",
+        "httpStatus": 404,
+        "heading": "Job Not Found",
+        "message": "We are sorry this job post no longer exists.",
+        "bodySha256": "c973128dadc23e96de51bf5301c24606bfc890e725270be5e6c11f53ddc813bd"
+      }
+    },
+    {
+      "job": {
+        "company": "Legora",
+        "title": "Motion Designer",
+        "location": "Stockholm HQ",
+        "id": "linkedin-4430224042",
+        "url": "https://jobs.ashbyhq.com/legora/c1d89b67-c7c3-42ba-8d73-30b7c114d762",
+        "source": "Legora careers · Ashby",
+        "checkedAt": "September 11, 2026",
+        "postedAt": "2026-08-30T00:00:00.000Z",
+        "category": "Motion & video",
+        "level": "Level not specified",
+        "workplace": "On-site",
+        "type": "Full time",
+        "summary": "Bring Legora brand to life through animation and motion storytelling. Create work for launches, campaigns, social channels, advertising, and events.",
+        "highlights": [
+          "Build motion principles and reusable approaches across channels.",
+          "Collaborate with the broader brand and creative team."
+        ],
+        "keywords": [
+          "Motion & video"
+        ],
+        "salary": "Pay not listed",
+        "linkedinUrls": [
+          "https://www.linkedin.com/jobs/view/4430224042"
+        ],
+        "disciplines": [],
+        "lastVerifiedAt": "2026-09-20"
+      },
+      "closedAt": "2026-09-21",
+      "evidence": {
+        "listingUrl": "https://jobs.ashbyhq.com/legora/c1d89b67-c7c3-42ba-8d73-30b7c114d762",
+        "checkedAt": "2026-09-21",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
+        "completeFeedJobCount": 276,
+        "feedSha256": "b3d070ec9dea7f9419326d3c4a37c89490c1395e89f2273a5e8fffdccdfdf09e",
+        "exactIdAbsent": true,
+        "method": "Rendered employer ATS page, read via browser accessibility tree",
+        "heading": "Job not found",
+        "message": "The job you requested was not found."
+      }
+    }
+  ]
+}
