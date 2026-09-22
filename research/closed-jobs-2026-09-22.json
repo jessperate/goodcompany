@@ -1,0 +1,153 @@
+{
+  "date": "2026-09-22",
+  "records": [
+    {
+      "job": {
+        "id": "airbnb-8171646",
+        "company": "Airbnb",
+        "title": "Staff UX Writer (Host)",
+        "category": "Content & strategy",
+        "disciplines": [],
+        "level": "Staff",
+        "location": "United States",
+        "workplace": "Remote",
+        "type": "Full time",
+        "summary": "Shape content and product language for Airbnb host experiences. Partner with design, research, and product teams to make complex host journeys clear and useful.",
+        "highlights": [
+          "The role asks for 10+ years of UX writing or content strategy experience.",
+          "Remote work is limited to eligible US locations."
+        ],
+        "keywords": [
+          "Content & strategy"
+        ],
+        "source": "Airbnb careers · Greenhouse",
+        "url": "https://careers.airbnb.com/positions/8171646?gh_jid=8171646",
+        "checkedAt": "September 11, 2026",
+        "lastVerifiedAt": "2026-09-16",
+        "salary": "US$180,000–223,000 annual base salary. Actual pay depends on location, experience, and level.",
+        "salaryMin": 180000,
+        "salaryMax": 223000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$180,000–223,000 / year"
+      },
+      "closedAt": "2026-09-22",
+      "evidence": {
+        "listingUrl": "https://careers.airbnb.com/positions/8171646?gh_jid=8171646",
+        "checkedAt": "2026-09-22",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
+        "completeFeedJobCount": 156,
+        "feedSha256": "87382dca4766583afaecc04f8dcdb0c38f479a4a3e224c1df6d85350589dc4db",
+        "exactIdAbsent": true,
+        "directUrl": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs/8171646",
+        "httpStatus": 404,
+        "response": {
+          "status": 404,
+          "error": "Job not found"
+        },
+        "employerPageHttpStatus": 404,
+        "employerPageHeading": "Page not found"
+      }
+    },
+    {
+      "job": {
+        "id": "airbnb-8189352",
+        "company": "Airbnb",
+        "title": "Senior Staff Editor, Creative Studio",
+        "category": "Content & strategy",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "level": "Staff",
+        "location": "United States",
+        "workplace": "Remote",
+        "type": "Full time",
+        "summary": "Shape Airbnb brand voice as a senior editorial partner in its Creative Studio. Develop language standards, improve creative work, and bring editorial judgment to AI-assisted writing systems.",
+        "highlights": [
+          "The role asks for 10+ years of relevant editorial or copy experience.",
+          "US remote eligibility depends on location; collaboration follows Pacific hours."
+        ],
+        "keywords": [
+          "Content & strategy",
+          "AI Creative"
+        ],
+        "source": "Airbnb careers · Greenhouse",
+        "url": "https://careers.airbnb.com/positions/8189352?gh_jid=8189352",
+        "checkedAt": "September 11, 2026",
+        "lastVerifiedAt": "2026-09-21",
+        "salary": "US$212,000–262,000 annual base salary. Actual pay depends on location, experience, and level.",
+        "salaryMin": 212000,
+        "salaryMax": 262000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$212,000–262,000 / year"
+      },
+      "closedAt": "2026-09-22",
+      "evidence": {
+        "listingUrl": "https://careers.airbnb.com/positions/8189352?gh_jid=8189352",
+        "checkedAt": "2026-09-22",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
+        "completeFeedJobCount": 156,
+        "feedSha256": "87382dca4766583afaecc04f8dcdb0c38f479a4a3e224c1df6d85350589dc4db",
+        "exactIdAbsent": true,
+        "directUrl": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs/8189352",
+        "httpStatus": 404,
+        "response": {
+          "status": 404,
+          "error": "Job not found"
+        },
+        "employerPageHttpStatus": 404,
+        "employerPageHeading": "Page not found"
+      }
+    },
+    {
+      "job": {
+        "id": "openai-6ff654e4-fd45-4cac-a76f-30249e14292c",
+        "atsId": "6ff654e4-fd45-4cac-a76f-30249e14292c",
+        "company": "OpenAI",
+        "title": "Creative Operations Lead, Business Marketing",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/openai/6ff654e4-fd45-4cac-a76f-30249e14292c",
+        "source": "OpenAI careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "checkedAt": "September 18, 2026",
+        "lastVerifiedAt": "2026-09-21",
+        "category": "Creative leadership",
+        "disciplines": [
+          "Brand & creative",
+          "AI Creative"
+        ],
+        "workplace": "Hybrid",
+        "level": "Leadership",
+        "summary": "Run OpenAI’s business-marketing creative studio: plan capacity, manage budgets and agencies, and build AI-assisted production workflows across campaigns and launches.",
+        "highlights": [
+          "Requires 10+ years owning creative operations, resourcing, or integrated production.",
+          "Hands-on experience implementing AI workflows and managing agency or contractor budgets.",
+          "San Francisco hybrid schedule: three office days per week; relocation assistance offered."
+        ],
+        "salaryMin": 287000,
+        "salaryMax": 318000,
+        "salaryCurrency": "USD",
+        "salary": "US$287,000–318,000 annual salary for the San Francisco posting. Equity is additional; final offer depends on experience and qualifications.",
+        "salaryLabel": "US$287,000–318,000 / year",
+        "type": "Full time",
+        "sourcePublishedAt": "2026-09-16T16:46:25.104+00:00",
+        "keywords": [
+          "Creative leadership",
+          "Brand & creative",
+          "AI Creative"
+        ]
+      },
+      "closedAt": "2026-09-22",
+      "evidence": {
+        "listingUrl": "https://jobs.ashbyhq.com/openai/6ff654e4-fd45-4cac-a76f-30249e14292c",
+        "checkedAt": "2026-09-22",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "completeFeedJobCount": 811,
+        "feedSha256": "02d9743c5cb02be642e0f9bc16ff794705009f1331fac984c931948d2490baf7",
+        "exactIdAbsent": true,
+        "method": "Rendered employer ATS page read via browser accessibility tree",
+        "heading": "Job not found",
+        "message": "The job you requested was not found."
+      }
+    }
+  ]
+}
