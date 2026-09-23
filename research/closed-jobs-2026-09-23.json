@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-23",
+  "records": [
+    {
+      "job": {
+        "id": "cloudflare-design-engineer",
+        "company": "Cloudflare",
+        "title": "Senior Design Engineer",
+        "category": "Design engineering",
+        "location": "Austin, Texas",
+        "workplace": "Hybrid",
+        "monogram": "C",
+        "color": "#fff0de",
+        "ink": "#b15313",
+        "summary": "Design and build frontend experiences within Cloudflare’s Emerging Technologies & Incubation team. Move between Figma, interface development, and visual polish to improve the experience of using developer tools.",
+        "highlights": [
+          "The team primarily uses TypeScript and React.",
+          "Work covers new components, interactions, and improvements to existing pages.",
+          "The listing asks for frontend application experience and 5+ years working with distributed systems."
+        ],
+        "connection": {
+          "short": "Jess has worked here",
+          "detail": "Cloudflare is one of the companies in Jess’s career background. This connection is to the company, rather than a confirmed contact on this hiring team."
+        },
+        "keywords": [
+          "frontend",
+          "developer",
+          "creative technology",
+          "React",
+          "TypeScript",
+          "Figma",
+          "UX",
+          "UI"
+        ],
+        "url": "https://boards.greenhouse.io/cloudflare/jobs/6998777?gh_jid=6998777",
+        "level": "Senior",
+        "lastVerifiedAt": "2026-09-22"
+      },
+      "closedAt": "2026-09-23",
+      "evidence": {
+        "listingUrl": "https://boards.greenhouse.io/cloudflare/jobs/6998777?gh_jid=6998777",
+        "checkedAt": "2026-09-23",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
+        "completeFeedJobCount": 386,
+        "feedSha256": "d01e458958a0e83dfb743b49fbb32c07f657b60335efc1a04021d0879bdc4603",
+        "exactIdAbsent": true,
+        "directUrl": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs/6998777",
+        "httpStatus": 404,
+        "response": {
+          "status": 404,
+          "error": "Job not found"
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "mercury-6110742004",
+        "company": "Mercury",
+        "title": "Staff Visual Designer - Design Systems",
+        "category": "Brand & visual",
+        "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+        "workplace": "Remote",
+        "level": "Staff",
+        "type": "Full-time",
+        "summary": "Shape typography, color, iconography, and visual systems across Mercury’s product and brand.",
+        "monogram": "M",
+        "color": "#f0ece6",
+        "ink": "#33432b",
+        "url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
+        "checkedAt": "September 8, 2026",
+        "highlights": [
+          "Level grouping is editorial, based on the title and stated experience requirements.",
+          "See the employer’s listing for location-specific requirements and benefits."
+        ],
+        "salaryMin": 228700,
+        "salaryMax": 285900,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$228,700–285,900 / year",
+        "salary": "US$228,700–285,900 annual base salary. Eligibility and pay depend on location; see the original listing for details.",
+        "lastVerifiedAt": "2026-09-22"
+      },
+      "closedAt": "2026-09-23",
+      "evidence": {
+        "listingUrl": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
+        "checkedAt": "2026-09-23",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/mercury/jobs?content=true",
+        "completeFeedJobCount": 63,
+        "feedSha256": "6cf8141f9e154f65d8a4521e43a37db580afb312b30a52d586ac9dc0b6b70a13",
+        "exactIdAbsent": true,
+        "directUrl": "https://boards-api.greenhouse.io/v1/boards/mercury/jobs/6110742004",
+        "httpStatus": 404,
+        "response": {
+          "status": 404,
+          "error": "Job not found"
+        }
+      }
+    }
+  ]
+}
