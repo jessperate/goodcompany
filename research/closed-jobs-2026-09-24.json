@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-24",
+  "records": [
+    {
+      "job": {
+        "id": "vercel-6115991004",
+        "company": "Vercel",
+        "title": "Visual Designer, Web",
+        "category": "Brand & visual",
+        "location": "United States · remote or hybrid near hubs",
+        "workplace": "Remote",
+        "url": "https://job-boards.greenhouse.io/vercel/jobs/6115991004?gh_src=3d7d0c634us",
+        "checkedAt": "September 10, 2026",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true",
+        "summary": "Design Vercel’s websites, launches, and brand experiences alongside design engineers. Shape visual systems across web, motion, illustration, 3D, and events; coding is optional.",
+        "keywords": [
+          "web design",
+          "visual design",
+          "brand design",
+          "motion",
+          "3D",
+          "design systems"
+        ],
+        "highlights": [
+          "Requires 8+ years of design experience and a portfolio with strong shipped web work.",
+          "Own visual concepts through production, collaborating closely with design engineers.",
+          "Fully remote beyond commuting distance of an office; nearby employees attend Monday, Tuesday, and Friday anchor days."
+        ],
+        "level": "Senior",
+        "salary": "US$208,000–312,000 annual base salary for San Francisco. Pay elsewhere varies by location; benefits and equity may be additional.",
+        "salaryMin": 208000,
+        "salaryMax": 312000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$208,000–312,000 / year (SF)",
+        "source": "Vercel careers · Greenhouse",
+        "lastVerifiedAt": "2026-09-23"
+      },
+      "closedAt": "2026-09-24",
+      "evidence": {
+        "listingUrl": "https://job-boards.greenhouse.io/vercel/jobs/6115991004?gh_src=3d7d0c634us",
+        "checkedAt": "2026-09-24",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true",
+        "completeFeedJobCount": 87,
+        "feedSha256": "fd1350e7d348cf590f1b26315d586fe8cf80936ff32487b4e8fa172ce9fe2af7",
+        "exactIdAbsent": true,
+        "directUrl": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs/6115991004",
+        "httpStatus": 404,
+        "response": {
+          "status": 404,
+          "error": "Job not found"
+        },
+        "listingRedirect": "https://job-boards.greenhouse.io/vercel?error=true"
+      }
+    }
+  ]
+}
