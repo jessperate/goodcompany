@@ -1,0 +1,96 @@
+{
+  "date": "2026-09-25",
+  "records": [
+    {
+      "job": {
+        "id": "remote-7762220003",
+        "company": "Remote",
+        "title": "Senior Product Designer",
+        "category": "Product design",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "location": "EMEA · wider eligibility described in listing",
+        "workplace": "Remote",
+        "type": "Full time",
+        "level": "Senior",
+        "summary": "Design Remote global employment products from research and early concepts through polished interfaces. Partner with product and engineering to simplify complex workflows, use AI for prototyping, and evolve the shared design system.",
+        "highlights": [
+          "Bring a strong portfolio showing ownership of complex product design from problem definition to implementation.",
+          "Experience with B2B SaaS, HR technology, or financial technology is preferred.",
+          "Use AI prototypes, systems thinking, and accessible interaction design to explore and deliver solutions.",
+          "The job board labels this EMEA, while the description says anywhere in the world; confirm location eligibility with the hiring team."
+        ],
+        "keywords": [
+          "product design",
+          "B2B SaaS",
+          "HR technology",
+          "design systems",
+          "AI prototyping",
+          "research",
+          "accessibility"
+        ],
+        "salary": "Published annual base salary range: $60,000–140,400. The posting does not explicitly identify the dollar currency. Pay varies by location, role level, and experience; confirm the applicable currency and local range with Remote.",
+        "url": "https://job-boards.greenhouse.io/remotecom/jobs/7762220003",
+        "source": "Remote careers · Greenhouse · requisition 3026",
+        "checkedAt": "September 12, 2026",
+        "lastVerifiedAt": "2026-09-24"
+      },
+      "closedAt": "2026-09-25",
+      "evidence": {
+        "listingUrl": "https://job-boards.greenhouse.io/remotecom/jobs/7762220003",
+        "checkedAt": "2026-09-25",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/remotecom/jobs?content=true",
+        "completeFeedJobCount": 171,
+        "feedSha256": "1c6b61d1c86cd61e7ba485083b5b13b4159974dd6b8aaa124616faa5986a0431",
+        "exactIdAbsent": true,
+        "directUrl": "https://boards-api.greenhouse.io/v1/boards/remotecom/jobs/7762220003",
+        "httpStatus": 404,
+        "response": {
+          "status": 404,
+          "error": "Job not found"
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "descript-7803294003",
+        "company": "Descript",
+        "title": "Social Media Manager",
+        "category": "Content & strategy",
+        "location": "San Francisco, CA or Remote, US ",
+        "workplace": "Remote",
+        "url": "https://boards.greenhouse.io/descript/jobs/7803294003?gh_jid=7803294003",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/descript/jobs?content=true",
+        "summary": "Social Media Manager at Descript. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          ""
+        ],
+        "highlights": [
+          "Employer excerpt: “Social media is one of the most visible expressions of who Descript is, and right now, we have an opportunity…”"
+        ],
+        "disciplines": [
+          "Content & strategy",
+          "Social media"
+        ],
+        "lastVerifiedAt": "2026-09-24"
+      },
+      "closedAt": "2026-09-25",
+      "evidence": {
+        "listingUrl": "https://boards.greenhouse.io/descript/jobs/7803294003?gh_jid=7803294003",
+        "checkedAt": "2026-09-25",
+        "feedUrl": "https://boards-api.greenhouse.io/v1/boards/descript/jobs?content=true",
+        "completeFeedJobCount": 9,
+        "feedSha256": "a9faf9a14041ddffd9ff9ddf576e505519e6e10f93399d07274eb9da0bd29353",
+        "exactIdAbsent": true,
+        "directUrl": "https://boards-api.greenhouse.io/v1/boards/descript/jobs/7803294003",
+        "httpStatus": 404,
+        "response": {
+          "status": 404,
+          "error": "Job not found"
+        }
+      }
+    }
+  ]
+}
