@@ -1,0 +1,225 @@
+{
+  "date": "2026-09-26",
+  "records": [
+    {
+      "job": {
+        "id": "elevenlabs-24d6431c-ec48-48e6-860a-6172b67f1fdf",
+        "company": "ElevenLabs",
+        "title": "Creative Partnerships",
+        "category": "Content & strategy",
+        "location": "United Kingdom",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/24d6431c-ec48-48e6-860a-6172b67f1fdf",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+        "summary": "Creative Partnerships at ElevenLabs. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Revenue"
+        ],
+        "lastVerifiedAt": "2026-09-25"
+      },
+      "closedAt": "2026-09-26",
+      "evidence": {
+        "listingUrl": "https://jobs.ashbyhq.com/elevenlabs/24d6431c-ec48-48e6-860a-6172b67f1fdf",
+        "checkedAt": "2026-09-26",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+        "completeFeedJobCount": 207,
+        "feedSha256": "d71e1fce932630ef7af555eb4ef8cc0f781e21ba154f4e891ce3b8a3a52247ea",
+        "exactIdAbsent": true,
+        "directUrl": "https://jobs.ashbyhq.com/elevenlabs/24d6431c-ec48-48e6-860a-6172b67f1fdf",
+        "httpStatus": 200,
+        "renderedPageHeading": "Job not found",
+        "renderedPageMessage": "The job you requested was not found.",
+        "verificationMethod": "Official Ashby page rendered in browser; inaccessible HTML shell alone was not treated as closure evidence."
+      }
+    },
+    {
+      "job": {
+        "id": "harvey-2b35e24d-72bc-4588-b823-50e514c3d430",
+        "company": "Harvey",
+        "title": "Head of Creative Design",
+        "category": "Brand & creative",
+        "location": "San Francisco",
+        "workplace": "Hybrid",
+        "url": "https://jobs.ashbyhq.com/harvey/2b35e24d-72bc-4588-b823-50e514c3d430",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+        "summary": "Head of Creative Design at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Marketing"
+        ],
+        "level": "Leadership",
+        "highlights": [
+          "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
+        ],
+        "salary": "US$233,000–295,000 / year; location-dependent.",
+        "salaryLabel": "US$233,000–295,000 / year",
+        "salaryMin": 233000,
+        "salaryMax": 295000,
+        "salaryCurrency": "USD",
+        "linkedinUrls": [
+          "https://www.linkedin.com/jobs/view/4441118970"
+        ],
+        "lastVerifiedAt": "2026-09-23"
+      },
+      "closedAt": "2026-09-26",
+      "evidence": {
+        "listingUrl": "https://jobs.ashbyhq.com/harvey/2b35e24d-72bc-4588-b823-50e514c3d430",
+        "checkedAt": "2026-09-26",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
+        "completeFeedJobCount": 304,
+        "feedSha256": "b0d94122a386a69563b2766fb6d3c9fe29ae249e98f49fdbe7368c984f4a8159",
+        "exactIdAbsent": true,
+        "directUrl": "https://jobs.ashbyhq.com/harvey/2b35e24d-72bc-4588-b823-50e514c3d430",
+        "httpStatus": 200,
+        "renderedPageHeading": "Job not found",
+        "renderedPageMessage": "The job you requested was not found.",
+        "verificationMethod": "Official Ashby page rendered in browser; inaccessible HTML shell alone was not treated as closure evidence."
+      }
+    },
+    {
+      "job": {
+        "id": "perplexity-3d277236-2cf3-4a59-b435-71540cc05712",
+        "company": "Perplexity",
+        "title": "Design Systems Lead",
+        "category": "Design engineering",
+        "location": "San Francisco · Remote (United States) · New York City",
+        "workplace": "Hybrid",
+        "workplaceOptions": [
+          "Hybrid",
+          "Remote"
+        ],
+        "url": "https://jobs.ashbyhq.com/perplexity/3d277236-2cf3-4a59-b435-71540cc05712",
+        "summary": "Own Perplexity’s shared design system across platforms, combining design and engineering. Develop semantic tokens, reusable components, contribution standards and documentation.",
+        "highlights": [
+          "Requires substantial experience leading design systems across an organization.",
+          "The role splits its focus between design and engineering, using GitHub and Figma.",
+          "US remote is listed among the available locations."
+        ],
+        "level": "Senior",
+        "source": "Perplexity careers (Ashby)",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Design engineering",
+          "AI"
+        ],
+        "salaryMin": 220000,
+        "salaryMax": 280000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$220,000–280,000 / year",
+        "salary": "Published annual base salary: US$220,000–280,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+        "lastVerifiedAt": "2026-09-25"
+      },
+      "closedAt": "2026-09-26",
+      "evidence": {
+        "listingUrl": "https://jobs.ashbyhq.com/perplexity/3d277236-2cf3-4a59-b435-71540cc05712",
+        "checkedAt": "2026-09-26",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/perplexity?includeCompensation=true",
+        "completeFeedJobCount": 122,
+        "feedSha256": "3910056331bd0521b73c7ed4624d83ccc966899529db861710b95225045ada01",
+        "exactIdAbsent": true,
+        "directUrl": "https://jobs.ashbyhq.com/perplexity/3d277236-2cf3-4a59-b435-71540cc05712",
+        "httpStatus": 200,
+        "renderedPageHeading": "Job not found",
+        "renderedPageMessage": "The job you requested was not found.",
+        "verificationMethod": "Official Ashby page rendered in browser; inaccessible HTML shell alone was not treated as closure evidence."
+      }
+    },
+    {
+      "job": {
+        "company": "Legora",
+        "title": "Staff Product Designer",
+        "location": "New York City",
+        "id": "linkedin-4449864796",
+        "url": "https://jobs.ashbyhq.com/legora/8b00a66a-c06b-44b9-a374-7c3b733fce20",
+        "source": "Legora careers · Ashby",
+        "checkedAt": "September 11, 2026",
+        "postedAt": "2026-09-02T00:00:00.000Z",
+        "category": "Product design",
+        "level": "Staff",
+        "workplace": "On-site",
+        "type": "Full time",
+        "summary": "Guide design across multiple Legora product areas and shape its longer-term product direction. Make complex, AI-assisted legal workflows accessible and useful.",
+        "highlights": [
+          "Connect product strategy with detailed interaction and interface work.",
+          "Build alignment across teams and advocate for accessibility."
+        ],
+        "keywords": [
+          "Product design",
+          "AI Creative"
+        ],
+        "salary": "US$240,000–316,000 annual base salary. Actual pay depends on location, experience, and level.",
+        "linkedinUrls": [
+          "https://www.linkedin.com/jobs/view/4449864796"
+        ],
+        "disciplines": [
+          "AI Creative"
+        ],
+        "lastVerifiedAt": "2026-09-24",
+        "salaryMin": 240000,
+        "salaryMax": 316000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$240,000–316,000 / year"
+      },
+      "closedAt": "2026-09-26",
+      "evidence": {
+        "listingUrl": "https://jobs.ashbyhq.com/legora/8b00a66a-c06b-44b9-a374-7c3b733fce20",
+        "checkedAt": "2026-09-26",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
+        "completeFeedJobCount": 277,
+        "feedSha256": "a20a440b2393e11ca160b5a68409ffd5554025d6145af10ad0df5fe85a845967",
+        "exactIdAbsent": true,
+        "directUrl": "https://jobs.ashbyhq.com/legora/8b00a66a-c06b-44b9-a374-7c3b733fce20",
+        "httpStatus": 200,
+        "renderedPageHeading": "Job not found",
+        "renderedPageMessage": "The job you requested was not found.",
+        "verificationMethod": "Official Ashby page rendered in browser; inaccessible HTML shell alone was not treated as closure evidence."
+      }
+    },
+    {
+      "job": {
+        "id": "runway-f7c8903e-7b20-49cc-824f-502524ee29fb",
+        "company": "Runway",
+        "title": "Social Media Specialist, Influencer Marketing",
+        "category": "Influencer marketing",
+        "location": "Remote",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/runway-ml/f7c8903e-7b20-49cc-824f-502524ee29fb",
+        "summary": "Manage paid influencer and affiliate partnerships, focusing on YouTube creators. Handle outreach, negotiation, contracts, briefs, and performance reporting.",
+        "highlights": [
+          "At least two years in influencer, affiliate, or creator partnerships.",
+          "Work with creators and agencies, with an emphasis on relationship management rather than content production."
+        ],
+        "level": "Level not specified",
+        "source": "Runway careers",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Influencer marketing"
+        ],
+        "disciplines": [
+          "Influencer marketing",
+          "Social media",
+          "Creator marketing"
+        ],
+        "salaryLabel": "Pay not listed",
+        "lastVerifiedAt": "2026-09-25"
+      },
+      "closedAt": "2026-09-26",
+      "evidence": {
+        "listingUrl": "https://jobs.ashbyhq.com/runway-ml/f7c8903e-7b20-49cc-824f-502524ee29fb",
+        "checkedAt": "2026-09-26",
+        "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/runway-ml?includeCompensation=true",
+        "completeFeedJobCount": 44,
+        "feedSha256": "41e12b9f7166ceb139ac857974a7e841a86c2d297b532ce2afbf1e1b9f0bca0f",
+        "exactIdAbsent": true,
+        "directUrl": "https://jobs.ashbyhq.com/runway-ml/f7c8903e-7b20-49cc-824f-502524ee29fb",
+        "httpStatus": 200,
+        "renderedPageHeading": "Job not found",
+        "renderedPageMessage": "The job you requested was not found.",
+        "verificationMethod": "Official Ashby page rendered in browser; inaccessible HTML shell alone was not treated as closure evidence."
+      }
+    }
+  ]
+}

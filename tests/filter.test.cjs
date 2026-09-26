@@ -47,11 +47,13 @@ const added = Array.from(vm.runInContext('JOBS.filter(j=>["Ramp","Perplexity"].i
 assert(added.some(j=>j.company==='Ramp'));
 assert(added.some(j=>j.company==='Perplexity'));
 assert.equal(new Set(added.map(j=>j.url)).size,added.length);
-assert(added.every(j=>j.source.includes('Ashby') && j.salaryCurrency==='USD' && j.salaryMax>=j.salaryMin));
+assert(added.every(j=>j.source.includes('Ashby') && ['USD','GBP'].includes(j.salaryCurrency) && j.salaryMax>=j.salaryMin));
+assert(added.some(j=>j.title==='Growth Creative Designer, International' && j.salaryCurrency==='GBP'));
+assert(!added.some(j=>j.id==='perplexity-3d277236-2cf3-4a59-b435-71540cc05712'));
 context.newListings=added;
 const remote = Array.from(vm.runInContext('filterJobs(newListings,{workplace:"Remote"}).map(j=>j.title)',context));
-assert(remote.includes('Motion Designer'));
-assert(remote.includes('Design Systems Lead'));
+assert(remote.includes('Creative Operations Manager'));
+assert(remote.includes('Member of Creative Studio (Web Designer - Marketing & Landing Pages)'));
 assert(!remote.includes('Head of Brand'));
-assert(!remote.includes('Product Designer'));
+assert(!remote.includes('Growth Creative Designer, International'));
 console.log('Ramp and Perplexity listing coverage, salaries, deduplication and remote options passed.');
