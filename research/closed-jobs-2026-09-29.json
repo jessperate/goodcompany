@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-29",
+  "records": [
+    {
+      "job": {
+        "id": "amazon-10558482",
+        "atsId": "10558482",
+        "company": "Amazon",
+        "title": "Product Designer, Amazon Pay India",
+        "category": "Product design",
+        "disciplines": [],
+        "level": "Early career",
+        "location": "Bengaluru, India",
+        "workplace": "Not specified",
+        "type": "Full-time",
+        "summary": "Design Amazon Pay India’s payment, rewards, and bill-pay experiences using research, prototypes, and scalable design systems.",
+        "highlights": [
+          "1+ years of design experience; prototyping experience with Figma or similar tools is preferred."
+        ],
+        "keywords": [
+          "Product design"
+        ],
+        "url": "https://www.amazon.jobs/en/jobs/10558482/product-designer-amazon-pay-india",
+        "source": "Amazon Design careers",
+        "sourceUrl": "https://www.amazon.design/careers",
+        "checkedAt": "September 27, 2026",
+        "lastVerifiedAt": "2026-09-27",
+        "salary": "Pay not listed"
+      },
+      "closedAt": "2026-09-29",
+      "evidence": {
+        "listingUrl": "https://www.amazon.jobs/en/jobs/10558482/product-designer-amazon-pay-india",
+        "checkedAt": "2026-09-29",
+        "directUrl": "https://www.amazon.jobs/en/jobs/10558482/product-designer-amazon-pay-india",
+        "httpStatus": 404,
+        "officialPageMessage": "Amazon jobs page: Sorry, the job you're looking for isn't available.",
+        "verificationMethod": "Exact official employer page explicitly states the posting is unavailable."
+      }
+    },
+    {
+      "job": {
+        "id": "airbnb-8078406",
+        "company": "Airbnb",
+        "title": "Senior Social Content Operations Manager, China",
+        "category": "Content & strategy",
+        "location": "China",
+        "workplace": "Not specified",
+        "url": "https://careers.airbnb.com/positions/8078406?gh_jid=8078406",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
+        "summary": "Senior Social Content Operations Manager, China at Airbnb. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          ""
+        ],
+        "level": "Senior",
+        "highlights": [
+          "Employer excerpt: “This role will lead China social initiatives and drive business growth across key local social channels and reports to the…”"
+        ],
+        "disciplines": [
+          "Content & strategy",
+          "Social media"
+        ],
+        "lastVerifiedAt": "2026-09-27"
+      },
+      "closedAt": "2026-09-29",
+      "evidence": {
+        "listingUrl": "https://careers.airbnb.com/positions/8078406?gh_jid=8078406",
+        "checkedAt": "2026-09-29",
+        "directUrl": "https://careers.airbnb.com/positions/8078406?gh_jid=8078406",
+        "httpStatus": 404,
+        "officialPageMessage": "Airbnb careers: Page not found.",
+        "completeFeedUrl": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
+        "verificationMethod": "Complete official employer ATS feed excludes exact ID 8078406; direct employer page confirms unavailable."
+      }
+    },
+    {
+      "job": {
+        "id": "anthropic-5411318008",
+        "company": "Anthropic",
+        "title": "Product Designer, Evals & Prompts",
+        "category": "Product design",
+        "location": "San Francisco, CA",
+        "workplace": "Not specified",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5411318008",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+        "summary": "Product Designer, Evals & Prompts at Anthropic. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          ""
+        ],
+        "highlights": [
+          "Employer excerpt: “Prompts spec out what Claude does. Evals measure whether it did. The Product Prompt and Eval Design team does both…”"
+        ],
+        "lastVerifiedAt": "2026-09-27"
+      },
+      "closedAt": "2026-09-29",
+      "evidence": {
+        "listingUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5411318008",
+        "checkedAt": "2026-09-29",
+        "directUrl": "https://job-boards.greenhouse.io/anthropic?error=true",
+        "httpStatus": 200,
+        "officialPageMessage": "Exact job URL redirects to the Anthropic board with error=true and no job detail.",
+        "completeFeedUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+        "verificationMethod": "Complete official employer ATS feed excludes exact ID 5411318008; direct job URL redirects to the board error page."
+      }
+    }
+  ]
+}

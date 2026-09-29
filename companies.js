@@ -1146,6 +1146,14 @@ const COMPANIES = {
       }
     ],
     "interviews": []
+  },
+  "Midjourney": {
+    "website": "https://www.midjourney.com/",
+    "logo": "logos/midjourney.svg",
+    "about": "A self-funded independent research lab building tools for visual creation and new ways of working with AI.",
+    "checkedAt": "September 29, 2026",
+    "press": [],
+    "interviews": []
   }
 };
 
