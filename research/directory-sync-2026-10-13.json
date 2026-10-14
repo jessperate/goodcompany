@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-13",
+  "baseCommit": "97acec5a1c8d4fefc5ba8d94c27ac3181f578934",
+  "counts": {
+    "before": 836,
+    "existingListingsAttempted": 836,
+    "verifiedExistingByCompleteFeed": 191,
+    "added": 22,
+    "removed": 6,
+    "after": 852,
+    "feedsAttempted": 43,
+    "completeFeeds": 40,
+    "directRequests": 645,
+    "directStatuses": {
+      "200": 71,
+      "404": 7,
+      "429": 564,
+      "520": 1,
+      "403": 2
+    },
+    "unresolvedRetained": 639
+  },
+  "additions": [
+    {
+      "id": "vanta-e7370d8b-259e-402b-b494-20a0f963b215",
+      "company": "Vanta",
+      "title": "Creative Director",
+      "url": "https://jobs.ashbyhq.com/vanta/e7370d8b-259e-402b-b494-20a0f963b215"
+    },
+    {
+      "id": "databricks-8854693002",
+      "company": "Databricks",
+      "title": "Staff Product Designer, Agentic Coding",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8854693002"
+    },
+    {
+      "id": "databricks-8860653002",
+      "company": "Databricks",
+      "title": "Principal Brand Content & AI Search Visibility",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8860653002"
+    },
+    {
+      "id": "databricks-8787352002",
+      "company": "Databricks",
+      "title": "Product Design Intern (2027 Start)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8787352002"
+    },
+    {
+      "id": "databricks-8843577002",
+      "company": "Databricks",
+      "title": "Product Design New Grad (2027 Start)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8843577002"
+    },
+    {
+      "id": "decagon-56ca2731-eb4b-44cc-9f3f-c677a6ccb9df",
+      "company": "Decagon",
+      "title": "Agent UX Designer",
+      "url": "https://jobs.ashbyhq.com/decagon/56ca2731-eb4b-44cc-9f3f-c677a6ccb9df"
+    },
+    {
+      "id": "decagon-f9abd967-7e19-432e-bde0-e2a78d63b639",
+      "company": "Decagon",
+      "title": "Experiential Designer",
+      "url": "https://jobs.ashbyhq.com/decagon/f9abd967-7e19-432e-bde0-e2a78d63b639"
+    },
+    {
+      "id": "ramp-baa94095-c976-46d0-8d18-25a951950714",
+      "company": "Ramp",
+      "title": "Design Systems Lead",
+      "url": "https://jobs.ashbyhq.com/ramp/baa94095-c976-46d0-8d18-25a951950714"
+    },
+    {
+      "id": "openai-2ee19240-419a-479a-a00e-72436ae2b27a",
+      "company": "OpenAI",
+      "title": "Product Designer, Consumer Verticals",
+      "url": "https://jobs.ashbyhq.com/openai/2ee19240-419a-479a-a00e-72436ae2b27a"
+    },
+    {
+      "id": "zapier-c0582311-18cb-4415-9c86-79014f1b74f6",
+      "company": "Zapier",
+      "title": "Sr. Motion Designer",
+      "url": "https://jobs.ashbyhq.com/zapier/c0582311-18cb-4415-9c86-79014f1b74f6"
+    },
+    {
+      "id": "figma-6212642004",
+      "company": "Figma",
+      "title": "Researcher, Figma Design",
+      "url": "https://boards.greenhouse.io/figma/jobs/6212642004?gh_jid=6212642004"
+    },
+    {
+      "id": "figma-6216211004",
+      "company": "Figma",
+      "title": "Brand Designer, Web",
+      "url": "https://boards.greenhouse.io/figma/jobs/6216211004?gh_jid=6216211004"
+    },
+    {
+      "id": "airops-74341d78-7a8c-462d-93bf-648472710b43",
+      "company": "AirOps",
+      "title": "Lead Product Designer",
+      "url": "https://jobs.ashbyhq.com/airops/74341d78-7a8c-462d-93bf-648472710b43"
+    },
+    {
+      "id": "airbnb-8259671",
+      "company": "Airbnb",
+      "title": "Senior Manager, Technical Brand & Content",
+      "url": "https://careers.airbnb.com/positions/8259671?gh_jid=8259671"
+    },
+    {
+      "id": "legora-8b00a66a-c06b-44b9-a374-7c3b733fce20",
+      "company": "Legora",
+      "title": "Staff Product Designer",
+      "url": "https://jobs.ashbyhq.com/legora/8b00a66a-c06b-44b9-a374-7c3b733fce20"
+    },
+    {
+      "id": "stripe-8246785",
+      "company": "Stripe",
+      "title": "Social & Content Marketing, Stripe Crypto",
+      "url": "https://stripe.com/jobs/search?gh_jid=8246785"
+    },
+    {
+      "id": "stripe-8268059",
+      "company": "Stripe",
+      "title": "Staff Product Designer, Checkout",
+      "url": "https://stripe.com/jobs/search?gh_jid=8268059"
+    },
+    {
+      "id": "stripe-8265686",
+      "company": "Stripe",
+      "title": "Writer, Content Marketing",
+      "url": "https://stripe.com/jobs/search?gh_jid=8265686"
+    },
+    {
+      "id": "anthropic-5446776008",
+      "company": "Anthropic",
+      "title": "Product Designer, Growth",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5446776008"
+    },
+    {
+      "id": "runway-386d468e-2a49-4901-877d-d2bf6b33abd1",
+      "company": "Runway",
+      "title": "Copywriter, Product Marketing",
+      "url": "https://jobs.ashbyhq.com/runway-ml/386d468e-2a49-4901-877d-d2bf6b33abd1"
+    },
+    {
+      "id": "helsing-5004097101",
+      "company": "Helsing",
+      "title": "Senior Product Graphic Designer",
+      "url": "https://helsing.ai/jobs/5004097101?gh_jid=5004097101"
+    },
+    {
+      "id": "waymo-8257849",
+      "company": "Waymo",
+      "title": "Staff Industrial Designer, Interior",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=8257849"
+    }
+  ],
+  "removalIds": [
+    "amazon-10549763",
+    "amazon-10538003",
+    "amazon-10532662",
+    "airbnb-8201289",
+    "airbnb-8007402",
+    "airbnb-8189323"
+  ],
+  "closureArchive": "research/closed-jobs-2026-10-13.json",
+  "unresolvedChecks": [
+    {
+      "source": "LinkedIn direct pages",
+      "count": 564,
+      "reason": "Rate limited; retained for retry."
+    },
+    {
+      "source": "Remote, Hex, and Sourcegraph feeds",
+      "count": 3,
+      "reason": "Feeds unavailable or invalid; no removals inferred."
+    },
+    {
+      "source": "Other exact ATS pages missing from feeds",
+      "count": 26,
+      "reason": "Retained unless direct employer evidence confirmed closure."
+    }
+  ],
+  "discovery": [
+    {
+      "source": "Official employer ATS feeds",
+      "result": "40 complete feeds checked; 22 selected in-scope active roles added from exact employer records and direct pages. One Helsing direct page rate-limited but the complete employer feed carried the active exact ID."
+    },
+    {
+      "source": "TrueUp Remote 200",
+      "url": "https://trueup.io/remote/companies",
+      "result": "Remote-employer discovery was sampled through represented remote employers; full list coverage incomplete."
+    },
+    {
+      "source": "Other represented employers",
+      "result": "Employer ATS coverage is partial. Numerous older unlisted candidate roles remain for subsequent review."
+    }
+  ],
+  "verificationNotes": [
+    "Six removals have explicit Amazon unavailable pages or complete Airbnb feed exclusion plus direct Page not found evidence. Full records archived.",
+    "Timeouts, bot challenges, rate limits, access-denied pages, and partial feeds were not used as closure evidence.",
+    "Only existing company metadata and logo conventions were reused; profile, pin, and recommendation data were not modified.",
+    "Published compensation was recorded with source currency and location caveats. Unstated pay or workplace was left unspecified."
+  ],
+  "validation": [
+    "node --check jobs.js: passed.",
+    "node --test tests/filter.test.cjs tests/recommendations.test.cjs tests/trueup.test.cjs: 3 passed, 0 failed.",
+    "852 unique listing IDs; 22 new official employer ATS IDs; six full original records archived with direct closure evidence.",
+    "All retained records unchanged except lastVerifiedAt for exact complete-feed matches."
+  ]
+}
