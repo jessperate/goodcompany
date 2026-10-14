@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-14",
+  "baseCommit": "9dd53e3fa1ea511e76b8c366cd9a234c83a922e3",
+  "counts": {
+    "before": 852,
+    "existingListingsAttempted": 852,
+    "verifiedExistingByCompleteFeed": 93,
+    "directRequests": 759,
+    "directStatuses": {
+      "200": 167,
+      "301": 45,
+      "302": 9,
+      "307": 5,
+      "308": 1,
+      "403": 2,
+      "404": 4,
+      "429": 526
+    },
+    "feedsAttempted": 43,
+    "completeFeeds": 40,
+    "added": 2,
+    "removed": 4,
+    "after": 850,
+    "unresolvedRetained": 755
+  },
+  "additions": [
+    {
+      "id": "figma-6221563004",
+      "company": "Figma",
+      "title": "Director, Product Communications",
+      "url": "https://job-boards.greenhouse.io/figma/jobs/6221563004?gh_jid=6221563004"
+    },
+    {
+      "id": "spacex-8886635002",
+      "company": "SpaceX",
+      "title": "Starlink Communications Manager (Customer Knowledge)",
+      "url": "https://job-boards.greenhouse.io/spacex/jobs/8886635002?gh_jid=8886635002"
+    }
+  ],
+  "removalIds": [
+    "amazon-10539220",
+    "lovable-brand-engineer-a4e39b",
+    "lovable-content-designer-contract-8a196a",
+    "lovable-growth-creative-strategist-10d863"
+  ],
+  "closureArchive": "research/closed-jobs-2026-10-14.json",
+  "unresolvedChecks": [
+    {
+      "source": "LinkedIn direct pages",
+      "count": 526,
+      "reason": "Rate limited; retained for retry."
+    },
+    {
+      "source": "Remote, Hex, Sourcegraph ATS feeds",
+      "count": 3,
+      "reason": "Feeds unavailable or invalid; no removals inferred."
+    },
+    {
+      "source": "Redirects and access-denied pages",
+      "count": 62,
+      "reason": "Not used as closure evidence; retained."
+    }
+  ],
+  "discovery": [
+    {
+      "source": "Official employer ATS feeds",
+      "result": "40 complete feeds checked against 852 existing listings; two newly published content/communications roles verified on exact employer pages."
+    },
+    {
+      "source": "TrueUp Remote 200",
+      "url": "https://trueup.io/remote/companies",
+      "result": "Remote-employer discovery sampled; full directory coverage incomplete."
+    },
+    {
+      "source": "Other represented employers",
+      "result": "Official ATS feed coverage remains partial for employers without accessible feeds."
+    }
+  ],
+  "verificationNotes": [
+    "Four removals have explicit Amazon unavailable-page evidence or complete Lovable feed exclusion plus direct 404 evidence. Full records archived.",
+    "Timeouts, rate limits, redirects, access-denied pages, and partial feeds were not used as closure evidence.",
+    "Only existing company metadata and logos were reused; profile, pin, and recommendation data were not modified.",
+    "Published compensation was recorded with source currency and location caveats."
+  ],
+  "validation": [
+    "node --check jobs.js: passed.",
+    "node --test tests/filter.test.cjs tests/recommendations.test.cjs tests/trueup.test.cjs: 3 passed, 0 failed.",
+    "850 unique listing IDs; two new exact official employer ATS IDs; four complete archived records with closure evidence."
+  ]
+}

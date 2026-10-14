@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-14",
+  "records": [
+    {
+      "job": {
+        "id": "amazon-10539220",
+        "atsId": "10539220",
+        "company": "Amazon",
+        "title": "Creative Specialist, Artwork, Prime Video Localization Operations",
+        "category": "Brand & visual",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "location": "Bengaluru, Karnataka, India",
+        "workplace": "Not specified",
+        "level": "Level not specified",
+        "summary": "Produce and refine Prime Video cover, background, and poster artwork for global audiences. Review creative quality, improve production tools, and use AI within the team’s creative standards.",
+        "highlights": [
+          "Requires 3+ years in graphic design, digital artwork, or image editing and a portfolio.",
+          "Production proficiency in Figma and Photoshop/Illustrator or equivalent tools; fluent English.",
+          "Bachelor’s degree in a relevant field or equivalent work experience."
+        ],
+        "salaryLabel": "Pay not listed",
+        "url": "https://www.amazon.jobs/en/jobs/10539220/creative-specialist-artwork-prime-video-localization-operations",
+        "source": "Amazon careers",
+        "sourceUrl": "https://www.amazon.jobs/en/jobs/10539220/creative-specialist-artwork-prime-video-localization-operations",
+        "checkedAt": "September 18, 2026",
+        "lastVerifiedAt": "2026-09-27",
+        "keywords": [
+          "Brand & visual",
+          "AI Creative"
+        ]
+      },
+      "closedAt": "2026-10-14",
+      "evidence": {
+        "listingUrl": "https://www.amazon.jobs/en/jobs/10539220/creative-specialist-artwork-prime-video-localization-operations",
+        "checkedAt": "2026-10-14",
+        "directUrl": "https://www.amazon.jobs/en/jobs/10539220/creative-specialist-artwork-prime-video-localization-operations",
+        "httpStatus": 404,
+        "officialPageMessage": "Sorry, the job you are looking for is not available.",
+        "verificationMethod": "Exact official employer page explicitly says this role is unavailable."
+      }
+    },
+    {
+      "job": {
+        "id": "lovable-brand-engineer-a4e39b",
+        "company": "Lovable",
+        "title": "Design Engineer, Brand",
+        "category": "Design engineering",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "location": "Stockholm, London",
+        "workplace": "On-site",
+        "level": "Level not specified",
+        "summary": "Build the infrastructure behind Lovable AI-native brand production. Connect generation models and APIs to internal tools, and make creative pipelines reliable, versioned, and useful for brand designers.",
+        "highlights": [
+          "Bring a track record of shipping and maintaining full-stack software.",
+          "Work across image and video generation, internal apps, and production systems."
+        ],
+        "keywords": [
+          "Design engineering",
+          "AI Creative"
+        ],
+        "salary": "Pay not listed",
+        "url": "https://lovable.dev/careers/design-engineer-brand-a4e39b",
+        "source": "Lovable careers",
+        "checkedAt": "September 18, 2026",
+        "lastVerifiedAt": "2026-10-13",
+        "type": "Full time",
+        "atsId": "a4e39bdc-b143-43ea-8077-a113445edbd2"
+      },
+      "closedAt": "2026-10-14",
+      "evidence": {
+        "listingUrl": "https://lovable.dev/careers/design-engineer-brand-a4e39b",
+        "checkedAt": "2026-10-14",
+        "directUrl": "https://lovable.dev/careers/design-engineer-brand-a4e39b",
+        "httpStatus": 404,
+        "completeFeedUrl": "https://api.ashbyhq.com/posting-api/job-board/lovable?includeCompensation=true",
+        "verificationMethod": "Complete successful employer ATS feed excludes the exact ID, and the direct official employer career URL returns 404."
+      }
+    },
+    {
+      "job": {
+        "id": "lovable-content-designer-contract-8a196a",
+        "company": "Lovable",
+        "title": "Content Designer (Contract)",
+        "category": "Content & strategy",
+        "disciplines": [],
+        "location": "London, Stockholm",
+        "workplace": "On-site",
+        "level": "Level not specified",
+        "summary": "Write Lovable product and website content, from onboarding and error messages to marketing pages. Make language consistent, improve content hierarchy, and help people understand the product quickly.",
+        "highlights": [
+          "Requires 5+ years in content design or UX writing, with work samples from products and/or websites.",
+          "This is a contract requiring full-time availability; collaborate closely with internal teams and an external design partner."
+        ],
+        "keywords": [
+          "Content & strategy"
+        ],
+        "salary": "Pay not listed",
+        "url": "https://lovable.dev/careers/content-designer-contract-8a196a",
+        "source": "Lovable careers",
+        "checkedAt": "September 13, 2026",
+        "lastVerifiedAt": "2026-10-13",
+        "type": "Contract · full time",
+        "atsId": "8a196add-25ef-4dfa-a196-c54c986bda60"
+      },
+      "closedAt": "2026-10-14",
+      "evidence": {
+        "listingUrl": "https://lovable.dev/careers/content-designer-contract-8a196a",
+        "checkedAt": "2026-10-14",
+        "directUrl": "https://lovable.dev/careers/content-designer-contract-8a196a",
+        "httpStatus": 404,
+        "completeFeedUrl": "https://api.ashbyhq.com/posting-api/job-board/lovable?includeCompensation=true",
+        "verificationMethod": "Complete successful employer ATS feed excludes the exact ID, and the direct official employer career URL returns 404."
+      }
+    },
+    {
+      "job": {
+        "id": "lovable-growth-creative-strategist-10d863",
+        "company": "Lovable",
+        "title": "Growth Creative Strategist",
+        "category": "Brand & creative",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "location": "London",
+        "workplace": "On-site",
+        "level": "Level not specified",
+        "summary": "Own the creative testing cycle for Lovable growth marketing. Turn audience insights and performance data into concepts, briefs, and scalable production workflows while maintaining creative quality.",
+        "highlights": [
+          "Bring hands-on experience with high-volume creative testing and strong ad-writing judgment.",
+          "Build agentic workflows for generating, adapting, localizing, and checking creative assets.",
+          "London on-site role; the posting says UK work authorization support is unavailable."
+        ],
+        "keywords": [
+          "Brand & creative",
+          "AI Creative"
+        ],
+        "salary": "Pay not listed",
+        "url": "https://lovable.dev/careers/growth-creative-strategist-10d863",
+        "source": "Lovable careers",
+        "checkedAt": "September 13, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "type": "Full time",
+        "atsId": "10d863c5-9a53-422b-907e-f0618064da24"
+      },
+      "closedAt": "2026-10-14",
+      "evidence": {
+        "listingUrl": "https://lovable.dev/careers/growth-creative-strategist-10d863",
+        "checkedAt": "2026-10-14",
+        "directUrl": "https://lovable.dev/careers/growth-creative-strategist-10d863",
+        "httpStatus": 404,
+        "completeFeedUrl": "https://api.ashbyhq.com/posting-api/job-board/lovable?includeCompensation=true",
+        "verificationMethod": "Complete successful employer ATS feed excludes the exact ID, and the direct official employer career URL returns 404."
+      }
+    }
+  ]
+}
