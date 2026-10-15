@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-15",
+  "baseCommit": "3800bba038acd89f3c8e39db222101d60d23a05a",
+  "counts": {
+    "before": 850,
+    "existingListingsAttempted": 850,
+    "verifiedExistingByCompleteFeed": 94,
+    "directRequests": 756,
+    "directStatuses": {
+      "200": 168,
+      "301": 42,
+      "302": 10,
+      "307": 7,
+      "308": 1,
+      "403": 2,
+      "404": 1,
+      "429": 525
+    },
+    "feedsAttempted": 44,
+    "completeFeeds": 40,
+    "added": 9,
+    "removed": 1,
+    "after": 858,
+    "unresolvedRetained": 755
+  },
+  "additions": [
+    {
+      "id": "anthropic-5424408008",
+      "company": "Anthropic",
+      "title": "Brand Insights, Measurement Lead",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424408008"
+    },
+    {
+      "id": "fal-ed6a645e-ffa5-4865-899c-a5d1faa73c47",
+      "company": "Fal",
+      "title": "Influencer Marketing Manager",
+      "url": "https://jobs.ashbyhq.com/fal-ai/ed6a645e-ffa5-4865-899c-a5d1faa73c47"
+    },
+    {
+      "id": "handshake-185fca2b-8022-4ff9-8c21-f14ceeb5b494",
+      "company": "Handshake",
+      "title": "Staff Product Designer (Visual Design & Systems), Autonomous Recruiting",
+      "url": "https://jobs.ashbyhq.com/handshake/185fca2b-8022-4ff9-8c21-f14ceeb5b494"
+    },
+    {
+      "id": "mercury-6218808004",
+      "company": "Mercury",
+      "title": "Research Operations Lead",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6218808004"
+    },
+    {
+      "id": "openai-c9a9e992-003a-4d02-a723-884e3eed6a9b",
+      "company": "OpenAI",
+      "title": "Creative Director, Art",
+      "url": "https://jobs.ashbyhq.com/openai/c9a9e992-003a-4d02-a723-884e3eed6a9b"
+    },
+    {
+      "id": "openai-a6815609-594d-4f22-93a2-610a69e861a2",
+      "company": "OpenAI",
+      "title": "Creative Delivery Director, Business Marketing",
+      "url": "https://jobs.ashbyhq.com/openai/a6815609-594d-4f22-93a2-610a69e861a2"
+    },
+    {
+      "id": "openai-c1d765b3-182e-4874-8316-12ce509a7f9f",
+      "company": "OpenAI",
+      "title": "Motion Designer, Business Marketing",
+      "url": "https://jobs.ashbyhq.com/openai/c1d765b3-182e-4874-8316-12ce509a7f9f"
+    },
+    {
+      "id": "ramp-83e5a0bb-c7c4-4118-9526-0215f260bfc2",
+      "company": "Ramp",
+      "title": "Brand Partnerships Manager",
+      "url": "https://jobs.ashbyhq.com/ramp/83e5a0bb-c7c4-4118-9526-0215f260bfc2"
+    },
+    {
+      "id": "stripe-8282390",
+      "company": "Stripe",
+      "title": "Product Designer, Terminal",
+      "url": "https://stripe.com/careers/listing/product-designer-terminal/8282390?gh_jid=8282390"
+    }
+  ],
+  "removalIds": [
+    "airbnb-8113284"
+  ],
+  "closureArchive": "research/closed-jobs-2026-10-15.json",
+  "unresolvedChecks": [
+    {
+      "source": "LinkedIn direct pages",
+      "count": 525,
+      "reason": "Rate limited; retained for retry."
+    },
+    {
+      "source": "Remote, Hex, Sourcegraph, and Deel ATS feeds",
+      "count": 4,
+      "reason": "Feeds unavailable or empty; no removals inferred."
+    },
+    {
+      "source": "Redirects and access-denied pages",
+      "count": 62,
+      "reason": "Not used as closure evidence; retained."
+    }
+  ],
+  "discovery": [
+    {
+      "source": "Official employer ATS feeds",
+      "result": "40 complete represented-employer feeds checked against 850 listings; nine newly published in-scope roles verified on exact employer pages."
+    },
+    {
+      "source": "TrueUp Remote 200",
+      "url": "https://trueup.io/remote/companies",
+      "result": "Sampled remote employer Deel; its public Ashby feed was empty. Full remote-company coverage incomplete."
+    },
+    {
+      "source": "Other represented employers",
+      "result": "Official ATS coverage remains partial for employers without accessible feeds."
+    }
+  ],
+  "verificationNotes": [
+    "One removal has complete Airbnb feed exclusion plus a direct Page not found response; full original record archived.",
+    "Rate limits, redirects, access-denied pages, and partial feeds were not used as closure evidence.",
+    "All companies were already represented; existing stage metadata and logos reused. Profile, pin, and recommendation data unchanged.",
+    "Published compensation includes source currency and location caveats. Unstated work setup stays unspecified."
+  ],
+  "validation": [
+    "node --check jobs.js: passed.",
+    "node --test tests/filter.test.cjs tests/recommendations.test.cjs tests/trueup.test.cjs: 3 passed, 0 failed.",
+    "858 unique listing IDs; nine new exact employer ATS IDs; one full original record archived with direct closure evidence."
+  ]
+}

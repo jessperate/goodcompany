@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-15",
+  "records": [
+    {
+      "job": {
+        "id": "airbnb-8113284",
+        "company": "Airbnb",
+        "title": "Staff UX Researcher, Payments Growth (Mixed Methods)",
+        "category": "Product design",
+        "disciplines": [],
+        "level": "Staff",
+        "location": "San Francisco Bay Area, CA",
+        "workplace": "Hybrid",
+        "type": "Full time",
+        "summary": "Lead mixed-methods research for Airbnb payments growth. Combine qualitative and quantitative work to understand customer needs and guide product decisions.",
+        "highlights": [
+          "The role asks for 10+ years of research experience.",
+          "This is a hybrid role based in the San Francisco Bay Area."
+        ],
+        "keywords": [
+          "Product design"
+        ],
+        "source": "Airbnb careers · Greenhouse",
+        "url": "https://careers.airbnb.com/positions/8113284?gh_jid=8113284",
+        "checkedAt": "September 11, 2026",
+        "lastVerifiedAt": "2026-10-13",
+        "salary": "US$180,000–224,000 annual base salary. Actual pay depends on location, experience, and level.",
+        "salaryMin": 180000,
+        "salaryMax": 224000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$180,000–224,000 / year"
+      },
+      "closedAt": "2026-10-15",
+      "evidence": {
+        "listingUrl": "https://careers.airbnb.com/positions/8113284?gh_jid=8113284",
+        "checkedAt": "2026-10-15",
+        "directUrl": "https://careers.airbnb.com/positions/8113284?gh_jid=8113284",
+        "httpStatus": 404,
+        "officialPageMessage": "Page not found - Careers at Airbnb.",
+        "completeFeedUrl": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
+        "verificationMethod": "Complete successful employer ATS feed excludes exact ID 8113284, and direct employer page says Page not found."
+      }
+    }
+  ]
+}

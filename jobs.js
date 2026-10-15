@@ -97,7 +97,7 @@ const JOBS = [
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true",
     "source": "Vanta careers (Ashby)",
     "checkedAt": "September 19, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "sourcePublishedAt": "2026-09-18T17:08:17.112+00:00",
     "keywords": [
@@ -134,7 +134,7 @@ const JOBS = [
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/webflow/jobs?content=true",
     "source": "Webflow careers (Greenhouse)",
     "checkedAt": "September 19, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "sourcePublishedAt": "2026-09-18T13:02:40-04:00",
     "keywords": [
@@ -190,7 +190,7 @@ const JOBS = [
     "source": "Handshake careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
     "checkedAt": "September 18, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "category": "Product design",
     "disciplines": [
       "AI Creative"
@@ -225,7 +225,7 @@ const JOBS = [
     "source": "Mercury careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/mercury/jobs?content=true",
     "checkedAt": "September 18, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "category": "Motion & video",
     "disciplines": [
       "Brand & visual",
@@ -261,7 +261,7 @@ const JOBS = [
     "source": "Figma careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
     "checkedAt": "September 18, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "category": "Product design",
     "disciplines": [
       "Design engineering",
@@ -383,7 +383,7 @@ const JOBS = [
     "source": "Legora careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
     "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "salaryLabel": "US$159,000–188,000 / year",
     "type": "Full time",
     "sourcePublishedAt": "2026-09-15T17:08:22.745+00:00",
@@ -420,7 +420,7 @@ const JOBS = [
     "source": "Linear careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/Linear?includeCompensation=true",
     "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "salaryLabel": "Pay not listed",
     "type": "Full time",
     "sourcePublishedAt": "2026-09-15T18:05:31.687+00:00"
@@ -453,7 +453,7 @@ const JOBS = [
     "source": "Linear careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/Linear?includeCompensation=true",
     "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "salaryLabel": "Pay not listed",
     "type": "Full time",
     "sourcePublishedAt": "2026-09-15T18:05:47.890+00:00"
@@ -487,7 +487,7 @@ const JOBS = [
     "source": "Vercel careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true",
     "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "salaryLabel": "US$208,000–312,000 / year",
     "workplaceOptions": [
       "Remote",
@@ -706,7 +706,7 @@ const JOBS = [
     "source": "Helsing careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/helsing/jobs?content=true",
     "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "salaryLabel": "Pay not listed"
   },
   {
@@ -740,7 +740,7 @@ const JOBS = [
     "source": "Zapier careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/zapier?includeCompensation=true",
     "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "salaryLabel": "US$191,500–287,300 / year · separate CAD range",
     "type": "Full time",
     "sourcePublishedAt": "2026-09-16T03:28:24.462+00:00",
@@ -880,7 +880,7 @@ const JOBS = [
     "source": "Figma careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
     "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "salaryLabel": "US$46 / hour",
     "type": "Internship",
     "salary": "US$46 per hour for this hub-based internship. Housing stipend and travel reimbursement are additional; no annualized salary is assumed.",
@@ -920,7 +920,7 @@ const JOBS = [
     "source": "Duolingo careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/duolingo/jobs?content=true",
     "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "salaryLabel": "US$196,000–294,000 / year",
     "salary": "US$196,000–294,000 annual base salary. Published for this U.S. posting; actual pay depends on experience, skills, and internal comparisons. Equity is additional.",
     "salaryMin": 196000,
@@ -1023,7 +1023,7 @@ const JOBS = [
     "url": "https://jobs.ashbyhq.com/harvey/2667d5b1-63b1-4ea1-a578-8f8375389150",
     "source": "Harvey careers (Ashby)",
     "checkedAt": "September 14, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "salary": "Published annual salary range: US$136,000–187,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
     "salaryLabel": "US$136,000–187,000 / year",
@@ -1057,7 +1057,7 @@ const JOBS = [
     "url": "https://jobs.ashbyhq.com/harvey/37498a8d-689a-4a59-9973-86b2588c7a45",
     "source": "Harvey careers (Ashby)",
     "checkedAt": "September 14, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "salary": "Published annual salary range: US$136,000–187,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
     "salaryLabel": "US$136,000–187,000 / year",
@@ -1089,7 +1089,7 @@ const JOBS = [
     "url": "https://jobs.ashbyhq.com/openai/3813977e-5940-456d-bf5a-16efcdc3a6dc",
     "source": "OpenAI careers (Ashby)",
     "checkedAt": "September 14, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "salary": "Published annual salary range: US$245,000–310,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
     "salaryLabel": "US$245,000–310,000 / year",
@@ -1211,7 +1211,7 @@ const JOBS = [
     "url": "https://jobs.ashbyhq.com/openai/9e39d2ba-2076-4f44-9e07-c8520e9d5cdb",
     "source": "OpenAI careers (Ashby)",
     "checkedAt": "September 14, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "salary": "Published annual salary range: US$287,000–318,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
     "salaryLabel": "US$287,000–318,000 / year",
@@ -1245,7 +1245,7 @@ const JOBS = [
     "url": "https://jobs.ashbyhq.com/openai/1ae64ddb-505f-4ad2-a731-3a857e94edee",
     "source": "OpenAI careers (Ashby)",
     "checkedAt": "September 14, 2026",
-    "lastVerifiedAt": "2026-09-29",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "salary": "Published annual salary range: US$189,000–265,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
     "salaryLabel": "US$189,000–265,000 / year",
@@ -1277,7 +1277,7 @@ const JOBS = [
     "url": "https://jobs.ashbyhq.com/openai/43ba8b53-4643-4544-bb21-f13efe99e0a0",
     "source": "OpenAI careers (Ashby)",
     "checkedAt": "September 14, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "salary": "Published annual salary range: US$245,000–310,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
     "salaryLabel": "US$245,000–310,000 / year",
@@ -1342,7 +1342,7 @@ const JOBS = [
     "url": "https://jobs.ashbyhq.com/openai/2ace6bbe-a7ac-4930-bcdc-14c618179b1f",
     "source": "OpenAI careers (Ashby)",
     "checkedAt": "September 22, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "salary": "Published annual salary range: US$245,000–310,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
     "salaryLabel": "US$245,000–310,000 / year",
@@ -1429,7 +1429,7 @@ const JOBS = [
     "url": "https://lovable.dev/careers/brand-designer-ai-and-ops-df79d8",
     "source": "Lovable careers",
     "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "df79d83b-e366-4998-afdd-694d06183d75"
   },
@@ -1457,7 +1457,7 @@ const JOBS = [
     "url": "https://lovable.dev/careers/product-designer-cf78be",
     "source": "Lovable careers",
     "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "cf78be5e-41ca-478a-b480-0d0839c24543"
   },
@@ -1483,7 +1483,7 @@ const JOBS = [
     "url": "https://lovable.dev/careers/staff-principal-design-engineer-web-51885a",
     "source": "Lovable careers",
     "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "51885ae5-4f4c-46c4-abd3-d7aad1c8d9c0"
   },
@@ -1511,7 +1511,7 @@ const JOBS = [
     "url": "https://lovable.dev/careers/staff-principal-product-designer-5635b8",
     "source": "Lovable careers",
     "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "5635b88f-a361-4f5f-8209-ca343a003947"
   },
@@ -1537,7 +1537,7 @@ const JOBS = [
     "url": "https://lovable.dev/careers/brand-and-integrated-marketing-lead-europe-73b2c1",
     "source": "Lovable careers",
     "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "73b2c110-29d0-402e-a6d6-ac7984946052"
   },
@@ -1566,7 +1566,7 @@ const JOBS = [
     "url": "https://jobs.ashbyhq.com/lovable/db107c99-103c-4ca8-979e-fbe6d714f971",
     "source": "Lovable careers (Ashby)",
     "checkedAt": "September 29, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "db107c99-103c-4ca8-979e-fbe6d714f971",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/lovable?includeCompensation=true"
@@ -1592,7 +1592,7 @@ const JOBS = [
     "url": "https://lovable.dev/careers/community-manager-virtual-spaces-41d9ea",
     "source": "Lovable careers",
     "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "41d9ea2b-72c5-48e3-b8a9-90504f73edbc"
   },
@@ -1618,7 +1618,7 @@ const JOBS = [
     "url": "https://lovable.dev/careers/social-media-lead-716e58",
     "source": "Lovable careers",
     "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "716e58b3-af3d-482a-a357-a34628742b4f"
   },
@@ -2022,34 +2022,6 @@ const JOBS = [
     "salaryMax": 170000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$140,000–170,000 / year"
-  },
-  {
-    "id": "airbnb-8113284",
-    "company": "Airbnb",
-    "title": "Staff UX Researcher, Payments Growth (Mixed Methods)",
-    "category": "Product design",
-    "disciplines": [],
-    "level": "Staff",
-    "location": "San Francisco Bay Area, CA",
-    "workplace": "Hybrid",
-    "type": "Full time",
-    "summary": "Lead mixed-methods research for Airbnb payments growth. Combine qualitative and quantitative work to understand customer needs and guide product decisions.",
-    "highlights": [
-      "The role asks for 10+ years of research experience.",
-      "This is a hybrid role based in the San Francisco Bay Area."
-    ],
-    "keywords": [
-      "Product design"
-    ],
-    "source": "Airbnb careers · Greenhouse",
-    "url": "https://careers.airbnb.com/positions/8113284?gh_jid=8113284",
-    "checkedAt": "September 11, 2026",
-    "lastVerifiedAt": "2026-10-13",
-    "salary": "US$180,000–224,000 annual base salary. Actual pay depends on location, experience, and level.",
-    "salaryMin": 180000,
-    "salaryMax": 224000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$180,000–224,000 / year"
   },
   {
     "id": "duolingo-8442934002",
@@ -2627,7 +2599,7 @@ const JOBS = [
     "url": "https://lovable.dev/careers/brand-designer-web-76f4a6",
     "source": "Lovable careers",
     "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "76f4a64e-b343-4c0e-b5f1-ea7686001346"
   },
@@ -4502,7 +4474,7 @@ const JOBS = [
       "AI Creative"
     ],
     "salary": null,
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "atsId": "acce1179-88d3-4f1f-bcce-597ed3a37d47",
     "disciplines": [
       "Motion & video",
@@ -20846,7 +20818,7 @@ const JOBS = [
     "source": "Figma careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
     "checkedAt": "September 23, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-22T19:04:41-04:00",
     "salaryMin": 290000,
     "salaryMax": 376000,
@@ -20878,7 +20850,7 @@ const JOBS = [
     "source": "Figma careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
     "checkedAt": "September 23, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-22T20:27:29-04:00",
     "salaryMin": 140000,
     "salaryMax": 140000,
@@ -20917,7 +20889,7 @@ const JOBS = [
     "source": "Duolingo careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/duolingo/jobs?content=true",
     "checkedAt": "September 23, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-22T14:31:47-04:00",
     "salaryMin": 142800,
     "salaryMax": 193200,
@@ -20995,7 +20967,7 @@ const JOBS = [
     "source": "Anthropic careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
     "checkedAt": "September 23, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-22T13:17:59-04:00",
     "salaryMin": 305000,
     "salaryMax": 385000,
@@ -21032,7 +21004,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 23, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-22T11:50:40-04:00",
     "salary": "Pay not listed"
   },
@@ -21065,7 +21037,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 23, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-22T19:17:58-04:00",
     "salary": "Pay not listed"
   },
@@ -21098,7 +21070,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 23, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-23T03:09:25-04:00",
     "salary": "Pay not listed"
   },
@@ -21127,7 +21099,7 @@ const JOBS = [
     "source": "Harvey careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
     "checkedAt": "September 25, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-04T22:43:11.967+00:00",
     "salaryMin": 136000,
     "salaryMax": 187000,
@@ -21195,7 +21167,7 @@ const JOBS = [
     "source": "Perplexity careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/perplexity?includeCompensation=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-11T18:54:31.809+00:00",
     "salaryMin": 150000,
     "salaryMax": 180000,
@@ -21228,7 +21200,7 @@ const JOBS = [
     "source": "Legora careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-08-03T19:27:19.327+00:00",
     "salaryMin": 272000,
     "salaryMax": 320000,
@@ -21261,7 +21233,7 @@ const JOBS = [
     "source": "GitLab careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-03T20:25:10-04:00",
     "salaryMin": 115200,
     "salaryMax": 194400,
@@ -21294,7 +21266,7 @@ const JOBS = [
     "source": "GitLab careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-03T20:35:55-04:00",
     "salaryMin": 95200,
     "salaryMax": 160800,
@@ -21327,7 +21299,7 @@ const JOBS = [
     "source": "Databricks careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-06-11T14:23:18-04:00",
     "salaryMin": 166600,
     "salaryMax": 229150,
@@ -21418,7 +21390,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-06-09T22:04:19-04:00",
     "salary": "Pay not listed"
   },
@@ -21504,7 +21476,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-06-04T14:34:56-04:00",
     "salary": "Pay not listed"
   },
@@ -21530,7 +21502,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-04-29T04:48:33-04:00",
     "salary": "Pay not listed"
   },
@@ -21556,7 +21528,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-08-28T13:29:15-04:00",
     "salaryMin": 175200,
     "salaryMax": 262800,
@@ -21586,7 +21558,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-05-29T11:48:35-04:00",
     "salary": "Pay not listed"
   },
@@ -21612,7 +21584,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-05-28T05:01:43-04:00",
     "salary": "Pay not listed"
   },
@@ -21638,7 +21610,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-02-27T12:51:25-05:00",
     "salary": "Pay not listed"
   },
@@ -21722,7 +21694,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-08-21T12:36:42-04:00",
     "salary": "Pay not listed"
   },
@@ -21751,7 +21723,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-02T11:40:18-04:00",
     "salary": "Pay not listed"
   },
@@ -21780,7 +21752,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-04-08T17:25:34-04:00",
     "salary": "Pay not listed"
   },
@@ -21835,7 +21807,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-07-08T12:24:52-04:00",
     "salary": "Pay not listed"
   },
@@ -21861,7 +21833,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2025-09-26T11:40:08-04:00",
     "salary": "Pay not listed"
   },
@@ -21890,7 +21862,7 @@ const JOBS = [
     "source": "Handshake careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
     "checkedAt": "September 25, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-23T20:17:31.359+00:00",
     "salaryMin": 225000,
     "salaryMax": 250000,
@@ -21923,7 +21895,7 @@ const JOBS = [
     "source": "Runway careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/runway-ml?includeCompensation=true",
     "checkedAt": "September 25, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-24T14:30:03.095+00:00",
     "salaryMin": 220000,
     "salaryMax": 290000,
@@ -21958,7 +21930,7 @@ const JOBS = [
     "source": "Figma careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
     "checkedAt": "September 25, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-24T13:48:22-04:00",
     "salary": "Pay not listed"
   },
@@ -21987,7 +21959,7 @@ const JOBS = [
     "source": "Anthropic careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
     "checkedAt": "September 25, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-25T10:47:31-04:00",
     "salaryMin": 305000,
     "salaryMax": 385000,
@@ -22020,7 +21992,7 @@ const JOBS = [
     "source": "Waymo careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
     "checkedAt": "September 25, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-05-08T19:42:32-04:00",
     "salaryMin": 177000,
     "salaryMax": 218000,
@@ -22115,7 +22087,7 @@ const JOBS = [
     "source": "Ramp careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true",
     "checkedAt": "September 26, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-25T21:05:27.698+00:00",
     "salaryMin": 200000,
     "salaryMax": 275000,
@@ -22150,7 +22122,7 @@ const JOBS = [
     "source": "Ramp careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true",
     "checkedAt": "September 26, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-25T17:55:21.295+00:00",
     "salaryMin": 60000,
     "salaryMax": 82000,
@@ -22185,7 +22157,7 @@ const JOBS = [
     "source": "Descript careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/descript/jobs?content=true",
     "checkedAt": "September 26, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "sourcePublishedAt": "2026-09-25T18:15:24-04:00",
     "salaryMin": 140000,
     "salaryMax": 185000,
@@ -22307,7 +22279,7 @@ const JOBS = [
     "source": "Figma careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
     "checkedAt": "September 29, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Content & strategy"
     ],
@@ -22342,7 +22314,7 @@ const JOBS = [
     "source": "Cloudflare careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
     "checkedAt": "September 29, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Social media",
       "Content & strategy",
@@ -22378,7 +22350,7 @@ const JOBS = [
     "source": "Anthropic careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
     "checkedAt": "September 29, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "AI Creative"
@@ -22413,7 +22385,7 @@ const JOBS = [
     "source": "Midjourney careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/midjourney?includeCompensation=true",
     "checkedAt": "September 29, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "AI Creative"
@@ -22446,7 +22418,7 @@ const JOBS = [
     "source": "Midjourney careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/midjourney?includeCompensation=true",
     "checkedAt": "September 29, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "Design engineering",
@@ -22480,7 +22452,7 @@ const JOBS = [
     "source": "Midjourney careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/midjourney?includeCompensation=true",
     "checkedAt": "September 29, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Brand & visual",
       "Social media",
@@ -22514,7 +22486,7 @@ const JOBS = [
     "source": "Midjourney careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/midjourney?includeCompensation=true",
     "checkedAt": "September 29, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Creative leadership",
       "Product design",
@@ -22544,7 +22516,7 @@ const JOBS = [
     "source": "Vanta careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Creative leadership",
       "Brand & visual"
@@ -22579,7 +22551,7 @@ const JOBS = [
     "source": "Databricks careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "AI Creative",
@@ -22614,7 +22586,7 @@ const JOBS = [
     "source": "Databricks careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Content & strategy",
       "AI Creative",
@@ -22646,7 +22618,7 @@ const JOBS = [
     "source": "Databricks careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design"
     ],
@@ -22673,7 +22645,7 @@ const JOBS = [
     "source": "Databricks careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design"
     ],
@@ -22706,7 +22678,7 @@ const JOBS = [
     "source": "Decagon careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/decagon?includeCompensation=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "AI Creative",
@@ -22741,7 +22713,7 @@ const JOBS = [
     "source": "Decagon careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/decagon?includeCompensation=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Brand & visual",
       "Creative leadership"
@@ -22776,7 +22748,7 @@ const JOBS = [
     "source": "Ramp careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Design engineering",
       "Product design",
@@ -22811,7 +22783,7 @@ const JOBS = [
     "source": "OpenAI careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "AI Creative"
@@ -22845,7 +22817,7 @@ const JOBS = [
     "source": "Zapier careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/zapier?includeCompensation=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Motion & video",
       "Brand & visual"
@@ -22877,7 +22849,7 @@ const JOBS = [
     "source": "Figma careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design"
     ],
@@ -22909,7 +22881,7 @@ const JOBS = [
     "source": "Figma careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Brand & visual",
       "Design engineering"
@@ -22939,7 +22911,7 @@ const JOBS = [
     "source": "AirOps careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/airops?includeCompensation=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "AI Creative"
@@ -22970,7 +22942,7 @@ const JOBS = [
     "source": "Airbnb careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Content & strategy",
       "Brand & visual"
@@ -23003,7 +22975,7 @@ const JOBS = [
     "source": "Legora careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "AI Creative"
@@ -23037,7 +23009,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Social media",
       "Content & strategy"
@@ -23067,7 +23039,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "Design engineering"
@@ -23097,7 +23069,7 @@ const JOBS = [
     "source": "Stripe careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Content & strategy",
       "AI Creative"
@@ -23127,7 +23099,7 @@ const JOBS = [
     "source": "Anthropic careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Product design",
       "AI Creative"
@@ -23160,7 +23132,7 @@ const JOBS = [
     "source": "Runway careers (Ashby)",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/runway-ml?includeCompensation=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Content & strategy",
       "AI Creative"
@@ -23194,7 +23166,7 @@ const JOBS = [
     "source": "Helsing careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/helsing/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Brand & visual",
       "Industrial design"
@@ -23224,7 +23196,7 @@ const JOBS = [
     "source": "Waymo careers (Greenhouse)",
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
     "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Industrial design",
       "Brand & visual"
@@ -23265,7 +23237,7 @@ const JOBS = [
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
     "sourcePublishedAt": "2026-10-13T22:53:22-04:00",
     "checkedAt": "October 14, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Content & strategy",
       "Social media",
@@ -23298,9 +23270,329 @@ const JOBS = [
     "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
     "sourcePublishedAt": "2026-10-14T11:21:53-04:00",
     "checkedAt": "October 14, 2026",
-    "lastVerifiedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-15",
     "keywords": [
       "Content & strategy"
+    ]
+  },
+  {
+    "id": "anthropic-5424408008",
+    "atsId": "5424408008",
+    "company": "Anthropic",
+    "title": "Brand Insights, Measurement Lead",
+    "category": "Content & strategy",
+    "disciplines": [
+      "Brand & visual"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco, CA · New York City, NY",
+    "workplace": "Hybrid",
+    "summary": "Lead brand-health measurement and turn campaign, audience, and market research into clear decisions for Anthropic’s marketing leaders.",
+    "highlights": [
+      "Own recurring executive readouts and Prosumer and B2B brand tracker studies.",
+      "Coordinate the brand-health dashboard with communications, marketing, data science, and research vendors.",
+      "Anthropic expects staff in an office at least 25% of the time; some roles require more."
+    ],
+    "salaryMin": 255000,
+    "salaryMax": 320000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$255,000–320,000 / year",
+    "salary": "US$255,000–320,000 annual U.S. salary range. Final compensation varies with role level and location.",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424408008",
+    "source": "Anthropic careers (Greenhouse)",
+    "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+    "sourcePublishedAt": "2026-10-15T11:10:27-04:00",
+    "checkedAt": "October 15, 2026",
+    "lastVerifiedAt": "2026-10-15",
+    "keywords": [
+      "Content & strategy",
+      "Brand & visual"
+    ]
+  },
+  {
+    "id": "fal-ed6a645e-ffa5-4865-899c-a5d1faa73c47",
+    "atsId": "ed6a645e-ffa5-4865-899c-a5d1faa73c47",
+    "company": "Fal",
+    "title": "Influencer Marketing Manager",
+    "category": "Influencer marketing",
+    "disciplines": [
+      "Creator marketing",
+      "AI Creative"
+    ],
+    "level": "Level not specified",
+    "location": "San Francisco, CA",
+    "workplace": "Not specified",
+    "summary": "Build fal’s influencer and UGC program with creators, AI filmmakers, designers, and creative technologists working in generative media.",
+    "highlights": [
+      "Source and develop creator relationships, briefs, concepts, sponsored work, and measurement.",
+      "Activate creators around model and product launches while maintaining a high creative bar.",
+      "The posting asks candidates to be in or relocate to San Francisco."
+    ],
+    "salaryMin": 150000,
+    "salaryMax": 190000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$150,000–190,000 / year",
+    "salary": "US$150,000–190,000 annual U.S. salary range; equity and benefits may be additional.",
+    "url": "https://jobs.ashbyhq.com/fal-ai/ed6a645e-ffa5-4865-899c-a5d1faa73c47",
+    "source": "Fal careers (Ashby)",
+    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/fal-ai?includeCompensation=true",
+    "sourcePublishedAt": "2026-10-15T00:16:05.512+00:00",
+    "checkedAt": "October 15, 2026",
+    "lastVerifiedAt": "2026-10-15",
+    "keywords": [
+      "Influencer marketing",
+      "Creator marketing",
+      "AI Creative"
+    ]
+  },
+  {
+    "id": "handshake-185fca2b-8022-4ff9-8c21-f14ceeb5b494",
+    "atsId": "185fca2b-8022-4ff9-8c21-f14ceeb5b494",
+    "company": "Handshake",
+    "title": "Staff Product Designer (Visual Design & Systems), Autonomous Recruiting",
+    "category": "Product design",
+    "disciplines": [
+      "Design engineering",
+      "AI Creative",
+      "Brand & visual"
+    ],
+    "level": "Staff",
+    "location": "San Francisco, CA",
+    "workplace": "Not specified",
+    "summary": "Set the visual and interaction design standard for Handshake’s new AI-native recruiting product and own the Employer team’s design system.",
+    "highlights": [
+      "Design key product surfaces and keep Figma and code aligned with engineering.",
+      "Define motion and micro-interactions and lead craft reviews across the design team.",
+      "The employer lists San Francisco; the posting does not specify a work setup."
+    ],
+    "salaryMin": 225000,
+    "salaryMax": 250000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$225,000–250,000 / year",
+    "salary": "US$225,000–250,000 annual U.S. salary range; equity may be additional.",
+    "url": "https://jobs.ashbyhq.com/handshake/185fca2b-8022-4ff9-8c21-f14ceeb5b494",
+    "source": "Handshake careers (Ashby)",
+    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
+    "sourcePublishedAt": "2026-10-14T16:37:34.238+00:00",
+    "checkedAt": "October 15, 2026",
+    "lastVerifiedAt": "2026-10-15",
+    "keywords": [
+      "Product design",
+      "Design engineering",
+      "AI Creative",
+      "Brand & visual"
+    ]
+  },
+  {
+    "id": "mercury-6218808004",
+    "atsId": "6218808004",
+    "company": "Mercury",
+    "title": "Research Operations Lead",
+    "category": "Product design",
+    "disciplines": [
+      "Content & strategy"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco, CA · New York, NY · Portland, OR · Remote US/Canada",
+    "workplace": "Remote",
+    "summary": "Build and run the research-operations system that helps Mercury’s designers, product managers, and marketers learn from customers.",
+    "highlights": [
+      "Own the customer research panel, recruiting, scheduling, incentives, consent, and tool stack.",
+      "Guide teams on research methods and evidence, and manage one direct report.",
+      "Requires 8+ years of hands-on research-operations experience; remote in the US or Canada is listed."
+    ],
+    "salaryMin": 170400,
+    "salaryMax": 236700,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$170,400–236,700 / year · by U.S. zone",
+    "salary": "U.S. annual base pay: US$189,400–236,700 in NYC, LA, Seattle, or SF Bay Area; US$170,400–213,000 elsewhere. Canada: CA$179,000–223,700. Final pay depends on location and qualifications.",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6218808004",
+    "source": "Mercury careers (Greenhouse)",
+    "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/mercury/jobs?content=true",
+    "sourcePublishedAt": "2026-10-14T14:23:05-04:00",
+    "checkedAt": "October 15, 2026",
+    "lastVerifiedAt": "2026-10-15",
+    "keywords": [
+      "Product design",
+      "Content & strategy"
+    ]
+  },
+  {
+    "id": "openai-c9a9e992-003a-4d02-a723-884e3eed6a9b",
+    "atsId": "c9a9e992-003a-4d02-a723-884e3eed6a9b",
+    "company": "OpenAI",
+    "title": "Creative Director, Art",
+    "category": "Creative leadership",
+    "disciplines": [
+      "Brand & visual",
+      "AI Creative"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco, CA",
+    "workplace": "Not specified",
+    "summary": "Direct the visual expression of OpenAI’s business brand across integrated campaigns, launches, customer stories, films, events, and digital experiences.",
+    "highlights": [
+      "Lead concepting and art direction for B2B audiences and complex AI product stories.",
+      "Partner with writers, designers, product marketers, sales, and external collaborators.",
+      "The posting asks for 10+ years as an Art Director or Creative Director."
+    ],
+    "salaryMin": 287000,
+    "salaryMax": 318000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$287,000–318,000 / year",
+    "salary": "US$287,000–318,000 annual U.S. salary range; equity may be additional.",
+    "url": "https://jobs.ashbyhq.com/openai/c9a9e992-003a-4d02-a723-884e3eed6a9b",
+    "source": "OpenAI careers (Ashby)",
+    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+    "sourcePublishedAt": "2026-10-14T20:08:36.321+00:00",
+    "checkedAt": "October 15, 2026",
+    "lastVerifiedAt": "2026-10-15",
+    "keywords": [
+      "Creative leadership",
+      "Brand & visual",
+      "AI Creative"
+    ]
+  },
+  {
+    "id": "openai-a6815609-594d-4f22-93a2-610a69e861a2",
+    "atsId": "a6815609-594d-4f22-93a2-610a69e861a2",
+    "company": "OpenAI",
+    "title": "Creative Delivery Director, Business Marketing",
+    "category": "Creative leadership",
+    "disciplines": [
+      "Content & strategy",
+      "AI Creative"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco, CA",
+    "workplace": "Hybrid",
+    "summary": "Lead production and delivery of OpenAI’s business-marketing portfolio across campaigns, launches, brand, content, web, events, and customer stories.",
+    "highlights": [
+      "Manage producers and project managers while personally producing complex, high-priority work.",
+      "Turn creative briefs into executable plans, budgets, milestones, and launches.",
+      "OpenAI lists three office days per week in San Francisco."
+    ],
+    "salaryMin": 287000,
+    "salaryMax": 318000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$287,000–318,000 / year",
+    "salary": "US$287,000–318,000 annual U.S. salary range; equity may be additional.",
+    "url": "https://jobs.ashbyhq.com/openai/a6815609-594d-4f22-93a2-610a69e861a2",
+    "source": "OpenAI careers (Ashby)",
+    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+    "sourcePublishedAt": "2026-10-14T19:53:14.206+00:00",
+    "checkedAt": "October 15, 2026",
+    "lastVerifiedAt": "2026-10-15",
+    "keywords": [
+      "Creative leadership",
+      "Content & strategy",
+      "AI Creative"
+    ]
+  },
+  {
+    "id": "openai-c1d765b3-182e-4874-8316-12ce509a7f9f",
+    "atsId": "c1d765b3-182e-4874-8316-12ce509a7f9f",
+    "company": "OpenAI",
+    "title": "Motion Designer, Business Marketing",
+    "category": "Motion & video",
+    "disciplines": [
+      "Brand & visual",
+      "AI Creative"
+    ],
+    "level": "Level not specified",
+    "location": "San Francisco, CA",
+    "workplace": "Hybrid",
+    "summary": "Create motion design for OpenAI business campaigns, launches, films, customer stories, events, social content, and web experiences.",
+    "highlights": [
+      "Translate technical products into clear motion narratives for business and developer audiences.",
+      "Requires 8+ years of motion-design experience with strong brand or campaign work.",
+      "OpenAI lists three office days per week in San Francisco."
+    ],
+    "salaryMin": 223000,
+    "salaryMax": 247000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$223,000–247,000 / year",
+    "salary": "US$223,000–247,000 annual U.S. salary range; equity may be additional.",
+    "url": "https://jobs.ashbyhq.com/openai/c1d765b3-182e-4874-8316-12ce509a7f9f",
+    "source": "OpenAI careers (Ashby)",
+    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+    "sourcePublishedAt": "2026-10-14T20:07:12.945+00:00",
+    "checkedAt": "October 15, 2026",
+    "lastVerifiedAt": "2026-10-15",
+    "keywords": [
+      "Motion & video",
+      "Brand & visual",
+      "AI Creative"
+    ]
+  },
+  {
+    "id": "ramp-83e5a0bb-c7c4-4118-9526-0215f260bfc2",
+    "atsId": "83e5a0bb-c7c4-4118-9526-0215f260bfc2",
+    "company": "Ramp",
+    "title": "Brand Partnerships Manager",
+    "category": "Brand & creative",
+    "disciplines": [
+      "Influencer marketing",
+      "Content & strategy"
+    ],
+    "level": "Level not specified",
+    "location": "New York, NY",
+    "workplace": "Not specified",
+    "summary": "Build Ramp’s brand-partnerships strategy and turn collaborations across media, sports, and culture into campaigns.",
+    "highlights": [
+      "Source partners, negotiate deals, and execute campaigns from concept to measurement.",
+      "Requires 5+ years in brand marketing, influencer marketing, partnerships, or a related field.",
+      "New York headquarters is listed; work setup is not specified."
+    ],
+    "salaryMin": 168000,
+    "salaryMax": 231000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$168,000–231,000 / year · SF/NY",
+    "salary": "US$168,000–231,000 target annual base salary for San Francisco or New York, per the employer’s location tier; equity may be additional.",
+    "url": "https://jobs.ashbyhq.com/ramp/83e5a0bb-c7c4-4118-9526-0215f260bfc2",
+    "source": "Ramp careers (Ashby)",
+    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true",
+    "sourcePublishedAt": "2026-10-15T13:23:59.449+00:00",
+    "checkedAt": "October 15, 2026",
+    "lastVerifiedAt": "2026-10-15",
+    "keywords": [
+      "Brand & creative",
+      "Influencer marketing",
+      "Content & strategy"
+    ]
+  },
+  {
+    "id": "stripe-8282390",
+    "atsId": "8282390",
+    "company": "Stripe",
+    "title": "Product Designer, Terminal",
+    "category": "Product design",
+    "disciplines": [
+      "Industrial design"
+    ],
+    "level": "Level not specified",
+    "location": "Remote, United States",
+    "workplace": "Remote",
+    "summary": "Design Stripe Terminal experiences across the Dashboard and payment-facing surfaces that help merchants configure and manage in-person payments.",
+    "highlights": [
+      "Work with product and engineering on customer workflows, new features, and product quality.",
+      "The team spans hardware and software for merchants, operations managers, cashiers, and buyers.",
+      "The employer lists the role as US Remote."
+    ],
+    "salaryMin": 133200,
+    "salaryMax": 199800,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$133,200–199,800 / year",
+    "salary": "US$133,200–199,800 annual U.S. base salary. The range spans multiple career levels and narrows by experience, qualifications, and location.",
+    "url": "https://stripe.com/careers/listing/product-designer-terminal/8282390?gh_jid=8282390",
+    "source": "Stripe careers (Greenhouse)",
+    "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+    "sourcePublishedAt": "2026-10-14T15:54:05-04:00",
+    "checkedAt": "October 15, 2026",
+    "lastVerifiedAt": "2026-10-15",
+    "keywords": [
+      "Product design",
+      "Industrial design"
     ]
   }
 ];
