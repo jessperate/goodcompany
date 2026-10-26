@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-26",
+  "baseCommit": "73da29ac8fa664abd70fabdcd2896a232a76c35e",
+  "counts": {
+    "before": 858,
+    "feedsAttempted": 43,
+    "completeFeeds": 39,
+    "verifiedExistingByCompleteFeed": 94,
+    "directRequests": 764,
+    "directStatuses": {
+      "200": 121,
+      "301": 35,
+      "302": 12,
+      "307": 7,
+      "308": 1,
+      "403": 2,
+      "404": 36,
+      "429": 550
+    },
+    "added": 18,
+    "removed": 35,
+    "after": 841
+  },
+  "additions": [
+    {
+      "id": "airbnb-7978040",
+      "company": "Airbnb",
+      "title": "Sr. Staff Experience Designer",
+      "url": "https://careers.airbnb.com/positions/7978040?gh_jid=7978040"
+    },
+    {
+      "id": "airbnb-8052792",
+      "company": "Airbnb",
+      "title": "Staff Experience Designer",
+      "url": "https://careers.airbnb.com/positions/8052792?gh_jid=8052792"
+    },
+    {
+      "id": "anthropic-5443997008",
+      "company": "Anthropic",
+      "title": "Technical Editor",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443997008"
+    },
+    {
+      "id": "dropbox-8296377",
+      "company": "Dropbox",
+      "title": "Learning Experience Designer",
+      "url": "https://jobs.dropbox.com/listing/8296377?gh_jid=8296377"
+    },
+    {
+      "id": "duolingo-8906062002",
+      "company": "Duolingo",
+      "title": "Social Media Content Creator",
+      "url": "https://careers.duolingo.com/jobs/8906062002?gh_jid=8906062002"
+    },
+    {
+      "id": "gamma-48508f9a-06e6-4394-b97d-b69bab2a5485",
+      "company": "Gamma",
+      "title": "UI Engineer",
+      "url": "https://jobs.ashbyhq.com/gamma/48508f9a-06e6-4394-b97d-b69bab2a5485"
+    },
+    {
+      "id": "harvey-9429dc22-04a9-4704-a465-11e3b0f92416",
+      "company": "Harvey",
+      "title": "Social Strategist, X and Insights",
+      "url": "https://jobs.ashbyhq.com/harvey/9429dc22-04a9-4704-a465-11e3b0f92416"
+    },
+    {
+      "id": "linear-f16dd5e9-ed10-4b8e-b5d7-1b8b5e3f002f",
+      "company": "Linear",
+      "title": "Creative Producer",
+      "url": "https://jobs.ashbyhq.com/Linear/f16dd5e9-ed10-4b8e-b5d7-1b8b5e3f002f"
+    },
+    {
+      "id": "mercury-6225753004",
+      "company": "Mercury",
+      "title": "Creative Director - Brand Narrative",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6225753004"
+    },
+    {
+      "id": "mercury-6209147004",
+      "company": "Mercury",
+      "title": "Head of Social & Community",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6209147004"
+    },
+    {
+      "id": "openai-d16ac2b8-a742-4965-8545-75df7981191b",
+      "company": "OpenAI",
+      "title": "Events Design Producer",
+      "url": "https://jobs.ashbyhq.com/openai/d16ac2b8-a742-4965-8545-75df7981191b"
+    },
+    {
+      "id": "openai-a5136d9d-c22a-4c12-a776-483f63ef1120",
+      "company": "OpenAI",
+      "title": "Creative Director, Copy",
+      "url": "https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120"
+    },
+    {
+      "id": "openai-171868ac-1070-4357-b990-acc918f68dc2",
+      "company": "OpenAI",
+      "title": "Creative Lead, Japan",
+      "url": "https://jobs.ashbyhq.com/openai/171868ac-1070-4357-b990-acc918f68dc2"
+    },
+    {
+      "id": "openai-7ded0fa1-4887-4de2-84c8-eecc756e86d9",
+      "company": "OpenAI",
+      "title": "Content Studio Lead",
+      "url": "https://jobs.ashbyhq.com/openai/7ded0fa1-4887-4de2-84c8-eecc756e86d9"
+    },
+    {
+      "id": "runway-91826105-13e0-4265-842b-7d756c9a766e",
+      "company": "Runway",
+      "title": "Social Media Creative",
+      "url": "https://jobs.ashbyhq.com/runway-ml/91826105-13e0-4265-842b-7d756c9a766e"
+    },
+    {
+      "id": "runway-4ab5877c-1289-439e-a885-8e6942a2409f",
+      "company": "Runway",
+      "title": "Campaign Creative, Product Marketing",
+      "url": "https://jobs.ashbyhq.com/runway-ml/4ab5877c-1289-439e-a885-8e6942a2409f"
+    },
+    {
+      "id": "stripe-8201702",
+      "company": "Stripe",
+      "title": "Staff Brand Designer, Creative Lab",
+      "url": "https://stripe.com/jobs/search?gh_jid=8201702"
+    },
+    {
+      "id": "supabase-05226c15-0501-4559-833d-3815fdf01f56",
+      "company": "Supabase",
+      "title": "Video Producer (San Francisco, CA)",
+      "url": "https://jobs.ashbyhq.com/supabase/05226c15-0501-4559-833d-3815fdf01f56"
+    }
+  ],
+  "removalIds": [
+    "fal-6ec907f9-d36c-46c0-aefb-69828b515ccb",
+    "linear-ea0b5868-6d7a-46fa-99d8-207cd19357a6",
+    "openai-5ca9ca8a-c859-4857-a259-1caedfe06134",
+    "harvey-2667d5b1-63b1-4ea1-a578-8f8375389150",
+    "harvey-37498a8d-689a-4a59-9973-86b2588c7a45",
+    "openai-d5de4cd0-9c4e-4266-93f2-8c1d5fc4a912",
+    "openai-67c67c36-e710-4f21-bd9c-759eb72cfabf",
+    "openai-45d0ccb6-d26f-4b1f-b24d-fe67ec5b708a",
+    "openai-4342be72-0ec4-42b2-962a-6e7ca06b7070",
+    "amazon-10531830",
+    "elevenlabs-5494be31-7899-4f7a-b10f-4c49378b44ef",
+    "fal-2fe0b9ef-3053-4514-b301-ab8bd07b45cd",
+    "gamma-5f4e30f2-1f1b-4ce2-aa58-c81777cf56de",
+    "airops-thought-leadership",
+    "elevenlabs-3178581d-ea70-4dee-b018-2ce2d2a18bbe",
+    "elevenlabs-1f668ed5-49e9-4726-881f-7818733103b1",
+    "elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
+    "handshake-b80bc193-ed11-468c-be6c-485cacd2b33c",
+    "linkedin-4458575414",
+    "runway-2185626a-657a-4772-9519-50b2e7b2af1a",
+    "harvey-b26ccc21-fb10-4428-90be-a7af2076ff77",
+    "harvey-c6e7267c-877e-479c-8dc6-f34ffbbb44dd",
+    "harvey-a8f060ad-1e57-40f8-94f7-402c2611eb90",
+    "harvey-275f3315-2ea8-4fb4-bfe8-e0dd4e238e86",
+    "perplexity-678d1162-e650-4d6d-9532-b287255c00fb",
+    "vanta-0fcbc935-76c7-4eac-b522-af421ed200c9",
+    "vanta-32babc06-def2-4db3-b153-1c1c44bdcf40",
+    "linear-ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
+    "ashby-07201b7e-a581-46a6-bbd3-432824bd761f",
+    "elevenlabs-31b1c0e3-ca53-428d-8f15-2e3ffda491b8",
+    "legora-6691c4c6-37a0-460f-b8b8-db07ea934fa1",
+    "amazon-10558021",
+    "openai-c9a9e992-003a-4d02-a723-884e3eed6a9b",
+    "openai-a6815609-594d-4f22-93a2-610a69e861a2",
+    "openai-c1d765b3-182e-4874-8316-12ce509a7f9f"
+  ],
+  "closureArchive": "research/closed-jobs-2026-10-26.json",
+  "unresolvedChecks": [
+    {
+      "source": "Direct listing checks",
+      "reason": "Rate limits, redirects, access restrictions, or ambiguous responses retained for retry."
+    },
+    {
+      "source": "Hex, Remote, Sourcegraph, Webflow feeds",
+      "reason": "Feeds unavailable or empty; no closure inferred."
+    },
+    {
+      "source": "Sanity direct listing",
+      "reason": "Generic HTTP 404 without complete feed or explicit closure statement; retained."
+    }
+  ],
+  "discovery": [
+    {
+      "source": "Official employer ATS feeds",
+      "result": "39 complete feeds checked; 18 newly published in-scope roles verified by exact employer ATS ID."
+    },
+    {
+      "source": "TrueUp Remote 200",
+      "url": "https://trueup.io/remote/companies",
+      "result": "Remote-employer coverage incomplete; represented remote companies sampled through official feeds."
+    }
+  ],
+  "verificationNotes": [
+    "35 removals have strict evidence: 33 complete official ATS feed exclusions plus direct HTTP 404, and two Amazon pages explicitly state unavailable.",
+    "Full records archived; profile, pin, and recommendation data unchanged.",
+    "Compensation included only when structured source data clearly identifies annual salary and currency."
+  ]
+}

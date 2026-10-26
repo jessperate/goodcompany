@@ -1,0 +1,1253 @@
+{
+  "date": "2026-10-26",
+  "closed": [
+    {
+      "job": {
+        "id": "fal-6ec907f9-d36c-46c0-aefb-69828b515ccb",
+        "atsId": "6ec907f9-d36c-46c0-aefb-69828b515ccb",
+        "company": "Fal",
+        "title": "Creative Technologist",
+        "location": "San Francisco, CA",
+        "url": "https://jobs.ashbyhq.com/fal-ai/6ec907f9-d36c-46c0-aefb-69828b515ccb",
+        "source": "Fal careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/fal-ai?includeCompensation=true",
+        "checkedAt": "September 18, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "category": "Design engineering",
+        "disciplines": [
+          "Brand & creative",
+          "AI Creative"
+        ],
+        "workplace": "Not specified",
+        "level": "Level not specified",
+        "summary": "Prototype interactive experiences, demos, and creative tools at Fal. Combine design, programming, and generative AI to turn experiments into working product concepts and visual stories.",
+        "highlights": [
+          "Bring a portfolio of creative technical work and experience with interactive media or frontend development.",
+          "Proficiency in a programming language such as JavaScript or Python, plus familiarity with generative models, APIs, or agent workflows.",
+          "San Francisco office location; relocation assistance offered. The listing does not specify an office attendance schedule."
+        ],
+        "salaryMin": 150000,
+        "salaryMax": 210000,
+        "salaryCurrency": "USD",
+        "salary": "US$150,000–210,000 annual salary for the San Francisco posting, plus equity and benefits.",
+        "salaryLabel": "US$150,000–210,000 / year",
+        "type": "Full time",
+        "sourcePublishedAt": "2026-09-17T19:24:24.829+00:00",
+        "keywords": [
+          "Design engineering",
+          "Brand & creative",
+          "AI Creative"
+        ]
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/fal-ai?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "linear-ea0b5868-6d7a-46fa-99d8-207cd19357a6",
+        "atsId": "ea0b5868-6d7a-46fa-99d8-207cd19357a6",
+        "company": "Linear",
+        "title": "Design Engineer (Web & Brand)",
+        "category": "Design engineering",
+        "disciplines": [
+          "Brand & visual",
+          "AI Creative"
+        ],
+        "location": "Europe",
+        "workplace": "Remote",
+        "level": "Level not specified",
+        "summary": "Build interactive websites, landing pages, animations, and internal tools for Linear’s web and brand team. Translate visual concepts into polished production interfaces.",
+        "highlights": [
+          "Strong React and TypeScript skills, visual taste, and end-to-end website experience.",
+          "A portfolio demonstrating creative coding, interaction design, and prototypes.",
+          "Experience using coding agents in the design and implementation process."
+        ],
+        "keywords": [
+          "Design engineering",
+          "Brand & visual",
+          "AI Creative"
+        ],
+        "url": "https://jobs.ashbyhq.com/Linear/ea0b5868-6d7a-46fa-99d8-207cd19357a6",
+        "source": "Linear careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/Linear?includeCompensation=true",
+        "checkedAt": "September 16, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "salaryLabel": "Pay not listed",
+        "type": "Full time",
+        "sourcePublishedAt": "2026-09-15T18:05:47.890+00:00"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/Linear?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "openai-5ca9ca8a-c859-4857-a259-1caedfe06134",
+        "atsId": "5ca9ca8a-c859-4857-a259-1caedfe06134",
+        "company": "OpenAI",
+        "title": "Influencer Program Lead - LATAM",
+        "category": "Influencer marketing",
+        "disciplines": [
+          "Creator marketing",
+          "Social media",
+          "AI Creative"
+        ],
+        "location": "São Paulo",
+        "workplace": "Hybrid",
+        "level": "Leadership",
+        "summary": "Lead OpenAI’s influencer and partnership marketing across Brazil and Spanish-speaking Latin America. Turn ChatGPT capabilities into locally relevant creator briefs, demonstrations, campaigns, and education.",
+        "highlights": [
+          "Experience leading LATAM creator programs, agencies, budgets, and partnership marketing.",
+          "Strong product storytelling and judgment about creator fit and cultural relevance.",
+          "Portuguese and English fluency required; based in São Paulo with a hybrid setup."
+        ],
+        "keywords": [
+          "Influencer marketing",
+          "Creator marketing",
+          "Social media",
+          "AI Creative"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/5ca9ca8a-c859-4857-a259-1caedfe06134",
+        "source": "OpenAI careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "checkedAt": "September 16, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "salaryLabel": "Pay not listed",
+        "type": "Full time",
+        "sourcePublishedAt": "2026-09-14T19:24:39.245+00:00"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "harvey-2667d5b1-63b1-4ea1-a578-8f8375389150",
+        "atsId": "2667d5b1-63b1-4ea1-a578-8f8375389150",
+        "company": "Harvey",
+        "title": "Senior Motion Designer",
+        "category": "Motion & video",
+        "disciplines": [
+          "Brand & visual",
+          "AI Creative"
+        ],
+        "location": "San Francisco · New York",
+        "workplace": "Hybrid",
+        "level": "Senior",
+        "summary": "Create motion for Harvey launches, product stories, web experiences, campaigns, and education. Turn complex AI workflows into clear visual narratives and reusable motion systems.",
+        "highlights": [
+          "Bring a motion portfolio showing storytelling, animation craft, visual systems, and your process.",
+          "Use tools such as After Effects, Figma, Cinema 4D, Lottie, or Rive; partner with brand and product marketing."
+        ],
+        "keywords": [
+          "Motion & video",
+          "Brand & visual",
+          "AI Creative"
+        ],
+        "url": "https://jobs.ashbyhq.com/harvey/2667d5b1-63b1-4ea1-a578-8f8375389150",
+        "source": "Harvey careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$136,000–187,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$136,000–187,000 / year",
+        "salaryMin": 136000,
+        "salaryMax": 187000,
+        "salaryCurrency": "USD"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/harvey/2667d5b1-63b1-4ea1-a578-8f8375389150",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "harvey-37498a8d-689a-4a59-9973-86b2588c7a45",
+        "atsId": "37498a8d-689a-4a59-9973-86b2588c7a45",
+        "company": "Harvey",
+        "title": "Senior Motion Designer",
+        "category": "Motion & video",
+        "disciplines": [
+          "Brand & visual",
+          "AI Creative"
+        ],
+        "location": "New York · San Francisco",
+        "workplace": "Hybrid",
+        "level": "Senior",
+        "summary": "Create motion for Harvey launches, product stories, web experiences, campaigns, and education. Turn complex AI workflows into clear visual narratives and reusable motion systems.",
+        "highlights": [
+          "Bring a motion portfolio showing storytelling, animation craft, visual systems, and your process.",
+          "Use tools such as After Effects, Figma, Cinema 4D, Lottie, or Rive; partner with brand and product marketing."
+        ],
+        "keywords": [
+          "Motion & video",
+          "Brand & visual",
+          "AI Creative"
+        ],
+        "url": "https://jobs.ashbyhq.com/harvey/37498a8d-689a-4a59-9973-86b2588c7a45",
+        "source": "Harvey careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$136,000–187,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$136,000–187,000 / year",
+        "salaryMin": 136000,
+        "salaryMax": 187000,
+        "salaryCurrency": "USD"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/harvey/37498a8d-689a-4a59-9973-86b2588c7a45",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "openai-d5de4cd0-9c4e-4266-93f2-8c1d5fc4a912",
+        "atsId": "d5de4cd0-9c4e-4266-93f2-8c1d5fc4a912",
+        "company": "OpenAI",
+        "title": "Product Designer, Identity and Safety",
+        "category": "Product design",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "location": "San Francisco",
+        "workplace": "Hybrid",
+        "level": "Level not specified",
+        "summary": "Design identity, sign-in, account security, permissions, and administration across OpenAI products. Define clear authorization and trust experiences for people and AI agents.",
+        "highlights": [
+          "Bring experience with role-based access, enterprise permissions, and complex product states.",
+          "Balance security and usability through strong interaction design and clear mental models."
+        ],
+        "keywords": [
+          "Product design",
+          "AI Creative"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/d5de4cd0-9c4e-4266-93f2-8c1d5fc4a912",
+        "source": "OpenAI careers (Ashby)",
+        "checkedAt": "September 25, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$245,000–310,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$245,000–310,000 / year",
+        "salaryMin": 245000,
+        "salaryMax": 310000,
+        "salaryCurrency": "USD"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/openai/d5de4cd0-9c4e-4266-93f2-8c1d5fc4a912",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "openai-67c67c36-e710-4f21-bd9c-759eb72cfabf",
+        "atsId": "67c67c36-e710-4f21-bd9c-759eb72cfabf",
+        "company": "OpenAI",
+        "title": "Content Marketing Manager, Demand Generation",
+        "category": "Content & strategy",
+        "disciplines": [],
+        "location": "San Francisco",
+        "workplace": "Hybrid",
+        "level": "Senior",
+        "summary": "Create B2B guides, webinars, blogs, customer stories, and decision-support content for OpenAI demand-generation programs. Adapt core narratives for different audiences and stages of the customer journey.",
+        "highlights": [
+          "Requires 7+ years in B2B content marketing, editorial, campaigns, or related work.",
+          "Senior individual-contributor role, with San Francisco office days Monday through Wednesday."
+        ],
+        "keywords": [
+          "Content & strategy"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/67c67c36-e710-4f21-bd9c-759eb72cfabf",
+        "source": "OpenAI careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$227,000–252,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$227,000–252,000 / year",
+        "salaryMin": 227000,
+        "salaryMax": 252000,
+        "salaryCurrency": "USD"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/openai/67c67c36-e710-4f21-bd9c-759eb72cfabf",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "openai-45d0ccb6-d26f-4b1f-b24d-fe67ec5b708a",
+        "atsId": "45d0ccb6-d26f-4b1f-b24d-fe67ec5b708a",
+        "company": "OpenAI",
+        "title": "Startup Content Marketing Manager",
+        "category": "Content & strategy",
+        "disciplines": [],
+        "location": "San Francisco",
+        "workplace": "Hybrid",
+        "level": "Level not specified",
+        "summary": "Tell the stories of founders building with OpenAI. Produce profiles, practical guides, demos, and campaigns, owning the work from the first conversation through distribution and measurement.",
+        "highlights": [
+          "Requires 4+ years in B2B, content, customer, or integrated marketing.",
+          "Experience with startup or developer audiences and end-to-end content campaigns is relevant."
+        ],
+        "keywords": [
+          "Content & strategy"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/45d0ccb6-d26f-4b1f-b24d-fe67ec5b708a",
+        "source": "OpenAI careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$198,000–219,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$198,000–219,000 / year",
+        "salaryMin": 198000,
+        "salaryMax": 219000,
+        "salaryCurrency": "USD"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/openai/45d0ccb6-d26f-4b1f-b24d-fe67ec5b708a",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "openai-4342be72-0ec4-42b2-962a-6e7ca06b7070",
+        "atsId": "4342be72-0ec4-42b2-962a-6e7ca06b7070",
+        "company": "OpenAI",
+        "title": "Product Designer, Codex",
+        "category": "Product design",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "location": "San Francisco",
+        "workplace": "Hybrid",
+        "level": "Level not specified",
+        "summary": "Design Codex experiences that make coding agents intuitive and accessible. Work with engineers and researchers on new features, prototypes, and the product’s design direction.",
+        "highlights": [
+          "Bring a strong technical background and recent experience shipping production code.",
+          "Show strong UX, UI, and interaction work; San Francisco hybrid schedule with three office days."
+        ],
+        "keywords": [
+          "Product design",
+          "AI Creative"
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/4342be72-0ec4-42b2-962a-6e7ca06b7070",
+        "source": "OpenAI careers (Ashby)",
+        "checkedAt": "September 14, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "type": "Full time",
+        "salary": "Published annual salary range: US$245,000–310,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
+        "salaryLabel": "US$245,000–310,000 / year",
+        "salaryMin": 245000,
+        "salaryMax": 310000,
+        "salaryCurrency": "USD"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/openai/4342be72-0ec4-42b2-962a-6e7ca06b7070",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "amazon-10531830",
+        "company": "Amazon",
+        "title": "Industrial Designer, Fauna",
+        "category": "Industrial design",
+        "disciplines": [],
+        "location": "New York, NY",
+        "workplace": "Not specified",
+        "level": "Level not specified",
+        "summary": "Shape the exterior surfaces, materials, colors, and finishes of Fauna robots. Translate design direction into production-ready geometry while protecting visual quality through tooling and manufacturing.",
+        "highlights": [
+          "Requires 5+ years of relevant design, innovation, manufacturing, or related experience.",
+          "Own Class A surfaces and cosmetic finish specifications, working with design engineers and vendors.",
+          "Evaluate prototypes and finish samples while maintaining a consistent product language."
+        ],
+        "keywords": [
+          "Industrial design"
+        ],
+        "salary": "US$109,200–185,000 annual base salary. Published range is for New York. Sign-on payments and restricted stock units are additional.",
+        "url": "https://www.amazon.jobs/en/jobs/10531830/industrial-designer-fauna",
+        "source": "Amazon careers",
+        "checkedAt": "September 13, 2026",
+        "lastVerifiedAt": "2026-09-27",
+        "atsId": "10531830",
+        "salaryMin": 109200,
+        "salaryMax": 185000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$109,200–185,000 / year"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Official page explicitly states unavailable.",
+      "sourceUrl": "https://www.amazon.jobs/en/jobs/10531830/industrial-designer-fauna",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "elevenlabs-5494be31-7899-4f7a-b10f-4c49378b44ef",
+        "company": "ElevenLabs",
+        "title": "Design Engineer - Creative & Studio",
+        "category": "Design engineering",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "level": "Level not specified",
+        "location": "United States, Europe, and other listed countries",
+        "workplace": "Remote",
+        "type": "Full time",
+        "summary": "Build the interfaces behind ElevenLabs creative tools, including image, video, music, and audiobook workflows. Combine frontend engineering with product design to turn generative technology into approachable experiences.",
+        "highlights": [
+          "Own creative product features and their user experience.",
+          "Partner with designers and engineers, and help other team members grow.",
+          "Eligible locations: United Kingdom, Ireland, Dublin, Spain, Europe, United States, New York, Germany, Belgium, Brazil, Switzerland, Denmark, Portugal, Mexico, Chile, Sweden, Colombia, Italy, Poland, London, Netherlands, France, India, Canada, Bulgaria."
+        ],
+        "keywords": [
+          "Design engineering",
+          "AI Creative"
+        ],
+        "source": "ElevenLabs careers · Ashby",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef",
+        "checkedAt": "September 11, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "salary": "Pay not listed"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "fal-2fe0b9ef-3053-4514-b301-ab8bd07b45cd",
+        "company": "Fal",
+        "title": "Creative Producer",
+        "category": "Motion & video",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "level": "Level not specified",
+        "location": "Remote - Global",
+        "workplace": "Remote",
+        "type": "Full time",
+        "summary": "Produce videos that explain and launch Fal products, from storyboards to editing, motion, and sound. Combine traditional production with generative image, video, and audio tools.",
+        "highlights": [
+          "Create launch films, product demos, and short-form content.",
+          "Take projects from initial idea through final delivery."
+        ],
+        "keywords": [
+          "Motion & video",
+          "AI Creative"
+        ],
+        "source": "Fal careers · Ashby",
+        "url": "https://jobs.ashbyhq.com/fal-ai/2fe0b9ef-3053-4514-b301-ab8bd07b45cd",
+        "checkedAt": "September 11, 2026",
+        "lastVerifiedAt": "2026-10-13",
+        "salary": "Pay not listed"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/fal-ai/2fe0b9ef-3053-4514-b301-ab8bd07b45cd",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "gamma-5f4e30f2-1f1b-4ce2-aa58-c81777cf56de",
+        "company": "Gamma",
+        "title": "UI Engineer",
+        "category": "Design engineering",
+        "disciplines": [],
+        "level": "Level not specified",
+        "location": "San Francisco",
+        "workplace": "On-site",
+        "type": "Full time",
+        "summary": "Craft Gamma user interfaces, reusable components, and small interactions that make its product feel polished. Work across React, CSS, and design systems alongside the design team.",
+        "highlights": [
+          "The posting asks for 3–5+ years of relevant experience.",
+          "The team works in its San Francisco office four to five days a week."
+        ],
+        "keywords": [
+          "Design engineering"
+        ],
+        "source": "Gamma careers · Ashby",
+        "url": "https://jobs.ashbyhq.com/gamma/5f4e30f2-1f1b-4ce2-aa58-c81777cf56de",
+        "checkedAt": "September 11, 2026",
+        "lastVerifiedAt": "2026-10-13",
+        "salary": "US$180,000–310,000 annual base salary. Actual pay depends on location, experience, and level.",
+        "salaryMin": 180000,
+        "salaryMax": 310000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$180,000–310,000 / year"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/gamma/5f4e30f2-1f1b-4ce2-aa58-c81777cf56de",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "airops-thought-leadership",
+        "company": "AirOps",
+        "title": "Research & Thought Leadership Lead",
+        "category": "Content & strategy",
+        "location": "New York or San Francisco",
+        "workplace": "Hybrid",
+        "type": "Full-time",
+        "monogram": "ao",
+        "color": "#e7efe4",
+        "ink": "#275336",
+        "summary": "Build research-led brand moments at AirOps. Collaborate across product, design, events, and marketing to bring the company’s research and point of view to a wider audience.",
+        "highlights": [
+          "This role sits in Marketing.",
+          "A fit for creatives whose work spans research, editorial thinking, and brand storytelling.",
+          "See the original listing for the complete scope and requirements."
+        ],
+        "connection": {
+          "short": "Jess led Brand here",
+          "detail": "Jess previously led Brand at AirOps, building the team and working across its brand, launches, and creative work."
+        },
+        "keywords": [
+          "writing",
+          "writer",
+          "editorial",
+          "research",
+          "thought leadership",
+          "content",
+          "storytelling",
+          "brand"
+        ],
+        "url": "https://jobs.ashbyhq.com/airops/beb628d8-7451-4034-b680-64fbd78bb9c5",
+        "level": "Not specified",
+        "lastVerifiedAt": "2026-09-29"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/airops/beb628d8-7451-4034-b680-64fbd78bb9c5",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "elevenlabs-3178581d-ea70-4dee-b018-2ce2d2a18bbe",
+        "company": "ElevenLabs",
+        "title": "AI Creative Producer",
+        "category": "Motion & video",
+        "location": "United Kingdom",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/3178581d-ea70-4dee-b018-2ce2d2a18bbe",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+        "summary": "AI Creative Producer at ElevenLabs. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Growth"
+        ],
+        "highlights": [
+          "Employer excerpt: “AI-generated content is becoming a dominant format across social, creator, and product marketing. Models are evolving at high speed, new…”"
+        ],
+        "lastVerifiedAt": "2026-09-29"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "elevenlabs-1f668ed5-49e9-4726-881f-7818733103b1",
+        "company": "ElevenLabs",
+        "title": "Forward Deployed Creative",
+        "category": "Brand & creative",
+        "location": "United States",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/1f668ed5-49e9-4726-881f-7818733103b1",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+        "summary": "Forward Deployed Creative at ElevenLabs. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Growth"
+        ],
+        "highlights": [
+          "Employer excerpt: “ElevenLabs builds the tools that let creators and marketers generate and edit speech, music, images, and video with AI. Our…”"
+        ],
+        "lastVerifiedAt": "2026-09-29"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
+        "company": "ElevenLabs",
+        "title": "Content Creator & Strategist",
+        "category": "Content & strategy",
+        "location": "United States",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+        "summary": "Content Creator & Strategist at ElevenLabs. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Engineering & Product"
+        ],
+        "highlights": [
+          "Employer excerpt: “ElevenMusic is our consumer-facing music creation platform, built for music creators and professional musicians alike. We want ElevenMusic to have…”"
+        ],
+        "disciplines": [
+          "Content & strategy",
+          "Social media",
+          "Creator marketing"
+        ],
+        "lastVerifiedAt": "2026-09-29"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "handshake-b80bc193-ed11-468c-be6c-485cacd2b33c",
+        "company": "Handshake",
+        "title": "Staff Product Designer",
+        "category": "Product design",
+        "location": "San Francisco, CA",
+        "workplace": "Hybrid",
+        "url": "https://jobs.ashbyhq.com/handshake/b80bc193-ed11-468c-be6c-485cacd2b33c",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
+        "summary": "Staff Product Designer at Handshake. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Design"
+        ],
+        "level": "Staff",
+        "highlights": [
+          "Employer excerpt: “As a Staff Product Designer on the Student Experience team at Handshake, you'll shape how millions of students discover jobs,…”"
+        ],
+        "salary": "US$190,000–240,000 / year; location-dependent.",
+        "salaryLabel": "US$190,000–240,000 / year",
+        "salaryMin": 190000,
+        "salaryMax": 240000,
+        "salaryCurrency": "USD",
+        "lastVerifiedAt": "2026-10-13"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "company": "Notion",
+        "title": "Workflow + Process Designer (AI Enablement)",
+        "location": "San Francisco, California",
+        "id": "linkedin-4458575414",
+        "url": "https://jobs.ashbyhq.com/notion/c799f1f0-0e7b-4eac-98ce-44223130f2b0",
+        "source": "Notion careers · Ashby",
+        "checkedAt": "September 11, 2026",
+        "postedAt": "2026-08-25T00:00:00.000Z",
+        "category": "Design engineering",
+        "level": "Level not specified",
+        "workplace": "Hybrid",
+        "type": "Full time",
+        "summary": "Redesign Notion internal business workflows and build the agents and automations that run them. Connect tools, clarify handoffs, and keep human oversight and auditability built into the process.",
+        "highlights": [
+          "Partner with finance, legal, people, operations, data, and engineering teams.",
+          "Measure adoption, speed, and quality after shipping each workflow."
+        ],
+        "keywords": [
+          "Design engineering",
+          "AI Creative"
+        ],
+        "salary": "US$166,000–185,000 annual base salary. Actual pay depends on location, experience, and level.",
+        "linkedinUrls": [
+          "https://www.linkedin.com/jobs/view/4458575414"
+        ],
+        "disciplines": [
+          "AI Creative"
+        ],
+        "lastVerifiedAt": "2026-10-13",
+        "salaryMin": 166000,
+        "salaryMax": 185000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$166,000–185,000 / year"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/notion/c799f1f0-0e7b-4eac-98ce-44223130f2b0",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "runway-2185626a-657a-4772-9519-50b2e7b2af1a",
+        "company": "Runway",
+        "title": "Youtube Creator & Educator",
+        "category": "Creator marketing",
+        "location": "New York preferred; remote US or Canada",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/runway-ml/2185626a-657a-4772-9519-50b2e7b2af1a",
+        "summary": "Build Runway’s YouTube channel through practical filmmaking and generative-AI tutorials. Own strategy, filming, editing, publishing, and audience growth.",
+        "highlights": [
+          "An active YouTube channel or substantial published long-form video portfolio is required.",
+          "Advanced Runway experience and strong editing and motion-graphics skills."
+        ],
+        "level": "Level not specified",
+        "source": "Runway careers",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Creator marketing"
+        ],
+        "disciplines": [
+          "Creator marketing",
+          "Social media",
+          "Motion & video"
+        ],
+        "salaryLabel": "Pay not listed",
+        "lastVerifiedAt": "2026-10-13"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/runway-ml/2185626a-657a-4772-9519-50b2e7b2af1a",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "harvey-b26ccc21-fb10-4428-90be-a7af2076ff77",
+        "company": "Harvey",
+        "title": "Senior Performance Marketing Manager, Paid Social",
+        "category": "Social media",
+        "location": "San Francisco",
+        "workplace": "Hybrid",
+        "url": "https://jobs.ashbyhq.com/harvey/b26ccc21-fb10-4428-90be-a7af2076ff77",
+        "summary": "Lead paid social campaigns for legal and enterprise audiences. Develop targeting, test creative and messaging, and measure pipeline and revenue across LinkedIn, Meta, and emerging channels.",
+        "highlights": [
+          "Five to seven or more years managing paid social in B2B SaaS.",
+          "Partner with creative, content, marketing operations, and analytics teams."
+        ],
+        "level": "Senior",
+        "source": "Harvey careers",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Social media"
+        ],
+        "salary": "US$136,000–204,000 base compensation. Check the original listing for location-specific details.",
+        "salaryMin": 136000,
+        "salaryMax": 204000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$136,000–204,000 / year · location dependent",
+        "lastVerifiedAt": "2026-09-27"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/harvey/b26ccc21-fb10-4428-90be-a7af2076ff77",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "harvey-c6e7267c-877e-479c-8dc6-f34ffbbb44dd",
+        "company": "Harvey",
+        "title": "Senior Performance Marketing Manager, Paid Social",
+        "category": "Social media",
+        "location": "New York",
+        "workplace": "Hybrid",
+        "url": "https://jobs.ashbyhq.com/harvey/c6e7267c-877e-479c-8dc6-f34ffbbb44dd",
+        "summary": "Lead paid social campaigns for legal and enterprise audiences. Develop targeting, test creative and messaging, and measure pipeline and revenue across LinkedIn, Meta, and emerging channels.",
+        "highlights": [
+          "Five to seven or more years managing paid social in B2B SaaS.",
+          "Partner with creative, content, marketing operations, and analytics teams."
+        ],
+        "level": "Senior",
+        "source": "Harvey careers",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Social media"
+        ],
+        "salary": "US$136,000–204,000 base compensation. Check the original listing for location-specific details.",
+        "salaryMin": 136000,
+        "salaryMax": 204000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$136,000–204,000 / year · location dependent",
+        "lastVerifiedAt": "2026-09-27"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/harvey/c6e7267c-877e-479c-8dc6-f34ffbbb44dd",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "harvey-a8f060ad-1e57-40f8-94f7-402c2611eb90",
+        "company": "Harvey",
+        "title": "Senior Performance Marketing Manager, Paid Social",
+        "category": "Social media",
+        "location": "Chicago",
+        "workplace": "Hybrid",
+        "url": "https://jobs.ashbyhq.com/harvey/a8f060ad-1e57-40f8-94f7-402c2611eb90",
+        "summary": "Lead paid social campaigns for legal and enterprise audiences. Develop targeting, test creative and messaging, and measure pipeline and revenue across LinkedIn, Meta, and emerging channels.",
+        "highlights": [
+          "Five to seven or more years managing paid social in B2B SaaS.",
+          "Partner with creative, content, marketing operations, and analytics teams."
+        ],
+        "level": "Senior",
+        "source": "Harvey careers",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Social media"
+        ],
+        "salary": "US$136,000–204,000 base compensation. Check the original listing for location-specific details.",
+        "salaryMin": 136000,
+        "salaryMax": 204000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$136,000–204,000 / year · location dependent",
+        "lastVerifiedAt": "2026-09-27"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/harvey/a8f060ad-1e57-40f8-94f7-402c2611eb90",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "harvey-275f3315-2ea8-4fb4-bfe8-e0dd4e238e86",
+        "company": "Harvey",
+        "title": "Senior Performance Marketing Manager, Paid Social",
+        "category": "Social media",
+        "location": "Dallas",
+        "workplace": "Hybrid",
+        "url": "https://jobs.ashbyhq.com/harvey/275f3315-2ea8-4fb4-bfe8-e0dd4e238e86",
+        "summary": "Lead paid social campaigns for legal and enterprise audiences. Develop targeting, test creative and messaging, and measure pipeline and revenue across LinkedIn, Meta, and emerging channels.",
+        "highlights": [
+          "Five to seven or more years managing paid social in B2B SaaS.",
+          "Partner with creative, content, marketing operations, and analytics teams."
+        ],
+        "level": "Senior",
+        "source": "Harvey careers",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Social media"
+        ],
+        "salary": "US$136,000–204,000 base compensation. Check the original listing for location-specific details.",
+        "salaryMin": 136000,
+        "salaryMax": 204000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$136,000–204,000 / year · location dependent",
+        "lastVerifiedAt": "2026-09-27"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/harvey/275f3315-2ea8-4fb4-bfe8-e0dd4e238e86",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "perplexity-678d1162-e650-4d6d-9532-b287255c00fb",
+        "company": "Perplexity",
+        "title": "Creative Operations Manager",
+        "category": "Brand & creative",
+        "location": "New York City · Remote (United States) · San Francisco",
+        "workplace": "Remote",
+        "workplaceOptions": [
+          "Remote"
+        ],
+        "url": "https://jobs.ashbyhq.com/perplexity/678d1162-e650-4d6d-9532-b287255c00fb",
+        "summary": "Coordinate Perplexity’s creative production, including campaigns, launches and shoots. Manage schedules, budgets, partners and usage rights so the creative team can deliver work efficiently.",
+        "highlights": [
+          "Experience producing work for an in-house brand or creative team.",
+          "Vendor management, shoot logistics and production processes are important.",
+          "US remote is listed among the available locations."
+        ],
+        "level": "Level not specified",
+        "source": "Perplexity careers (Ashby)",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Brand & creative"
+        ],
+        "salaryMin": 180000,
+        "salaryMax": 210000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$180,000–210,000 / year",
+        "salary": "Published annual base salary: US$180,000–210,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
+        "lastVerifiedAt": "2026-10-13"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/perplexity/678d1162-e650-4d6d-9532-b287255c00fb",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "vanta-0fcbc935-76c7-4eac-b522-af421ed200c9",
+        "company": "Vanta",
+        "title": "Staff Product Designer, Design Systems",
+        "category": "Product design",
+        "location": "Remote U.S.",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/vanta/0fcbc935-76c7-4eac-b522-af421ed200c9",
+        "summary": "Develop Vanta’s component library, design tokens and shared interaction patterns. Work with product designers and engineers to improve consistency, accessibility and adoption across the product suite.",
+        "highlights": [
+          "At least seven years in product design, preferably with design-systems experience.",
+          "Experience with complex products or B2B software is relevant."
+        ],
+        "level": "Staff",
+        "source": "Vanta careers (Ashby)",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Product design",
+          "Design systems"
+        ],
+        "salary": "Published annual cash compensation range: US$236,000–278,000, plus equity. Vanta labels this a cash range; it is not independently verified as base-only pay.",
+        "salaryLabel": "US$236,000–278,000 / year · cash range",
+        "salaryCashMin": 236000,
+        "salaryCashMax": 278000,
+        "lastVerifiedAt": "2026-10-13"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/vanta/0fcbc935-76c7-4eac-b522-af421ed200c9",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "vanta-32babc06-def2-4db3-b153-1c1c44bdcf40",
+        "company": "Vanta",
+        "title": "Staff Visual Product Designer, Design Systems",
+        "category": "Product design",
+        "location": "Remote U.S.",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/vanta/32babc06-def2-4db3-b153-1c1c44bdcf40",
+        "summary": "Evolve Vanta’s visual product language through reusable patterns and design-system foundations. Bring strong craft to typography, color, illustration, motion and data-rich interfaces.",
+        "highlights": [
+          "At least eight years designing digital products.",
+          "Requires visual design experience with complex enterprise or B2B software."
+        ],
+        "level": "Staff",
+        "source": "Vanta careers (Ashby)",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Product design",
+          "Design systems"
+        ],
+        "salary": "Published annual cash compensation range: US$236,000–278,000, plus equity. Vanta labels this a cash range; it is not independently verified as base-only pay.",
+        "salaryLabel": "US$236,000–278,000 / year · cash range",
+        "salaryCashMin": 236000,
+        "salaryCashMax": 278000,
+        "lastVerifiedAt": "2026-10-13"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/vanta/32babc06-def2-4db3-b153-1c1c44bdcf40",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "linear-ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
+        "company": "Linear",
+        "title": "Principal Product Designer",
+        "category": "Product design",
+        "location": "Europe",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/Linear/ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
+        "summary": "Shape Linear’s product experiences for software teams.",
+        "level": "Principal",
+        "source": "Linear careers (Ashby)",
+        "checkedAt": "September 8, 2026",
+        "type": "Full time",
+        "keywords": [
+          "Remote",
+          "TrueUp Remote 200"
+        ],
+        "salaryLabel": "Pay not listed",
+        "lastVerifiedAt": "2026-10-13"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/Linear/ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "ashby-07201b7e-a581-46a6-bbd3-432824bd761f",
+        "atsId": "07201b7e-a581-46a6-bbd3-432824bd761f",
+        "company": "Ashby",
+        "title": "Principal PMM, Brand Narrative & Keynote",
+        "category": "Brand & creative",
+        "disciplines": [
+          "Content & strategy",
+          "Creative leadership"
+        ],
+        "level": "Senior",
+        "location": "Remote - US",
+        "workplace": "Remote",
+        "type": "Full-time",
+        "summary": "Own Ashby’s brand narrative and keynote storytelling, translating product ideas into memorable launches and presentations.",
+        "highlights": [
+          "Experience in product marketing, narrative strategy, and executive presentation work."
+        ],
+        "keywords": [
+          "Brand & creative",
+          "Content & strategy",
+          "Creative leadership"
+        ],
+        "url": "https://jobs.ashbyhq.com/ashby/07201b7e-a581-46a6-bbd3-432824bd761f",
+        "source": "Ashby careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/ashby?includeCompensation=true",
+        "checkedAt": "September 24, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "sourcePublishedAt": "2026-09-08T18:05:24.378+00:00",
+        "salaryMin": 190000,
+        "salaryMax": 220000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$190,000–220,000 / year",
+        "salary": "US$190,000–220,000 annual base salary for the listed location. See the employer listing for location-specific compensation and benefits."
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/ashby?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "elevenlabs-31b1c0e3-ca53-428d-8f15-2e3ffda491b8",
+        "atsId": "31b1c0e3-ca53-428d-8f15-2e3ffda491b8",
+        "company": "ElevenLabs",
+        "title": "Brand Marketing",
+        "category": "Brand & creative",
+        "disciplines": [
+          "Content & strategy"
+        ],
+        "level": "Mid-level",
+        "location": "San Francisco",
+        "workplace": "Not specified",
+        "type": "Full-time",
+        "summary": "Develop ElevenLabs brand marketing that explains its voice and AI products to wider audiences.",
+        "highlights": [
+          "Brand marketing experience and the ability to turn product stories into campaigns."
+        ],
+        "keywords": [
+          "Brand & creative",
+          "Content & strategy"
+        ],
+        "url": "https://jobs.ashbyhq.com/elevenlabs/31b1c0e3-ca53-428d-8f15-2e3ffda491b8",
+        "source": "ElevenLabs careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+        "checkedAt": "September 24, 2026",
+        "lastVerifiedAt": "2026-09-29",
+        "sourcePublishedAt": "2026-06-10T21:51:37.091+00:00",
+        "salary": "Pay not listed"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "legora-6691c4c6-37a0-460f-b8b8-db07ea934fa1",
+        "atsId": "6691c4c6-37a0-460f-b8b8-db07ea934fa1",
+        "company": "Legora",
+        "title": "Senior Manager, Brand Partnerships Activation",
+        "category": "Brand & creative",
+        "disciplines": [
+          "Content & strategy"
+        ],
+        "level": "Senior",
+        "location": "London",
+        "workplace": "On-site",
+        "type": "Full-time",
+        "summary": "Set Legora’s sports-partnership activation and executive hospitality strategy to build brand equity and customer relationships.",
+        "highlights": [
+          "Experience directing partnership activations, senior stakeholders, and commercial brand programs."
+        ],
+        "keywords": [
+          "Brand & creative",
+          "Content & strategy"
+        ],
+        "url": "https://jobs.ashbyhq.com/legora/6691c4c6-37a0-460f-b8b8-db07ea934fa1",
+        "source": "Legora careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
+        "checkedAt": "September 25, 2026",
+        "lastVerifiedAt": "2026-09-27",
+        "sourcePublishedAt": "2026-08-13T12:40:03.435+00:00",
+        "salary": "Pay not listed"
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "amazon-10558021",
+        "atsId": "10558021",
+        "company": "Amazon",
+        "title": "UX Designer I, Talent Acquisition - Products",
+        "category": "Product design",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "level": "Early career",
+        "location": "Seattle, WA",
+        "workplace": "Not specified",
+        "type": "Full-time",
+        "summary": "Design candidate and recruiter hiring workflows for Amazon’s high-volume, AI-assisted hiring tools.",
+        "highlights": [
+          "1+ years of design experience; deliver research-informed flows and interactive prototypes with product and engineering partners."
+        ],
+        "keywords": [
+          "Product design",
+          "AI Creative"
+        ],
+        "url": "https://www.amazon.jobs/en/jobs/10558021/ux-designer-i-talent-acquisition-products",
+        "source": "Amazon Design careers",
+        "sourceUrl": "https://www.amazon.design/careers",
+        "checkedAt": "September 27, 2026",
+        "lastVerifiedAt": "2026-09-27",
+        "salaryMin": 81000,
+        "salaryMax": 141700,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$81,000–141,700 / year",
+        "salary": "US$81,000–141,700 annual base salary for Seattle, WA. Final compensation depends on experience, qualifications, and location; Amazon also lists sign-on payments and RSUs."
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Official page explicitly states unavailable.",
+      "sourceUrl": "https://www.amazon.design/careers",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "openai-c9a9e992-003a-4d02-a723-884e3eed6a9b",
+        "atsId": "c9a9e992-003a-4d02-a723-884e3eed6a9b",
+        "company": "OpenAI",
+        "title": "Creative Director, Art",
+        "category": "Creative leadership",
+        "disciplines": [
+          "Brand & visual",
+          "AI Creative"
+        ],
+        "level": "Leadership",
+        "location": "San Francisco, CA",
+        "workplace": "Not specified",
+        "summary": "Direct the visual expression of OpenAI’s business brand across integrated campaigns, launches, customer stories, films, events, and digital experiences.",
+        "highlights": [
+          "Lead concepting and art direction for B2B audiences and complex AI product stories.",
+          "Partner with writers, designers, product marketers, sales, and external collaborators.",
+          "The posting asks for 10+ years as an Art Director or Creative Director."
+        ],
+        "salaryMin": 287000,
+        "salaryMax": 318000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$287,000–318,000 / year",
+        "salary": "US$287,000–318,000 annual U.S. salary range; equity may be additional.",
+        "url": "https://jobs.ashbyhq.com/openai/c9a9e992-003a-4d02-a723-884e3eed6a9b",
+        "source": "OpenAI careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "sourcePublishedAt": "2026-10-14T20:08:36.321+00:00",
+        "checkedAt": "October 15, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "keywords": [
+          "Creative leadership",
+          "Brand & visual",
+          "AI Creative"
+        ]
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "openai-a6815609-594d-4f22-93a2-610a69e861a2",
+        "atsId": "a6815609-594d-4f22-93a2-610a69e861a2",
+        "company": "OpenAI",
+        "title": "Creative Delivery Director, Business Marketing",
+        "category": "Creative leadership",
+        "disciplines": [
+          "Content & strategy",
+          "AI Creative"
+        ],
+        "level": "Leadership",
+        "location": "San Francisco, CA",
+        "workplace": "Hybrid",
+        "summary": "Lead production and delivery of OpenAI’s business-marketing portfolio across campaigns, launches, brand, content, web, events, and customer stories.",
+        "highlights": [
+          "Manage producers and project managers while personally producing complex, high-priority work.",
+          "Turn creative briefs into executable plans, budgets, milestones, and launches.",
+          "OpenAI lists three office days per week in San Francisco."
+        ],
+        "salaryMin": 287000,
+        "salaryMax": 318000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$287,000–318,000 / year",
+        "salary": "US$287,000–318,000 annual U.S. salary range; equity may be additional.",
+        "url": "https://jobs.ashbyhq.com/openai/a6815609-594d-4f22-93a2-610a69e861a2",
+        "source": "OpenAI careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "sourcePublishedAt": "2026-10-14T19:53:14.206+00:00",
+        "checkedAt": "October 15, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "keywords": [
+          "Creative leadership",
+          "Content & strategy",
+          "AI Creative"
+        ]
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "openai-c1d765b3-182e-4874-8316-12ce509a7f9f",
+        "atsId": "c1d765b3-182e-4874-8316-12ce509a7f9f",
+        "company": "OpenAI",
+        "title": "Motion Designer, Business Marketing",
+        "category": "Motion & video",
+        "disciplines": [
+          "Brand & visual",
+          "AI Creative"
+        ],
+        "level": "Level not specified",
+        "location": "San Francisco, CA",
+        "workplace": "Hybrid",
+        "summary": "Create motion design for OpenAI business campaigns, launches, films, customer stories, events, social content, and web experiences.",
+        "highlights": [
+          "Translate technical products into clear motion narratives for business and developer audiences.",
+          "Requires 8+ years of motion-design experience with strong brand or campaign work.",
+          "OpenAI lists three office days per week in San Francisco."
+        ],
+        "salaryMin": 223000,
+        "salaryMax": 247000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$223,000–247,000 / year",
+        "salary": "US$223,000–247,000 annual U.S. salary range; equity may be additional.",
+        "url": "https://jobs.ashbyhq.com/openai/c1d765b3-182e-4874-8316-12ce509a7f9f",
+        "source": "OpenAI careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "sourcePublishedAt": "2026-10-14T20:07:12.945+00:00",
+        "checkedAt": "October 15, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "keywords": [
+          "Motion & video",
+          "Brand & visual",
+          "AI Creative"
+        ]
+      },
+      "closedAt": "2026-10-26",
+      "evidence": "Complete official ATS feed excludes exact ATS ID; direct official page returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+      "httpStatus": 404
+    }
+  ]
+}

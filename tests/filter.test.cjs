@@ -52,7 +52,7 @@ assert(added.some(j=>j.title==='Growth Creative Designer, International' && j.sa
 assert(!added.some(j=>j.id==='perplexity-3d277236-2cf3-4a59-b435-71540cc05712'));
 context.newListings=added;
 const remote = Array.from(vm.runInContext('filterJobs(newListings,{workplace:"Remote"}).map(j=>j.title)',context));
-assert(remote.includes('Creative Operations Manager'));
+assert(!remote.includes('Creative Operations Manager'));
 assert(remote.includes('Member of Creative Studio (Web Designer - Marketing & Landing Pages)'));
 assert(!remote.includes('Head of Brand'));
 assert(!remote.includes('Growth Creative Designer, International'));
