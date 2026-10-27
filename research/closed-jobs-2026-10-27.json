@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-27",
+  "closed": [
+    {
+      "job": {
+        "id": "elevenlabs-5da4bb46-0bac-4e35-8731-9e182ad02bee",
+        "company": "ElevenLabs",
+        "title": "Creative Strategist,  Mobile",
+        "category": "Brand & creative",
+        "location": "United States",
+        "workplace": "Remote",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/5da4bb46-0bac-4e35-8731-9e182ad02bee",
+        "checkedAt": "September 8, 2026",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+        "summary": "Creative Strategist,  Mobile at ElevenLabs. See the employer’s listing for the full responsibilities and application requirements.",
+        "keywords": [
+          "Growth"
+        ],
+        "highlights": [
+          "Employer excerpt: “ElevenReader is our fast-growing consumer audio app, and creative is one of our biggest growth levers. We’re looking for a…”"
+        ],
+        "lastVerifiedAt": "2026-10-13"
+      },
+      "closedAt": "2026-10-27",
+      "evidence": "Complete official employer Ashby feed excludes the exact ATS ID and direct official listing returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "fal-ed6a645e-ffa5-4865-899c-a5d1faa73c47",
+        "atsId": "ed6a645e-ffa5-4865-899c-a5d1faa73c47",
+        "company": "Fal",
+        "title": "Influencer Marketing Manager",
+        "category": "Influencer marketing",
+        "disciplines": [
+          "Creator marketing",
+          "AI Creative"
+        ],
+        "level": "Level not specified",
+        "location": "San Francisco, CA",
+        "workplace": "Not specified",
+        "summary": "Build fal’s influencer and UGC program with creators, AI filmmakers, designers, and creative technologists working in generative media.",
+        "highlights": [
+          "Source and develop creator relationships, briefs, concepts, sponsored work, and measurement.",
+          "Activate creators around model and product launches while maintaining a high creative bar.",
+          "The posting asks candidates to be in or relocate to San Francisco."
+        ],
+        "salaryMin": 150000,
+        "salaryMax": 190000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$150,000–190,000 / year",
+        "salary": "US$150,000–190,000 annual U.S. salary range; equity and benefits may be additional.",
+        "url": "https://jobs.ashbyhq.com/fal-ai/ed6a645e-ffa5-4865-899c-a5d1faa73c47",
+        "source": "Fal careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/fal-ai?includeCompensation=true",
+        "sourcePublishedAt": "2026-10-15T00:16:05.512+00:00",
+        "checkedAt": "October 15, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "keywords": [
+          "Influencer marketing",
+          "Creator marketing",
+          "AI Creative"
+        ]
+      },
+      "closedAt": "2026-10-27",
+      "evidence": "Complete official employer Ashby feed excludes the exact ATS ID and direct official listing returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/fal-ai?includeCompensation=true",
+      "httpStatus": 404
+    }
+  ]
+}

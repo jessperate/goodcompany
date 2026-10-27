@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-27",
+  "baseCommit": "7526706caa24e121627db7c579b11f2dfe53e210",
+  "counts": {
+    "before": 841,
+    "feedsAttempted": 43,
+    "completeFeeds": 38,
+    "verifiedExistingByCompleteFeed": 109,
+    "directRequests": 732,
+    "directStatuses": {
+      "200": 112,
+      "301": 35,
+      "302": 14,
+      "307": 7,
+      "308": 1,
+      "403": 2,
+      "404": 3,
+      "429": 558
+    },
+    "added": 14,
+    "removed": 2,
+    "after": 853
+  },
+  "additions": [
+    {
+      "id": "airbnb-8287849",
+      "company": "Airbnb",
+      "title": "Senior Communications Manager, Spanish-Speaking South America",
+      "url": "https://careers.airbnb.com/positions/8287849?gh_jid=8287849"
+    },
+    {
+      "id": "anthropic-5462557008",
+      "company": "Anthropic",
+      "title": "Communications Manager, Claude Platform",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462557008"
+    },
+    {
+      "id": "anthropic-5461534008",
+      "company": "Anthropic",
+      "title": "Communications Manager, The Anthropic Institute",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5461534008"
+    },
+    {
+      "id": "stripe-8304725",
+      "company": "Stripe",
+      "title": "Product Designer, Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=8304725"
+    },
+    {
+      "id": "openai-3874db80-f3ec-4dd1-8d56-6441e8f7299d",
+      "company": "OpenAI",
+      "title": "Product Designer, People Innovation Labs",
+      "url": "https://jobs.ashbyhq.com/openai/3874db80-f3ec-4dd1-8d56-6441e8f7299d"
+    },
+    {
+      "id": "openai-3d71df2d-7d19-4ca9-97c4-b361c8a362f9",
+      "company": "OpenAI",
+      "title": "Product Designer, Growth",
+      "url": "https://jobs.ashbyhq.com/openai/3d71df2d-7d19-4ca9-97c4-b361c8a362f9"
+    },
+    {
+      "id": "openai-4885f56d-9f59-4c40-81d8-c33a167cb26c",
+      "company": "OpenAI",
+      "title": "Product Designer, Higher Education",
+      "url": "https://jobs.ashbyhq.com/openai/4885f56d-9f59-4c40-81d8-c33a167cb26c"
+    },
+    {
+      "id": "openai-9711a982-851c-4f55-a5ae-080ea4bad520",
+      "company": "OpenAI",
+      "title": "Events Designer, Business Marketing",
+      "url": "https://jobs.ashbyhq.com/openai/9711a982-851c-4f55-a5ae-080ea4bad520"
+    },
+    {
+      "id": "openai-6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
+      "company": "OpenAI",
+      "title": "Content Marketing Manager, Events",
+      "url": "https://jobs.ashbyhq.com/openai/6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b"
+    },
+    {
+      "id": "figma-6231027004",
+      "company": "Figma",
+      "title": "Product Designer, Core Experience",
+      "url": "https://boards.greenhouse.io/figma/jobs/6231027004?gh_jid=6231027004"
+    },
+    {
+      "id": "legora-916a4ab2-50ec-4285-8682-a28e9cf0c9ae",
+      "company": "Legora",
+      "title": "Senior Content Strategist",
+      "url": "https://jobs.ashbyhq.com/legora/916a4ab2-50ec-4285-8682-a28e9cf0c9ae"
+    },
+    {
+      "id": "helsing-5015016101",
+      "company": "Helsing",
+      "title": "Senior Studio Design Engineer",
+      "url": "https://helsing.ai/jobs/5015016101?gh_jid=5015016101"
+    },
+    {
+      "id": "spacex-8918126002",
+      "company": "SpaceX",
+      "title": "Spatial Interior Designer (Starlink)",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8918126002?gh_jid=8918126002"
+    },
+    {
+      "id": "linear-c97e034e-19a8-4ec7-89a5-c81987451da8",
+      "company": "Linear",
+      "title": "Creative Producer",
+      "url": "https://jobs.ashbyhq.com/Linear/c97e034e-19a8-4ec7-89a5-c81987451da8"
+    }
+  ],
+  "removalIds": [
+    "elevenlabs-5da4bb46-0bac-4e35-8731-9e182ad02bee",
+    "fal-ed6a645e-ffa5-4865-899c-a5d1faa73c47"
+  ],
+  "closureArchive": "research/closed-jobs-2026-10-27.json",
+  "unresolvedChecks": [
+    {
+      "source": "Direct pages",
+      "reason": "Rate limits, redirects, and access restrictions retained for retry."
+    },
+    {
+      "source": "Cloudflare, Hex, Remote, Sourcegraph, Webflow feeds",
+      "reason": "Timeout, 404, or empty feed; no closure inferred."
+    },
+    {
+      "source": "Sanity job page",
+      "reason": "HTTP 404 without complete employer feed or explicit closure; retained."
+    }
+  ],
+  "discovery": [
+    {
+      "source": "Official employer ATS feeds",
+      "result": "38 complete feeds checked; 14 in-scope roles verified with exact employer ATS IDs."
+    },
+    {
+      "source": "TrueUp Remote 200",
+      "url": "https://trueup.io/remote/companies",
+      "result": "Remote companies sampled. Buffer official careers page listed no creative/design openings; wider remote-company coverage incomplete."
+    }
+  ],
+  "verificationNotes": [
+    "Two removals have complete employer feed exclusion plus direct listing HTTP 404; original records archived.",
+    "Unresolved pages were retained. No profile, pin, or recommendation data changed.",
+    "Structured compensation and explicit Greenhouse salary ranges included with source currency and geographic caveats; unstated workplace remains unspecified."
+  ]
+}

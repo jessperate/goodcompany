@@ -1,5 +1,355 @@
 const JOBS = [
   {
+    "id": "airbnb-8287849",
+    "atsId": "8287849",
+    "company": "Airbnb",
+    "title": "Senior Communications Manager, Spanish-Speaking South America",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "São Paulo, Brazil",
+    "workplace": "Not specified",
+    "summary": "Lead communications for Airbnb across Spanish-speaking South America, coordinating regional media and storytelling.",
+    "highlights": [
+      "Regional communications and Spanish-language media experience."
+    ],
+    "url": "https://careers.airbnb.com/positions/8287849?gh_jid=8287849",
+    "sourceUrl": "https://careers.airbnb.com/positions/8287849?gh_jid=8287849",
+    "source": "Airbnb careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-16",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "compensationHeading": "Published monthly pay",
+    "salaryLabel": "BRL R$22,000–27,500 / month",
+    "salary": "Published Brazil monthly pay range: R$22,000–27,500 BRL. Bonus, equity, benefits, and travel credits may also apply."
+  },
+  {
+    "id": "anthropic-5462557008",
+    "atsId": "5462557008",
+    "company": "Anthropic",
+    "title": "Communications Manager, Claude Platform",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "workplace": "Not specified",
+    "summary": "Lead external communications for Anthropic’s Claude Platform.",
+    "highlights": [
+      "8–10 years in communications, PR, or product marketing."
+    ],
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462557008",
+    "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5462557008",
+    "source": "Anthropic careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-23",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "salaryMin": 265000,
+    "salaryMax": 295000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$265,000–295,000 / year",
+    "salary": "Published annual salary: US$265,000–295,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "anthropic-5461534008",
+    "atsId": "5461534008",
+    "company": "Anthropic",
+    "title": "Communications Manager, The Anthropic Institute",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "San Francisco, CA | New York City, NY",
+    "workplace": "Not specified",
+    "summary": "Manage external communications for the Anthropic Institute and its research.",
+    "highlights": [
+      "Communications experience translating complex research into clear stories."
+    ],
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5461534008",
+    "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5461534008",
+    "source": "Anthropic careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-22",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "salaryMin": 265000,
+    "salaryMax": 295000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$265,000–295,000 / year",
+    "salary": "Published annual salary: US$265,000–295,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "stripe-8304725",
+    "atsId": "8304725",
+    "company": "Stripe",
+    "title": "Product Designer, Risk",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "US / Canada",
+    "workplace": "Not specified",
+    "summary": "Design Stripe’s risk product experiences so businesses can understand and manage risk.",
+    "highlights": [
+      "Product design experience across complex software workflows."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8304725",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8304725",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-21",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27"
+  },
+  {
+    "id": "openai-3874db80-f3ec-4dd1-8d56-6441e8f7299d",
+    "atsId": "3874db80-f3ec-4dd1-8d56-6441e8f7299d",
+    "company": "OpenAI",
+    "title": "Product Designer, People Innovation Labs",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "On-site",
+    "summary": "Design internal products for OpenAI’s People team, including recruiting and employee experiences.",
+    "highlights": [
+      "4+ years shipping larger-scale software products and a product design portfolio."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/3874db80-f3ec-4dd1-8d56-6441e8f7299d",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/3874db80-f3ec-4dd1-8d56-6441e8f7299d",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-10-21",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "salaryMin": 230000,
+    "salaryMax": 385000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 230,000–385,000 / year",
+    "salary": "Published USD annual base salary: 230,000–385,000. Final pay may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "openai-3d71df2d-7d19-4ca9-97c4-b361c8a362f9",
+    "atsId": "3d71df2d-7d19-4ca9-97c4-b361c8a362f9",
+    "company": "OpenAI",
+    "title": "Product Designer, Growth",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Design ChatGPT growth experiences across discovery, onboarding, activation, and conversion.",
+    "highlights": [
+      "Strong product design craft and an experimental approach to growth."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/3d71df2d-7d19-4ca9-97c4-b361c8a362f9",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/3d71df2d-7d19-4ca9-97c4-b361c8a362f9",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-10-23",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "salaryMin": 245000,
+    "salaryMax": 310000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 245,000–310,000 / year",
+    "salary": "Published USD annual base salary: 245,000–310,000. Final pay may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "openai-4885f56d-9f59-4c40-81d8-c33a167cb26c",
+    "atsId": "4885f56d-9f59-4c40-81d8-c33a167cb26c",
+    "company": "OpenAI",
+    "title": "Product Designer, Higher Education",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Staff",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Design AI learning experiences for students, faculty, and institutions.",
+    "highlights": [
+      "Staff-level product design craft in interaction, visual design, and product thinking."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/4885f56d-9f59-4c40-81d8-c33a167cb26c",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/4885f56d-9f59-4c40-81d8-c33a167cb26c",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-10-16",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "salaryMin": 287000,
+    "salaryMax": 334000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 287,000–334,000 / year",
+    "salary": "Published USD annual base salary: 287,000–334,000. Final pay may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "openai-9711a982-851c-4f55-a5ae-080ea4bad520",
+    "atsId": "9711a982-851c-4f55-a5ae-080ea4bad520",
+    "company": "OpenAI",
+    "title": "Events Designer, Business Marketing",
+    "category": "Brand & visual",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Translate OpenAI business marketing event concepts into production-ready graphics and experiences.",
+    "highlights": [
+      "8+ years translating creative concepts into event graphics."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/9711a982-851c-4f55-a5ae-080ea4bad520",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/9711a982-851c-4f55-a5ae-080ea4bad520",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-10-26",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "salaryMin": 223000,
+    "salaryMax": 247000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 223,000–247,000 / year",
+    "salary": "Published USD annual base salary: 223,000–247,000. Final pay may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "openai-6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
+    "atsId": "6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
+    "company": "OpenAI",
+    "title": "Content Marketing Manager, Events",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Create content for OpenAI business events that helps technical audiences understand AI applications.",
+    "highlights": [
+      "Content marketing experience across events and business audiences."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-10-26",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "salaryMin": 219000,
+    "salaryMax": 230000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 219,000–230,000 / year",
+    "salary": "Published USD annual base salary: 219,000–230,000. Final pay may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "figma-6231027004",
+    "atsId": "6231027004",
+    "company": "Figma",
+    "title": "Product Designer, Core Experience",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "San Francisco, CA • New York, NY • United States",
+    "workplace": "Not specified",
+    "summary": "Design core Figma product experiences that help teams move from ideas to finished work.",
+    "highlights": [
+      "8+ years of product design, including complex software projects."
+    ],
+    "url": "https://boards.greenhouse.io/figma/jobs/6231027004?gh_jid=6231027004",
+    "sourceUrl": "https://boards.greenhouse.io/figma/jobs/6231027004?gh_jid=6231027004",
+    "source": "Figma careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-26",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "salaryMin": 169000,
+    "salaryMax": 303000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$169,000–303,000 / year",
+    "salary": "Published annual base salary range: US$169,000–303,000. Actual compensation depends on location and qualifications."
+  },
+  {
+    "id": "legora-916a4ab2-50ec-4285-8682-a28e9cf0c9ae",
+    "atsId": "916a4ab2-50ec-4285-8682-a28e9cf0c9ae",
+    "company": "Legora",
+    "title": "Senior Content Strategist",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "New York City",
+    "workplace": "On-site",
+    "summary": "Own Legora’s US editorial strategy, blog, and long-form thought leadership.",
+    "highlights": [
+      "Strategy, writing, and copyediting for business audiences."
+    ],
+    "url": "https://jobs.ashbyhq.com/legora/916a4ab2-50ec-4285-8682-a28e9cf0c9ae",
+    "sourceUrl": "https://jobs.ashbyhq.com/legora/916a4ab2-50ec-4285-8682-a28e9cf0c9ae",
+    "source": "Legora careers (Ashby)",
+    "sourcePublishedAt": "2026-10-15",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27",
+    "salaryMin": 159000,
+    "salaryMax": 188000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 159,000–188,000 / year",
+    "salary": "Published USD annual base salary: 159,000–188,000. Final pay may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "helsing-5015016101",
+    "atsId": "5015016101",
+    "company": "Helsing",
+    "title": "Senior Studio Design Engineer",
+    "category": "Industrial design",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "Munich",
+    "workplace": "Not specified",
+    "summary": "Sketch, model, prototype, and test Helsing hardware across aerospace, land platforms, and robotics.",
+    "highlights": [
+      "CAD and physical prototyping experience using tools such as Siemens NX, SolidWorks, or CATIA V5."
+    ],
+    "url": "https://helsing.ai/jobs/5015016101?gh_jid=5015016101",
+    "sourceUrl": "https://helsing.ai/jobs/5015016101?gh_jid=5015016101",
+    "source": "Helsing careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-23",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27"
+  },
+  {
+    "id": "spacex-8918126002",
+    "atsId": "8918126002",
+    "company": "SpaceX",
+    "title": "Spatial Interior Designer (Starlink)",
+    "category": "Industrial design",
+    "disciplines": [
+      "Brand & visual"
+    ],
+    "level": "Not specified",
+    "location": "Bastrop, TX",
+    "workplace": "Not specified",
+    "summary": "Design Starlink offices, factories, campus wayfinding, and retail environments.",
+    "highlights": [
+      "Environmental graphics, signage, and interior design from concept through installation."
+    ],
+    "url": "https://boards.greenhouse.io/spacex/jobs/8918126002?gh_jid=8918126002",
+    "sourceUrl": "https://boards.greenhouse.io/spacex/jobs/8918126002?gh_jid=8918126002",
+    "source": "SpaceX careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-26",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27"
+  },
+  {
+    "id": "linear-c97e034e-19a8-4ec7-89a5-c81987451da8",
+    "atsId": "c97e034e-19a8-4ec7-89a5-c81987451da8",
+    "company": "Linear",
+    "title": "Creative Producer",
+    "category": "Brand & creative",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "Europe",
+    "workplace": "Remote",
+    "summary": "Produce Linear creative work for its European audience with its brand and marketing teams.",
+    "highlights": [
+      "5+ years in creative production, project management, or similar work."
+    ],
+    "url": "https://jobs.ashbyhq.com/Linear/c97e034e-19a8-4ec7-89a5-c81987451da8",
+    "sourceUrl": "https://jobs.ashbyhq.com/Linear/c97e034e-19a8-4ec7-89a5-c81987451da8",
+    "source": "Linear careers (Ashby)",
+    "sourcePublishedAt": "2026-10-21",
+    "checkedAt": "October 27, 2026",
+    "lastVerifiedAt": "2026-10-27"
+  },
+  {
     "id": "airbnb-7978040",
     "atsId": "7978040",
     "company": "Airbnb",
@@ -3246,25 +3596,6 @@ const JOBS = [
       "Employer excerpt: “The Design team at ElevenLabs is crafting experiences for the next generation of audio workflows using generative AI. You’ll work…”"
     ],
     "lastVerifiedAt": "2026-09-29"
-  },
-  {
-    "id": "elevenlabs-5da4bb46-0bac-4e35-8731-9e182ad02bee",
-    "company": "ElevenLabs",
-    "title": "Creative Strategist,  Mobile",
-    "category": "Brand & creative",
-    "location": "United States",
-    "workplace": "Remote",
-    "url": "https://jobs.ashbyhq.com/elevenlabs/5da4bb46-0bac-4e35-8731-9e182ad02bee",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
-    "summary": "Creative Strategist,  Mobile at ElevenLabs. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Growth"
-    ],
-    "highlights": [
-      "Employer excerpt: “ElevenReader is our fast-growing consumer audio app, and creative is one of our biggest growth levers. We’re looking for a…”"
-    ],
-    "lastVerifiedAt": "2026-10-13"
   },
   {
     "id": "elevenlabs-d5fb656f-a8ac-457a-ab26-07304791e097",
@@ -22824,42 +23155,6 @@ const JOBS = [
     "keywords": [
       "Content & strategy",
       "Brand & visual"
-    ]
-  },
-  {
-    "id": "fal-ed6a645e-ffa5-4865-899c-a5d1faa73c47",
-    "atsId": "ed6a645e-ffa5-4865-899c-a5d1faa73c47",
-    "company": "Fal",
-    "title": "Influencer Marketing Manager",
-    "category": "Influencer marketing",
-    "disciplines": [
-      "Creator marketing",
-      "AI Creative"
-    ],
-    "level": "Level not specified",
-    "location": "San Francisco, CA",
-    "workplace": "Not specified",
-    "summary": "Build fal’s influencer and UGC program with creators, AI filmmakers, designers, and creative technologists working in generative media.",
-    "highlights": [
-      "Source and develop creator relationships, briefs, concepts, sponsored work, and measurement.",
-      "Activate creators around model and product launches while maintaining a high creative bar.",
-      "The posting asks candidates to be in or relocate to San Francisco."
-    ],
-    "salaryMin": 150000,
-    "salaryMax": 190000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$150,000–190,000 / year",
-    "salary": "US$150,000–190,000 annual U.S. salary range; equity and benefits may be additional.",
-    "url": "https://jobs.ashbyhq.com/fal-ai/ed6a645e-ffa5-4865-899c-a5d1faa73c47",
-    "source": "Fal careers (Ashby)",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/fal-ai?includeCompensation=true",
-    "sourcePublishedAt": "2026-10-15T00:16:05.512+00:00",
-    "checkedAt": "October 15, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "keywords": [
-      "Influencer marketing",
-      "Creator marketing",
-      "AI Creative"
     ]
   },
   {
