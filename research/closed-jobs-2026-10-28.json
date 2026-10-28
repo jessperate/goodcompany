@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-28",
+  "closed": [
+    {
+      "job": {
+        "id": "openai-a5136d9d-c22a-4c12-a776-483f63ef1120",
+        "atsId": "a5136d9d-c22a-4c12-a776-483f63ef1120",
+        "company": "OpenAI",
+        "title": "Creative Director, Copy",
+        "category": "Creative leadership",
+        "disciplines": [
+          "Brand & visual",
+          "Content & strategy"
+        ],
+        "level": "Leadership",
+        "location": "San Francisco",
+        "workplace": "Not specified",
+        "summary": "Guide copy and storytelling across OpenAI campaigns, launches, films, and brand work.",
+        "highlights": [
+          "8+ years writing for brands and a portfolio of integrated creative work."
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120",
+        "sourceUrl": "https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120",
+        "source": "OpenAI careers (Ashby)",
+        "sourcePublishedAt": "2026-10-19",
+        "checkedAt": "October 26, 2026",
+        "lastVerifiedAt": "2026-10-26",
+        "salaryMin": 223000,
+        "salaryMax": 318000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "USD 223,000–318,000 / year",
+        "salary": "Published USD annual base salary: 223,000–318,000. Final pay may vary by location, experience, and qualifications."
+      },
+      "closedAt": "2026-10-28",
+      "evidence": "Complete official employer Ashby feed excludes the exact posting ID, and direct official listing returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120",
+      "atsIdChecked": "a5136d9d-c22a-4c12-a776-483f63ef1120",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "handshake-cfce596f-d7be-4703-bcbe-6d8c94643dc3",
+        "atsId": "cfce596f-d7be-4703-bcbe-6d8c94643dc3",
+        "company": "Handshake",
+        "title": "Staff Product Designer, Autonomous Recruiting",
+        "location": "San Francisco, CA",
+        "url": "https://jobs.ashbyhq.com/handshake/cfce596f-d7be-4703-bcbe-6d8c94643dc3",
+        "source": "Handshake careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
+        "checkedAt": "September 18, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "category": "Product design",
+        "disciplines": [
+          "AI Creative"
+        ],
+        "workplace": "Hybrid",
+        "level": "Staff",
+        "summary": "Shape Handshake’s new AI-native recruiting product from concept through launch. Design how recruiters move between conversational assistants, agent automation, and structured hiring workflows.",
+        "highlights": [
+          "Requires 7+ years of product design experience, ideally with complex enterprise or B2B workflows.",
+          "Strong visual and interaction craft, shipped product work, and experience using generative AI in design.",
+          "San Francisco; the ATS marks the position Hybrid. Confirm the office schedule with the recruiting team."
+        ],
+        "salaryMin": 200000,
+        "salaryMax": 240000,
+        "salaryCurrency": "USD",
+        "salary": "US$200,000–240,000 annual salary for this San Francisco posting, plus equity.",
+        "salaryLabel": "US$200,000–240,000 / year",
+        "type": "Full time",
+        "sourcePublishedAt": "2026-09-17T14:23:58.259+00:00",
+        "keywords": [
+          "Product design",
+          "AI Creative"
+        ]
+      },
+      "closedAt": "2026-10-28",
+      "evidence": "Complete official employer Ashby feed excludes the exact posting ID, and direct official listing returns HTTP 404.",
+      "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
+      "atsIdChecked": "cfce596f-d7be-4703-bcbe-6d8c94643dc3",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "ramp-758ed843-0fa2-4891-8925-c8d690c6eb0f",
+        "company": "Ramp",
+        "title": "Social Media Lead",
+        "category": "Social media",
+        "disciplines": [
+          "Creator marketing"
+        ],
+        "level": "Leadership",
+        "location": "New York, NY (HQ) · Miami, FL",
+        "workplace": "Hybrid",
+        "type": "Full time",
+        "summary": "Own Ramp social strategy and distribution across company, employee, and executive voices. Turn customer and creator stories into timely content and coordinate campaigns with the wider marketing team.",
+        "highlights": [
+          "Build a recognizable voice and an effective publishing rhythm.",
+          "Connect social storytelling with creators, customers, and partners."
+        ],
+        "keywords": [
+          "Social media",
+          "Creator marketing"
+        ],
+        "source": "Ramp careers · Ashby",
+        "url": "https://jobs.ashbyhq.com/ramp/758ed843-0fa2-4891-8925-c8d690c6eb0f",
+        "checkedAt": "September 11, 2026",
+        "lastVerifiedAt": "2026-10-13",
+        "salary": "US$122,000–231,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: SF/NY: Target Base Salary $136K – $231K; Nationwide: Target Base Salary $122K – $207K.",
+        "salaryMin": 122000,
+        "salaryMax": 231000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$122,000–231,000 / year"
+      },
+      "closedAt": "2026-10-28",
+      "evidence": "Complete official employer Ashby feed excludes the exact posting ID, and direct official listing returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/ramp/758ed843-0fa2-4891-8925-c8d690c6eb0f",
+      "atsIdChecked": "758ed843-0fa2-4891-8925-c8d690c6eb0f",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "company": "Notion",
+        "title": "Product Designer",
+        "location": "San Francisco, California",
+        "id": "linkedin-4423306576",
+        "url": "https://jobs.ashbyhq.com/notion/d177d052-ef57-4900-acf2-d58e9eded620",
+        "source": "Notion careers · Ashby",
+        "checkedAt": "September 11, 2026",
+        "postedAt": "2026-08-28T00:00:00.000Z",
+        "category": "Product design",
+        "level": "Senior",
+        "workplace": "Hybrid",
+        "type": "Full time",
+        "summary": "Design Notion product experiences from early concepts to finished interfaces. Work with engineering and customer-facing teams to simplify complex workflows and evolve the design system.",
+        "highlights": [
+          "The role asks for 5+ years of experience.",
+          "Office anchor days are Monday, Tuesday, and Thursday."
+        ],
+        "keywords": [
+          "Product design"
+        ],
+        "salary": "US$285,000–330,000 annual base salary. Actual pay depends on location, experience, and level.",
+        "linkedinUrls": [
+          "https://www.linkedin.com/jobs/view/4423306576"
+        ],
+        "disciplines": [],
+        "lastVerifiedAt": "2026-10-13",
+        "salaryMin": 285000,
+        "salaryMax": 330000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$285,000–330,000 / year"
+      },
+      "closedAt": "2026-10-28",
+      "evidence": "Complete official employer Ashby feed excludes the exact posting ID, and direct official listing returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/notion/d177d052-ef57-4900-acf2-d58e9eded620",
+      "atsIdChecked": "d177d052-ef57-4900-acf2-d58e9eded620",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "company": "Notion",
+        "title": "Product Designer",
+        "location": "New York, NY",
+        "id": "linkedin-4423307605",
+        "url": "https://jobs.ashbyhq.com/notion/d177d052-ef57-4900-acf2-d58e9eded620",
+        "source": "Notion careers · Ashby",
+        "checkedAt": "September 11, 2026",
+        "postedAt": "2026-08-28T00:00:00.000Z",
+        "category": "Product design",
+        "level": "Senior",
+        "workplace": "Hybrid",
+        "type": "Full time",
+        "summary": "Design Notion product experiences from early concepts to finished interfaces. Work with engineering and customer-facing teams to simplify complex workflows and evolve the design system.",
+        "highlights": [
+          "The role asks for 5+ years of experience.",
+          "Office anchor days are Monday, Tuesday, and Thursday."
+        ],
+        "keywords": [
+          "Product design"
+        ],
+        "salary": "US$285,000–330,000 annual base salary. Actual pay depends on location, experience, and level.",
+        "linkedinUrls": [
+          "https://www.linkedin.com/jobs/view/4423307605"
+        ],
+        "disciplines": [],
+        "lastVerifiedAt": "2026-10-13",
+        "salaryMin": 285000,
+        "salaryMax": 330000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$285,000–330,000 / year"
+      },
+      "closedAt": "2026-10-28",
+      "evidence": "Complete official employer Ashby feed excludes the exact posting ID, and direct official listing returns HTTP 404.",
+      "sourceUrl": "https://jobs.ashbyhq.com/notion/d177d052-ef57-4900-acf2-d58e9eded620",
+      "atsIdChecked": "d177d052-ef57-4900-acf2-d58e9eded620",
+      "httpStatus": 404
+    }
+  ]
+}

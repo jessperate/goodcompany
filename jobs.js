@@ -1,5 +1,203 @@
 const JOBS = [
   {
+    "id": "stripe-8283782",
+    "atsId": "8283782",
+    "company": "Stripe",
+    "title": "Design Engineer, Brand Studio",
+    "category": "Design engineering",
+    "disciplines": [
+      "Brand & visual"
+    ],
+    "level": "Not specified",
+    "location": "US, Canada, Remote",
+    "workplace": "Remote",
+    "summary": "Build expressive web experiences for Stripe’s Brand Studio across campaigns and product storytelling.",
+    "highlights": [
+      "Frontend engineering and visual design craft across brand-led web experiences."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8283782",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8283782",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-27",
+    "checkedAt": "October 28, 2026",
+    "lastVerifiedAt": "2026-10-28"
+  },
+  {
+    "id": "stripe-8287486",
+    "atsId": "8287486",
+    "company": "Stripe",
+    "title": "Managing Editor, Stripe Press",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Leadership",
+    "location": "NYC",
+    "workplace": "Not specified",
+    "summary": "Lead editorial development and execution for Stripe Press’s publishing program.",
+    "highlights": [
+      "Editorial leadership across long-form publishing and book production."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8287486",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8287486",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-27",
+    "checkedAt": "October 28, 2026",
+    "lastVerifiedAt": "2026-10-28"
+  },
+  {
+    "id": "openai-dc79ee90-98f5-41f1-b408-5861cb433612",
+    "atsId": "dc79ee90-98f5-41f1-b408-5861cb433612",
+    "company": "OpenAI",
+    "title": "Consumer Product Communications Lead",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Leadership",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Lead communications strategy, launches, and campaigns for ChatGPT and OpenAI consumer products.",
+    "highlights": [
+      "Product communications leadership and strong editorial judgment."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/dc79ee90-98f5-41f1-b408-5861cb433612",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/dc79ee90-98f5-41f1-b408-5861cb433612",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-10-27",
+    "checkedAt": "October 28, 2026",
+    "lastVerifiedAt": "2026-10-28",
+    "salaryMin": 297000,
+    "salaryMax": 330000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 297,000–330,000 / year",
+    "salary": "Published USD annual base salary: 297,000–330,000. Final pay may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "openai-3942de32-739a-409a-841c-828af04bad83",
+    "atsId": "3942de32-739a-409a-841c-828af04bad83",
+    "company": "OpenAI",
+    "title": "Content Designer",
+    "category": "Content & strategy",
+    "disciplines": [
+      "AI Creative",
+      "Product design"
+    ],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Design ChatGPT product content, AI prompt frameworks, and evaluation systems for useful messaging at scale.",
+    "highlights": [
+      "5+ years in content design, content engineering, or related work."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/3942de32-739a-409a-841c-828af04bad83",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/3942de32-739a-409a-841c-828af04bad83",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-10-27",
+    "checkedAt": "October 28, 2026",
+    "lastVerifiedAt": "2026-10-28",
+    "salaryMin": 287000,
+    "salaryMax": 318000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 287,000–318,000 / year",
+    "salary": "Published USD annual base salary: 287,000–318,000. Final pay may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "openai-30b0a80b-8421-4847-a670-5bd09920c4ce",
+    "atsId": "30b0a80b-8421-4847-a670-5bd09920c4ce",
+    "company": "OpenAI",
+    "title": "Motion Designer",
+    "category": "Motion & video",
+    "disciplines": [
+      "Brand & visual"
+    ],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Translate OpenAI research and product ideas into motion for films, launches, demos, and communications.",
+    "highlights": [
+      "7+ years of motion design across films, campaigns, launches, or narrative work."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/30b0a80b-8421-4847-a670-5bd09920c4ce",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/30b0a80b-8421-4847-a670-5bd09920c4ce",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-10-28",
+    "checkedAt": "October 28, 2026",
+    "lastVerifiedAt": "2026-10-28",
+    "salaryMin": 223000,
+    "salaryMax": 247000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 223,000–247,000 / year",
+    "salary": "Published USD annual base salary: 223,000–247,000. Final pay may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "mercury-6236623004",
+    "atsId": "6236623004",
+    "company": "Mercury",
+    "title": "Senior Design Manager - Business Banking & Investments",
+    "category": "Creative leadership",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "workplace": "Remote",
+    "summary": "Lead product design for Mercury’s Business Banking and Investments teams, spanning payments, accounts, and treasury.",
+    "highlights": [
+      "Design leadership with strong interaction and visual craft."
+    ],
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6236623004",
+    "sourceUrl": "https://job-boards.greenhouse.io/mercury/jobs/6236623004",
+    "source": "Mercury careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-27",
+    "checkedAt": "October 28, 2026",
+    "lastVerifiedAt": "2026-10-28",
+    "salaryMin": 228700,
+    "salaryMax": 285900,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$228,700–285,900 / year",
+    "salary": "Published annual base salary: US$228,700–285,900 for US employees (any location), or CA$216,200–270,200 for Canadian employees (any location). Final offer depends on location, experience, expertise, and internal equity."
+  },
+  {
+    "id": "elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
+    "atsId": "13fcee94-512f-4229-b7ab-f91d3fdd24e3",
+    "company": "ElevenLabs",
+    "title": "ElevenMusic - Content Creator & Strategist",
+    "category": "Creator marketing",
+    "disciplines": [
+      "Social media",
+      "AI Creative"
+    ],
+    "level": "Not specified",
+    "location": "United States",
+    "workplace": "Remote",
+    "summary": "Create ElevenMusic tutorials and social content, lead its community, and represent the AI music product at creator events.",
+    "highlights": [
+      "Hands-on music creation, social content, video editing, and community work."
+    ],
+    "url": "https://jobs.ashbyhq.com/elevenlabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
+    "sourceUrl": "https://jobs.ashbyhq.com/elevenlabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
+    "source": "ElevenLabs careers (Ashby)",
+    "sourcePublishedAt": "2026-10-27",
+    "checkedAt": "October 28, 2026",
+    "lastVerifiedAt": "2026-10-28"
+  },
+  {
+    "id": "elevenlabs-db7abc8d-67b1-4d64-a623-59be88d65fba",
+    "atsId": "db7abc8d-67b1-4d64-a623-59be88d65fba",
+    "company": "ElevenLabs",
+    "title": "Product & Technical Communications",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "United States",
+    "workplace": "Remote",
+    "summary": "Lead technical and product communications for ElevenLabs, including launches, narratives, demos, and media outreach.",
+    "highlights": [
+      "Experience running product or technical communications for B2B technology."
+    ],
+    "url": "https://jobs.ashbyhq.com/elevenlabs/db7abc8d-67b1-4d64-a623-59be88d65fba",
+    "sourceUrl": "https://jobs.ashbyhq.com/elevenlabs/db7abc8d-67b1-4d64-a623-59be88d65fba",
+    "source": "ElevenLabs careers (Ashby)",
+    "sourcePublishedAt": "2026-10-27",
+    "checkedAt": "October 28, 2026",
+    "lastVerifiedAt": "2026-10-28"
+  },
+  {
     "id": "airbnb-8287849",
     "atsId": "8287849",
     "company": "Airbnb",
@@ -615,35 +813,6 @@ const JOBS = [
     "salary": "Published USD annual base salary: 240,000–266,000. Final pay may vary by location, experience, and qualifications."
   },
   {
-    "id": "openai-a5136d9d-c22a-4c12-a776-483f63ef1120",
-    "atsId": "a5136d9d-c22a-4c12-a776-483f63ef1120",
-    "company": "OpenAI",
-    "title": "Creative Director, Copy",
-    "category": "Creative leadership",
-    "disciplines": [
-      "Brand & visual",
-      "Content & strategy"
-    ],
-    "level": "Leadership",
-    "location": "San Francisco",
-    "workplace": "Not specified",
-    "summary": "Guide copy and storytelling across OpenAI campaigns, launches, films, and brand work.",
-    "highlights": [
-      "8+ years writing for brands and a portfolio of integrated creative work."
-    ],
-    "url": "https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120",
-    "sourceUrl": "https://jobs.ashbyhq.com/openai/a5136d9d-c22a-4c12-a776-483f63ef1120",
-    "source": "OpenAI careers (Ashby)",
-    "sourcePublishedAt": "2026-10-19",
-    "checkedAt": "October 26, 2026",
-    "lastVerifiedAt": "2026-10-26",
-    "salaryMin": 223000,
-    "salaryMax": 318000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "USD 223,000–318,000 / year",
-    "salary": "Published USD annual base salary: 223,000–318,000. Final pay may vary by location, experience, and qualifications."
-  },
-  {
     "id": "openai-171868ac-1070-4357-b990-acc918f68dc2",
     "atsId": "171868ac-1070-4357-b990-acc918f68dc2",
     "company": "OpenAI",
@@ -936,41 +1105,6 @@ const JOBS = [
     "sourcePublishedAt": "2026-09-18T13:02:40-04:00",
     "keywords": [
       "AI agents",
-      "Product design",
-      "AI Creative"
-    ]
-  },
-  {
-    "id": "handshake-cfce596f-d7be-4703-bcbe-6d8c94643dc3",
-    "atsId": "cfce596f-d7be-4703-bcbe-6d8c94643dc3",
-    "company": "Handshake",
-    "title": "Staff Product Designer, Autonomous Recruiting",
-    "location": "San Francisco, CA",
-    "url": "https://jobs.ashbyhq.com/handshake/cfce596f-d7be-4703-bcbe-6d8c94643dc3",
-    "source": "Handshake careers (Ashby)",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
-    "checkedAt": "September 18, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "category": "Product design",
-    "disciplines": [
-      "AI Creative"
-    ],
-    "workplace": "Hybrid",
-    "level": "Staff",
-    "summary": "Shape Handshake’s new AI-native recruiting product from concept through launch. Design how recruiters move between conversational assistants, agent automation, and structured hiring workflows.",
-    "highlights": [
-      "Requires 7+ years of product design experience, ideally with complex enterprise or B2B workflows.",
-      "Strong visual and interaction craft, shipped product work, and experience using generative AI in design.",
-      "San Francisco; the ATS marks the position Hybrid. Confirm the office schedule with the recruiting team."
-    ],
-    "salaryMin": 200000,
-    "salaryMax": 240000,
-    "salaryCurrency": "USD",
-    "salary": "US$200,000–240,000 annual salary for this San Francisco posting, plus equity.",
-    "salaryLabel": "US$200,000–240,000 / year",
-    "type": "Full time",
-    "sourcePublishedAt": "2026-09-17T14:23:58.259+00:00",
-    "keywords": [
       "Product design",
       "AI Creative"
     ]
@@ -2290,37 +2424,6 @@ const JOBS = [
     "salaryMax": 315000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$205,760–315,000 / year"
-  },
-  {
-    "id": "ramp-758ed843-0fa2-4891-8925-c8d690c6eb0f",
-    "company": "Ramp",
-    "title": "Social Media Lead",
-    "category": "Social media",
-    "disciplines": [
-      "Creator marketing"
-    ],
-    "level": "Leadership",
-    "location": "New York, NY (HQ) · Miami, FL",
-    "workplace": "Hybrid",
-    "type": "Full time",
-    "summary": "Own Ramp social strategy and distribution across company, employee, and executive voices. Turn customer and creator stories into timely content and coordinate campaigns with the wider marketing team.",
-    "highlights": [
-      "Build a recognizable voice and an effective publishing rhythm.",
-      "Connect social storytelling with creators, customers, and partners."
-    ],
-    "keywords": [
-      "Social media",
-      "Creator marketing"
-    ],
-    "source": "Ramp careers · Ashby",
-    "url": "https://jobs.ashbyhq.com/ramp/758ed843-0fa2-4891-8925-c8d690c6eb0f",
-    "checkedAt": "September 11, 2026",
-    "lastVerifiedAt": "2026-10-13",
-    "salary": "US$122,000–231,000 annual base salary. Actual pay depends on location, experience, and level. Published tiers: SF/NY: Target Base Salary $136K – $231K; Nationwide: Target Base Salary $122K – $207K.",
-    "salaryMin": 122000,
-    "salaryMax": 231000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$122,000–231,000 / year"
   },
   {
     "id": "perplexity-9740bc68-7297-4d69-ae54-3be81ae3745a",
@@ -4859,38 +4962,6 @@ const JOBS = [
     "salaryMax": 250000,
     "salaryCurrency": "USD",
     "salaryLabel": "US$200,000–250,000 / year"
-  },
-  {
-    "company": "Notion",
-    "title": "Product Designer",
-    "location": "San Francisco, California",
-    "id": "linkedin-4423306576",
-    "url": "https://jobs.ashbyhq.com/notion/d177d052-ef57-4900-acf2-d58e9eded620",
-    "source": "Notion careers · Ashby",
-    "checkedAt": "September 11, 2026",
-    "postedAt": "2026-08-28T00:00:00.000Z",
-    "category": "Product design",
-    "level": "Senior",
-    "workplace": "Hybrid",
-    "type": "Full time",
-    "summary": "Design Notion product experiences from early concepts to finished interfaces. Work with engineering and customer-facing teams to simplify complex workflows and evolve the design system.",
-    "highlights": [
-      "The role asks for 5+ years of experience.",
-      "Office anchor days are Monday, Tuesday, and Thursday."
-    ],
-    "keywords": [
-      "Product design"
-    ],
-    "salary": "US$285,000–330,000 annual base salary. Actual pay depends on location, experience, and level.",
-    "linkedinUrls": [
-      "https://www.linkedin.com/jobs/view/4423306576"
-    ],
-    "disciplines": [],
-    "lastVerifiedAt": "2026-10-13",
-    "salaryMin": 285000,
-    "salaryMax": 330000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$285,000–330,000 / year"
   },
   {
     "company": "Adobe",
@@ -15058,38 +15129,6 @@ const JOBS = [
       "storytelling"
     ],
     "salary": null
-  },
-  {
-    "company": "Notion",
-    "title": "Product Designer",
-    "location": "New York, NY",
-    "id": "linkedin-4423307605",
-    "url": "https://jobs.ashbyhq.com/notion/d177d052-ef57-4900-acf2-d58e9eded620",
-    "source": "Notion careers · Ashby",
-    "checkedAt": "September 11, 2026",
-    "postedAt": "2026-08-28T00:00:00.000Z",
-    "category": "Product design",
-    "level": "Senior",
-    "workplace": "Hybrid",
-    "type": "Full time",
-    "summary": "Design Notion product experiences from early concepts to finished interfaces. Work with engineering and customer-facing teams to simplify complex workflows and evolve the design system.",
-    "highlights": [
-      "The role asks for 5+ years of experience.",
-      "Office anchor days are Monday, Tuesday, and Thursday."
-    ],
-    "keywords": [
-      "Product design"
-    ],
-    "salary": "US$285,000–330,000 annual base salary. Actual pay depends on location, experience, and level.",
-    "linkedinUrls": [
-      "https://www.linkedin.com/jobs/view/4423307605"
-    ],
-    "disciplines": [],
-    "lastVerifiedAt": "2026-10-13",
-    "salaryMin": 285000,
-    "salaryMax": 330000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$285,000–330,000 / year"
   },
   {
     "company": "Cisco",
