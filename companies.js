@@ -1154,6 +1154,14 @@ const COMPANIES = {
     "checkedAt": "September 29, 2026",
     "press": [],
     "interviews": []
+  },
+  "Replit": {
+    "website": "https://replit.com",
+    "logo": "logos/replit.svg",
+    "about": "An AI software creation platform that lets people build applications using natural language.",
+    "checkedAt": "November 21, 2026",
+    "press": [{"title": "Series C funding announcement · September 2025", "url": "https://replit.com/news/funding-announcement-series-c", "source": "Replit"}],
+    "interviews": []
   }
 };
 

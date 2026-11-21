@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-21",
+  "baseCommit": "04a5ea7150b5828ebb54cae599ee7ac1fba4e54f",
+  "counts": {
+    "before": 856,
+    "feedsAttempted": 46,
+    "completeFeeds": 42,
+    "verifiedExistingByCompleteFeed": 92,
+    "directRequests": 764,
+    "directStatuses": {
+      "200": 92,
+      "301": 25,
+      "302": 22,
+      "307": 12,
+      "308": 1,
+      "404": 51,
+      "429": 561
+    },
+    "added": 28,
+    "removed": 35,
+    "after": 849
+  },
+  "additions": [
+    {
+      "id": "airbnb-8394407",
+      "company": "Airbnb",
+      "title": "Creative Director Copy, Social",
+      "url": "https://careers.airbnb.com/positions/8394407?gh_jid=8394407"
+    },
+    {
+      "id": "stripe-8376773",
+      "company": "Stripe",
+      "title": "Briefing Content Strategist",
+      "url": "https://stripe.com/jobs/search?gh_jid=8376773"
+    },
+    {
+      "id": "stripe-8265389",
+      "company": "Stripe",
+      "title": "Motion Designer 3D, Stripe Identity",
+      "url": "https://stripe.com/jobs/search?gh_jid=8265389"
+    },
+    {
+      "id": "stripe-8205126",
+      "company": "Stripe",
+      "title": "Product Designer, Treasury",
+      "url": "https://stripe.com/jobs/search?gh_jid=8205126"
+    },
+    {
+      "id": "openai-67c67c36-e710-4f21-bd9c-759eb72cfabf",
+      "company": "OpenAI",
+      "title": "Product Content Creator",
+      "url": "https://jobs.ashbyhq.com/openai/67c67c36-e710-4f21-bd9c-759eb72cfabf"
+    },
+    {
+      "id": "openai-8e754a28-926e-40f9-b33d-6e2b838ef5dd",
+      "company": "OpenAI",
+      "title": "Product Designer, Physical Engineering",
+      "url": "https://jobs.ashbyhq.com/openai/8e754a28-926e-40f9-b33d-6e2b838ef5dd"
+    },
+    {
+      "id": "openai-919b3666-14c2-4c70-b28c-7a49fedc418e",
+      "company": "OpenAI",
+      "title": "Product Designer, Advertiser Experiences",
+      "url": "https://jobs.ashbyhq.com/openai/919b3666-14c2-4c70-b28c-7a49fedc418e"
+    },
+    {
+      "id": "runway-c73b244e-1bca-4bc3-94a7-7deb11f30011",
+      "company": "Runway",
+      "title": "Social Media Lead",
+      "url": "https://jobs.ashbyhq.com/runway-ml/c73b244e-1bca-4bc3-94a7-7deb11f30011"
+    },
+    {
+      "id": "lovable-a4e39bdc-b143-43ea-8077-a113445edbd2",
+      "company": "Lovable",
+      "title": "Creative Technologist",
+      "url": "https://jobs.ashbyhq.com/lovable/a4e39bdc-b143-43ea-8077-a113445edbd2"
+    },
+    {
+      "id": "duolingo-8943317002",
+      "company": "Duolingo",
+      "title": "Associate Creative Director",
+      "url": "https://careers.duolingo.com/jobs/8943317002?gh_jid=8943317002"
+    },
+    {
+      "id": "duolingo-8933791002",
+      "company": "Duolingo",
+      "title": "Product Designer, Thrive Intern",
+      "url": "https://careers.duolingo.com/jobs/8933791002?gh_jid=8933791002"
+    },
+    {
+      "id": "harvey-118f1c4c-5e46-416a-8caa-d6f026fcbcfe",
+      "company": "Harvey",
+      "title": "Staff Content Designer",
+      "url": "https://jobs.ashbyhq.com/harvey/118f1c4c-5e46-416a-8caa-d6f026fcbcfe"
+    },
+    {
+      "id": "harvey-27c345f8-e664-40be-a50c-e494cd158fbd",
+      "company": "Harvey",
+      "title": "Creative Director, Social Video",
+      "url": "https://jobs.ashbyhq.com/harvey/27c345f8-e664-40be-a50c-e494cd158fbd"
+    },
+    {
+      "id": "harvey-a42047fc-fbd1-4e14-bf10-15207ae2d060",
+      "company": "Harvey",
+      "title": "Creative AI Engineer",
+      "url": "https://jobs.ashbyhq.com/harvey/a42047fc-fbd1-4e14-bf10-15207ae2d060"
+    },
+    {
+      "id": "harvey-e46cea47-7901-4b8d-ad80-ec31223fefed",
+      "company": "Harvey",
+      "title": "Senior Product Designer",
+      "url": "https://jobs.ashbyhq.com/harvey/e46cea47-7901-4b8d-ad80-ec31223fefed"
+    },
+    {
+      "id": "harvey-e293b2cc-4269-4009-be34-850b000ef6c5",
+      "company": "Harvey",
+      "title": "Staff Brand Designer",
+      "url": "https://jobs.ashbyhq.com/harvey/e293b2cc-4269-4009-be34-850b000ef6c5"
+    },
+    {
+      "id": "harvey-1d43719f-da4a-4cb8-8865-d971107bd1f2",
+      "company": "Harvey",
+      "title": "Staff Product Brand Designer",
+      "url": "https://jobs.ashbyhq.com/harvey/1d43719f-da4a-4cb8-8865-d971107bd1f2"
+    },
+    {
+      "id": "perplexity-0807f77b-4499-498a-b2bf-3cd44d965138",
+      "company": "Perplexity",
+      "title": "Content Designer",
+      "url": "https://jobs.ashbyhq.com/Perplexity/0807f77b-4499-498a-b2bf-3cd44d965138"
+    },
+    {
+      "id": "perplexity-1354f2e8-56c8-4a66-81f8-eb5d5b944506",
+      "company": "Perplexity",
+      "title": "Lead Product Designer, Mobile (Native & Mobile)",
+      "url": "https://jobs.ashbyhq.com/Perplexity/1354f2e8-56c8-4a66-81f8-eb5d5b944506"
+    },
+    {
+      "id": "perplexity-14a45e74-9cde-4622-8172-1b6968810802",
+      "company": "Perplexity",
+      "title": "Lead Product Designer, Growth (Mobile)",
+      "url": "https://jobs.ashbyhq.com/Perplexity/14a45e74-9cde-4622-8172-1b6968810802"
+    },
+    {
+      "id": "replit-7257790d-069f-4803-877f-d1d60f60cd5b",
+      "company": "Replit",
+      "title": "Head of Creative",
+      "url": "https://jobs.ashbyhq.com/replit/7257790d-069f-4803-877f-d1d60f60cd5b"
+    },
+    {
+      "id": "descript-8208843003",
+      "company": "Descript",
+      "title": "Video Producer",
+      "url": "https://boards.greenhouse.io/descript/jobs/8208843003?gh_jid=8208843003"
+    },
+    {
+      "id": "figma-6263971004",
+      "company": "Figma",
+      "title": "Brand Designer - Figma Weave (Tel Aviv, Israel)",
+      "url": "https://boards.greenhouse.io/figma/jobs/6263971004?gh_jid=6263971004"
+    },
+    {
+      "id": "figma-6232528004",
+      "company": "Figma",
+      "title": "Creative Director, Brand Experience",
+      "url": "https://boards.greenhouse.io/figma/jobs/6232528004?gh_jid=6232528004"
+    },
+    {
+      "id": "figma-6247174004",
+      "company": "Figma",
+      "title": "Product Designer - Figma Weave (Tel Aviv, Israel)",
+      "url": "https://boards.greenhouse.io/figma/jobs/6247174004?gh_jid=6247174004"
+    },
+    {
+      "id": "figma-6251104004",
+      "company": "Figma",
+      "title": "Product Designer, Growth",
+      "url": "https://boards.greenhouse.io/figma/jobs/6251104004?gh_jid=6251104004"
+    },
+    {
+      "id": "dorsia-5279261007",
+      "company": "Dorsia",
+      "title": "Copywriter",
+      "url": "https://job-boards.greenhouse.io/dorsia/jobs/5279261007"
+    },
+    {
+      "id": "databricks-8923866002",
+      "company": "Databricks",
+      "title": "Sr. Product Designer",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8923866002"
+    }
+  ],
+  "removalIds": [
+    "openai-dc79ee90-98f5-41f1-b408-5861cb433612",
+    "elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
+    "elevenlabs-db7abc8d-67b1-4d64-a623-59be88d65fba",
+    "openai-9711a982-851c-4f55-a5ae-080ea4bad520",
+    "openai-6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
+    "airbnb-8052792",
+    "openai-d16ac2b8-a742-4965-8545-75df7981191b",
+    "openai-7ded0fa1-4887-4de2-84c8-eecc756e86d9",
+    "vanta-0e154a57-fc33-4cf7-95cc-0aa30e0bde90",
+    "zapier-b14ac81b-d94c-4a46-89a3-017f3d113517",
+    "openai-43ba8b53-4643-4544-bb21-f13efe99e0a0",
+    "lovable-product-designer-cf78be",
+    "lovable-brand-and-integrated-marketing-lead-europe-73b2c1",
+    "lovable-brand-editorial-lead-db107c",
+    "lovable-community-manager-virtual-spaces-41d9ea",
+    "clickup-lead-brand-designer-7fb8d11f",
+    "decagon-1117aac8-58b5-4b24-bc82-849317a52719",
+    "decagon-60613af4-9061-426a-b4d6-720a4399be37",
+    "handshake-73418318-9ea4-49bc-a886-1bb4f6f8a637",
+    "handshake-2dd606c0-976f-4f22-b258-102a5ad3da4c",
+    "harvey-c84964b6-9e60-4005-8580-b865f3e47b4f",
+    "harvey-851b416f-9869-4b9c-9c10-5105bded4330",
+    "harvey-3feed577-6157-4fb4-b416-d4f493e1eb5c",
+    "harvey-b6cfee1e-67c7-420e-a3fc-24677eda6d2c",
+    "linkedin-4417648025",
+    "ramp-a8451979-2691-440e-851b-49a3b807729b",
+    "ramp-b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
+    "vanta-6d6698d7-7272-4c2a-bc34-807dc269de43",
+    "supabase-4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
+    "supabase-97fe8e68-28c5-42db-a763-60113f0b31fd",
+    "perplexity-38caef61-f8b9-4ba9-a640-870a1e77ba54",
+    "ramp-566c4ad0-03ea-4022-8f11-04f0d8969f97",
+    "decagon-f9abd967-7e19-432e-bde0-e2a78d63b639",
+    "zapier-c0582311-18cb-4415-9c86-79014f1b74f6",
+    "runway-386d468e-2a49-4901-877d-d2bf6b33abd1"
+  ],
+  "closureArchive": "research/closed-jobs-2026-11-21.json",
+  "unresolvedChecks": [
+    {
+      "source": "Direct listing pages",
+      "count": 729,
+      "reason": "Rate limits, redirects, inaccessible pages, and generic 404s without sufficient closure evidence retained for retry."
+    },
+    {
+      "source": "Hex, Webflow, Remote, Deel feeds",
+      "count": 4,
+      "reason": "Feeds unavailable or empty; no closure inferred."
+    }
+  ],
+  "discovery": [
+    {
+      "source": "Official employer ATS feeds",
+      "result": "42 complete feeds checked, including Replit from the TrueUp Remote 200; 28 in-scope roles verified by exact employer posting ID."
+    },
+    {
+      "source": "TrueUp Remote 200",
+      "url": "https://trueup.io/remote/companies",
+      "result": "Replit Head of Creative verified through its official Ashby feed. Wider remote-company coverage incomplete."
+    }
+  ],
+  "verificationNotes": [
+    "35 removals have complete official ATS feed exclusion plus direct HTTP 404; full original records archived.",
+    "16 other HTTP 404 results lacked sufficient closure evidence and were retained.",
+    "Replit official logo and documented Series C+ funding added. No profile, pin, or recommendation data changed.",
+    "Pay included only when the employer published amount, currency, and location context."
+  ],
+  "validation": [
+    "node --check jobs.js, companies.js, stages.js: passed.",
+    "node --test filter, recommendations, trueup: 3 passed, 0 failed.",
+    "28 new official listing URLs returned HTTP 200; 849 unique active IDs; 35 archived full records."
+  ]
+}

@@ -238,5 +238,10 @@ const COMPANY_STAGES = {
     "stage": "Series C+",
     "url": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
     "checkedAt": "2026-09-16"
+  },
+  "Replit": {
+    "stage": "Series C+",
+    "url": "https://replit.com/news/funding-announcement-series-c",
+    "checkedAt": "2026-11-21"
   }
 };

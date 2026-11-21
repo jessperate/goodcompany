@@ -1,5 +1,713 @@
 const JOBS = [
   {
+    "id": "airbnb-8394407",
+    "atsId": "8394407",
+    "company": "Airbnb",
+    "title": "Creative Director Copy, Social",
+    "category": "Creative leadership",
+    "disciplines": [
+      "Social media",
+      "Content & strategy"
+    ],
+    "level": "Leadership",
+    "location": "United States",
+    "workplace": "Not specified",
+    "summary": "Lead copy and social creative direction for Airbnb brand storytelling.",
+    "highlights": [
+      "Senior-level copywriting and creative direction for social campaigns."
+    ],
+    "url": "https://careers.airbnb.com/positions/8394407?gh_jid=8394407",
+    "sourceUrl": "https://careers.airbnb.com/positions/8394407?gh_jid=8394407",
+    "source": "Airbnb careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-17",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 212000,
+    "salaryMax": 262000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$212,000–262,000 / year",
+    "salary": "Published US pay range: US$212,000–262,000. Bonus, equity, benefits, and travel credits may also apply."
+  },
+  {
+    "id": "stripe-8376773",
+    "atsId": "8376773",
+    "company": "Stripe",
+    "title": "Briefing Content Strategist",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "Remote in the US",
+    "workplace": "Remote",
+    "summary": "Shape briefing content and narratives for Stripe customer and business conversations.",
+    "highlights": [
+      "Experience creating strategic B2B marketing or customer-facing content."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8376773",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8376773",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-17",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21"
+  },
+  {
+    "id": "stripe-8265389",
+    "atsId": "8265389",
+    "company": "Stripe",
+    "title": "Motion Designer 3D, Stripe Identity",
+    "category": "Motion & video",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "Barcelona",
+    "workplace": "Not specified",
+    "summary": "Create 3D motion work for Stripe Identity and its product storytelling.",
+    "highlights": [
+      "3D motion design and visual storytelling craft."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8265389",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8265389",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-30",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21"
+  },
+  {
+    "id": "stripe-8205126",
+    "atsId": "8205126",
+    "company": "Stripe",
+    "title": "Product Designer, Treasury",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "US / Canada",
+    "workplace": "Not specified",
+    "summary": "Design Stripe Treasury product experiences for businesses managing money.",
+    "highlights": [
+      "Product design experience with complex financial workflows."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8205126",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8205126",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-11",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21"
+  },
+  {
+    "id": "openai-67c67c36-e710-4f21-bd9c-759eb72cfabf",
+    "atsId": "67c67c36-e710-4f21-bd9c-759eb72cfabf",
+    "company": "OpenAI",
+    "title": "Product Content Creator",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Create product content that helps business audiences understand and use OpenAI products.",
+    "highlights": [
+      "Editorial and product storytelling for business audiences."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/67c67c36-e710-4f21-bd9c-759eb72cfabf",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/67c67c36-e710-4f21-bd9c-759eb72cfabf",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-11-04",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 198000,
+    "salaryMax": 218000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 198,000–218,000 / year",
+    "salary": "Published USD annual base salary: 198,000–218,000. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "openai-8e754a28-926e-40f9-b33d-6e2b838ef5dd",
+    "atsId": "8e754a28-926e-40f9-b33d-6e2b838ef5dd",
+    "company": "OpenAI",
+    "title": "Product Designer, Physical Engineering",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Design AI experiences for physical engineering workflows in ChatGPT and connected CAD and simulation tools.",
+    "highlights": [
+      "Product design experience turning complex engineering workflows into useful interfaces."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/8e754a28-926e-40f9-b33d-6e2b838ef5dd",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/8e754a28-926e-40f9-b33d-6e2b838ef5dd",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-11-12",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 245000,
+    "salaryMax": 310000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 245,000–310,000 / year",
+    "salary": "Published USD annual base salary: 245,000–310,000. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "openai-919b3666-14c2-4c70-b28c-7a49fedc418e",
+    "atsId": "919b3666-14c2-4c70-b28c-7a49fedc418e",
+    "company": "OpenAI",
+    "title": "Product Designer, Advertiser Experiences",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Design advertising tools that help businesses connect with people through OpenAI products.",
+    "highlights": [
+      "Product design craft for business and advertising workflows."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/919b3666-14c2-4c70-b28c-7a49fedc418e",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/919b3666-14c2-4c70-b28c-7a49fedc418e",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-11-19",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 245000,
+    "salaryMax": 310000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 245,000–310,000 / year",
+    "salary": "Published USD annual base salary: 245,000–310,000. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "runway-c73b244e-1bca-4bc3-94a7-7deb11f30011",
+    "atsId": "c73b244e-1bca-4bc3-94a7-7deb11f30011",
+    "company": "Runway",
+    "title": "Social Media Lead",
+    "category": "Social media",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Leadership",
+    "location": "New York, NY",
+    "workplace": "Remote",
+    "summary": "Lead Runway social media strategy and content for its AI creative community.",
+    "highlights": [
+      "5+ years in strategic social or related marketing programs."
+    ],
+    "url": "https://jobs.ashbyhq.com/runway-ml/c73b244e-1bca-4bc3-94a7-7deb11f30011",
+    "sourceUrl": "https://jobs.ashbyhq.com/runway-ml/c73b244e-1bca-4bc3-94a7-7deb11f30011",
+    "source": "Runway careers (Ashby)",
+    "sourcePublishedAt": "2026-10-29",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 130000,
+    "salaryMax": 200000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 130,000–200,000 / year",
+    "salary": "Published USD annual base salary: 130,000–200,000. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "lovable-a4e39bdc-b143-43ea-8077-a113445edbd2",
+    "atsId": "a4e39bdc-b143-43ea-8077-a113445edbd2",
+    "company": "Lovable",
+    "title": "Creative Technologist",
+    "category": "Design engineering",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Not specified",
+    "location": "London",
+    "workplace": "On-site",
+    "summary": "Build design-engineering tools for AI-native brand production at Lovable.",
+    "highlights": [
+      "Hands-on engineering and design craft supporting brand systems."
+    ],
+    "url": "https://jobs.ashbyhq.com/lovable/a4e39bdc-b143-43ea-8077-a113445edbd2",
+    "sourceUrl": "https://jobs.ashbyhq.com/lovable/a4e39bdc-b143-43ea-8077-a113445edbd2",
+    "source": "Lovable careers (Ashby)",
+    "sourcePublishedAt": "2026-10-29",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21"
+  },
+  {
+    "id": "duolingo-8943317002",
+    "atsId": "8943317002",
+    "company": "Duolingo",
+    "title": "Associate Creative Director",
+    "category": "Creative leadership",
+    "disciplines": [],
+    "level": "Leadership",
+    "location": "New York, NY",
+    "workplace": "Not specified",
+    "summary": "Direct creative work for Duolingo campaigns and brand experiences.",
+    "highlights": [
+      "Creative direction across campaign concepts and execution."
+    ],
+    "url": "https://careers.duolingo.com/jobs/8943317002?gh_jid=8943317002",
+    "sourceUrl": "https://careers.duolingo.com/jobs/8943317002?gh_jid=8943317002",
+    "source": "Duolingo careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-13",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 163200,
+    "salaryMax": 244800,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$163,200–244,800 / year",
+    "salary": "Published annual salary range: US$163,200–244,800. Final pay may vary by qualifications and location."
+  },
+  {
+    "id": "duolingo-8933791002",
+    "atsId": "8933791002",
+    "company": "Duolingo",
+    "title": "Product Designer, Thrive Intern",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Early career",
+    "location": "Pittsburgh, PA",
+    "workplace": "Not specified",
+    "summary": "Design Duolingo product experiences through its Thrive internship.",
+    "highlights": [
+      "Product design internship; see employer listing for eligibility and portfolio requirements."
+    ],
+    "url": "https://careers.duolingo.com/jobs/8933791002?gh_jid=8933791002",
+    "sourceUrl": "https://careers.duolingo.com/jobs/8933791002?gh_jid=8933791002",
+    "source": "Duolingo careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-09",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "type": "Internship",
+    "compensationHeading": "Published hourly pay",
+    "salaryLabel": "US$43–45 / hour",
+    "salary": "Published internship hourly range: US$43–45."
+  },
+  {
+    "id": "harvey-118f1c4c-5e46-416a-8caa-d6f026fcbcfe",
+    "atsId": "118f1c4c-5e46-416a-8caa-d6f026fcbcfe",
+    "company": "Harvey",
+    "title": "Staff Content Designer",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Design clear product language and content patterns for Harvey’s legal AI workflows.",
+    "highlights": [
+      "Staff-level content design across complex product experiences."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/118f1c4c-5e46-416a-8caa-d6f026fcbcfe",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/118f1c4c-5e46-416a-8caa-d6f026fcbcfe",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-11-03",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 195500,
+    "salaryMax": 264500,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 195,500–264,500 / year",
+    "salary": "Published USD annual base salary: 195,500–264,500. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "harvey-27c345f8-e664-40be-a50c-e494cd158fbd",
+    "atsId": "27c345f8-e664-40be-a50c-e494cd158fbd",
+    "company": "Harvey",
+    "title": "Creative Director, Social Video",
+    "category": "Creative leadership",
+    "disciplines": [
+      "Social media",
+      "Motion & video"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Lead social video creative direction and filmmaking for Harvey.",
+    "highlights": [
+      "10+ years in video, filmmaking, or creative direction."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/27c345f8-e664-40be-a50c-e494cd158fbd",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/27c345f8-e664-40be-a50c-e494cd158fbd",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-11-05",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 207900,
+    "salaryMax": 285900,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 207,900–285,900 / year",
+    "salary": "Published USD annual base salary: 207,900–285,900. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "harvey-a42047fc-fbd1-4e14-bf10-15207ae2d060",
+    "atsId": "a42047fc-fbd1-4e14-bf10-15207ae2d060",
+    "company": "Harvey",
+    "title": "Creative AI Engineer",
+    "category": "Design engineering",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Not specified",
+    "location": "New York",
+    "workplace": "Hybrid",
+    "summary": "Build creative tools and workflows using AI for Harvey’s brand and marketing teams.",
+    "highlights": [
+      "Engineering skill applied to creative AI production."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/a42047fc-fbd1-4e14-bf10-15207ae2d060",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/a42047fc-fbd1-4e14-bf10-15207ae2d060",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-11-21",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 168400,
+    "salaryMax": 252600,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 168,400–252,600 / year",
+    "salary": "Published USD annual base salary: 168,400–252,600. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "harvey-e46cea47-7901-4b8d-ad80-ec31223fefed",
+    "atsId": "e46cea47-7901-4b8d-ad80-ec31223fefed",
+    "company": "Harvey",
+    "title": "Senior Product Designer",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "New York",
+    "workplace": "Hybrid",
+    "summary": "Design Harvey product experiences for legal and professional users.",
+    "highlights": [
+      "5+ years designing products in a fast-paced environment with a strong portfolio."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/e46cea47-7901-4b8d-ad80-ec31223fefed",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/e46cea47-7901-4b8d-ad80-ec31223fefed",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-10-29",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 167500,
+    "salaryMax": 251300,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 167,500–251,300 / year",
+    "salary": "Published USD annual base salary: 167,500–251,300. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "harvey-e293b2cc-4269-4009-be34-850b000ef6c5",
+    "atsId": "e293b2cc-4269-4009-be34-850b000ef6c5",
+    "company": "Harvey",
+    "title": "Staff Brand Designer",
+    "category": "Brand & visual",
+    "disciplines": [],
+    "level": "Staff",
+    "location": "San Francisco",
+    "workplace": "Not specified",
+    "summary": "Develop Harvey’s visual brand across campaigns and customer touchpoints.",
+    "highlights": [
+      "Staff-level brand design and visual systems craft."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/e293b2cc-4269-4009-be34-850b000ef6c5",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/e293b2cc-4269-4009-be34-850b000ef6c5",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-10-29",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 180800,
+    "salaryMax": 248600,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 180,800–248,600 / year",
+    "salary": "Published USD annual base salary: 180,800–248,600. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "harvey-1d43719f-da4a-4cb8-8865-d971107bd1f2",
+    "atsId": "1d43719f-da4a-4cb8-8865-d971107bd1f2",
+    "company": "Harvey",
+    "title": "Staff Product Brand Designer",
+    "category": "Brand & visual",
+    "disciplines": [
+      "Product design"
+    ],
+    "level": "Staff",
+    "location": "New York",
+    "workplace": "Hybrid",
+    "summary": "Shape Harvey’s product brand and visual storytelling.",
+    "highlights": [
+      "Staff-level product brand design and cross-functional collaboration."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/1d43719f-da4a-4cb8-8865-d971107bd1f2",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/1d43719f-da4a-4cb8-8865-d971107bd1f2",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-11-21",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 180800,
+    "salaryMax": 248600,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 180,800–248,600 / year",
+    "salary": "Published USD annual base salary: 180,800–248,600. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "perplexity-0807f77b-4499-498a-b2bf-3cd44d965138",
+    "atsId": "0807f77b-4499-498a-b2bf-3cd44d965138",
+    "company": "Perplexity",
+    "title": "Content Designer",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Not specified",
+    "summary": "Design clear language across Perplexity apps, from onboarding to agent explanations.",
+    "highlights": [
+      "5+ years in content design, UX writing, or product design."
+    ],
+    "url": "https://jobs.ashbyhq.com/Perplexity/0807f77b-4499-498a-b2bf-3cd44d965138",
+    "sourceUrl": "https://jobs.ashbyhq.com/Perplexity/0807f77b-4499-498a-b2bf-3cd44d965138",
+    "source": "Perplexity careers (Ashby)",
+    "sourcePublishedAt": "2026-11-04",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 240000,
+    "salaryMax": 300000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 240,000–300,000 / year",
+    "salary": "Published USD annual base salary: 240,000–300,000. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "perplexity-1354f2e8-56c8-4a66-81f8-eb5d5b944506",
+    "atsId": "1354f2e8-56c8-4a66-81f8-eb5d5b944506",
+    "company": "Perplexity",
+    "title": "Lead Product Designer, Mobile (Native & Mobile)",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Leadership",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Lead iPhone and Android design for Perplexity’s native mobile experiences.",
+    "highlights": [
+      "Product design leadership for native mobile apps."
+    ],
+    "url": "https://jobs.ashbyhq.com/Perplexity/1354f2e8-56c8-4a66-81f8-eb5d5b944506",
+    "sourceUrl": "https://jobs.ashbyhq.com/Perplexity/1354f2e8-56c8-4a66-81f8-eb5d5b944506",
+    "source": "Perplexity careers (Ashby)",
+    "sourcePublishedAt": "2026-11-12",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 200000,
+    "salaryMax": 260000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 200,000–260,000 / year",
+    "salary": "Published USD annual base salary: 200,000–260,000. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "perplexity-14a45e74-9cde-4622-8172-1b6968810802",
+    "atsId": "14a45e74-9cde-4622-8172-1b6968810802",
+    "company": "Perplexity",
+    "title": "Lead Product Designer, Growth (Mobile)",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Leadership",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Lead mobile growth design that brings Perplexity to new users.",
+    "highlights": [
+      "Mobile product design and growth experimentation."
+    ],
+    "url": "https://jobs.ashbyhq.com/Perplexity/14a45e74-9cde-4622-8172-1b6968810802",
+    "sourceUrl": "https://jobs.ashbyhq.com/Perplexity/14a45e74-9cde-4622-8172-1b6968810802",
+    "source": "Perplexity careers (Ashby)",
+    "sourcePublishedAt": "2026-11-12",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 200000,
+    "salaryMax": 260000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 200,000–260,000 / year",
+    "salary": "Published USD annual base salary: 200,000–260,000. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "replit-7257790d-069f-4803-877f-d1d60f60cd5b",
+    "atsId": "7257790d-069f-4803-877f-d1d60f60cd5b",
+    "company": "Replit",
+    "title": "Head of Creative",
+    "category": "Creative leadership",
+    "disciplines": [],
+    "level": "Leadership",
+    "location": "Foster City, CA",
+    "workplace": "Hybrid",
+    "summary": "Lead Replit’s creative work across brand, campaigns, and the first impression of its AI creation platform.",
+    "highlights": [
+      "Creative leadership across brand and marketing for consumer and business audiences."
+    ],
+    "url": "https://jobs.ashbyhq.com/replit/7257790d-069f-4803-877f-d1d60f60cd5b",
+    "sourceUrl": "https://jobs.ashbyhq.com/replit/7257790d-069f-4803-877f-d1d60f60cd5b",
+    "source": "Replit careers (Ashby)",
+    "sourcePublishedAt": "2026-11-17",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 230000,
+    "salaryMax": 300000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 230,000–300,000 / year",
+    "salary": "Published USD annual base salary: 230,000–300,000. Final compensation may vary by location, experience, and qualifications."
+  },
+  {
+    "id": "descript-8208843003",
+    "atsId": "8208843003",
+    "company": "Descript",
+    "title": "Video Producer",
+    "category": "Motion & video",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "San Francisco, CA",
+    "workplace": "Not specified",
+    "summary": "Produce Descript’s video-native marketing, from multi-camera shoots through editing and publishing.",
+    "highlights": [
+      "Hands-on video production and editing at scale."
+    ],
+    "url": "https://boards.greenhouse.io/descript/jobs/8208843003?gh_jid=8208843003",
+    "sourceUrl": "https://boards.greenhouse.io/descript/jobs/8208843003?gh_jid=8208843003",
+    "source": "Descript careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-18",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 150000,
+    "salaryMax": 165000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$150,000–165,000 / year",
+    "salary": "Published base salary range: US$150,000–165,000, plus equity and benefits. Final offer depends on qualifications and location."
+  },
+  {
+    "id": "figma-6263971004",
+    "atsId": "6263971004",
+    "company": "Figma",
+    "title": "Brand Designer - Figma Weave (Tel Aviv, Israel)",
+    "category": "Brand & visual",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "Tel Aviv, Israel",
+    "workplace": "Not specified",
+    "summary": "Design the visual brand for Figma Weave in Tel Aviv.",
+    "highlights": [
+      "Brand design craft and visual systems work."
+    ],
+    "url": "https://boards.greenhouse.io/figma/jobs/6263971004?gh_jid=6263971004",
+    "sourceUrl": "https://boards.greenhouse.io/figma/jobs/6263971004?gh_jid=6263971004",
+    "source": "Figma careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-18",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21"
+  },
+  {
+    "id": "figma-6232528004",
+    "atsId": "6232528004",
+    "company": "Figma",
+    "title": "Creative Director, Brand Experience",
+    "category": "Creative leadership",
+    "disciplines": [],
+    "level": "Leadership",
+    "location": "San Francisco, CA • New York, NY • United States",
+    "workplace": "Not specified",
+    "summary": "Direct brand experiences that bring Figma to life across channels and events.",
+    "highlights": [
+      "Creative direction for brand and experiential work."
+    ],
+    "url": "https://boards.greenhouse.io/figma/jobs/6232528004?gh_jid=6232528004",
+    "sourceUrl": "https://boards.greenhouse.io/figma/jobs/6232528004?gh_jid=6232528004",
+    "source": "Figma careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-09",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 235000,
+    "salaryMax": 317000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$235,000–317,000 / year",
+    "salary": "Published annual base salary: US$235,000–317,000. Final compensation may vary by location and qualifications."
+  },
+  {
+    "id": "figma-6247174004",
+    "atsId": "6247174004",
+    "company": "Figma",
+    "title": "Product Designer - Figma Weave (Tel Aviv, Israel)",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "Tel Aviv, Israel",
+    "workplace": "Not specified",
+    "summary": "Design Figma Weave product experiences for collaborative creative work.",
+    "highlights": [
+      "5+ years as a product designer and experience with software products."
+    ],
+    "url": "https://boards.greenhouse.io/figma/jobs/6247174004?gh_jid=6247174004",
+    "sourceUrl": "https://boards.greenhouse.io/figma/jobs/6247174004?gh_jid=6247174004",
+    "source": "Figma careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-10",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21"
+  },
+  {
+    "id": "figma-6251104004",
+    "atsId": "6251104004",
+    "company": "Figma",
+    "title": "Product Designer, Growth",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "San Francisco, CA • New York, NY • United States",
+    "workplace": "Not specified",
+    "summary": "Design Figma growth experiences across customer discovery and adoption.",
+    "highlights": [
+      "Product design craft applied to growth journeys."
+    ],
+    "url": "https://boards.greenhouse.io/figma/jobs/6251104004?gh_jid=6251104004",
+    "sourceUrl": "https://boards.greenhouse.io/figma/jobs/6251104004?gh_jid=6251104004",
+    "source": "Figma careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-16",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 169000,
+    "salaryMax": 303000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$169,000–303,000 / year",
+    "salary": "Published annual base salary: US$169,000–303,000. Final compensation may vary by location and qualifications."
+  },
+  {
+    "id": "dorsia-5279261007",
+    "atsId": "5279261007",
+    "company": "Dorsia",
+    "title": "Copywriter",
+    "category": "Content & strategy",
+    "disciplines": [],
+    "level": "Not specified",
+    "location": "New York City, NY",
+    "workplace": "Not specified",
+    "summary": "Write Dorsia’s brand and product copy for its hospitality experiences.",
+    "highlights": [
+      "2–4 years in copywriting, editorial, or brand writing."
+    ],
+    "url": "https://job-boards.greenhouse.io/dorsia/jobs/5279261007",
+    "sourceUrl": "https://job-boards.greenhouse.io/dorsia/jobs/5279261007",
+    "source": "Dorsia careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-29",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21",
+    "salaryMin": 80000,
+    "salaryMax": 100000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$80,000–100,000 / year",
+    "salary": "Published New York pay range: US$80,000–100,000."
+  },
+  {
+    "id": "databricks-8923866002",
+    "atsId": "8923866002",
+    "company": "Databricks",
+    "title": "Sr. Product Designer",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "Amsterdam, Netherlands; Berlin, Germany; London, United Kingdom",
+    "workplace": "Not specified",
+    "summary": "Design intuitive data and AI workflows for Databricks customers.",
+    "highlights": [
+      "Strong visual craft and systems thinking for complex software."
+    ],
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8923866002",
+    "sourceUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8923866002",
+    "source": "Databricks careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-04",
+    "checkedAt": "November 21, 2026",
+    "lastVerifiedAt": "2026-11-21"
+  },
+  {
     "id": "stripe-8283782",
     "atsId": "8283782",
     "company": "Stripe",
@@ -42,32 +750,6 @@ const JOBS = [
     "sourcePublishedAt": "2026-10-27",
     "checkedAt": "October 28, 2026",
     "lastVerifiedAt": "2026-10-28"
-  },
-  {
-    "id": "openai-dc79ee90-98f5-41f1-b408-5861cb433612",
-    "atsId": "dc79ee90-98f5-41f1-b408-5861cb433612",
-    "company": "OpenAI",
-    "title": "Consumer Product Communications Lead",
-    "category": "Content & strategy",
-    "disciplines": [],
-    "level": "Leadership",
-    "location": "San Francisco",
-    "workplace": "Hybrid",
-    "summary": "Lead communications strategy, launches, and campaigns for ChatGPT and OpenAI consumer products.",
-    "highlights": [
-      "Product communications leadership and strong editorial judgment."
-    ],
-    "url": "https://jobs.ashbyhq.com/openai/dc79ee90-98f5-41f1-b408-5861cb433612",
-    "sourceUrl": "https://jobs.ashbyhq.com/openai/dc79ee90-98f5-41f1-b408-5861cb433612",
-    "source": "OpenAI careers (Ashby)",
-    "sourcePublishedAt": "2026-10-27",
-    "checkedAt": "October 28, 2026",
-    "lastVerifiedAt": "2026-10-28",
-    "salaryMin": 297000,
-    "salaryMax": 330000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "USD 297,000–330,000 / year",
-    "salary": "Published USD annual base salary: 297,000–330,000. Final pay may vary by location, experience, and qualifications."
   },
   {
     "id": "openai-3942de32-739a-409a-841c-828af04bad83",
@@ -151,51 +833,6 @@ const JOBS = [
     "salaryCurrency": "USD",
     "salaryLabel": "US$228,700–285,900 / year",
     "salary": "Published annual base salary: US$228,700–285,900 for US employees (any location), or CA$216,200–270,200 for Canadian employees (any location). Final offer depends on location, experience, expertise, and internal equity."
-  },
-  {
-    "id": "elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
-    "atsId": "13fcee94-512f-4229-b7ab-f91d3fdd24e3",
-    "company": "ElevenLabs",
-    "title": "ElevenMusic - Content Creator & Strategist",
-    "category": "Creator marketing",
-    "disciplines": [
-      "Social media",
-      "AI Creative"
-    ],
-    "level": "Not specified",
-    "location": "United States",
-    "workplace": "Remote",
-    "summary": "Create ElevenMusic tutorials and social content, lead its community, and represent the AI music product at creator events.",
-    "highlights": [
-      "Hands-on music creation, social content, video editing, and community work."
-    ],
-    "url": "https://jobs.ashbyhq.com/elevenlabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
-    "sourceUrl": "https://jobs.ashbyhq.com/elevenlabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
-    "source": "ElevenLabs careers (Ashby)",
-    "sourcePublishedAt": "2026-10-27",
-    "checkedAt": "October 28, 2026",
-    "lastVerifiedAt": "2026-10-28"
-  },
-  {
-    "id": "elevenlabs-db7abc8d-67b1-4d64-a623-59be88d65fba",
-    "atsId": "db7abc8d-67b1-4d64-a623-59be88d65fba",
-    "company": "ElevenLabs",
-    "title": "Product & Technical Communications",
-    "category": "Content & strategy",
-    "disciplines": [],
-    "level": "Not specified",
-    "location": "United States",
-    "workplace": "Remote",
-    "summary": "Lead technical and product communications for ElevenLabs, including launches, narratives, demos, and media outreach.",
-    "highlights": [
-      "Experience running product or technical communications for B2B technology."
-    ],
-    "url": "https://jobs.ashbyhq.com/elevenlabs/db7abc8d-67b1-4d64-a623-59be88d65fba",
-    "sourceUrl": "https://jobs.ashbyhq.com/elevenlabs/db7abc8d-67b1-4d64-a623-59be88d65fba",
-    "source": "ElevenLabs careers (Ashby)",
-    "sourcePublishedAt": "2026-10-27",
-    "checkedAt": "October 28, 2026",
-    "lastVerifiedAt": "2026-10-28"
   },
   {
     "id": "airbnb-8287849",
@@ -379,58 +1016,6 @@ const JOBS = [
     "salary": "Published USD annual base salary: 287,000–334,000. Final pay may vary by location, experience, and qualifications."
   },
   {
-    "id": "openai-9711a982-851c-4f55-a5ae-080ea4bad520",
-    "atsId": "9711a982-851c-4f55-a5ae-080ea4bad520",
-    "company": "OpenAI",
-    "title": "Events Designer, Business Marketing",
-    "category": "Brand & visual",
-    "disciplines": [],
-    "level": "Not specified",
-    "location": "San Francisco",
-    "workplace": "Hybrid",
-    "summary": "Translate OpenAI business marketing event concepts into production-ready graphics and experiences.",
-    "highlights": [
-      "8+ years translating creative concepts into event graphics."
-    ],
-    "url": "https://jobs.ashbyhq.com/openai/9711a982-851c-4f55-a5ae-080ea4bad520",
-    "sourceUrl": "https://jobs.ashbyhq.com/openai/9711a982-851c-4f55-a5ae-080ea4bad520",
-    "source": "OpenAI careers (Ashby)",
-    "sourcePublishedAt": "2026-10-26",
-    "checkedAt": "October 27, 2026",
-    "lastVerifiedAt": "2026-10-27",
-    "salaryMin": 223000,
-    "salaryMax": 247000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "USD 223,000–247,000 / year",
-    "salary": "Published USD annual base salary: 223,000–247,000. Final pay may vary by location, experience, and qualifications."
-  },
-  {
-    "id": "openai-6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
-    "atsId": "6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
-    "company": "OpenAI",
-    "title": "Content Marketing Manager, Events",
-    "category": "Content & strategy",
-    "disciplines": [],
-    "level": "Not specified",
-    "location": "San Francisco",
-    "workplace": "Hybrid",
-    "summary": "Create content for OpenAI business events that helps technical audiences understand AI applications.",
-    "highlights": [
-      "Content marketing experience across events and business audiences."
-    ],
-    "url": "https://jobs.ashbyhq.com/openai/6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
-    "sourceUrl": "https://jobs.ashbyhq.com/openai/6fd09d8c-f1d9-4c60-bb47-f63d8a96c10b",
-    "source": "OpenAI careers (Ashby)",
-    "sourcePublishedAt": "2026-10-26",
-    "checkedAt": "October 27, 2026",
-    "lastVerifiedAt": "2026-10-27",
-    "salaryMin": 219000,
-    "salaryMax": 230000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "USD 219,000–230,000 / year",
-    "salary": "Published USD annual base salary: 219,000–230,000. Final pay may vary by location, experience, and qualifications."
-  },
-  {
     "id": "figma-6231027004",
     "atsId": "6231027004",
     "company": "Figma",
@@ -565,29 +1150,6 @@ const JOBS = [
     ],
     "url": "https://careers.airbnb.com/positions/7978040?gh_jid=7978040",
     "sourceUrl": "https://careers.airbnb.com/positions/7978040?gh_jid=7978040",
-    "source": "Airbnb careers (Greenhouse)",
-    "sourcePublishedAt": "2026-10-22",
-    "checkedAt": "October 26, 2026",
-    "lastVerifiedAt": "2026-10-26"
-  },
-  {
-    "id": "airbnb-8052792",
-    "atsId": "8052792",
-    "company": "Airbnb",
-    "title": "Staff Experience Designer",
-    "category": "Product design",
-    "disciplines": [
-      "Brand & visual"
-    ],
-    "level": "Staff",
-    "location": "London, England",
-    "workplace": "Not specified",
-    "summary": "Design usable Airbnb product experiences across complex customer journeys.",
-    "highlights": [
-      "10+ years of design experience; strong visual and interaction craft."
-    ],
-    "url": "https://careers.airbnb.com/positions/8052792?gh_jid=8052792",
-    "sourceUrl": "https://careers.airbnb.com/positions/8052792?gh_jid=8052792",
     "source": "Airbnb careers (Greenhouse)",
     "sourcePublishedAt": "2026-10-22",
     "checkedAt": "October 26, 2026",
@@ -785,34 +1347,6 @@ const JOBS = [
     "lastVerifiedAt": "2026-10-26"
   },
   {
-    "id": "openai-d16ac2b8-a742-4965-8545-75df7981191b",
-    "atsId": "d16ac2b8-a742-4965-8545-75df7981191b",
-    "company": "OpenAI",
-    "title": "Events Design Producer",
-    "category": "Brand & creative",
-    "disciplines": [
-      "Brand & visual"
-    ],
-    "level": "Not specified",
-    "location": "San Francisco",
-    "workplace": "Hybrid",
-    "summary": "Lead design production for OpenAI events from concept through installation and live execution.",
-    "highlights": [
-      "8+ years producing event, experiential, environmental, or branded design."
-    ],
-    "url": "https://jobs.ashbyhq.com/openai/d16ac2b8-a742-4965-8545-75df7981191b",
-    "sourceUrl": "https://jobs.ashbyhq.com/openai/d16ac2b8-a742-4965-8545-75df7981191b",
-    "source": "OpenAI careers (Ashby)",
-    "sourcePublishedAt": "2026-10-16",
-    "checkedAt": "October 26, 2026",
-    "lastVerifiedAt": "2026-10-26",
-    "salaryMin": 240000,
-    "salaryMax": 266000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "USD 240,000–266,000 / year",
-    "salary": "Published USD annual base salary: 240,000–266,000. Final pay may vary by location, experience, and qualifications."
-  },
-  {
     "id": "openai-171868ac-1070-4357-b990-acc918f68dc2",
     "atsId": "171868ac-1070-4357-b990-acc918f68dc2",
     "company": "OpenAI",
@@ -836,34 +1370,6 @@ const JOBS = [
     "sourcePublishedAt": "2026-10-16",
     "checkedAt": "October 26, 2026",
     "lastVerifiedAt": "2026-10-26"
-  },
-  {
-    "id": "openai-7ded0fa1-4887-4de2-84c8-eecc756e86d9",
-    "atsId": "7ded0fa1-4887-4de2-84c8-eecc756e86d9",
-    "company": "OpenAI",
-    "title": "Content Studio Lead",
-    "category": "Content & strategy",
-    "disciplines": [
-      "Brand & visual"
-    ],
-    "level": "Leadership",
-    "location": "San Francisco",
-    "workplace": "Hybrid",
-    "summary": "Lead OpenAI’s content studio across campaigns, launches, films, and brand work.",
-    "highlights": [
-      "Experience leading multidisciplinary content and creative production."
-    ],
-    "url": "https://jobs.ashbyhq.com/openai/7ded0fa1-4887-4de2-84c8-eecc756e86d9",
-    "sourceUrl": "https://jobs.ashbyhq.com/openai/7ded0fa1-4887-4de2-84c8-eecc756e86d9",
-    "source": "OpenAI careers (Ashby)",
-    "sourcePublishedAt": "2026-10-16",
-    "checkedAt": "October 26, 2026",
-    "lastVerifiedAt": "2026-10-26",
-    "salaryMin": 287000,
-    "salaryMax": 318000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "USD 287,000–318,000 / year",
-    "salary": "Published USD annual base salary: 287,000–318,000. Final pay may vary by location, experience, and qualifications."
   },
   {
     "id": "runway-91826105-13e0-4265-842b-7d756c9a766e",
@@ -1033,42 +1539,6 @@ const JOBS = [
     "keywords": [
       "internship",
       "summer 2027",
-      "AI Creative"
-    ]
-  },
-  {
-    "id": "vanta-0e154a57-fc33-4cf7-95cc-0aa30e0bde90",
-    "atsId": "0e154a57-fc33-4cf7-95cc-0aa30e0bde90",
-    "company": "Vanta",
-    "title": "Senior Product Designer, Agent Experience",
-    "category": "Product design",
-    "disciplines": [
-      "AI Creative"
-    ],
-    "workplace": "Remote",
-    "level": "Senior",
-    "location": "Remote within the United States",
-    "summary": "Design how Vanta’s security and compliance customers delegate work to AI agents while maintaining visibility and control. Shape trustworthy agent workflows across Vanta, Slack, and other work surfaces.",
-    "highlights": [
-      "Requires 7+ years of product design experience, with depth in complex B2B software.",
-      "Experience designing AI-powered products, automation, human review, and recovery from incorrect outputs.",
-      "Portfolio should demonstrate shipped work, complex workflows, and decisions informed by users."
-    ],
-    "salaryMin": 197000,
-    "salaryMax": 232000,
-    "salaryCurrency": "USD",
-    "salary": "US$197,000–232,000 annual base pay for the remote U.S. posting, plus equity. Final offers may vary with location, skills, experience, and credentials.",
-    "salaryLabel": "US$197,000–232,000 / year",
-    "url": "https://jobs.ashbyhq.com/vanta/0e154a57-fc33-4cf7-95cc-0aa30e0bde90",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true",
-    "source": "Vanta careers (Ashby)",
-    "checkedAt": "September 19, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "type": "Full time",
-    "sourcePublishedAt": "2026-09-18T17:08:17.112+00:00",
-    "keywords": [
-      "AI agents",
-      "Product design",
       "AI Creative"
     ]
   },
@@ -1571,46 +2041,6 @@ const JOBS = [
     "salaryLabel": "Pay not listed"
   },
   {
-    "id": "zapier-b14ac81b-d94c-4a46-89a3-017f3d113517",
-    "atsId": "b14ac81b-d94c-4a46-89a3-017f3d113517",
-    "company": "Zapier",
-    "title": "Growth Marketing Design Lead",
-    "category": "Brand & visual",
-    "disciplines": [
-      "Product design",
-      "Creative leadership",
-      "AI Creative"
-    ],
-    "location": "NAMER",
-    "workplace": "Remote",
-    "level": "Leadership",
-    "summary": "Lead growth design for Zapier’s marketing site and campaigns. Build an AI-assisted experimentation program across landing pages, lead capture, and conversion experiences.",
-    "highlights": [
-      "10+ years in growth, product, or marketing design with measurable acquisition and conversion outcomes.",
-      "Experience with A/B testing, SEO, conversion optimization, CMS platforms, and design systems.",
-      "Hands-on AI tools such as Cursor, v0, Claude, or Figma AI; mentor other designers.",
-      "Remote in North America; confirm country eligibility with the recruiting team."
-    ],
-    "keywords": [
-      "Brand & visual",
-      "Product design",
-      "Creative leadership",
-      "AI Creative"
-    ],
-    "url": "https://jobs.ashbyhq.com/zapier/b14ac81b-d94c-4a46-89a3-017f3d113517",
-    "source": "Zapier careers (Ashby)",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/zapier?includeCompensation=true",
-    "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "salaryLabel": "US$191,500–287,300 / year · separate CAD range",
-    "type": "Full time",
-    "sourcePublishedAt": "2026-09-16T03:28:24.462+00:00",
-    "salary": "US$191,500–287,300 annual base salary. U.S. range. The separate Canada range is CA$191,500–287,300 per year. Equity and bonus are additional; confirm eligibility and local terms.",
-    "salaryMin": 191500,
-    "salaryMax": 287300,
-    "salaryCurrency": "USD"
-  },
-  {
     "id": "figma-6144755004",
     "atsId": "6144755004",
     "company": "Figma",
@@ -1922,38 +2352,6 @@ const JOBS = [
     "salaryCurrency": "USD"
   },
   {
-    "id": "openai-43ba8b53-4643-4544-bb21-f13efe99e0a0",
-    "atsId": "43ba8b53-4643-4544-bb21-f13efe99e0a0",
-    "company": "OpenAI",
-    "title": "Product Designer, Youth",
-    "category": "Product design",
-    "disciplines": [
-      "AI Creative"
-    ],
-    "location": "San Francisco",
-    "workplace": "Hybrid",
-    "level": "Staff",
-    "summary": "Design safe, useful AI experiences for young people and emerging education products. Shape age-appropriate interactions, learning tools, and new school and classroom workflows.",
-    "highlights": [
-      "The description specifies a staff-level designer with strong interaction and visual craft.",
-      "Bring experience leading ambiguous product work and navigating sensitive, high-trust experiences."
-    ],
-    "keywords": [
-      "Product design",
-      "AI Creative"
-    ],
-    "url": "https://jobs.ashbyhq.com/openai/43ba8b53-4643-4544-bb21-f13efe99e0a0",
-    "source": "OpenAI careers (Ashby)",
-    "checkedAt": "September 14, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "type": "Full time",
-    "salary": "Published annual salary range: US$245,000–310,000. Applies to the listed U.S. role; final compensation depends on location, experience, and level. See the original listing for equity and benefits.",
-    "salaryLabel": "US$245,000–310,000 / year",
-    "salaryMin": 245000,
-    "salaryMax": 310000,
-    "salaryCurrency": "USD"
-  },
-  {
     "id": "openai-2ace6bbe-a7ac-4930-bcdc-14c618179b1f",
     "atsId": "2ace6bbe-a7ac-4930-bcdc-14c618179b1f",
     "company": "OpenAI",
@@ -2041,34 +2439,6 @@ const JOBS = [
     "atsId": "df79d83b-e366-4998-afdd-694d06183d75"
   },
   {
-    "id": "lovable-product-designer-cf78be",
-    "company": "Lovable",
-    "title": "Product Designer",
-    "category": "Product design",
-    "disciplines": [
-      "AI Creative"
-    ],
-    "location": "Stockholm",
-    "workplace": "On-site",
-    "level": "Level not specified",
-    "summary": "Design Lovable product experiences from early user flows to detailed interfaces. Partner with engineering, prototype quickly, and help improve the design quality of the platform’s AI-generated output.",
-    "highlights": [
-      "Show successful product work from fast-moving teams and strong visual and interaction craft.",
-      "Own projects through delivery, with opportunities to implement designs using AI tools."
-    ],
-    "keywords": [
-      "Product design",
-      "AI Creative"
-    ],
-    "salary": "Pay not listed",
-    "url": "https://lovable.dev/careers/product-designer-cf78be",
-    "source": "Lovable careers",
-    "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "type": "Full time",
-    "atsId": "cf78be5e-41ca-478a-b480-0d0839c24543"
-  },
-  {
     "id": "lovable-staff-principal-design-engineer-web-51885a",
     "company": "Lovable",
     "title": "Staff / Principal Design Engineer, Web",
@@ -2121,87 +2491,6 @@ const JOBS = [
     "lastVerifiedAt": "2026-10-15",
     "type": "Full time",
     "atsId": "5635b88f-a361-4f5f-8209-ca343a003947"
-  },
-  {
-    "id": "lovable-brand-and-integrated-marketing-lead-europe-73b2c1",
-    "company": "Lovable",
-    "title": "Brand & Integrated Marketing Lead, Europe",
-    "category": "Brand & creative",
-    "disciplines": [],
-    "location": "Stockholm",
-    "workplace": "On-site",
-    "level": "Leadership",
-    "summary": "Lead European brand campaigns for Lovable, from strategy and creative briefs to production and launch. Partner with brand design and agencies to create distinctive work across markets and channels.",
-    "highlights": [
-      "Requires 12+ years developing campaigns, including end-to-end European brand work.",
-      "Bring experience directing creative partners, media agencies, and integrated campaign delivery.",
-      "Based in Stockholm or willing to relocate."
-    ],
-    "keywords": [
-      "Brand & creative"
-    ],
-    "salary": "Pay not listed",
-    "url": "https://lovable.dev/careers/brand-and-integrated-marketing-lead-europe-73b2c1",
-    "source": "Lovable careers",
-    "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "type": "Full time",
-    "atsId": "73b2c110-29d0-402e-a6d6-ac7984946052"
-  },
-  {
-    "id": "lovable-brand-editorial-lead-db107c",
-    "company": "Lovable",
-    "title": "Brand Content Lead",
-    "category": "Content & strategy",
-    "disciplines": [],
-    "location": "Boston; remote eligible",
-    "workplace": "Remote",
-    "level": "Leadership",
-    "summary": "Build Lovable’s top-of-funnel content franchises and grow audiences for them. Lead written and multimedia storytelling, non-brand search, distribution, and freelance contributors.",
-    "highlights": [
-      "Requires 8+ years in editorial or content strategy, plus evidence of growing an audience for a named content franchise.",
-      "Own distribution and top-of-funnel brand perception; manage writers and editors across channels.",
-      "The current Ashby listing marks the Boston-based role remote eligible; pay is not listed."
-    ],
-    "keywords": [
-      "Content & strategy",
-      "Brand",
-      "Editorial",
-      "Audience growth"
-    ],
-    "salary": "Pay not listed",
-    "url": "https://jobs.ashbyhq.com/lovable/db107c99-103c-4ca8-979e-fbe6d714f971",
-    "source": "Lovable careers (Ashby)",
-    "checkedAt": "September 29, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "type": "Full time",
-    "atsId": "db107c99-103c-4ca8-979e-fbe6d714f971",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/lovable?includeCompensation=true"
-  },
-  {
-    "id": "lovable-community-manager-virtual-spaces-41d9ea",
-    "company": "Lovable",
-    "title": "Community Manager, Virtual Spaces",
-    "category": "Social media",
-    "disciplines": [],
-    "location": "New York City, London, Boston",
-    "workplace": "On-site",
-    "level": "Senior",
-    "summary": "Run Lovable online communities and recurring virtual programs. Build useful experiences across Discord, Reddit, and Facebook, coordinate live sessions and replays, and support volunteer community leaders.",
-    "highlights": [
-      "Requires 7+ years across community, events, virtual programs, or developer relations.",
-      "Bring platform fluency, live-hosting confidence, and experience managing moderation and community health."
-    ],
-    "keywords": [
-      "Social media"
-    ],
-    "salary": "Pay not listed",
-    "url": "https://lovable.dev/careers/community-manager-virtual-spaces-41d9ea",
-    "source": "Lovable careers",
-    "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "type": "Full time",
-    "atsId": "41d9ea2b-72c5-48e3-b8a9-90504f73edbc"
   },
   {
     "id": "lovable-social-media-lead-716e58",
@@ -2997,44 +3286,6 @@ const JOBS = [
     "lastVerifiedAt": "2026-10-13"
   },
   {
-    "id": "clickup-lead-brand-designer-7fb8d11f",
-    "company": "ClickUp",
-    "title": "Lead Brand Designer",
-    "category": "Brand & visual",
-    "disciplines": [
-      "AI Creative"
-    ],
-    "location": "United States",
-    "workplace": "Remote",
-    "type": "Full time",
-    "level": "Senior",
-    "summary": "Lead ClickUp’s visual brand and build design systems that let AI tools and non-designers create consistent, high-quality work. Shape web campaigns, launches, and marketing assets while setting standards for creative output.",
-    "highlights": [
-      "Requires 8+ years in brand or visual design, including ownership of a design system.",
-      "Hands-on experience with AI design and coding tools, plus basic familiarity with GitHub.",
-      "Create templates, component libraries, guidelines, and assets that support AI-assisted production.",
-      "Review AI-generated and agency work while operating independently as the team’s sole designer."
-    ],
-    "keywords": [
-      "brand design",
-      "visual design",
-      "design systems",
-      "AI",
-      "generative AI",
-      "web design",
-      "marketing"
-    ],
-    "salary": "US$110,000–169,000 annual base salary.",
-    "salaryMin": 110000,
-    "salaryMax": 169000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$110,000–169,000 / year",
-    "source": "ClickUp careers · Ashby",
-    "checkedAt": "September 10, 2026",
-    "url": "https://jobs.ashbyhq.com/clickup/7fb8d11f-7ff7-4f6d-a41e-46e2d12e8774?utm_source=OrAo48EPGZ",
-    "lastVerifiedAt": "2026-09-29"
-  },
-  {
     "id": "modal-brand-design-23311dfd",
     "company": "Modal",
     "title": "Member of Design Staff - Brand",
@@ -3585,55 +3836,6 @@ const JOBS = [
     "lastVerifiedAt": "2026-10-13"
   },
   {
-    "id": "decagon-1117aac8-58b5-4b24-bc82-849317a52719",
-    "company": "Decagon",
-    "title": "Senior Product Designer",
-    "category": "Product design",
-    "location": "San Francisco",
-    "workplace": "On-site",
-    "url": "https://jobs.ashbyhq.com/decagon/1117aac8-58b5-4b24-bc82-849317a52719",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/decagon?includeCompensation=true",
-    "summary": "Senior Product Designer at Decagon. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Product"
-    ],
-    "level": "Senior",
-    "highlights": [
-      "Employer excerpt: “Today, enterprises use Decagon to deploy AI agents that handle millions of customer conversations. Where we're headed is bigger: making…”"
-    ],
-    "salary": "US$212,000–265,000 / year; location-dependent.",
-    "salaryLabel": "US$212,000–265,000 / year",
-    "salaryMin": 212000,
-    "salaryMax": 265000,
-    "salaryCurrency": "USD",
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
-    "id": "decagon-60613af4-9061-426a-b4d6-720a4399be37",
-    "company": "Decagon",
-    "title": "Brand Designer",
-    "category": "Brand & creative",
-    "location": "San Francisco",
-    "workplace": "Not specified",
-    "url": "https://jobs.ashbyhq.com/decagon/60613af4-9061-426a-b4d6-720a4399be37",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/decagon?includeCompensation=true",
-    "summary": "Brand Designer at Decagon. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Marketing"
-    ],
-    "highlights": [
-      "Employer excerpt: “This role sits at the heart of Decagon’s brand expression. As a Brand Designer, you’ll help shape how Decagon shows…”"
-    ],
-    "salary": "US$160,000–200,000 / year; location-dependent.",
-    "salaryLabel": "US$160,000–200,000 / year",
-    "salaryMin": 160000,
-    "salaryMax": 200000,
-    "salaryCurrency": "USD",
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
     "id": "decagon-ad6db669-0ff9-41c6-b86b-8e567ad7fbbd",
     "company": "Decagon",
     "title": "Conversation Designer",
@@ -3879,56 +4081,6 @@ const JOBS = [
     "lastVerifiedAt": "2026-10-13"
   },
   {
-    "id": "handshake-73418318-9ea4-49bc-a886-1bb4f6f8a637",
-    "company": "Handshake",
-    "title": "Staff Product Designer, Growth",
-    "category": "Product design",
-    "location": "San Francisco, CA",
-    "workplace": "Hybrid",
-    "url": "https://jobs.ashbyhq.com/handshake/73418318-9ea4-49bc-a886-1bb4f6f8a637",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
-    "summary": "Staff Product Designer, Growth at Handshake. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Design"
-    ],
-    "level": "Staff",
-    "highlights": [
-      "Employer excerpt: “As a Staff Product Designer on the Network team at Handshake, you'll design the experiences that introduce millions of people…”"
-    ],
-    "salary": "US$190,000–240,000 / year; location-dependent.",
-    "salaryLabel": "US$190,000–240,000 / year",
-    "salaryMin": 190000,
-    "salaryMax": 240000,
-    "salaryCurrency": "USD",
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
-    "id": "handshake-2dd606c0-976f-4f22-b258-102a5ad3da4c",
-    "company": "Handshake",
-    "title": "Senior Product Designer II",
-    "category": "Product design",
-    "location": "San Francisco, CA",
-    "workplace": "Not specified",
-    "url": "https://jobs.ashbyhq.com/handshake/2dd606c0-976f-4f22-b258-102a5ad3da4c",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/handshake?includeCompensation=true",
-    "summary": "Senior Product Designer II at Handshake. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Design"
-    ],
-    "level": "Senior",
-    "highlights": [
-      "Employer excerpt: “As a Senior Product Designer II on the Jobs team at Handshake, you'll design the core experience that millions of…”"
-    ],
-    "salary": "US$170,000–215,000 / year; location-dependent.",
-    "salaryLabel": "US$170,000–215,000 / year",
-    "salaryMin": 170000,
-    "salaryMax": 215000,
-    "salaryCurrency": "USD",
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
     "id": "harvey-24616c39-e293-4bcc-a3dd-e6f33a71c8ee",
     "company": "Harvey",
     "title": "Staff Product Designer",
@@ -4060,118 +4212,6 @@ const JOBS = [
     "salaryCurrency": "USD",
     "linkedinUrls": [
       "https://www.linkedin.com/jobs/view/4440294968"
-    ],
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
-    "id": "harvey-c84964b6-9e60-4005-8580-b865f3e47b4f",
-    "company": "Harvey",
-    "title": "Staff Web Designer",
-    "category": "Brand & creative",
-    "location": "San Francisco",
-    "workplace": "Not specified",
-    "url": "https://jobs.ashbyhq.com/harvey/c84964b6-9e60-4005-8580-b865f3e47b4f",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
-    "summary": "Staff Web Designer at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Marketing"
-    ],
-    "level": "Staff",
-    "highlights": [
-      "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
-    ],
-    "salary": "US$146,600–219,800 / year; location-dependent.",
-    "salaryLabel": "US$146,600–219,800 / year",
-    "salaryMin": 146600,
-    "salaryMax": 219800,
-    "salaryCurrency": "USD",
-    "linkedinUrls": [
-      "https://www.linkedin.com/jobs/view/4451014064"
-    ],
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
-    "id": "harvey-851b416f-9869-4b9c-9c10-5105bded4330",
-    "company": "Harvey",
-    "title": "Staff Web Designer",
-    "category": "Brand & creative",
-    "location": "New York",
-    "workplace": "Not specified",
-    "url": "https://jobs.ashbyhq.com/harvey/851b416f-9869-4b9c-9c10-5105bded4330",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
-    "summary": "Staff Web Designer at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Marketing"
-    ],
-    "level": "Staff",
-    "highlights": [
-      "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
-    ],
-    "salary": "US$146,600–219,800 / year; location-dependent.",
-    "salaryLabel": "US$146,600–219,800 / year",
-    "salaryMin": 146600,
-    "salaryMax": 219800,
-    "salaryCurrency": "USD",
-    "linkedinUrls": [
-      "https://www.linkedin.com/jobs/view/4451008229"
-    ],
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
-    "id": "harvey-3feed577-6157-4fb4-b416-d4f493e1eb5c",
-    "company": "Harvey",
-    "title": "Senior Brand Designer",
-    "category": "Brand & creative",
-    "location": "New York",
-    "workplace": "Hybrid",
-    "url": "https://jobs.ashbyhq.com/harvey/3feed577-6157-4fb4-b416-d4f493e1eb5c",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
-    "summary": "Senior Brand Designer at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Marketing"
-    ],
-    "level": "Senior",
-    "highlights": [
-      "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
-    ],
-    "salary": "US$155,600–214,000 / year; location-dependent.",
-    "salaryLabel": "US$155,600–214,000 / year",
-    "salaryMin": 155600,
-    "salaryMax": 214000,
-    "salaryCurrency": "USD",
-    "linkedinUrls": [
-      "https://www.linkedin.com/jobs/view/4454941223"
-    ],
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
-    "id": "harvey-b6cfee1e-67c7-420e-a3fc-24677eda6d2c",
-    "company": "Harvey",
-    "title": "Senior Brand Designer",
-    "category": "Brand & creative",
-    "location": "San Francisco",
-    "workplace": "Hybrid",
-    "url": "https://jobs.ashbyhq.com/harvey/b6cfee1e-67c7-420e-a3fc-24677eda6d2c",
-    "checkedAt": "September 8, 2026",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true",
-    "summary": "Senior Brand Designer at Harvey. See the employer’s listing for the full responsibilities and application requirements.",
-    "keywords": [
-      "Marketing"
-    ],
-    "level": "Senior",
-    "highlights": [
-      "Employer excerpt: “for growth — personal, professional, and financial — is unmatched. Our team moves fast, takes ownership, and is deeply committed…”"
-    ],
-    "salary": "US$155,600–214,000 / year; location-dependent.",
-    "salaryLabel": "US$155,600–214,000 / year",
-    "salaryMin": 155600,
-    "salaryMax": 214000,
-    "salaryCurrency": "USD",
-    "linkedinUrls": [
-      "https://www.linkedin.com/jobs/view/4454932959"
     ],
     "lastVerifiedAt": "2026-10-13"
   },
@@ -4767,37 +4807,6 @@ const JOBS = [
       "https://www.linkedin.com/jobs/view/4433717461"
     ],
     "disciplines": [],
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
-    "company": "Legora",
-    "title": "Senior Product Designer",
-    "location": "Stockholm HQ",
-    "id": "linkedin-4417648025",
-    "url": "https://jobs.ashbyhq.com/legora/89073502-e8e3-49d9-ba4b-5642ef1a933d",
-    "source": "Legora careers · Ashby",
-    "checkedAt": "September 11, 2026",
-    "postedAt": "2026-08-23T00:00:00.000Z",
-    "category": "Product design",
-    "level": "Senior",
-    "workplace": "On-site",
-    "type": "Full time",
-    "summary": "Design Legora legal AI product experiences, from user flows to detailed interfaces. Bring strong execution and systems thinking to complex tools used by legal teams.",
-    "highlights": [
-      "Translate product needs into clear, usable interaction patterns.",
-      "Work in Figma and help evolve shared design foundations."
-    ],
-    "keywords": [
-      "Product design",
-      "AI Creative"
-    ],
-    "salary": "Pay not listed",
-    "linkedinUrls": [
-      "https://www.linkedin.com/jobs/view/4417648025"
-    ],
-    "disciplines": [
-      "AI Creative"
-    ],
     "lastVerifiedAt": "2026-10-13"
   },
   {
@@ -20157,38 +20166,6 @@ const JOBS = [
     "lastVerifiedAt": "2026-10-13"
   },
   {
-    "id": "ramp-a8451979-2691-440e-851b-49a3b807729b",
-    "company": "Ramp",
-    "title": "Senior Brand Designer, Growth",
-    "category": "Brand & visual",
-    "location": "San Francisco, CA",
-    "workplace": "Hybrid",
-    "workplaceOptions": [
-      "Hybrid"
-    ],
-    "url": "https://jobs.ashbyhq.com/ramp/a8451979-2691-440e-851b-49a3b807729b",
-    "summary": "Develop brand and performance creative for paid campaigns, landing pages and other growth channels. Work with marketing partners to test concepts and refine assets using performance results.",
-    "highlights": [
-      "The listing asks for 5–7+ years of design experience.",
-      "At least two days per week in the San Francisco office.",
-      "Figma, Adobe tools and AI production workflows are part of the work."
-    ],
-    "level": "Senior",
-    "source": "Ramp careers (Ashby)",
-    "checkedAt": "September 8, 2026",
-    "type": "Full time",
-    "keywords": [
-      "Brand & visual",
-      "AI"
-    ],
-    "salaryMin": 132000,
-    "salaryMax": 181000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$132,000–181,000 / year",
-    "salary": "Published annual base salary: US$132,000–181,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
     "id": "ramp-30323399-3039-499d-a0b6-a891ced89e1e",
     "company": "Ramp",
     "title": "Head of Brand",
@@ -20221,38 +20198,6 @@ const JOBS = [
     "salaryCurrency": "USD",
     "salaryLabel": "US$309,000–424,000 / year",
     "salary": "Published annual base salary: US$309,000–424,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
-    "id": "ramp-b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
-    "company": "Ramp",
-    "title": "Design Engineer",
-    "category": "Design engineering",
-    "location": "New York, NY (HQ)",
-    "workplace": "Hybrid",
-    "workplaceOptions": [
-      "Hybrid"
-    ],
-    "url": "https://jobs.ashbyhq.com/ramp/b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
-    "summary": "Combine interaction design and frontend development to prototype and ship Ramp product experiences. Build reusable interfaces with React and TypeScript while using AI tools and customer testing throughout the process.",
-    "highlights": [
-      "Requires a portfolio of working interfaces and strong frontend skills.",
-      "Must be based in New York City or willing to relocate.",
-      "Accessibility, performance and design-system contributions are core responsibilities."
-    ],
-    "level": "Level not specified",
-    "source": "Ramp careers (Ashby)",
-    "checkedAt": "September 8, 2026",
-    "type": "Full time",
-    "keywords": [
-      "Design engineering",
-      "AI"
-    ],
-    "salaryMin": 172000,
-    "salaryMax": 440000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$172,000–440,000 / year",
-    "salary": "Published annual base salary: US$172,000–440,000. Final pay depends on experience, level and location. See the original listing for equity and benefits.",
     "lastVerifiedAt": "2026-10-13"
   },
   {
@@ -20575,37 +20520,6 @@ const JOBS = [
     "lastVerifiedAt": "2026-10-13"
   },
   {
-    "id": "vanta-6d6698d7-7272-4c2a-bc34-807dc269de43",
-    "company": "Vanta",
-    "title": "Director of Product Design",
-    "category": "Product design",
-    "location": "Remote U.S.",
-    "workplace": "Remote",
-    "url": "https://jobs.ashbyhq.com/vanta/6d6698d7-7272-4c2a-bc34-807dc269de43",
-    "summary": "Lead product designers shaping Vanta’s risk products and AI-centric workflow experiences. Define the experience strategy, develop the team and partner across product and engineering.",
-    "highlights": [
-      "At least ten years designing digital products and four years managing designers.",
-      "Experience with complex B2B or enterprise products is important."
-    ],
-    "level": "Leadership",
-    "source": "Vanta careers (Ashby)",
-    "checkedAt": "September 8, 2026",
-    "type": "Full time",
-    "keywords": [
-      "Product design",
-      "Design systems"
-    ],
-    "salary": "Published annual cash compensation range: US$275,000–323,000, plus equity. Vanta labels this a cash range; it is not independently verified as base-only pay.",
-    "salaryLabel": "US$275,000–323,000 / year · cash range",
-    "salaryCashMin": 275000,
-    "salaryCashMax": 323000,
-    "disciplines": [
-      "Product design",
-      "Creative leadership"
-    ],
-    "lastVerifiedAt": "2026-10-13"
-  },
-  {
     "id": "linear-a264869e-f058-487c-ab7f-9b77dffa427c",
     "company": "Linear",
     "title": "Senior / Staff Product Designer",
@@ -20684,46 +20598,6 @@ const JOBS = [
     ],
     "salaryLabel": "Pay not listed",
     "lastVerifiedAt": "2026-10-13"
-  },
-  {
-    "id": "supabase-4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
-    "company": "Supabase",
-    "title": "Brand Designer",
-    "category": "Brand & visual",
-    "location": "Remote, Global",
-    "workplace": "Remote",
-    "url": "https://jobs.ashbyhq.com/supabase/4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
-    "summary": "Create visual storytelling for Supabase’s developer community, including events, conference materials and brand projects.",
-    "level": "Level not specified",
-    "source": "Supabase careers (Ashby)",
-    "checkedAt": "September 8, 2026",
-    "type": "Full time",
-    "keywords": [
-      "Remote",
-      "TrueUp Remote 200"
-    ],
-    "salaryLabel": "Pay not listed",
-    "lastVerifiedAt": "2026-09-27"
-  },
-  {
-    "id": "supabase-97fe8e68-28c5-42db-a763-60113f0b31fd",
-    "company": "Supabase",
-    "title": "Product Designer",
-    "category": "Product design",
-    "location": "Remote, Global",
-    "workplace": "Remote",
-    "url": "https://jobs.ashbyhq.com/supabase/97fe8e68-28c5-42db-a763-60113f0b31fd",
-    "summary": "Design clear, usable experiences for developers working with Supabase.",
-    "level": "Level not specified",
-    "source": "Supabase careers (Ashby)",
-    "checkedAt": "September 8, 2026",
-    "type": "Full time",
-    "keywords": [
-      "Remote",
-      "TrueUp Remote 200"
-    ],
-    "salaryLabel": "Pay not listed",
-    "lastVerifiedAt": "2026-09-27"
   },
   {
     "id": "ashby-f40ef345-82a8-4956-9150-193b4fdf8183",
@@ -21118,39 +20992,6 @@ const JOBS = [
     "salaryCurrency": "USD",
     "salaryLabel": "US$136,000–187,000 / year",
     "salary": "US$136,000–187,000 annual base salary for the listed location. See the employer listing for location-specific compensation and benefits."
-  },
-  {
-    "id": "perplexity-38caef61-f8b9-4ba9-a640-870a1e77ba54",
-    "atsId": "38caef61-f8b9-4ba9-a640-870a1e77ba54",
-    "company": "Perplexity",
-    "title": "Senior Cinematographer, Brand Studio",
-    "category": "Motion & video",
-    "disciplines": [
-      "Brand & creative"
-    ],
-    "level": "Senior",
-    "location": "San Francisco",
-    "workplace": "Not specified",
-    "type": "Full-time",
-    "summary": "Define Perplexity’s cinematographic language and shoot brand films, interviews, and fast-turnaround studio content.",
-    "highlights": [
-      "Hands-on camera and lighting expertise, including the ability to lead crews and help run an in-house studio."
-    ],
-    "keywords": [
-      "Motion & video",
-      "Brand & creative"
-    ],
-    "url": "https://jobs.ashbyhq.com/perplexity/38caef61-f8b9-4ba9-a640-870a1e77ba54",
-    "source": "Perplexity careers (Ashby)",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/perplexity?includeCompensation=true",
-    "checkedAt": "September 24, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "sourcePublishedAt": "2026-09-11T18:54:31.809+00:00",
-    "salaryMin": 150000,
-    "salaryMax": 180000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$150,000–180,000 / year",
-    "salary": "US$150,000–180,000 annual base salary for the listed location. See the employer listing for location-specific compensation and benefits."
   },
   {
     "id": "legora-18c223d5-40b3-4383-b342-3f34b67659ba",
@@ -22015,41 +21856,6 @@ const JOBS = [
     "salary": "US$200,000–275,000 annual base salary for the New York role. See the employer listing for equity and benefits."
   },
   {
-    "id": "ramp-566c4ad0-03ea-4022-8f11-04f0d8969f97",
-    "atsId": "566c4ad0-03ea-4022-8f11-04f0d8969f97",
-    "company": "Ramp",
-    "title": "Growth Creative Designer, International",
-    "category": "Brand & creative",
-    "disciplines": [
-      "Motion & video",
-      "Social media"
-    ],
-    "level": "Mid-level",
-    "location": "London",
-    "workplace": "On-site",
-    "type": "Temporary full-time",
-    "summary": "Create and localize Ramp’s paid social, video, display, and direct-mail creative for UK and European growth campaigns.",
-    "highlights": [
-      "Design and animate performance creative across static and motion formats; work from Ramp’s London office."
-    ],
-    "keywords": [
-      "Brand & creative",
-      "Motion & video",
-      "Social media"
-    ],
-    "url": "https://jobs.ashbyhq.com/ramp/566c4ad0-03ea-4022-8f11-04f0d8969f97",
-    "source": "Ramp careers (Ashby)",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true",
-    "checkedAt": "September 26, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "sourcePublishedAt": "2026-09-25T17:55:21.295+00:00",
-    "salaryMin": 60000,
-    "salaryMax": 82000,
-    "salaryCurrency": "GBP",
-    "salaryLabel": "£60,000–82,000 / year",
-    "salary": "£60,000–82,000 annual base salary for the listed London temporary role. See the employer listing for equity and benefits."
-  },
-  {
     "id": "descript-8003605003",
     "atsId": "8003605003",
     "company": "Descript",
@@ -22580,40 +22386,6 @@ const JOBS = [
     "salaryCurrency": "USD"
   },
   {
-    "id": "decagon-f9abd967-7e19-432e-bde0-e2a78d63b639",
-    "atsId": "f9abd967-7e19-432e-bde0-e2a78d63b639",
-    "company": "Decagon",
-    "title": "Experiential Designer",
-    "category": "Brand & visual",
-    "disciplines": [
-      "Creative leadership"
-    ],
-    "level": "Level not specified",
-    "location": "San Francisco, CA",
-    "workplace": "Not specified",
-    "summary": "Create Decagon’s in-person brand expression for conferences, event environments, and festival booths.",
-    "highlights": [
-      "Design marketing-led events that make the brand distinctive in physical spaces.",
-      "Collaborate on event work as the company scales."
-    ],
-    "url": "https://jobs.ashbyhq.com/decagon/f9abd967-7e19-432e-bde0-e2a78d63b639",
-    "source": "Decagon careers (Ashby)",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/decagon?includeCompensation=true",
-    "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "keywords": [
-      "Brand & visual",
-      "Creative leadership"
-    ],
-    "salary": "US$160,000–205,000 annual salary in the employer ATS; final pay may depend on location and qualifications.",
-    "salaryLabel": "US$160,000–205,000 / year",
-    "sourcePublishedAt": "2026-10-12T16:05:13.965+00:00",
-    "type": "FullTime",
-    "salaryMin": 160000,
-    "salaryMax": 205000,
-    "salaryCurrency": "USD"
-  },
-  {
     "id": "ramp-baa94095-c976-46d0-8d18-25a951950714",
     "atsId": "baa94095-c976-46d0-8d18-25a951950714",
     "company": "Ramp",
@@ -22682,40 +22454,6 @@ const JOBS = [
     "salaryMin": 245000,
     "salaryMax": 310000,
     "salaryCurrency": "USD"
-  },
-  {
-    "id": "zapier-c0582311-18cb-4415-9c86-79014f1b74f6",
-    "atsId": "c0582311-18cb-4415-9c86-79014f1b74f6",
-    "company": "Zapier",
-    "title": "Sr. Motion Designer",
-    "category": "Motion & video",
-    "disciplines": [
-      "Brand & visual"
-    ],
-    "level": "Senior",
-    "location": "EMEA",
-    "workplace": "Remote",
-    "summary": "Create motion work for Zapier’s Brand Studio and help define how the company appears across digital storytelling and marketing.",
-    "highlights": [
-      "Join a small creative team with ownership of brand motion.",
-      "The role is remote within EMEA."
-    ],
-    "url": "https://jobs.ashbyhq.com/zapier/c0582311-18cb-4415-9c86-79014f1b74f6",
-    "source": "Zapier careers (Ashby)",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/zapier?includeCompensation=true",
-    "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "keywords": [
-      "Motion & video",
-      "Brand & visual"
-    ],
-    "salary": "€92,600–139,000 annual salary in the employer ATS; final pay may depend on location and qualifications.",
-    "salaryLabel": "€92,600–139,000 / year",
-    "sourcePublishedAt": "2026-10-02T17:54:13.428+00:00",
-    "type": "FullTime",
-    "salaryMin": 92600,
-    "salaryMax": 139000,
-    "salaryCurrency": "EUR"
   },
   {
     "id": "figma-6212642004",
@@ -22996,40 +22734,6 @@ const JOBS = [
     "sourcePublishedAt": "2026-10-08T23:12:41-04:00",
     "salaryMin": 305000,
     "salaryMax": 460000,
-    "salaryCurrency": "USD"
-  },
-  {
-    "id": "runway-386d468e-2a49-4901-877d-d2bf6b33abd1",
-    "atsId": "386d468e-2a49-4901-877d-d2bf6b33abd1",
-    "company": "Runway",
-    "title": "Copywriter, Product Marketing",
-    "category": "Content & strategy",
-    "disciplines": [
-      "AI Creative"
-    ],
-    "level": "Level not specified",
-    "location": "United States",
-    "workplace": "Remote",
-    "summary": "Write product-close copy for Runway’s landing pages and in-product experiences, connecting AI product capabilities with clear user value.",
-    "highlights": [
-      "This role focuses on product marketing and performance-driven writing.",
-      "The employer is open to remote candidates across the United States."
-    ],
-    "url": "https://jobs.ashbyhq.com/runway-ml/386d468e-2a49-4901-877d-d2bf6b33abd1",
-    "source": "Runway careers (Ashby)",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/runway-ml?includeCompensation=true",
-    "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "keywords": [
-      "Content & strategy",
-      "AI Creative"
-    ],
-    "salary": "US$130,000–200,000 annual salary in the employer ATS; final pay may depend on location and qualifications.",
-    "salaryLabel": "US$130,000–200,000 / year",
-    "sourcePublishedAt": "2026-10-10T02:54:05.030+00:00",
-    "type": "FullTime",
-    "salaryMin": 130000,
-    "salaryMax": 200000,
     "salaryCurrency": "USD"
   },
   {
