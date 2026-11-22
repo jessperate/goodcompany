@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-22",
+  "closed": [
+    {
+      "job": {
+        "id": "waymo-7839116",
+        "atsId": "7839116",
+        "company": "Waymo",
+        "title": "Brand Media Strategy & Analytics Manager",
+        "category": "Brand & creative",
+        "disciplines": [
+          "Content & strategy"
+        ],
+        "level": "Mid-level",
+        "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+        "workplace": "Hybrid",
+        "type": "Full-time",
+        "summary": "Plan and measure Waymo’s brand media campaigns across channels while improving the reach and impact of creative work.",
+        "highlights": [
+          "Brand media strategy and analytics experience, with the ability to connect campaign decisions to audience outcomes."
+        ],
+        "keywords": [
+          "Brand & creative",
+          "Content & strategy"
+        ],
+        "url": "https://careers.withwaymo.com/jobs?gh_jid=7839116",
+        "source": "Waymo careers (Greenhouse)",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
+        "checkedAt": "September 25, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "sourcePublishedAt": "2026-05-08T19:42:32-04:00",
+        "salaryMin": 177000,
+        "salaryMax": 218000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "US$177,000–218,000 / year",
+        "salary": "US$177,000–218,000 annual base salary across U.S. locations; exact location and experience affect pay. See the employer listing for equity, benefits, and local details."
+      },
+      "closedAt": "2026-11-22",
+      "evidence": "Complete official Waymo Greenhouse feed excludes the exact posting ID and the direct official listing returned HTTP 404 with Waymo 404-page imagery.",
+      "atsIdChecked": "7839116",
+      "sourceUrl": "https://careers.withwaymo.com/jobs?gh_jid=7839116",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "waymo-8257849",
+        "atsId": "8257849",
+        "company": "Waymo",
+        "title": "Staff Industrial Designer, Interior",
+        "category": "Industrial design",
+        "disciplines": [
+          "Brand & visual"
+        ],
+        "level": "Staff",
+        "location": "Mountain View, CA",
+        "workplace": "Not specified",
+        "summary": "Lead interior industrial design for Waymo vehicles, from early concepts and models through production-ready rider experiences.",
+        "highlights": [
+          "Translate user insight into feasible vehicle interior concepts.",
+          "Champion design language and rider awareness across vehicle partnerships."
+        ],
+        "url": "https://careers.withwaymo.com/jobs?gh_jid=8257849",
+        "source": "Waymo careers (Greenhouse)",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
+        "checkedAt": "October 13, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "keywords": [
+          "Industrial design",
+          "Brand & visual"
+        ],
+        "salary": "US$230,000–284,000 annual U.S. salary range; actual pay depends on work location, experience, and qualifications.",
+        "salaryLabel": "US$230,000–284,000 / year",
+        "sourcePublishedAt": "2026-10-09T18:26:41-04:00",
+        "salaryMin": 230000,
+        "salaryMax": 284000,
+        "salaryCurrency": "USD"
+      },
+      "closedAt": "2026-11-22",
+      "evidence": "Complete official Waymo Greenhouse feed excludes the exact posting ID and the direct official listing returned HTTP 404 with Waymo 404-page imagery.",
+      "atsIdChecked": "8257849",
+      "sourceUrl": "https://careers.withwaymo.com/jobs?gh_jid=8257849",
+      "httpStatus": 404
+    }
+  ]
+}

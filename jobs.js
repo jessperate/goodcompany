@@ -1,5 +1,114 @@
 const JOBS = [
   {
+    "id": "exa-fdecb657-e185-4fb4-b04c-d2c1fec240ff",
+    "atsId": "fdecb657-e185-4fb4-b04c-d2c1fec240ff",
+    "company": "Exa",
+    "title": "Social Media Strategist",
+    "category": "Social media",
+    "disciplines": [
+      "Content & strategy"
+    ],
+    "level": "Senior",
+    "location": "San Francisco, California",
+    "workplace": "On-site",
+    "summary": "Own Exa’s organic social strategy, creating posts, short videos, and technical stories for developers and technology leaders.",
+    "highlights": [
+      "At least five years in social, editorial, or content creation, with hands-on writing, short-form video, and visual production."
+    ],
+    "url": "https://jobs.ashbyhq.com/exa/fdecb657-e185-4fb4-b04c-d2c1fec240ff",
+    "sourceUrl": "https://jobs.ashbyhq.com/exa/fdecb657-e185-4fb4-b04c-d2c1fec240ff",
+    "source": "Exa careers (Ashby)",
+    "sourcePublishedAt": "2026-11-21",
+    "checkedAt": "November 22, 2026",
+    "lastVerifiedAt": "2026-11-22",
+    "salaryMin": 150000,
+    "salaryMax": 200000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 150,000–200,000 / year",
+    "salary": "Published USD annual base salary: 150,000–200,000. Final compensation may vary by location and qualifications."
+  },
+  {
+    "id": "harvey-e46d48b8-57c7-401c-be33-f56774dc072d",
+    "atsId": "e46d48b8-57c7-401c-be33-f56774dc072d",
+    "company": "Harvey",
+    "title": "Creative AI Engineer",
+    "category": "Design engineering",
+    "disciplines": [
+      "AI Creative",
+      "Brand & visual"
+    ],
+    "level": "Senior",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Build Harvey’s creative agent so teams can produce on-brand ads, social posts, decks, and product films in editable design tools.",
+    "highlights": [
+      "Five or more years as a software engineer, production LLM-agent experience, media pipelines, and a designer’s eye."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/e46d48b8-57c7-401c-be33-f56774dc072d",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/e46d48b8-57c7-401c-be33-f56774dc072d",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-11-21",
+    "checkedAt": "November 22, 2026",
+    "lastVerifiedAt": "2026-11-22",
+    "salaryMin": 168400,
+    "salaryMax": 252600,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 168,400–252,600 / year",
+    "salary": "Published USD annual base salary: 168,400–252,600. Final compensation may vary by location and qualifications."
+  },
+  {
+    "id": "legora-bb0aaeaa-d380-4e88-be7a-12f738af574d",
+    "atsId": "bb0aaeaa-d380-4e88-be7a-12f738af574d",
+    "company": "Legora",
+    "title": "Staff Design Engineer",
+    "category": "Design engineering",
+    "disciplines": [
+      "Product design",
+      "Brand & visual"
+    ],
+    "level": "Staff",
+    "location": "Stockholm HQ",
+    "workplace": "On-site",
+    "summary": "Design, prototype, and ship Legora’s product and brand experiences in code as its first design engineer.",
+    "highlights": [
+      "Strong UI craft, reusable component and design-system work, performance, accessibility, and experience using coding agents."
+    ],
+    "url": "https://jobs.ashbyhq.com/legora/bb0aaeaa-d380-4e88-be7a-12f738af574d",
+    "sourceUrl": "https://jobs.ashbyhq.com/legora/bb0aaeaa-d380-4e88-be7a-12f738af574d",
+    "source": "Legora careers (Ashby)",
+    "sourcePublishedAt": "2026-11-22",
+    "checkedAt": "November 22, 2026",
+    "lastVerifiedAt": "2026-11-22"
+  },
+  {
+    "id": "perplexity-35eb74aa-63e6-485a-a1da-061d4004ab50",
+    "atsId": "35eb74aa-63e6-485a-a1da-061d4004ab50",
+    "company": "Perplexity",
+    "title": "Senior Art Director",
+    "category": "Brand & visual",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Senior",
+    "location": "San Francisco",
+    "workplace": "Not specified",
+    "summary": "Art-direct Perplexity’s campaigns, launches, websites, events, and productions while contributing hands-on design.",
+    "highlights": [
+      "Ten or more years in graphic design and art direction, a strong cross-channel portfolio, production direction, and an AI-forward design practice."
+    ],
+    "url": "https://jobs.ashbyhq.com/Perplexity/35eb74aa-63e6-485a-a1da-061d4004ab50",
+    "sourceUrl": "https://jobs.ashbyhq.com/Perplexity/35eb74aa-63e6-485a-a1da-061d4004ab50",
+    "source": "Perplexity careers (Ashby)",
+    "sourcePublishedAt": "2026-11-20",
+    "checkedAt": "November 22, 2026",
+    "lastVerifiedAt": "2026-11-22",
+    "salaryMin": 180000,
+    "salaryMax": 220000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 180,000–220,000 / year",
+    "salary": "Published USD annual base salary: 180,000–220,000. Final compensation may vary by location and qualifications."
+  },
+  {
     "id": "airbnb-8394407",
     "atsId": "8394407",
     "company": "Airbnb",
@@ -21757,39 +21866,6 @@ const JOBS = [
     "salary": "US$305,000–385,000 annual base salary for the listed U.S. role. See the employer listing for equity, benefits, and local details."
   },
   {
-    "id": "waymo-7839116",
-    "atsId": "7839116",
-    "company": "Waymo",
-    "title": "Brand Media Strategy & Analytics Manager",
-    "category": "Brand & creative",
-    "disciplines": [
-      "Content & strategy"
-    ],
-    "level": "Mid-level",
-    "location": "Mountain View, CA, USA; San Francisco, CA, USA",
-    "workplace": "Hybrid",
-    "type": "Full-time",
-    "summary": "Plan and measure Waymo’s brand media campaigns across channels while improving the reach and impact of creative work.",
-    "highlights": [
-      "Brand media strategy and analytics experience, with the ability to connect campaign decisions to audience outcomes."
-    ],
-    "keywords": [
-      "Brand & creative",
-      "Content & strategy"
-    ],
-    "url": "https://careers.withwaymo.com/jobs?gh_jid=7839116",
-    "source": "Waymo careers (Greenhouse)",
-    "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
-    "checkedAt": "September 25, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "sourcePublishedAt": "2026-05-08T19:42:32-04:00",
-    "salaryMin": 177000,
-    "salaryMax": 218000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "US$177,000–218,000 / year",
-    "salary": "US$177,000–218,000 annual base salary across U.S. locations; exact location and experience affect pay. See the employer listing for equity, benefits, and local details."
-  },
-  {
     "id": "stripe-8001909",
     "atsId": "8001909",
     "company": "Stripe",
@@ -22765,39 +22841,6 @@ const JOBS = [
     "salary": "Pay not listed",
     "salaryLabel": "Pay not listed",
     "sourcePublishedAt": "2026-10-13T04:49:08-04:00"
-  },
-  {
-    "id": "waymo-8257849",
-    "atsId": "8257849",
-    "company": "Waymo",
-    "title": "Staff Industrial Designer, Interior",
-    "category": "Industrial design",
-    "disciplines": [
-      "Brand & visual"
-    ],
-    "level": "Staff",
-    "location": "Mountain View, CA",
-    "workplace": "Not specified",
-    "summary": "Lead interior industrial design for Waymo vehicles, from early concepts and models through production-ready rider experiences.",
-    "highlights": [
-      "Translate user insight into feasible vehicle interior concepts.",
-      "Champion design language and rider awareness across vehicle partnerships."
-    ],
-    "url": "https://careers.withwaymo.com/jobs?gh_jid=8257849",
-    "source": "Waymo careers (Greenhouse)",
-    "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true",
-    "checkedAt": "October 13, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "keywords": [
-      "Industrial design",
-      "Brand & visual"
-    ],
-    "salary": "US$230,000–284,000 annual U.S. salary range; actual pay depends on work location, experience, and qualifications.",
-    "salaryLabel": "US$230,000–284,000 / year",
-    "sourcePublishedAt": "2026-10-09T18:26:41-04:00",
-    "salaryMin": 230000,
-    "salaryMax": 284000,
-    "salaryCurrency": "USD"
   },
   {
     "id": "figma-6221563004",

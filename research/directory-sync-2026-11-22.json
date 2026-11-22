@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-22",
+  "baseCommit": "d4d5aa04e9f0a180143e4943eb5e74e6767589ce",
+  "counts": {
+    "before": 849,
+    "feedsAttempted": 46,
+    "completeFeeds": 42,
+    "verifiedExistingByCompleteFeed": 174,
+    "directListingChecksAttempted": 675,
+    "individuallyRecheckedFeedExclusions": 38,
+    "added": 4,
+    "removed": 2,
+    "after": 851
+  },
+  "additions": [
+    {
+      "id": "exa-fdecb657-e185-4fb4-b04c-d2c1fec240ff",
+      "company": "Exa",
+      "title": "Social Media Strategist",
+      "url": "https://jobs.ashbyhq.com/exa/fdecb657-e185-4fb4-b04c-d2c1fec240ff"
+    },
+    {
+      "id": "harvey-e46d48b8-57c7-401c-be33-f56774dc072d",
+      "company": "Harvey",
+      "title": "Creative AI Engineer",
+      "url": "https://jobs.ashbyhq.com/harvey/e46d48b8-57c7-401c-be33-f56774dc072d"
+    },
+    {
+      "id": "legora-bb0aaeaa-d380-4e88-be7a-12f738af574d",
+      "company": "Legora",
+      "title": "Staff Design Engineer",
+      "url": "https://jobs.ashbyhq.com/legora/bb0aaeaa-d380-4e88-be7a-12f738af574d"
+    },
+    {
+      "id": "perplexity-35eb74aa-63e6-485a-a1da-061d4004ab50",
+      "company": "Perplexity",
+      "title": "Senior Art Director",
+      "url": "https://jobs.ashbyhq.com/Perplexity/35eb74aa-63e6-485a-a1da-061d4004ab50"
+    }
+  ],
+  "removalIds": [
+    "waymo-7839116",
+    "waymo-8257849"
+  ],
+  "closureArchive": "research/closed-jobs-2026-11-22.json",
+  "sourcesChecked": [
+    "46 official employer Ashby and Greenhouse feeds",
+    "TrueUp Remote 200 company index",
+    "Direct employer postings for the four additions and 38 feed exclusions"
+  ],
+  "unresolvedChecks": [
+    {
+      "source": "Bulk direct listing checks",
+      "count": 637,
+      "reason": "DNS resolution failed during the bulk pass; these listings were retained for retry."
+    },
+    {
+      "source": "Feed-excluded direct postings",
+      "count": 36,
+      "reason": "Returned 200, 403, or 429; no closure inferred."
+    },
+    {
+      "source": "Hex, Webflow, Remote, Deel feeds",
+      "count": 4,
+      "reason": "Feed unavailable or empty; no closure inferred."
+    }
+  ],
+  "verificationNotes": [
+    "Four additions appeared in complete official Ashby feeds and their direct official posting URLs returned HTTP 200.",
+    "Two Waymo removals have complete official Greenhouse feed exclusion plus direct HTTP 404 with Waymo 404-page imagery. Original records archived.",
+    "Other listings remain active because unavailable feeds, DNS failures, rate limits, or generic responses do not prove closure.",
+    "TrueUp Remote 200 consulted for remote-employer discovery; wider remote-company coverage remains incomplete.",
+    "No profile, pin, or recommendation data changed."
+  ]
+}
