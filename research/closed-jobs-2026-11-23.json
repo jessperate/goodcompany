@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-23",
+  "closed": [
+    {
+      "job": {
+        "id": "openai-30b0a80b-8421-4847-a670-5bd09920c4ce",
+        "atsId": "30b0a80b-8421-4847-a670-5bd09920c4ce",
+        "company": "OpenAI",
+        "title": "Motion Designer",
+        "category": "Motion & video",
+        "disciplines": [
+          "Brand & visual"
+        ],
+        "level": "Not specified",
+        "location": "San Francisco",
+        "workplace": "Hybrid",
+        "summary": "Translate OpenAI research and product ideas into motion for films, launches, demos, and communications.",
+        "highlights": [
+          "7+ years of motion design across films, campaigns, launches, or narrative work."
+        ],
+        "url": "https://jobs.ashbyhq.com/openai/30b0a80b-8421-4847-a670-5bd09920c4ce",
+        "sourceUrl": "https://jobs.ashbyhq.com/openai/30b0a80b-8421-4847-a670-5bd09920c4ce",
+        "source": "OpenAI careers (Ashby)",
+        "sourcePublishedAt": "2026-10-28",
+        "checkedAt": "October 28, 2026",
+        "lastVerifiedAt": "2026-10-28",
+        "salaryMin": 223000,
+        "salaryMax": 247000,
+        "salaryCurrency": "USD",
+        "salaryLabel": "USD 223,000–247,000 / year",
+        "salary": "Published USD annual base salary: 223,000–247,000. Final pay may vary by location, experience, and qualifications."
+      },
+      "closedAt": "2026-11-23",
+      "evidence": "Complete official OpenAI Ashby feed excludes the exact posting ID and direct official listing returns HTTP 404.",
+      "atsIdChecked": "30b0a80b-8421-4847-a670-5bd09920c4ce",
+      "sourceUrl": "https://jobs.ashbyhq.com/openai/30b0a80b-8421-4847-a670-5bd09920c4ce",
+      "httpStatus": 404
+    }
+  ]
+}

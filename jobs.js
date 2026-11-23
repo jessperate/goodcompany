@@ -1,5 +1,306 @@
 const JOBS = [
   {
+    "id": "stripe-8155002",
+    "atsId": "8155002",
+    "company": "Stripe",
+    "title": "Product Designer, Link",
+    "category": "Product design",
+    "disciplines": [
+      "Brand & visual"
+    ],
+    "level": "Not specified",
+    "location": "US / Canada",
+    "workplace": "Not specified",
+    "summary": "Design Link consumer checkout on mobile and desktop and extend its wallet and identity products.",
+    "highlights": [
+      "4+ years of consumer product design, interaction and visual craft, and design-system experience."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8155002",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8155002",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-08-24",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23"
+  },
+  {
+    "id": "openai-2b5587bf-9df9-4606-920b-a988e392a2d2",
+    "atsId": "2b5587bf-9df9-4606-920b-a988e392a2d2",
+    "company": "OpenAI",
+    "title": "Art Director, Business Marketing",
+    "category": "Brand & visual",
+    "disciplines": [
+      "Creative leadership"
+    ],
+    "level": "Not specified",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Art-direct business campaigns, product launches, customer stories, and events across digital, social, film, and presentations.",
+    "highlights": [
+      "8+ years of art direction or related creative work, with a portfolio spanning concept through production."
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/2b5587bf-9df9-4606-920b-a988e392a2d2",
+    "sourceUrl": "https://jobs.ashbyhq.com/openai/2b5587bf-9df9-4606-920b-a988e392a2d2",
+    "source": "OpenAI careers (Ashby)",
+    "sourcePublishedAt": "2026-11-19",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23",
+    "salaryMin": 223000,
+    "salaryMax": 247000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 223,000–247,000 / year",
+    "salary": "Published USD annual base salary: 223,000–247,000. Final compensation may vary by location and qualifications."
+  },
+  {
+    "id": "harvey-1e198178-a4db-4587-a024-f8171ce0e8fd",
+    "atsId": "1e198178-a4db-4587-a024-f8171ce0e8fd",
+    "company": "Harvey",
+    "title": "Staff Content Designer",
+    "category": "Content & strategy",
+    "disciplines": [
+      "Product design",
+      "AI Creative"
+    ],
+    "level": "Staff",
+    "location": "New York",
+    "workplace": "Hybrid",
+    "summary": "Define Harvey product voice and content patterns across interfaces and AI responses, establishing its content design practice.",
+    "highlights": [
+      "8+ years in content design, UX writing, or content strategy, including AI experiences and content systems."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/1e198178-a4db-4587-a024-f8171ce0e8fd",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/1e198178-a4db-4587-a024-f8171ce0e8fd",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-11-03",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23",
+    "salaryMin": 195500,
+    "salaryMax": 264500,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 195,500–264,500 / year",
+    "salary": "Published USD annual base salary: 195,500–264,500. Final compensation may vary by location and qualifications."
+  },
+  {
+    "id": "harvey-0f28d396-8240-4caf-a8aa-18bb8c6d35bf",
+    "atsId": "0f28d396-8240-4caf-a8aa-18bb8c6d35bf",
+    "company": "Harvey",
+    "title": "Staff Brand Designer",
+    "category": "Brand & visual",
+    "disciplines": [
+      "Creative leadership"
+    ],
+    "level": "Staff",
+    "location": "New York",
+    "workplace": "Not specified",
+    "summary": "Evolve Harvey visual brand across campaigns, its website, print, and events while guiding other designers.",
+    "highlights": [
+      "8–10+ years of brand design and a portfolio showing typography, art direction, and cross-channel systems."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/0f28d396-8240-4caf-a8aa-18bb8c6d35bf",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/0f28d396-8240-4caf-a8aa-18bb8c6d35bf",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-10-29",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23",
+    "salaryMin": 180800,
+    "salaryMax": 248600,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 180,800–248,600 / year",
+    "salary": "Published USD annual base salary: 180,800–248,600. Final compensation may vary by location and qualifications."
+  },
+  {
+    "id": "harvey-8d357b3f-43e0-4e30-8dd7-a326a5da96cc",
+    "atsId": "8d357b3f-43e0-4e30-8dd7-a326a5da96cc",
+    "company": "Harvey",
+    "title": "Senior Product Designer",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Senior",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Design Harvey legal AI product experiences in San Francisco, from research and prototypes to polished interactions.",
+    "highlights": [
+      "5+ years of product design, with strong visual and interaction craft, research, and design-system experience."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/8d357b3f-43e0-4e30-8dd7-a326a5da96cc",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/8d357b3f-43e0-4e30-8dd7-a326a5da96cc",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-10-29",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23",
+    "salaryMin": 167500,
+    "salaryMax": 251300,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 167,500–251,300 / year",
+    "salary": "Published USD annual base salary: 167,500–251,300. Final compensation may vary by location and qualifications."
+  },
+  {
+    "id": "harvey-eaf0f789-5d7f-400b-bd48-e398a32f307a",
+    "atsId": "eaf0f789-5d7f-400b-bd48-e398a32f307a",
+    "company": "Harvey",
+    "title": "Senior Product Designer",
+    "category": "Product design",
+    "disciplines": [
+      "AI Creative"
+    ],
+    "level": "Senior",
+    "location": "Toronto",
+    "workplace": "Hybrid",
+    "summary": "Design Harvey legal AI product experiences in Toronto, from research and prototypes to polished interactions.",
+    "highlights": [
+      "5+ years of product design, with strong visual and interaction craft, research, and design-system experience."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/eaf0f789-5d7f-400b-bd48-e398a32f307a",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/eaf0f789-5d7f-400b-bd48-e398a32f307a",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-10-29",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23",
+    "salaryMin": 138600,
+    "salaryMax": 207800,
+    "salaryCurrency": "CAD",
+    "salaryLabel": "CAD 138,600–207,800 / year",
+    "salary": "Published CAD annual base salary: 138,600–207,800. Final compensation may vary by location and qualifications."
+  },
+  {
+    "id": "legora-44927da8-4060-44a6-bfc1-670b0d1fe90b",
+    "atsId": "44927da8-4060-44a6-bfc1-670b0d1fe90b",
+    "company": "Legora",
+    "title": "Staff Content Designer",
+    "category": "Content & strategy",
+    "disciplines": [
+      "Product design",
+      "AI Creative"
+    ],
+    "level": "Staff",
+    "location": "Stockholm, New York, or London",
+    "workplace": "On-site",
+    "summary": "Own the verbal layer of Legora legal AI product, including agent conversations, terminology, and content standards.",
+    "highlights": [
+      "Extensive content design or UX writing experience in complex software, including conversational or AI-driven experiences."
+    ],
+    "url": "https://jobs.ashbyhq.com/legora/44927da8-4060-44a6-bfc1-670b0d1fe90b",
+    "sourceUrl": "https://jobs.ashbyhq.com/legora/44927da8-4060-44a6-bfc1-670b0d1fe90b",
+    "source": "Legora careers (Ashby)",
+    "sourcePublishedAt": "2026-11-03",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23"
+  },
+  {
+    "id": "cloudflare-6998777",
+    "atsId": "6998777",
+    "company": "Cloudflare",
+    "title": "Senior Design Engineer",
+    "category": "Design engineering",
+    "disciplines": [
+      "Product design"
+    ],
+    "level": "Senior",
+    "location": "Austin, New York, or San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Design and build front-end experiences for Cloudflare developer dashboard, from Figma concepts to React components.",
+    "highlights": [
+      "5+ years with distributed systems, front-end application design and development, and TypeScript or similar skills."
+    ],
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/6998777?gh_jid=6998777",
+    "sourceUrl": "https://boards.greenhouse.io/cloudflare/jobs/6998777?gh_jid=6998777",
+    "source": "Cloudflare careers (Greenhouse)",
+    "sourcePublishedAt": "2025-06-20",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23",
+    "salaryMin": 194000,
+    "salaryMax": 266000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$194,000–266,000 / year (Bay Area)",
+    "salary": "Published annual base salary: US$194,000–266,000 for Bay Area hires; US$185,000–254,000 for New York City, New Jersey, Washington, Washington DC, and California outside the Bay Area. Pay may vary by work location."
+  },
+  {
+    "id": "dorsia-5291092007",
+    "atsId": "5291092007",
+    "company": "Dorsia",
+    "title": "Director of Product Design",
+    "category": "Product design",
+    "disciplines": [
+      "Creative leadership",
+      "AI Creative"
+    ],
+    "level": "Leadership",
+    "location": "Miami, FL or New York City, NY",
+    "workplace": "On-site",
+    "summary": "Lead product design across Dorsia member app and hospitality platform, including agentic experiences and the design team.",
+    "highlights": [
+      "Hands-on product design leadership across consumer and enterprise surfaces, with experience building AI agents."
+    ],
+    "url": "https://job-boards.greenhouse.io/dorsia/jobs/5291092007",
+    "sourceUrl": "https://job-boards.greenhouse.io/dorsia/jobs/5291092007",
+    "source": "Dorsia careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-10",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23",
+    "salaryMin": 240000,
+    "salaryMax": 260000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$240,000–260,000 / year (New York)",
+    "salary": "Published New York pay range: US$240,000–260,000 annually. Pay for other locations may differ."
+  },
+  {
+    "id": "dorsia-5232487007",
+    "atsId": "5232487007",
+    "company": "Dorsia",
+    "title": "Video Editor",
+    "category": "Motion & video",
+    "disciplines": [
+      "Social media"
+    ],
+    "level": "Not specified",
+    "location": "Miami, FL or New York City, NY",
+    "workplace": "On-site",
+    "summary": "Edit Dorsia restaurant, event, and founder footage into compelling short-form and other video stories.",
+    "highlights": [
+      "Strong editing instincts for pacing and hooks, comfort with unscripted footage, and collaboration with producers and social teams."
+    ],
+    "url": "https://job-boards.greenhouse.io/dorsia/jobs/5232487007",
+    "sourceUrl": "https://job-boards.greenhouse.io/dorsia/jobs/5232487007",
+    "source": "Dorsia careers (Greenhouse)",
+    "sourcePublishedAt": "2026-09-08",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23",
+    "salaryMin": 80000,
+    "salaryMax": 100000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$80,000–100,000 / year (New York)",
+    "salary": "Published New York pay range: US$80,000–100,000 annually. Pay for other locations may differ."
+  },
+  {
+    "id": "databricks-8816442002",
+    "atsId": "8816442002",
+    "company": "Databricks",
+    "title": "Sr Video Producer",
+    "category": "Motion & video",
+    "disciplines": [
+      "Content & strategy"
+    ],
+    "level": "Senior",
+    "location": "San Francisco, California",
+    "workplace": "Not specified",
+    "summary": "Produce on-demand and live video from intake and preproduction through shoots, editing, and final delivery.",
+    "highlights": [
+      "8+ years developing web video content, production and budget management, and Adobe Creative Cloud skills."
+    ],
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8816442002",
+    "sourceUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8816442002",
+    "source": "Databricks careers (Greenhouse)",
+    "sourcePublishedAt": "2026-09-22",
+    "checkedAt": "November 23, 2026",
+    "lastVerifiedAt": "2026-11-23",
+    "salaryMin": 177700,
+    "salaryMax": 244300,
+    "salaryCurrency": "USD",
+    "salaryLabel": "US$177,700–244,300 / year (Zone 1)",
+    "salary": "Published Zone 1 annual pay range: US$177,700–244,300. Actual compensation varies by location and qualifications; bonus and equity may also apply."
+  },
+  {
     "id": "exa-fdecb657-e185-4fb4-b04c-d2c1fec240ff",
     "atsId": "fdecb657-e185-4fb4-b04c-d2c1fec240ff",
     "company": "Exa",
@@ -888,34 +1189,6 @@ const JOBS = [
     "salaryCurrency": "USD",
     "salaryLabel": "USD 287,000–318,000 / year",
     "salary": "Published USD annual base salary: 287,000–318,000. Final pay may vary by location, experience, and qualifications."
-  },
-  {
-    "id": "openai-30b0a80b-8421-4847-a670-5bd09920c4ce",
-    "atsId": "30b0a80b-8421-4847-a670-5bd09920c4ce",
-    "company": "OpenAI",
-    "title": "Motion Designer",
-    "category": "Motion & video",
-    "disciplines": [
-      "Brand & visual"
-    ],
-    "level": "Not specified",
-    "location": "San Francisco",
-    "workplace": "Hybrid",
-    "summary": "Translate OpenAI research and product ideas into motion for films, launches, demos, and communications.",
-    "highlights": [
-      "7+ years of motion design across films, campaigns, launches, or narrative work."
-    ],
-    "url": "https://jobs.ashbyhq.com/openai/30b0a80b-8421-4847-a670-5bd09920c4ce",
-    "sourceUrl": "https://jobs.ashbyhq.com/openai/30b0a80b-8421-4847-a670-5bd09920c4ce",
-    "source": "OpenAI careers (Ashby)",
-    "sourcePublishedAt": "2026-10-28",
-    "checkedAt": "October 28, 2026",
-    "lastVerifiedAt": "2026-10-28",
-    "salaryMin": 223000,
-    "salaryMax": 247000,
-    "salaryCurrency": "USD",
-    "salaryLabel": "USD 223,000–247,000 / year",
-    "salary": "Published USD annual base salary: 223,000–247,000. Final pay may vary by location, experience, and qualifications."
   },
   {
     "id": "mercury-6236623004",
