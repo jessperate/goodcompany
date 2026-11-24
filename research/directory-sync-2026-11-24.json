@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-24",
+  "baseCommit": "079ea6ad9de1d2618d8252f3b80c8d9dc10558f2",
+  "counts": {
+    "before": 861,
+    "feedsAttempted": 46,
+    "completeFeeds": 42,
+    "feedExcludedDirectChecks": 64,
+    "otherDirectChecksAttempted": 590,
+    "added": 19,
+    "removed": 3,
+    "after": 877
+  },
+  "additions": [
+    {
+      "id": "airbnb-8376045",
+      "company": "Airbnb",
+      "title": "Brand Marketing Intern, France",
+      "url": "https://careers.airbnb.com/positions/8376045?gh_jid=8376045"
+    },
+    {
+      "id": "airbnb-8355483",
+      "company": "Airbnb",
+      "title": "Lead Program Manager, Design",
+      "url": "https://careers.airbnb.com/positions/8355483?gh_jid=8355483"
+    },
+    {
+      "id": "airbnb-8345089",
+      "company": "Airbnb",
+      "title": "Senior Program Manager, Design",
+      "url": "https://careers.airbnb.com/positions/8345089?gh_jid=8345089"
+    },
+    {
+      "id": "anthropic-5468266008",
+      "company": "Anthropic",
+      "title": "Content Strategy Lead, Executive Programs",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468266008"
+    },
+    {
+      "id": "anthropic-5472952008",
+      "company": "Anthropic",
+      "title": "Web Design Manager",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5472952008"
+    },
+    {
+      "id": "dorsia-5173121007",
+      "company": "Dorsia",
+      "title": "Designer",
+      "url": "https://job-boards.greenhouse.io/dorsia/jobs/5173121007"
+    },
+    {
+      "id": "figma-6251950004",
+      "company": "Figma",
+      "title": "Director, Product Design - Systems & Infrastructure",
+      "url": "https://boards.greenhouse.io/figma/jobs/6251950004?gh_jid=6251950004"
+    },
+    {
+      "id": "figma-6204556004",
+      "company": "Figma",
+      "title": "Video Strategist",
+      "url": "https://boards.greenhouse.io/figma/jobs/6204556004?gh_jid=6204556004"
+    },
+    {
+      "id": "harvey-af541529-f9c6-468c-9b39-9087f9e2c259",
+      "company": "Harvey",
+      "title": "Senior Producer, Video",
+      "url": "https://jobs.ashbyhq.com/harvey/af541529-f9c6-468c-9b39-9087f9e2c259"
+    },
+    {
+      "id": "legora-5bff441d-6ac9-4998-95c4-942ad06be793",
+      "company": "Legora",
+      "title": "Design Operations Manager",
+      "url": "https://jobs.ashbyhq.com/legora/5bff441d-6ac9-4998-95c4-942ad06be793"
+    },
+    {
+      "id": "legora-7e1a1cb9-f192-4c6c-90f6-aefcb932a178",
+      "company": "Legora",
+      "title": "Editorial Specialist",
+      "url": "https://jobs.ashbyhq.com/legora/7e1a1cb9-f192-4c6c-90f6-aefcb932a178"
+    },
+    {
+      "id": "notion-881d1ece-c6a4-476d-b18d-d699627195e5",
+      "company": "Notion",
+      "title": "Design Engineer, Notion.com",
+      "url": "https://jobs.ashbyhq.com/notion/881d1ece-c6a4-476d-b18d-d699627195e5"
+    },
+    {
+      "id": "notion-ea6f01b1-dda2-4b0f-b351-d3e7c5e9c9e9",
+      "company": "Notion",
+      "title": "Product Design Intern (Summer 2027)",
+      "url": "https://jobs.ashbyhq.com/notion/ea6f01b1-dda2-4b0f-b351-d3e7c5e9c9e9"
+    },
+    {
+      "id": "stripe-8332681",
+      "company": "Stripe",
+      "title": "Product Design Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=8332681"
+    },
+    {
+      "id": "stripe-8332683",
+      "company": "Stripe",
+      "title": "Product Design Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=8332683"
+    },
+    {
+      "id": "stripe-8260290",
+      "company": "Stripe",
+      "title": "Product Design Manager, Treasury",
+      "url": "https://stripe.com/jobs/search?gh_jid=8260290"
+    },
+    {
+      "id": "stripe-8283778",
+      "company": "Stripe",
+      "title": "Program Manager, Brand Studio",
+      "url": "https://stripe.com/jobs/search?gh_jid=8283778"
+    },
+    {
+      "id": "vanta-b604e8b8-a311-4848-9940-9ba77a67410c",
+      "company": "Vanta",
+      "title": "Senior Director of Design",
+      "url": "https://jobs.ashbyhq.com/vanta/b604e8b8-a311-4848-9940-9ba77a67410c"
+    },
+    {
+      "id": "spacex-8950204002",
+      "company": "SpaceX",
+      "title": "Manager, Graphic Design",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8950204002?gh_jid=8950204002"
+    }
+  ],
+  "removalIds": [
+    "legora-94bbf232-36b1-4151-b9c4-286048ce1391",
+    "lovable-social-media-lead-716e58",
+    "elevenlabs-ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9"
+  ],
+  "closureArchive": "research/closed-jobs-2026-11-24.json",
+  "sourcesChecked": [
+    "46 official Ashby and Greenhouse employer feeds",
+    "TrueUp Remote 200 company index",
+    "Direct employer postings for 19 additions and 64 feed exclusions",
+    "Direct pages attempted for 590 other current listings"
+  ],
+  "unresolvedChecks": [
+    {
+      "source": "Direct pages outside complete feeds",
+      "count": 590,
+      "reason": "Batch checks failed DNS resolution in the restricted runtime; no closure inferred."
+    },
+    {
+      "source": "Feed-excluded direct pages",
+      "count": 61,
+      "reason": "Returned 200, 403, 429, or 520; retained for retry."
+    },
+    {
+      "source": "Hex, Webflow, Remote, Deel feeds",
+      "count": 4,
+      "reason": "Feeds unavailable or empty; no closure inferred."
+    }
+  ],
+  "verificationNotes": [
+    "Nineteen additions appear in complete official employer feeds and each direct official posting returned HTTP 200.",
+    "Three roles removed after exact-ID exclusion from complete official Ashby feeds and direct HTTP 404; original records archived.",
+    "Other unavailable or rate-limited pages did not trigger removal.",
+    "TrueUp Remote 200 consulted for discovery; wider remote-employer coverage remains incomplete.",
+    "No profile, pin, or recommendation data changed."
+  ]
+}

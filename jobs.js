@@ -1,5 +1,496 @@
 const JOBS = [
   {
+    "id": "airbnb-8376045",
+    "atsId": "8376045",
+    "company": "Airbnb",
+    "title": "Brand Marketing Intern, France",
+    "category": "Brand & visual",
+    "disciplines": [
+      "Content & strategy"
+    ],
+    "level": "Intern",
+    "location": "Paris, France",
+    "workplace": "Not specified",
+    "summary": "Support Airbnb France and Benelux brand campaigns, partnerships, production, and creative approvals.",
+    "highlights": [
+      "Coordinate campaign production and partners; six-month internship beginning March 2027."
+    ],
+    "url": "https://careers.airbnb.com/positions/8376045?gh_jid=8376045",
+    "sourceUrl": "https://careers.airbnb.com/positions/8376045?gh_jid=8376045",
+    "source": "Airbnb careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-18",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 25000,
+    "salaryMax": 25000,
+    "salaryCurrency": "EUR",
+    "salaryLabel": "EUR 25,000–25,000 / year",
+    "salary": "France annual pay range: EUR 25,000–25,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "airbnb-8355483",
+    "atsId": "8355483",
+    "company": "Airbnb",
+    "title": "Lead Program Manager, Design",
+    "category": "Product design",
+    "disciplines": [
+      "Creative leadership"
+    ],
+    "level": "Leadership",
+    "location": "United States",
+    "workplace": "Not specified",
+    "summary": "Lead design operations programs that help Airbnb design teams plan and launch product work at scale.",
+    "highlights": [
+      "Own cross-functional design programs, planning, and operational improvements."
+    ],
+    "url": "https://careers.airbnb.com/positions/8355483?gh_jid=8355483",
+    "sourceUrl": "https://careers.airbnb.com/positions/8355483?gh_jid=8355483",
+    "source": "Airbnb careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-11",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 156000,
+    "salaryMax": 193000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 156,000–193,000 / year",
+    "salary": "Published US pay range: USD 156,000–193,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "airbnb-8345089",
+    "atsId": "8345089",
+    "company": "Airbnb",
+    "title": "Senior Program Manager, Design",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Senior",
+    "location": "Singapore",
+    "workplace": "Not specified",
+    "summary": "Manage end-to-end design programs for Airbnb product initiatives in Singapore.",
+    "highlights": [
+      "Plan, coordinate, and launch product design programs with design, product, and engineering."
+    ],
+    "url": "https://careers.airbnb.com/positions/8345089?gh_jid=8345089",
+    "sourceUrl": "https://careers.airbnb.com/positions/8345089?gh_jid=8345089",
+    "source": "Airbnb careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-01",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24"
+  },
+  {
+    "id": "anthropic-5468266008",
+    "atsId": "5468266008",
+    "company": "Anthropic",
+    "title": "Content Strategy Lead, Executive Programs",
+    "category": "Content & strategy",
+    "disciplines": [
+      "Creative leadership"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco, CA | New York City, NY",
+    "workplace": "Not specified",
+    "summary": "Develop executive briefing and advisory-board content for Anthropic’s strategic customers.",
+    "highlights": [
+      "Executive-audience content strategy, technical fluency, and speaker coaching."
+    ],
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468266008",
+    "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5468266008",
+    "source": "Anthropic careers (Greenhouse)",
+    "sourcePublishedAt": "2026-10-30",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 320000,
+    "salaryMax": 400000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 320,000–400,000 / year",
+    "salary": "Published annual salary: USD 320,000–400,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "anthropic-5472952008",
+    "atsId": "5472952008",
+    "company": "Anthropic",
+    "title": "Web Design Manager",
+    "category": "Web design",
+    "disciplines": [
+      "Brand & visual",
+      "Creative leadership"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco, CA | New York City, NY",
+    "workplace": "Not specified",
+    "summary": "Lead enterprise web design for Anthropic, setting art direction and guiding pages from brief to launch.",
+    "highlights": [
+      "Deep web design experience, management of designers, and a portfolio of shipped web work."
+    ],
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5472952008",
+    "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5472952008",
+    "source": "Anthropic careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-06",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 305000,
+    "salaryMax": 385000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 305,000–385,000 / year",
+    "salary": "Published annual salary: USD 305,000–385,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "dorsia-5173121007",
+    "atsId": "5173121007",
+    "company": "Dorsia",
+    "title": "Designer",
+    "category": "Brand & visual",
+    "disciplines": [
+      "Product design",
+      "Content & strategy"
+    ],
+    "level": "Not specified",
+    "location": "Miami, FL or New York City, NY",
+    "workplace": "On-site",
+    "summary": "Design Dorsia brand materials across go-to-market, editorial, content, growth, and product surfaces.",
+    "highlights": [
+      "Visual design craft across brand and product, with clean layouts and cross-team collaboration."
+    ],
+    "url": "https://job-boards.greenhouse.io/dorsia/jobs/5173121007",
+    "sourceUrl": "https://job-boards.greenhouse.io/dorsia/jobs/5173121007",
+    "source": "Dorsia careers (Greenhouse)",
+    "sourcePublishedAt": "2026-06-24",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 70000,
+    "salaryMax": 90000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 70,000–90,000 / year",
+    "salary": "Published New York pay range: USD 70,000–90,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "figma-6251950004",
+    "atsId": "6251950004",
+    "company": "Figma",
+    "title": "Director, Product Design - Systems & Infrastructure",
+    "category": "Product design",
+    "disciplines": [
+      "Design systems",
+      "Creative leadership"
+    ],
+    "level": "Leadership",
+    "location": "San Francisco, CA • New York, NY • United States",
+    "workplace": "Not specified",
+    "summary": "Lead Figma’s systems and infrastructure design teams across foundations, tokens, libraries, and shared tooling.",
+    "highlights": [
+      "Design leadership across multiple teams and complex product systems."
+    ],
+    "url": "https://boards.greenhouse.io/figma/jobs/6251950004?gh_jid=6251950004",
+    "sourceUrl": "https://boards.greenhouse.io/figma/jobs/6251950004?gh_jid=6251950004",
+    "source": "Figma careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-16",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 290000,
+    "salaryMax": 376000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 290,000–376,000 / year",
+    "salary": "Published annual base salary: USD 290,000–376,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "figma-6204556004",
+    "atsId": "6204556004",
+    "company": "Figma",
+    "title": "Video Strategist",
+    "category": "Motion & video",
+    "disciplines": [
+      "Brand & visual",
+      "Content & strategy"
+    ],
+    "level": "Not specified",
+    "location": "San Francisco, CA • New York, NY • United States",
+    "workplace": "Not specified",
+    "summary": "Set Figma’s brand video strategy, develop recurring formats, and build its production model.",
+    "highlights": [
+      "Video storytelling, production strategy, and collaboration with brand and creative teams."
+    ],
+    "url": "https://boards.greenhouse.io/figma/jobs/6204556004?gh_jid=6204556004",
+    "sourceUrl": "https://boards.greenhouse.io/figma/jobs/6204556004?gh_jid=6204556004",
+    "source": "Figma careers (Greenhouse)",
+    "sourcePublishedAt": "2026-09-24",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 153000,
+    "salaryMax": 269000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 153,000–269,000 / year",
+    "salary": "Published annual base salary: USD 153,000–269,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "harvey-af541529-f9c6-468c-9b39-9087f9e2c259",
+    "atsId": "af541529-f9c6-468c-9b39-9087f9e2c259",
+    "company": "Harvey",
+    "title": "Senior Producer, Video",
+    "category": "Motion & video",
+    "disciplines": [
+      "Brand & visual",
+      "Content & strategy"
+    ],
+    "level": "Senior",
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "summary": "Lead video production for Harvey across web, social, events, and sales content.",
+    "highlights": [
+      "Video production workflows and hands-on shooting or editing for fast-turn projects."
+    ],
+    "url": "https://jobs.ashbyhq.com/harvey/af541529-f9c6-468c-9b39-9087f9e2c259",
+    "sourceUrl": "https://jobs.ashbyhq.com/harvey/af541529-f9c6-468c-9b39-9087f9e2c259",
+    "source": "Harvey careers (Ashby)",
+    "sourcePublishedAt": "2026-11-10",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 128800,
+    "salaryMax": 177100,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 128,800–177,100 / year",
+    "salary": "Published annual salary: USD 128,800–177,100. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "legora-5bff441d-6ac9-4998-95c4-942ad06be793",
+    "atsId": "5bff441d-6ac9-4998-95c4-942ad06be793",
+    "company": "Legora",
+    "title": "Design Operations Manager",
+    "category": "Product design",
+    "disciplines": [
+      "Creative leadership"
+    ],
+    "level": "Mid-level",
+    "location": "Stockholm HQ",
+    "workplace": "On-site",
+    "summary": "Build design operations processes, planning rhythms, and hiring systems for Legora’s growing product organization.",
+    "highlights": [
+      "4–6+ years in product or design operations, programs, or a chief-of-staff role."
+    ],
+    "url": "https://jobs.ashbyhq.com/legora/5bff441d-6ac9-4998-95c4-942ad06be793",
+    "sourceUrl": "https://jobs.ashbyhq.com/legora/5bff441d-6ac9-4998-95c4-942ad06be793",
+    "source": "Legora careers (Ashby)",
+    "sourcePublishedAt": "2026-11-03",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24"
+  },
+  {
+    "id": "legora-7e1a1cb9-f192-4c6c-90f6-aefcb932a178",
+    "atsId": "7e1a1cb9-f192-4c6c-90f6-aefcb932a178",
+    "company": "Legora",
+    "title": "Editorial Specialist",
+    "category": "Content & strategy",
+    "disciplines": [
+      "Social media"
+    ],
+    "level": "Mid-level",
+    "location": "London",
+    "workplace": "On-site",
+    "summary": "Write and edit Legora editorial and social content, translating complex legal AI topics for audiences.",
+    "highlights": [
+      "3–5 years in editorial, content, communications, journalism, or social media."
+    ],
+    "url": "https://jobs.ashbyhq.com/legora/7e1a1cb9-f192-4c6c-90f6-aefcb932a178",
+    "sourceUrl": "https://jobs.ashbyhq.com/legora/7e1a1cb9-f192-4c6c-90f6-aefcb932a178",
+    "source": "Legora careers (Ashby)",
+    "sourcePublishedAt": "2026-09-24",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24"
+  },
+  {
+    "id": "notion-881d1ece-c6a4-476d-b18d-d699627195e5",
+    "atsId": "881d1ece-c6a4-476d-b18d-d699627195e5",
+    "company": "Notion",
+    "title": "Design Engineer, Notion.com",
+    "category": "Design engineering",
+    "disciplines": [
+      "Web design",
+      "Brand & visual"
+    ],
+    "level": "Not specified",
+    "location": "New York, New York",
+    "workplace": "Not specified",
+    "summary": "Design and build Notion.com web experiences with close collaboration between design and engineering.",
+    "highlights": [
+      "Web design and front-end engineering craft for polished marketing experiences."
+    ],
+    "url": "https://jobs.ashbyhq.com/notion/881d1ece-c6a4-476d-b18d-d699627195e5",
+    "sourceUrl": "https://jobs.ashbyhq.com/notion/881d1ece-c6a4-476d-b18d-d699627195e5",
+    "source": "Notion careers (Ashby)",
+    "sourcePublishedAt": "2026-11-23",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salary": "The listing publishes an estimated US$200,000–250,000 annual base range for San Francisco-based hires; the listed job location is New York, so applicable New York pay is not specified."
+  },
+  {
+    "id": "notion-ea6f01b1-dda2-4b0f-b351-d3e7c5e9c9e9",
+    "atsId": "ea6f01b1-dda2-4b0f-b351-d3e7c5e9c9e9",
+    "company": "Notion",
+    "title": "Product Design Intern (Summer 2027)",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Intern",
+    "location": "New York, New York",
+    "workplace": "Hybrid",
+    "summary": "Design and ship a Notion product feature during the Summer 2027 internship in New York.",
+    "highlights": [
+      "Currently pursuing a related degree; Figma skills and availability to work in the New York office."
+    ],
+    "url": "https://jobs.ashbyhq.com/notion/ea6f01b1-dda2-4b0f-b351-d3e7c5e9c9e9",
+    "sourceUrl": "https://jobs.ashbyhq.com/notion/ea6f01b1-dda2-4b0f-b351-d3e7c5e9c9e9",
+    "source": "Notion careers (Ashby)",
+    "sourcePublishedAt": "2026-11-10",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salary": "Published New York City hourly rate: US$57 for bachelor’s candidates or US$61 for master’s candidates."
+  },
+  {
+    "id": "stripe-8332681",
+    "atsId": "8332681",
+    "company": "Stripe",
+    "title": "Product Design Intern",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Intern",
+    "location": "San Francisco, Seattle, New York City",
+    "workplace": "Not specified",
+    "summary": "Join Stripe’s product design internship in San Francisco, Seattle, or New York City.",
+    "highlights": [
+      "Product and visual design craft; prior UX/UI projects or research experience are a bonus."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8332681",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8332681",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-05",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24"
+  },
+  {
+    "id": "stripe-8332683",
+    "atsId": "8332683",
+    "company": "Stripe",
+    "title": "Product Design Intern",
+    "category": "Product design",
+    "disciplines": [],
+    "level": "Intern",
+    "location": "Toronto",
+    "workplace": "Not specified",
+    "summary": "Join Stripe’s product design internship in Toronto.",
+    "highlights": [
+      "Product and visual design craft; prior UX/UI projects or research experience are a bonus."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8332683",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8332683",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-05",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24"
+  },
+  {
+    "id": "stripe-8260290",
+    "atsId": "8260290",
+    "company": "Stripe",
+    "title": "Product Design Manager, Treasury",
+    "category": "Product design",
+    "disciplines": [
+      "Creative leadership"
+    ],
+    "level": "Leadership",
+    "location": "US",
+    "workplace": "Not specified",
+    "summary": "Manage product design for Stripe Treasury, simplifying business banking and money movement.",
+    "highlights": [
+      "5+ years managing design teams and experience with complex technical or financial products."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8260290",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8260290",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-11",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24"
+  },
+  {
+    "id": "stripe-8283778",
+    "atsId": "8283778",
+    "company": "Stripe",
+    "title": "Program Manager, Brand Studio",
+    "category": "Brand & visual",
+    "disciplines": [
+      "Creative leadership"
+    ],
+    "level": "Senior",
+    "location": "Canada",
+    "workplace": "Not specified",
+    "summary": "Run programs that scale Stripe Brand Studio’s guidance, tools, assets, and creative operations.",
+    "highlights": [
+      "6+ years in program management, creative operations, design operations, or brand operations."
+    ],
+    "url": "https://stripe.com/jobs/search?gh_jid=8283778",
+    "sourceUrl": "https://stripe.com/jobs/search?gh_jid=8283778",
+    "source": "Stripe careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-09",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24"
+  },
+  {
+    "id": "vanta-b604e8b8-a311-4848-9940-9ba77a67410c",
+    "atsId": "b604e8b8-a311-4848-9940-9ba77a67410c",
+    "company": "Vanta",
+    "title": "Senior Director of Design",
+    "category": "Product design",
+    "disciplines": [
+      "Creative leadership",
+      "AI Creative"
+    ],
+    "level": "Leadership",
+    "location": "Remote U.S.",
+    "workplace": "Remote",
+    "summary": "Lead design for Vanta’s governance and compliance product pillar, including agent-assisted workflows.",
+    "highlights": [
+      "Enterprise B2B SaaS design leadership, teams of 12+, and a portfolio of AI-forward experiences."
+    ],
+    "url": "https://jobs.ashbyhq.com/vanta/b604e8b8-a311-4848-9940-9ba77a67410c",
+    "sourceUrl": "https://jobs.ashbyhq.com/vanta/b604e8b8-a311-4848-9940-9ba77a67410c",
+    "source": "Vanta careers (Ashby)",
+    "sourcePublishedAt": "2026-11-06",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 309000,
+    "salaryMax": 363000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 309,000–363,000 / year",
+    "salary": "Published US annual base salary: USD 309,000–363,000. Final pay may vary by location and qualifications."
+  },
+  {
+    "id": "spacex-8950204002",
+    "atsId": "8950204002",
+    "company": "SpaceX",
+    "title": "Manager, Graphic Design",
+    "category": "Brand & visual",
+    "disciplines": [
+      "Web design",
+      "Motion & video",
+      "Social media",
+      "Creative leadership"
+    ],
+    "level": "Leadership",
+    "location": "Hawthorne, CA",
+    "workplace": "Not specified",
+    "summary": "Lead graphic designers and execute SpaceX digital marketing creative across web, campaigns, social, and motion.",
+    "highlights": [
+      "7+ years in graphic, digital, or advertising design and 2+ years managing designers."
+    ],
+    "url": "https://boards.greenhouse.io/spacex/jobs/8950204002?gh_jid=8950204002",
+    "sourceUrl": "https://boards.greenhouse.io/spacex/jobs/8950204002?gh_jid=8950204002",
+    "source": "SpaceX careers (Greenhouse)",
+    "sourcePublishedAt": "2026-11-19",
+    "checkedAt": "November 24, 2026",
+    "lastVerifiedAt": "2026-11-24",
+    "salaryMin": 145000,
+    "salaryMax": 200000,
+    "salaryCurrency": "USD",
+    "salaryLabel": "USD 145,000–200,000 / year",
+    "salary": "Published annual base pay range: USD 145,000–200,000. Final pay may vary by location and qualifications."
+  },
+  {
     "id": "stripe-8155002",
     "atsId": "8155002",
     "company": "Stripe",
@@ -2102,43 +2593,6 @@ const JOBS = [
     ]
   },
   {
-    "id": "legora-94bbf232-36b1-4151-b9c4-286048ce1391",
-    "atsId": "94bbf232-36b1-4151-b9c4-286048ce1391",
-    "company": "Legora",
-    "title": "Senior Customer Content Strategist",
-    "category": "Content & strategy",
-    "disciplines": [
-      "Motion & video",
-      "AI Creative"
-    ],
-    "location": "New York City · San Francisco",
-    "workplace": "On-site",
-    "level": "Senior",
-    "summary": "Own U.S. customer storytelling for Legora, turning legal-team relationships into films, case studies, testimonials, and advocacy programs. Direct production and use AI to speed up editing and repurposing.",
-    "highlights": [
-      "5+ years in customer marketing, brand video, or content production, ideally in B2B, SaaS, or professional services.",
-      "Show a video portfolio covering concept, direction, production, and post-production.",
-      "Experience managing customer advocates and approvals with senior or regulated clients."
-    ],
-    "keywords": [
-      "Content & strategy",
-      "Motion & video",
-      "AI Creative"
-    ],
-    "url": "https://jobs.ashbyhq.com/legora/94bbf232-36b1-4151-b9c4-286048ce1391",
-    "source": "Legora careers (Ashby)",
-    "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
-    "checkedAt": "September 16, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "salaryLabel": "US$159,000–188,000 / year",
-    "type": "Full time",
-    "sourcePublishedAt": "2026-09-15T17:08:22.745+00:00",
-    "salary": "US$159,000–188,000 annual base salary. Published for New York City and San Francisco; equity is additional.",
-    "salaryMin": 159000,
-    "salaryMax": 188000,
-    "salaryCurrency": "USD"
-  },
-  {
     "id": "linear-f04f398b-6320-499d-8a60-290239d62da8",
     "atsId": "f04f398b-6320-499d-8a60-290239d62da8",
     "company": "Linear",
@@ -2875,32 +3329,6 @@ const JOBS = [
     "atsId": "5635b88f-a361-4f5f-8209-ca343a003947"
   },
   {
-    "id": "lovable-social-media-lead-716e58",
-    "company": "Lovable",
-    "title": "Social Media Lead",
-    "category": "Social media",
-    "disciplines": [],
-    "location": "Stockholm",
-    "workplace": "On-site",
-    "level": "Leadership",
-    "summary": "Lead Lovable social team while remaining hands-on with copy, storyboards, and product visuals. Turn launches and product stories into content suited to each channel and establish a repeatable publishing approach.",
-    "highlights": [
-      "Requires 12+ years in social media and at least 2 years managing a team.",
-      "Show product social content and strong X and LinkedIn instincts.",
-      "Based in Stockholm or willing to relocate."
-    ],
-    "keywords": [
-      "Social media"
-    ],
-    "salary": "Pay not listed",
-    "url": "https://lovable.dev/careers/social-media-lead-716e58",
-    "source": "Lovable careers",
-    "checkedAt": "September 13, 2026",
-    "lastVerifiedAt": "2026-10-15",
-    "type": "Full time",
-    "atsId": "716e58b3-af3d-482a-a357-a34628742b4f"
-  },
-  {
     "id": "gitlab-8792475002",
     "company": "GitLab",
     "title": "Director, Social Media",
@@ -2975,33 +3403,6 @@ const JOBS = [
     "salary": "Pay not listed",
     "atsId": "18d52799-7b88-4516-9d8f-e9db312ad195",
     "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
-  },
-  {
-    "id": "elevenlabs-ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
-    "company": "ElevenLabs",
-    "title": "Influencer Marketer",
-    "category": "Influencer marketing",
-    "disciplines": [
-      "Creator marketing"
-    ],
-    "level": "Level not specified",
-    "location": "United States · Europe",
-    "workplace": "Remote",
-    "type": "Full time",
-    "summary": "Build and grow ElevenLabs influencer program, from creator discovery and partnerships to campaign strategy and measurement. Develop relationships that introduce its creative platform to new audiences.",
-    "highlights": [
-      "Own creator sourcing, outreach, and campaign delivery.",
-      "Use performance insights to improve future partnerships."
-    ],
-    "keywords": [
-      "Influencer marketing",
-      "Creator marketing"
-    ],
-    "source": "ElevenLabs careers · Ashby",
-    "url": "https://jobs.ashbyhq.com/elevenlabs/ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
-    "checkedAt": "September 11, 2026",
-    "lastVerifiedAt": "2026-10-13",
-    "salary": "Pay not listed"
   },
   {
     "id": "exa-237cc096-2234-48ee-9c98-8c7221845484",

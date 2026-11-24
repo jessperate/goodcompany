@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-24",
+  "closed": [
+    {
+      "job": {
+        "id": "legora-94bbf232-36b1-4151-b9c4-286048ce1391",
+        "atsId": "94bbf232-36b1-4151-b9c4-286048ce1391",
+        "company": "Legora",
+        "title": "Senior Customer Content Strategist",
+        "category": "Content & strategy",
+        "disciplines": [
+          "Motion & video",
+          "AI Creative"
+        ],
+        "location": "New York City · San Francisco",
+        "workplace": "On-site",
+        "level": "Senior",
+        "summary": "Own U.S. customer storytelling for Legora, turning legal-team relationships into films, case studies, testimonials, and advocacy programs. Direct production and use AI to speed up editing and repurposing.",
+        "highlights": [
+          "5+ years in customer marketing, brand video, or content production, ideally in B2B, SaaS, or professional services.",
+          "Show a video portfolio covering concept, direction, production, and post-production.",
+          "Experience managing customer advocates and approvals with senior or regulated clients."
+        ],
+        "keywords": [
+          "Content & strategy",
+          "Motion & video",
+          "AI Creative"
+        ],
+        "url": "https://jobs.ashbyhq.com/legora/94bbf232-36b1-4151-b9c4-286048ce1391",
+        "source": "Legora careers (Ashby)",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/legora?includeCompensation=true",
+        "checkedAt": "September 16, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "salaryLabel": "US$159,000–188,000 / year",
+        "type": "Full time",
+        "sourcePublishedAt": "2026-09-15T17:08:22.745+00:00",
+        "salary": "US$159,000–188,000 annual base salary. Published for New York City and San Francisco; equity is additional.",
+        "salaryMin": 159000,
+        "salaryMax": 188000,
+        "salaryCurrency": "USD"
+      },
+      "closedAt": "2026-11-24",
+      "evidence": "Complete official employer Ashby feed excludes the exact posting ID and direct official listing returns HTTP 404.",
+      "atsIdChecked": "94bbf232-36b1-4151-b9c4-286048ce1391",
+      "sourceUrl": "https://jobs.ashbyhq.com/legora/94bbf232-36b1-4151-b9c4-286048ce1391",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "lovable-social-media-lead-716e58",
+        "company": "Lovable",
+        "title": "Social Media Lead",
+        "category": "Social media",
+        "disciplines": [],
+        "location": "Stockholm",
+        "workplace": "On-site",
+        "level": "Leadership",
+        "summary": "Lead Lovable social team while remaining hands-on with copy, storyboards, and product visuals. Turn launches and product stories into content suited to each channel and establish a repeatable publishing approach.",
+        "highlights": [
+          "Requires 12+ years in social media and at least 2 years managing a team.",
+          "Show product social content and strong X and LinkedIn instincts.",
+          "Based in Stockholm or willing to relocate."
+        ],
+        "keywords": [
+          "Social media"
+        ],
+        "salary": "Pay not listed",
+        "url": "https://lovable.dev/careers/social-media-lead-716e58",
+        "source": "Lovable careers",
+        "checkedAt": "September 13, 2026",
+        "lastVerifiedAt": "2026-10-15",
+        "type": "Full time",
+        "atsId": "716e58b3-af3d-482a-a357-a34628742b4f"
+      },
+      "closedAt": "2026-11-24",
+      "evidence": "Complete official employer Ashby feed excludes the exact posting ID and direct official listing returns HTTP 404.",
+      "atsIdChecked": "716e58b3-af3d-482a-a357-a34628742b4f",
+      "sourceUrl": "https://lovable.dev/careers/social-media-lead-716e58",
+      "httpStatus": 404
+    },
+    {
+      "job": {
+        "id": "elevenlabs-ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
+        "company": "ElevenLabs",
+        "title": "Influencer Marketer",
+        "category": "Influencer marketing",
+        "disciplines": [
+          "Creator marketing"
+        ],
+        "level": "Level not specified",
+        "location": "United States · Europe",
+        "workplace": "Remote",
+        "type": "Full time",
+        "summary": "Build and grow ElevenLabs influencer program, from creator discovery and partnerships to campaign strategy and measurement. Develop relationships that introduce its creative platform to new audiences.",
+        "highlights": [
+          "Own creator sourcing, outreach, and campaign delivery.",
+          "Use performance insights to improve future partnerships."
+        ],
+        "keywords": [
+          "Influencer marketing",
+          "Creator marketing"
+        ],
+        "source": "ElevenLabs careers · Ashby",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
+        "checkedAt": "September 11, 2026",
+        "lastVerifiedAt": "2026-10-13",
+        "salary": "Pay not listed"
+      },
+      "closedAt": "2026-11-24",
+      "evidence": "Complete official employer Ashby feed excludes the exact posting ID and direct official listing returns HTTP 404.",
+      "atsIdChecked": "ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
+      "sourceUrl": "https://jobs.ashbyhq.com/elevenlabs/ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
+      "httpStatus": 404
+    }
+  ]
+}
